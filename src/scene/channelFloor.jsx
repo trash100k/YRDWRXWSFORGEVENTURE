@@ -125,8 +125,10 @@ const frag = /* glsl */ `
     // crust crackle at the cooler edge: bright veins inside a darker setting skin
     float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the levee edge
     float vein = smoothstep(0.5, 0.62, fbm(vec2(overAlong * 4.0, overD * 4.0) + uTime * 0.08));
+    // bright streaks travelling ALONG the channel — the metal is being poured, it flows
+    float flow = pow(sin(overAlong * 5.0 - uTime * 4.2) * 0.5 + 0.5, 2.0);
     // a crimson coal, white-hot only at the very core — not a wall of bright orange
-    float tf = 0.40 + core * 0.44 + skin * 0.07 + actLit * 0.09 + uTemp * 0.03;
+    float tf = 0.40 + core * 0.44 + skin * 0.07 + flow * core * 0.07 + actLit * 0.09 + uTemp * 0.03;
     tf -= edgeMask * 0.24 * (1.0 - vein);                       // crust sets to deep red; cracks stay hot
     tf = clamp(tf, 0.0, 1.0);
     vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.3, actLit);
