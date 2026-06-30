@@ -1,0 +1,3370 @@
+# GAELWORX — Forge-World Reference Library
+
+Curated visual references for the avatar-level forge build — real photographs + fantasy/concept-art, each mapped to a build module. Open `moodboard.html` in a browser for the visual grid (filterable by subject + real/fantasy).
+
+| Subject | Real | Fantasy | Total |
+|---|--:|--:|--:|
+| Forges & Furnaces | 25 | 67 | 92 |
+| Molten Channels | 31 | 69 | 100 |
+| Molten Pours | 26 | 58 | 84 |
+| Crucibles | 41 | 72 | 113 |
+| Cauldrons | 47 | 62 | 109 |
+| Casting Molds | 39 | 61 | 100 |
+| Lava & Magma | 25 | 75 | 100 |
+| Molten Letterforms | 26 | 73 | 99 |
+| Anvils & Smithing | 26 | 87 | 113 |
+| Celtic Knotwork | 36 | 81 | 117 |
+| Ogham & Runestones | 41 | 73 | 114 |
+| Columnar Basalt | 46 | 92 | 138 |
+| Dwarven Forge Halls | 11 | 95 | 106 |
+| Embers & Sparks | 35 | 82 | 117 |
+| Fire Opal & Gems | 25 | 79 | 104 |
+| **TOTAL** | **480** | **1126** | **1606** |
+
+
+## Forges & Furnaces
+
+### Real (25)
+
+1. [Blast Furnace and Dust Catcher, River Rouge Plant — Charles Sheeler (1927)](https://www.moma.org/collection/works/83909) — *MoMA*. Black-and-white Precisionist photograph of a blast-furnace cast house: the bustle pipe encircling the base, the breathtaking instant when brightly shining molten metal floods the interior with light. Monumental geometric machine forms, hard contrast, the metal-glow as the only true light source emerging from deep industrial shadow.  
+   ↳ **use for:** The 'metal is the only light' rule and the cathedral-of-iron scale; reference for the opening forge chamber and the cast-house architecture that frames the channel.
+2. [Blast Furnace and Dust Catcher, Ford Plant — Sheeler](https://www.artic.edu/artworks/55541/blast-furnace-and-dust-catcher-ford-plant) — *Art Institute of Chicago*. Companion print of the Rouge blast furnace. Towering riveted-steel furnace stack and pipework rendered as abstract vertical geometry, deep blacks, a single bright tap-glow. Machine-age sublime: cold steel structure pierced by molten brilliance.  
+   ↳ **use for:** Vertical iron-architecture and riveted-plate texture for the channel walls and surrounding forge superstructure; Brutalist verticality.
+3. [Blast Furnace and Dust Catcher, River Rouge Plant — Sheeler (SFMOMA)](https://www.sfmoma.org/artwork/99.483/) — *SFMOMA*. Another original Sheeler River Rouge print. Same monumental furnace; high-detail silver-gelatin tonality, crushed blacks, hard-edge industrial silhouette against pale sky, the furnace mouth as the luminous focal point.  
+   ↳ **use for:** Tonal grade reference — crushed-black void with a single hot focal glow; matches the GAELWORX warm-crushed-black post grade.
+4. [Blast Furnace at Ford Rouge Plant, 1927](https://www.thehenryford.org/collections-and-research/digital-collections/artifact/261505/) — *The Henry Ford (Digital Collections)*. Archival Rouge furnace photograph: cast-house interior where the brightly shining molten metal illuminates the surrounding ironwork. Dark cavernous hall, orange-white pour glow throwing long shadows up the columns.  
+   ↳ **use for:** The pour-illuminates-the-room beat — how molten metal lights stone and steel from below; channel-pour lighting study.
+5. [Criss-crossed Conveyors at Ford Rouge Plant, 1927](https://www.thehenryford.org/collections-and-research/digital-collections/artifact/184616/) — *The Henry Ford*. Diagonal lattice of conveyor trusses against the Rouge stacks. Strict geometric grid, steel girders crossing in hard diagonals, monochrome with deep shadow. Pure industrial-Brutalist structure.  
+   ↳ **use for:** The Iron Grid / structural-truss motif for the channel scaffolding and the four-channel split geometry.
+6. [River Rouge Plant — Charles Sheeler (Whitney)](https://whitney.org/collection/works/1480) — *Whitney Museum of American Art*. Sheeler's painting/photo of the Rouge complex: stacked silos, stacks and conduits in muted steel-grey and bone, absolute alignment, machine-age monumentality. Cold-steel palette, sharp edges, no ornament.  
+   ↳ **use for:** Cold Steel (#1F2833) surface palette and the absolute-alignment Iron Grid discipline for structural containers.
+7. [Hot molten metal from blast furnace with orange glow and sparks](https://www.alamy.com/hot-molten-metal-from-blast-furnace-with-orange-glow-and-sparks-image359354201.html) — *Alamy*. Color photo: a stream of molten iron tapping from a furnace, vivid orange-yellow core fading to ember red, white-hot sparks arcing through near-black surroundings. The liquid metal is the sole light; everything else is silhouette.  
+   ↳ **use for:** Direct material reference for the molten-metal shader gradient: white-hot #FFF2E0 core → gold #FFB24D → ember #E85D04 → Celtic Blood #C1292E edge; spark/ember particles.
+8. [Glowing Hot Metal (Getty collection)](https://www.gettyimages.com/photos/glowing-hot-metal) — *Getty Images*. Search-collection of glowing-hot-metal photographs: incandescent billets and bars radiating orange-to-white heat, surface scale crusting to dark grey over a bright molten core, dramatic dark studio backdrops.  
+   ↳ **use for:** The 'cool to forged iron except the A and E' finale — how a hot surface skins over to dark scale while the core stays luminous.
+9. [Industrial Blast Furnace (Getty collection)](https://www.gettyimages.com/photos/industrial-blast-furnace) — *Getty Images*. Collection of blast-furnace interiors and exteriors: vast riveted vessels, tap-hole pours, ladle cars, gantries; recurring palette of rust-grey steel lit by orange molten light, heavy atmospheric haze and sparks.  
+   ↳ **use for:** General environment-dressing library for the forge hall — gantries, tap-holes, ladles as set pieces along the channel.
+10. [Glowing Hot Crucible Full of Melted Bronze](https://www.dreamstime.com/glowing-hot-crucible-full-melted-bronze-molten-hit-containing-aluminum-image234737864) — *Dreamstime*. Close-up of a crucible brimming with melted bronze: mirror-bright molten surface, darker slag skin drifting over a fiery orange-gold pool, intense radiated glow, black furnace surround. Liquid-metal surface tension and color banding clearly visible.  
+   ↳ **use for:** Macro material study for the molten channel surface shader — the slag-skin-over-glowing-core look and surface caustics.
+11. [Melting Furnace with Crucible Pouring Molten Metal in a Foundry](https://www.dreamstime.com/melting-furnace-crucible-system-pouring-molten-metal-foundry-striking-image-featuring-bright-mold-scene-image394072518) — *Dreamstime*. Crucible system tipping a bright stream of molten metal into a mold; vivid orange pour, sparks, dark foundry interior. The pour arc and splash read clearly against the void.  
+   ↳ **use for:** The pour beat (#2) — geometry of metal releasing into a channel/mold; pour-arc and splash dynamics.
+12. [Molten metal pouring from ladle — Goodwin Steel Castings](https://www.flickr.com/photos/55810025@N06/5205904395) — *Flickr*. Documentary photo of molten steel pouring from a ladle in a casting shop: brilliant white-orange stream and splash, fountains of sparks, workers and steel structure reduced to dark silhouette by the glare.  
+   ↳ **use for:** Scale and human-silhouette contrast for the pour; spark-fountain particle reference.
+13. [moltenmetal — tagged photos](https://www.flickr.com/photos/tags/moltenmetal/) — *Flickr*. Flickr tag stream of molten-metal photography: ladle pours, furnace taps, glowing ingots, long-exposure spark trails — a broad spread of real orange-on-black industrial fire imagery from many photographers.  
+   ↳ **use for:** Broad real-reference pool for ember color, spark trails and pour staging across the journey.
+14. [Industry / steel mill furnace at night, long exposure — Salzgitter Stahlwerk](https://www.alamy.com/stock-photo-industry-night-photograph-long-term-exposure-steel-steel-mill-furnace-124626718.html) — *Alamy*. Long-exposure night shot of a steelworks furnace: smeared orange-gold light trails of moving molten metal and sparks against a pure black industrial skyline, cool steel-blue shadows. Motion-as-light, fire painting the dark.  
+   ↳ **use for:** The camera-ride-with-the-metal motion language (#2/#3) — how movement smears the glow into a luminous trail; long-exposure mood for transitions.
+15. [Molten furnace in dark steel mill](https://dissolve.com/stock-photo/Molten-furnace-dark-steel-royalty-free-image/101-D985-59-799) — *Dissolve*. A glowing molten furnace mouth set deep in a near-black steel-mill interior; concentrated orange-white heat at center, structure dissolving into shadow at the edges. Strong vignette, single hot core.  
+   ↳ **use for:** The opening 'forge in the void' framing — one hot mouth in pure blackness; vignette and falloff reference.
+16. [The Inside of a Steel Mill](https://www.pexels.com/photo/the-inside-of-a-steel-mill-8803230/) — *Pexels*. Free-license photo of a working steel-mill interior: molten metal casting amid heavy machinery, intense orange heat and flame, grimy steel-grey structure, smoke haze. Functional industrial chaos lit by the pour.  
+   ↳ **use for:** Environment-dressing and haze/atmosphere reference for the channel hall (free-license, usable as texture/backplate study).
+17. [Dramatic Blacksmith Forging Metal at Night](https://www.pexels.com/photo/dramatic-blacksmith-forging-metal-at-night-29442939/) — *Pexels*. A blacksmith strikes glowing metal in near-darkness; a fan of bright orange sparks bursts off the anvil, the smith and forge in deep silhouette, warm rim-light on hands and hammer. Pure black background, single ember-lit subject.  
+   ↳ **use for:** Spark-burst particle behavior and the warm rim-light-on-dark look for any hammer/strike micro-moment; Clan-Voice grit.
+18. [Black round container with fire (forge) — Sigmund](https://unsplash.com/photos/14_z_Y3Xh-Q) — *Unsplash*. Free Unsplash photo of a forge fire: glowing coals/flame in a dark round forge vessel, warm orange-and-yellow fire core, charcoal-black surround. Tight, contained fire against void.  
+   ↳ **use for:** Contained-fire-in-the-dark texture for the molten source; coal/ember glow study (free-license).
+19. [Forge — free stock photos collection](https://unsplash.com/s/photos/forge) — *Unsplash*. Unsplash forge collection (6,000+): blacksmith forges, glowing coals, anvils, sparks, fire and foundry shots, many with dark backgrounds and warm orange firelight. Broad free-license pool.  
+   ↳ **use for:** General free-license source pool for forge-fire, ember and coal-bed textures.
+20. [Blacksmithing — free stock photos collection](https://unsplash.com/s/photos/blacksmithing) — *Unsplash*. Unsplash blacksmithing collection: forging, hammers, sparks, fire and hot steel, dramatic low-key lighting. Warm-on-dark craft imagery.  
+   ↳ **use for:** Texture/atmosphere library for hot-steel surface and spark detail (free-license).
+21. [Forge — free stock photos collection](https://www.pexels.com/search/forge/) — *Pexels*. Pexels forge collection: blacksmith fires, glowing billets, foundry pours and furnaces, much of it with deep shadows and orange heat. Free to use.  
+   ↳ **use for:** Free-license source pool for molten-metal and forge-fire material studies.
+22. [Forge & Blacksmith — free images collection](https://pixabay.com/images/search/forge/) — *Pixabay*. Pixabay forge/blacksmith collection (500+ free): coal forges glowing orange, anvils, sparks, hot iron, dark workshop interiors. CC0-style free pool.  
+   ↳ **use for:** Free-license texture pool for coal-bed glow, ember and hot-iron surface reference.
+23. [Industrial furnace in steel mill](https://www.freeimages.com/photo/steel-mill-or-smelter-2383673) — *FreeImages*. Industrial furnace with a glowing orange mouth on a factory floor, surrounded by steel structure and machinery, smoke and sparks, dark dramatic shadows. The furnace opening is the bright focal point.  
+   ↳ **use for:** The single-glowing-aperture-in-shadow composition for the forge source; smoke/spark atmosphere (free-license).
+24. [Category: Blast furnaces](https://commons.wikimedia.org/wiki/Category:Blast_furnaces) — *Wikimedia Commons*. Public-domain/CC category of blast-furnace photography and diagrams: cast houses, tap-hole pours of molten iron flowing to ladles, furnace stacks, historical and modern works. Many orange-glow-on-dark interiors.  
+   ↳ **use for:** Public-domain real-photo source for furnace architecture and the molten-iron tap; safest licensing for direct texture use.
+25. [Plant of a blast furnace](https://commons.wikimedia.org/wiki/File:Plant_of_a_blast_furnace_(13540125134).jpg) — *Wikimedia Commons*. Photograph of a blast-furnace plant: towering riveted vessel, ducting and gantries in weathered steel-grey, industrial sky behind. Heavy, monolithic, Brutalist iron mass.  
+   ↳ **use for:** Monolithic furnace silhouette for the forge superstructure that looms over the channel (public-domain reference).
+
+### Fantasy / Concept Art (67)
+
+1. [Dwarven Forge — Rotann Colyn (concept by Marius Villard)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Underground dwarven forge environment: a vast stone hall with a central molten channel/cauldron throwing warm orange light up carved pillars and arches; deep blue-black shadow in the vaults. Massive scale, glowing metal as the key light against cold stone.  
+   ↳ **use for:** Master reference for the channel-in-a-stone-hall spine — orange-pour key light vs basalt shadow; scale of the carved chamber (beats #1–#3).
+2. [Dwarven Forge](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven blacksmith/forge hall (UE5, LOTR-inspired): heavy stone-and-iron construction, glowing forge fires and molten runnels, warm amber bounce on dark dwarven masonry, strong perspective down a hall.  
+   ↳ **use for:** Construction logic of a believable forge hall and the warm-amber-on-dark-stone grade; channel-hall set dressing.
+3. [Dwarven Forge — Louis-Philippe Ross Boivin](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation*. Atmospheric dwarven forge interior: monumental stonework, molten metal light pooling in channels, embers and haze, cool shadow vs hot core. Cinematic, moody, brutal-stone forms.  
+   ↳ **use for:** Mood/atmosphere and ember-haze for the opening forge chamber; stone-form language for channel walls.
+4. [Dwarven Forge](https://www.artstation.com/artwork/JlvWLd) — *ArtStation*. Environment-art dwarven forge: carved chambers, glowing forge apertures, runic detailing on iron and stone, warm orange light against cold rock. Emphasis on craft and construction believability.  
+   ↳ **use for:** Carved-stone + runic-iron detailing for channel walls / stone tablets (#3) where the copy lives.
+5. [Dwarven Forge Caverns](https://www.artstation.com/artwork/143Qy2) — *ArtStation*. Cavernous dwarven forge: lava/molten runnels threading through dark rock caverns, glowing veins of orange light, vast vertical depth. Volcanic-underground forge hybrid.  
+   ↳ **use for:** The molten-channel-through-rock geometry and glowing-vein lighting; vertical depth for the camera ride down.
+6. [LOTR portfolio project — Dwarven forge — Anton Meineche Falk](https://www.artstation.com/artwork/rADxA5) — *ArtStation*. Tolkien-flavored dwarven forge scene: dark dwarven stone architecture with glowing forge light, gold and ember accents, carved geometric ornament. Disciplined, grounded fantasy realism.  
+   ↳ **use for:** Tolkien/Erebor-adjacent stone ornament and gold-accent language for the GAELWORX forge world.
+7. [Legendary Forge](https://www.artstation.com/artwork/x3y2ym) — *ArtStation*. Modular 'legendary forge' environment (UE4), fantasy/medieval-industrial: central forge with intense molten glow, iron framework, sparks and heat haze, dark surrounding architecture. Hero forge as focal stage.  
+   ↳ **use for:** Hero-forge staging where 'environment = stage, message = star'; the central molten source the camera opens on (#1).
+8. [Forge of Hephaestus — Eryk Szczygieł](https://www.artstation.com/artwork/RKPDmA) — *ArtStation*. Mythic Hephaestus forge: a subterranean cavern with a great circular metal platform over lava, copper-gold arches half-submerged in molten rivers, fierce orange underlight, smoke. Epic divine-forge scale.  
+   ↳ **use for:** The divine-fire finale staging (#5) — circular cast platform over molten metal; gold arch + white-gold heat for the A/E exception.
+9. [God of War III — Hephaestus Forge — Lewis Walden](https://www.artstation.com/artwork/knNE0) — *ArtStation*. Game environment art of Hephaestus's forge: lava flows, glowing molten geometry, hard volcanic rock, dramatic orange-on-black lighting with animated lava and heat. Brutal scale, fire as primary illumination.  
+   ↳ **use for:** Lava-flow shading and volcanic-rock material; molten-light-on-basalt grade for the channel and finale.
+10. [VOLCANO ALTAR FORGE — hermesaesthetic](https://www.therookies.co/entries/16919) — *The Rookies*. Digital matte painting: Hephaestus crystallized under volcanic rock, an altar and anvil ringed by lava and smoke, glowing orange fissures in black stone, temple forms. Sacred-forge mood, fire-from-within-stone.  
+   ↳ **use for:** The 'metal/fire glowing from within carved stone' look for Ogham reveal (#5); altar/anvil as focal monument.
+11. [Forge of the Chaos Dwarfs — Total War: Warhammer III — Evgeniya Egorova](https://www.artstation.com/artwork/29ZDJe) — *ArtStation*. Hell-forge concept: colossal industrial-infernal dwarf forge, towering iron machinery and chimneys over rivers of fire, bound daemon-fueled furnaces, red-orange glow choking through black smoke and soot. Grimdark Brutalist scale.  
+   ↳ **use for:** Maximal industrial-Brutalist forge scale and the soot-black + Celtic-Blood-red palette; dense 'Automations' channel character (mechanical fork).
+12. [Chaos Dwarfs — Simon Tosovsky](https://www.artstation.com/artwork/6NZGoV) — *ArtStation*. Chaos-dwarf forge/industry concept: hellish furnaces, iron gantries, molten metal and ember light against heavy black machinery and smoke. Oppressive, mechanical, fire-lit.  
+   ↳ **use for:** Mechanical-dense fork (Automations channel) — gantry/machinery silhouettes lit by molten light.
+13. [Dwarven architecture — RuneScape Archaeology — Thomas Karlsson](https://thomaskarlsson.artstation.com/projects/Dx0weR) — *ArtStation*. Defined dwarven architecture: massive geometric stonework, brass/iron machinery, runic carving, warm internal forge light against cool stone. Clean, structural, machine-meets-masonry.  
+   ↳ **use for:** Geometric dwarven masonry + runic carving for the channel walls and the Iron Grid structural language.
+14. [Elden Ring — Environment Design — Sander Nõgu](https://www.artstation.com/artwork/klKZbK) — *ArtStation*. FromSoftware-style environment art: monumental dark stone architecture, brooding atmosphere, selective warm light in vast cold space, heavy verticality and decay. Painterly, awe-scaled, low-key.  
+   ↳ **use for:** The awe-in-darkness scale and selective-warm-light-in-void mood for the forge hall.
+15. [Elden Ring — Environments Concept Art — Tsutomu Kitazawa](https://www.artstation.com/artwork/KO22AG) — *ArtStation*. Official-style Elden Ring environment concepts: colossal ruined structures, golden/ember accent light against grey-black stone, oppressive scale and atmosphere. Refined dark-fantasy grandeur.  
+   ↳ **use for:** Gold-accent-on-dark-stone grade (echoes the A/E gold) and monumental-ruin scale for the finale chamber.
+16. [Elden Ring — Concept Art & Characters gallery](https://www.creativeuncut.com/art_elden-ring_a.html) — *CreativeUncut*. Curated Elden Ring concept-art gallery including smithy/forge, fortress and fiery locations; recurring dark-stone + ember-and-gold light, painterly atmosphere, monumental dark-fantasy design.  
+   ↳ **use for:** Browse source for forge/smithy and gold-fire references aligned to the GAELWORX divine-fire and basalt look.
+17. [Diablo IV — Hell Concept Art gallery](https://www.creativeuncut.com/gallery-38/d4-hell.html) — *CreativeUncut*. Diablo IV Hell concept art: infernal architecture, rivers of fire, charred black rock, blood-red and ember-orange glow, brimstone haze. Grim, brutal, fire-from-the-deep aesthetic.  
+   ↳ **use for:** Celtic-Blood #C1292E + Ember #E85D04 fire-on-black-rock palette and oppressive molten-underworld mood.
+18. [Diablo IV — Concept Art & Characters gallery](https://www.creativeuncut.com/art_diablo-4_a.html) — *CreativeUncut*. Broad Diablo IV concept gallery: grim ruins, crypts, underworld and hellscapes with heavy blacks, ember and blood-red lighting, gothic-brutal forms.  
+   ↳ **use for:** Dark-grim atmosphere and red/ember palette reference across the journey's darker beats.
+19. [Diablo IV — Environment Art Blast](https://magazine.artstation.com/2023/07/blizzard-entertainment-diablo-iv-environment-art-blast/) — *ArtStation Magazine*. Showcase of Diablo IV environment art from Blizzard: cathedral-scale gothic interiors, hellish forge-like furnaces, ember light cutting through soot and darkness, masterful crushed-black grading.  
+   ↳ **use for:** Studio-grade reference for crushed-black grading + ember accent and cathedral-scale interior staging.
+20. [The Black Forge (Blackrock) — molten-lava dwarven forge](https://warcraft.wiki.gg/wiki/The_Black_Forge) — *Warcraft Wiki*. Lore/art for a dwarven forge built directly into a river of molten lava inside Blackrock Mountain — the only place hot enough to smelt Dark Iron. Black volcanic rock, glowing lava channels, fire as the engine of the forge.  
+   ↳ **use for:** Conceptual anchor for 'forge powered by a molten channel through black rock'; lava-channel-as-light reference.
+21. [Blackrock Foundry — exterior & casting stations](https://warcraft.wiki.gg/wiki/Blackrock_Foundry) — *Warcraft Wiki*. WoW raid foundry: monumental orc/dwarf industrial forge with casting stations, molten metal channels, blast furnaces and iron gantries, orange fire against black-iron machinery and stone. Heavy industrial-fantasy scale.  
+   ↳ **use for:** Casting-station and molten-channel staging for the pour and cast beats (#2/#5); industrial-fantasy set dressing.
+22. [Ironforge — the Great Forge](https://warcraft.wiki.gg/wiki/Ironforge) — *Warcraft Wiki*. Dwarven city built around an immense Great Forge: a vast circular molten lava pit at the city's heart radiating orange light up stone and bronze architecture, ringed by anvils and forges. Lava-core-as-hearth.  
+   ↳ **use for:** The molten-core-as-heart-of-the-world idea; circular pour basin for the finale cast (#5).
+23. [Khuzdul Forge — LOTR: Return to Moria](https://returntomoria.wiki.gg/wiki/Khuzdul_Forge) — *Return to Moria Wiki*. Tolkien dwarven forge from Return to Moria: ancient Khazad-dûm stonework with glowing forge fires, carved geometric dwarven ornament, warm ember light in deep mountain dark. Authentic Moria forge aesthetic.  
+   ↳ **use for:** Canonical Moria/Khazad-dûm forge ornament and ember-in-deep-dark mood; carved-stone tablet detailing (#3).
+24. [Building a vision of Khazad-dûm — Return to Moria art direction](https://www.gamedeveloper.com/art/the-lord-of-the-rings-return-to-moria-building-a-vision-of-khazad-d-m-for-the-fourth-age) — *Game Developer*. Art-director feature with Moria concept/screens: vertigo-inducing vertical mines, broad flat Deeps under crushing mountain weight, the Great Forge of Narvi (Elven+Dwarven), warm forge glow against immense dark stone voids.  
+   ↳ **use for:** Verticality + 'weight of the mountain' staging for the camera ride down; Narvi's giant forge-mechanism scale.
+25. [Skyforge — The Elder Scrolls V: Skyrim (Ray Lederer)](https://www.videogamesartwork.com/games/elder-scrolls-v-skyrim/sky-forge) — *VideoGamesArtwork*. Ray Lederer's official Skyforge concept art: an ancient forge beneath a great eagle statue, hot molten metal and ember glow against weathered Nordic stone and bronze, warm fire light in cool mountain air. Sacred-ancient forge mood.  
+   ↳ **use for:** Ancient-sacred-forge framing and warm-fire-vs-cold-stone grade; monumental statue-over-forge composition.
+26. [Skyrim — Whiterun concept art (Ray Lederer)](https://videogamesartwork.com/games/elder-scrolls-v-skyrim/whiterun) — *VideoGamesArtwork*. Whiterun concept gallery including the Skyforge environs: Nordic stone-and-timber architecture, the forge's ember light, muted earth-and-steel palette with warm fire accents. Grounded Norse-fantasy build.  
+   ↳ **use for:** Norse-stone construction logic and restrained palette with ember accent; forge-in-context staging.
+27. [Concept Art (Skyrim) — Adamowicz / Lederer](https://elderscrolls.fandom.com/wiki/Concept_Art_(Skyrim)) — *The Elder Scrolls Wiki (Fandom)*. Compiled Skyrim concept art by Adam Adamowicz and Ray Lederer: forges, smithies, dark Nordic ruins and dramatic fire-lit interiors; loose painterly style, strong silhouette, ember and torch light in cold stone gloom.  
+   ↳ **use for:** Browse source for forge/smithy interiors and the painterly fire-in-ruins mood.
+28. [Anvil of Doom — Total War: Warhammer](https://totalwarwarhammer.fandom.com/wiki/Anvil_of_Doom) — *Total War: WARHAMMER Wiki (Fandom)*. Rendering/concept of the dwarf Anvil of Doom: an ancient runic anvil covered in glowing script, struck to forge the most powerful runic weapons; the runes blaze with molten light against dark iron and stone. Sacred runesmith artifact.  
+   ↳ **use for:** Glowing-runic-script-on-dark-iron — direct reference for carved-Ogham-igniting and the A/E divine-fire glyph treatment (#5).
+29. [Anvil of Doom — concept (Mark Gibbons / Total War)](https://www.facebook.com/mg.artworks.markgibbons/posts/867283614509881/) — *Facebook (MG Artworks)*. Artist post sharing Anvil-of-Doom concept work for Total War: Warhammer: a runelord's anvil ablaze with runic energy, molten-orange glyphs cutting through smoke and dark stone. Dramatic runic-forge mood.  
+   ↳ **use for:** Runic-energy-as-light reference for igniting carved glyphs / Ogham; runelord-forge drama.
+30. [Dwarven blacksmith shop — The Witcher](https://witcher.fandom.com/wiki/Dwarven_blacksmith_shop) — *Witcher Wiki (Fandom)*. Witcher dwarven smithy (Little Mahakam, Vizima): cramped stone-and-timber forge with glowing hearth, hung tools and steel, warm firelight in a grimy non-human district. Lived-in, gritty craft realism.  
+   ↳ **use for:** Lived-in smithy detail and warm-hearth-in-grime mood; grounded craft texture (Software/Web fork warmth).
+31. [Mahakam — dwarven iron & steel region](https://witcher-games.fandom.com/wiki/Mahakam) — *The Official Witcher Wiki*. Lore/art for Mahakam, the dwarven mountain region famed for the world's best iron and steel forged with advanced gnomish tech: mountain forges, smelters and metalworks in dark stone. Master-smith industrial-fantasy setting.  
+   ↳ **use for:** World-building anchor for a master-smith forge-nation; mountain-forge/smelter staging.
+32. [Mahakam Forge — GWENT card art](https://www.playgwent.com/en/decks/builder/card/details/202575) — *GWENT: The Witcher Card Game*. GWENT 'Mahakam Forge' card illustration: a dwarven forge scene with glowing molten metal and hearth fire, dark stone and iron, warm orange key light. Painterly Witcher-style craft fantasy.  
+   ↳ **use for:** Single-frame forge composition with strong orange key light; mood plate for the channel hearth.
+33. [Karaz-a-Karak (Everpeak) — capital dwarf hold](https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak) — *Warhammer Wiki (Fandom)*. Lore/art of the greatest dwarf hold: vast mountain-carved halls, the great forges and the throne of the High King, monumental geometric stonework, gold and iron, ember light in immense dark chambers. Apex dwarven civilization.  
+   ↳ **use for:** Apex dwarven-hall scale and gold/iron grandeur for the finale chamber; the cast-of-GAELWORX setting.
+34. [Zhufbar (Torrent Gate) — water-wheel forge hold](https://warhammerfantasy.fandom.com/wiki/Karaz_Ankor) — *Warhammer Wiki (Fandom)*. Karaz Ankor lore including Zhufbar: a dwarf hold over a deep chasm and waterfall driving thousands of water wheels and forges to smelt ore — vast mechanical forge-works in dark mountain stone. Industrial-mechanical dwarven scale.  
+   ↳ **use for:** Mechanical forge-works / wheel-driven machinery for the dense Automations channel character.
+35. [Dwarf hold — Warhammer (The Old World)](https://whfb.lexicanum.com/wiki/Dwarf_hold) — *Lexicanum*. Reference on dwarf holds: fortress settlements of halls, chambers and defensive barriers carved inside mountains, centered on great forges; monumental geometric stone architecture, deep underground darkness lit by forge fire.  
+   ↳ **use for:** Architectural logic for a mountain-carved forge fortress (the GAELWORX 'giant dwarf forge' world).
+36. [Forge of Hephaestus — Pinterest board](https://www.pinterest.com/ideas/hephaestus-forge/909616334949/) — *Pinterest*. Curated board of Hephaestus/Vulcan forge art: volcanic caverns, lava rivers, anvils on stone altars, glowing molten geometry, gold-and-fire palettes against black rock. Mythic divine-forge imagery.  
+   ↳ **use for:** Divine-forge mood board for the finale (#5) — gold-fire, lava, altar-anvil staging.
+37. [Dwarven Forge — Pinterest board (bkirchner777)](https://www.pinterest.com/bkirchner777/dwarven-forge/) — *Pinterest*. Large board of dwarven-forge concept art: underground halls, molten channels, runic stone, glowing furnaces, warm-on-dark dwarven interiors. Broad spread of the target aesthetic.  
+   ↳ **use for:** Broad mood board for the dwarven-forge spine — channel, runes, furnace light.
+38. [Dwarven Forge Concept Art — Pinterest ideas](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Pinterest 'dwarven forge concept art' idea feed: many variations of molten-lit stone forges, glowing runic detail, iron-and-rock construction, cinematic warm/cool contrast. Aggregated reference.  
+   ↳ **use for:** Idea-feed reference pool for forge composition, runic detail and lighting variety.
+39. [Volcanic Forge — Pinterest ideas](https://www.pinterest.com/ideas/volcanic-forge/940791699733/) — *Pinterest*. Pinterest 'volcanic forge' feed: obsidian citadels, lava-forged bridges, molten-metal workshops, fiery glow against black volcanic stone. Emberheart-style volcanic-forge concepts.  
+   ↳ **use for:** Obsidian/basalt-citadel and lava-bridge ideas for the channel environment and the four-channel split geometry.
+40. [Fantasy Forge Concept Art — Pinterest ideas](https://www.pinterest.com/ideas/fantasy-forge-concept-art/940150367323/) — *Pinterest*. Pinterest 'fantasy forge concept art' feed: glowing furnaces, anvils, molten metal, warm firelit stone workshops, dramatic dark interiors across many artists. Aggregated forge-interior reference.  
+   ↳ **use for:** Wide reference pool for forge-interior staging and warm-firelight grading.
+41. [Furnace Concept Art — Pinterest ideas](https://www.pinterest.com/ideas/furnace-concept-art/902823572654/) — *Pinterest*. Pinterest 'furnace concept art' feed: fantasy and sci-fi furnaces, glowing molten apertures, industrial-magical machinery, ember-and-orange light on dark metal. Furnace-as-focal-glow imagery.  
+   ↳ **use for:** Furnace-aperture and glowing-machinery shapes for the molten source and the mechanical fork.
+42. [Erebor concept art — Pinterest ideas](https://www.pinterest.com/ideas/erebor-concept-art/916913745862/) — *Pinterest*. Pinterest feed of Erebor (Lonely Mountain) concept art: vast dwarven halls, golden treasure-light, monumental carved stone, the great forges of the dwarf-kingdom. Tolkien/Weta-flavored grandeur.  
+   ↳ **use for:** Erebor-scale dwarven hall and gold-light grandeur for the finale chamber and the GAELWORX cast.
+43. [Concept Art of Erebor, The Lonely Mountain — Tumblr](https://www.tumblr.com/themiddleearthworldoftolkien/176981904380/concept-art-of-erebor-the-lonely-mountain) — *Tumblr (themiddleearthworldoftolkien)*. Collected Hobbit-film Erebor concept art: immense pillared dwarven halls, golden firelight, carved geometric dwarven ornament, deep stone shadow. Cinematic Weta design language.  
+   ↳ **use for:** Carved dwarven-ornament and pillar-hall reference; gold-firelight grade for the cast finale.
+44. [Concept art and designs for Erebor (BOTFA Appendices) — Tumblr](https://www.tumblr.com/lathalea/637201064960131072/filisleftmustachebraid-concept-art-and-designs) — *Tumblr (lathalea)*. Battle-of-Five-Armies appendix concept art for Erebor: dwarven architecture, the gold-hall, forge and treasury designs, monumental stone-and-gold detailing. Production-grade Tolkien design.  
+   ↳ **use for:** Authoritative dwarven architecture/ornament reference for the GAELWORX forge-world detailing.
+45. [The Key to Erebor — Weta Workshop](https://www.wetanz.com/us/the-key-to-erebor) — *Weta Workshop*. Weta product page showing John Howe's Key to Erebor and its dwarven-runic ornament: precise geometric Khuzdul/dwarvish line-work in dark metal with subtle warm sheen. Master prop-design detail.  
+   ↳ **use for:** Precise dwarven-runic line-work reference for Ogham/interlace engraving on iron (the carved-glyph reveal).
+46. [Dwarven Forge — Underground city — NimoStar](https://www.deviantart.com/nimostar/art/Dwarven-Forge-Underground-city-941167080) — *DeviantArt*. HoMM-style dwarven-forge underground city: a subterranean settlement around glowing forges and lava channels, warm orange light against dark rock, layered vertical structure. Town-scale forge city.  
+   ↳ **use for:** City-scale forge layout and vertical-channel structure for establishing the world; depth for the camera ride.
+47. [Blast Furnaces of Kraghammer — BryanSyme](https://www.deviantart.com/tag/forge) — *DeviantArt*. DeviantArt forge-tag stream featuring pieces like 'Blast Furnaces of Kraghammer' (BryanSyme) and 'Furnace variations' (Undercurrent-32): fantasy blast furnaces and forge interiors, molten glow on dark stone and iron, painterly atmosphere.  
+   ↳ **use for:** Browse source for fantasy blast-furnace interiors aligned to the channel/furnace look.
+48. [Skaven furnace, Warhammer Fantasy — ForgeCreations](https://www.deviantart.com/forgecreations/art/Skaven-furnace-warhammer-fantasy-735962919) — *DeviantArt*. Grimy industrial Skaven furnace: rusted iron machinery, a glowing molten/warp-fire core, green-tinged and ember light against soot-black metal and stone. Decayed, mechanical, fire-lit.  
+   ↳ **use for:** Decayed-machinery + molten-core look for the dense mechanical Automations fork; soot-and-rust texture.
+49. [Epic Fantasy Interior 2 — zakazeskiz](https://www.deviantart.com/zakazeskiz/art/Epic-Fantasy-Interior2-975198693) — *DeviantArt*. Epic fantasy hall interior: monumental stone architecture with a deep glowing light source, warm-vs-cool atmosphere, strong perspective and scale. Cinematic awe-in-stone.  
+   ↳ **use for:** Monumental interior perspective and warm-glow-in-cold-hall staging for the channel hall.
+50. [The Dwarven God of Runes and Craftsmanship — RavenforgeStudios](https://www.deviantart.com/ravenforgestudios/art/The-Dwarven-God-of-Runes-and-Craftsmanship-1146295281) — *DeviantArt*. Dwarven rune-god / forge scene: glowing molten runes and hammer, sacred forge light, dark iron and stone, ember-gold accents. Runic-craft divinity, fire-as-magic.  
+   ↳ **use for:** Glowing-rune + sacred-hammer motif for the divine-fire A/E and igniting-Ogham finale.
+51. [concept art — subterranean cave lit by lava, large circular metal platform](https://arthub.ai/art/215205) — *Arthub.ai*. Dark-fantasy concept: a subterranean cave lit by lava with a large circular metal platform over the molten flow, orange underlight on black rock, copper structure. Hephaestus-forge-style staging.  
+   ↳ **use for:** Circular cast-platform-over-molten staging for the finale (#5); lava-underlight on basalt.
+52. [Fiery Volcano Environment Concept Art Gallery](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Curated gallery of volcano/lava environment concept art: rivers of molten fire from jagged peaks, glowing fissures in black volcanic rock, billowing smoke, intense orange-on-black contrast. Pro digital-painting examples.  
+   ↳ **use for:** Lava-river and glowing-fissure reference for the molten channel and the basalt (green-black volcanic stone) world.
+53. [Lava City Fantasy Art — Pinterest ideas](https://www.pinterest.com/ideas/lava-city-fantasy-art/916469320508/) — *Pinterest*. Pinterest 'lava city' feed: fantasy cities and citadels threaded with molten-lava channels, obsidian architecture, fiery orange glow against black stone and night. Volcanic-civilization imagery.  
+   ↳ **use for:** Molten-channel-through-architecture ideas and obsidian-citadel forms for the channel environment.
+54. [Lava World Fantasy Art — Pinterest ideas](https://www.pinterest.com/ideas/lava-world-fantasy-art/907438486758/) — *Pinterest*. Pinterest 'lava world' feed: molten landscapes, glowing lava veins in black rock, fiery skies, dramatic orange-and-black palettes. Broad volcanic-world reference.  
+   ↳ **use for:** Glowing-vein-in-black-rock material and fiery palette for the molten channel and shader veins.
+55. [Fantasy Forge Art — Pinterest ideas](https://www.pinterest.com/ideas/fantasy-forge-art/960675695823/) — *Pinterest*. Pinterest 'fantasy forge art' feed: glowing forges, molten metal, anvils, sparks and firelit workshops across styles; warm-on-dark, dramatic, craft-focused. Aggregated forge imagery.  
+   ↳ **use for:** Additional forge-interior and spark/ember reference pool.
+56. [Blacksmith Forge Fantasy Art — Pinterest ideas](https://www.pinterest.com/ideas/blacksmith-forge-fantasy-art/893517947332/) — *Pinterest*. Pinterest 'blacksmith forge fantasy art' feed: atmospheric medieval forges with glowing furnaces, anvils, hung tools, warm firelight on rustic stone. Lived-in fantasy smithy imagery.  
+   ↳ **use for:** Warm-firelit smithy detail for the human-warmth forks (Software/Web) and craft set-dressing.
+57. [Detailed medieval fantasy blacksmith shop, glowing forge & anvil](https://www.dreamstime.com/detailed-interior-medieval-fantasy-blacksmith-shop-glowing-forge-anvil-racks-tools-warm-firelight-illuminates-image409289762) — *Dreamstime*. Illustration of a fantasy blacksmith interior: a glowing forge and anvil with racks of tools, warm firelight washing over dark timber-and-stone, deep shadow at the edges. Cozy-but-dramatic craft scene.  
+   ↳ **use for:** Warm-firelight-illuminates-the-room reference for intimate forge framing and tool/anvil dressing.
+58. [Fantasy Furnace — stock illustrations collection](https://www.dreamstime.com/illustration/fantasy-furnace.html) — *Dreamstime*. Collection of fantasy-furnace illustrations: magical and industrial furnaces with glowing molten cores, ember light, dark stone and iron housings, sparks and heat haze. Furnace-as-glowing-heart imagery.  
+   ↳ **use for:** Furnace-housing shapes and glowing-core treatments for the molten source.
+59. [Medieval Forge — stock illustrations collection](https://www.dreamstime.com/illustration/medieval-forge.html) — *Dreamstime*. Collection of medieval-forge illustrations: stone forges with burning coals and molten iron, anvils, sparks, warm orange firelight in dim workshops. Traditional forge-craft imagery.  
+   ↳ **use for:** Coal-bed and molten-iron glow reference; traditional forge composition pool.
+60. [Fantasy Volcano Art — Pinterest ideas](https://www.pinterest.com/ideas/fantasy-volcano-art/906255777222/) — *Pinterest*. Pinterest 'fantasy volcano' feed: erupting peaks, molten-lava rivers, glowing fissures and fiery skies over black volcanic terrain. Dramatic orange-on-black geological power.  
+   ↳ **use for:** Molten-river and fissure-glow reference for the channel and the volcanic-stone world palette.
+61. [Volcano Village Fantasy Art — Pinterest ideas](https://www.pinterest.com/ideas/volcano-village-fantasy-art/958210023562/) — *Pinterest*. Pinterest 'volcano village' feed: settlements built on/around lava with obsidian structures, molten channels and glowing forges, warm fire light against black rock and ash-grey. Inhabited volcanic-forge worlds.  
+   ↳ **use for:** Inhabited-volcanic-forge staging and obsidian-structure forms for world establishment.
+62. [Fantasy Throne Hall — modular environment](https://unrealengine.com/marketplace/en-US/product/fantasy-throne-hall) — *Fab (Unreal Marketplace)*. Real-time modular fantasy throne-hall: monumental dark stone pillars and vaults, warm torch/brazier light against cold stone, sharp geometric architecture. Game-ready cathedral-scale interior.  
+   ↳ **use for:** Real-time-feasible monumental-hall construction for the channel hall and finale chamber (engine-build reference).
+63. [Fantasy Great Hall — environment](https://www.unrealengine.com/marketplace/en-US/product/fantasy-great-hall) — *Unreal Marketplace*. Game-ready great-hall environment: towering stone columns, vaulted ceilings, warm firelight pooling on dark floors, hard-edged architecture and deep shadow. Cinematic interior scale at real-time cost.  
+   ↳ **use for:** Engine-ready great-hall geometry and warm-pool-light staging for the forge hall within the perf budget.
+64. [Fantasy Castle Environment (UE4→UE5)](https://www.artstation.com/artwork/9EyNGv) — *ArtStation*. Real-time fantasy castle environment: heavy stone architecture, dramatic interior lighting, warm key light against cool shadow, sharp structural forms. Polished engine-built cinematic scene.  
+   ↳ **use for:** Engine-built lighting/material reference (warm key vs cool ambient) for the channel hall in r3f.
+65. [Fantasy Interior Environment (UE4) — Leartes Studios](https://leartesstudios.artstation.com/projects/48krd8) — *ArtStation*. Modular fantasy interior asset scene: ornate stone-and-timber rooms, atmospheric warm lighting, props and structure, deep shadow. Production game-art interior dressing.  
+   ↳ **use for:** Interior set-dressing and prop-density reference for the channel-side tablets/story zones (#3).
+66. [Art Spotlight: The Forge of Hephaestus (Flipside 2019)](https://www.burningflipside.com/art-news/flipside-2019-art-spotlight-the-forge-of-hephaestus) — *Burning Flipside*. Large-scale art installation 'Forge of Hephaestus': a physical fire-art forge structure with real flame and glowing metal against night, warm fire light on dark sculptural iron. Tangible divine-forge spectacle.  
+   ↳ **use for:** Physical fire-light behavior and sculptural-iron silhouette for grounding the molten-fire look in real flame reference.
+67. [Hephaestus / Vulcan — God of Fire and the Forge](http://www.bestofsicily.com/mag/art395.htm) — *Best of Sicily Magazine*. Article with classical art of Hephaestus/Vulcan at the forge: paintings of the god amid anvil, hammer, fire and glowing metal, warm chiaroscuro, dark surrounds. Old-master forge imagery and mythology.  
+   ↳ **use for:** Classical chiaroscuro forge composition and the god-of-the-forge mythic framing (Maeve/divine-fire narrative tie).
+
+
+## Molten Channels
+
+### Real (31)
+
+1. [Fissure 8 Lava Channels — Kilauea 2018](https://www.usgs.gov/media/images/kilauea-volcano-fissure-8-lava-channels) — *USGS*. Aerial of incandescent orange lava confined inside levee walls of cooled black basalt — a literal river of molten rock channelized between dark banks. Bright glowing core fading to crusted darker edges, ash-grey ground, smoke haze. The single brightest thing in an otherwise dark volcanic field.  
+   ↳ **use for:** the pour spine — the core photographic proof that molten flow self-channels between dark walls; reference for the ride-down camera following the metal as the only light
+2. [Kilauea Volcano — Fissure 8 and Lava Channel](https://www.usgs.gov/media/images/kilauea-volcano-fissure-8-and-lava-channel) — *USGS*. Fissure 8 source cone with a long open lava channel streaming away from it — molten metal-bright orange ribbon receding into distance, black hardened rock framing both sides. Shows the channel originating from a single source and running straight, exactly the pour-from-source geometry.  
+   ↳ **use for:** the pour — metal releases from a source and runs down a single straight channel; camera-ride-down reference
+3. [Kilauea Volcano — Lava Channel from Fissure 8](https://www.usgs.gov/media/images/kilauea-volcano-lava-channel-fissure-8) — *USGS*. Open lava channel carrying incandescent lava ~13 km to the ocean, lava staying glowing orange the whole journey. Strong perspective line of a single molten river vanishing toward the horizon. Black levees, orange core, faint heat shimmer.  
+   ↳ **use for:** ride-down camera — long single channel with vanishing-point perspective; the spine read
+4. [Geologist observing Fissure 8 lava channel (fisheye, sunset)](https://www.usgs.gov/media/images/kilauea-volcano-geologist-making-observations-fissure-8) — *USGS*. Fisheye shot at sunset of the fissure 8 channel making a 90-degree turn around Kapoho Crater. The bend in the molten river plus human figures for scale — shows a channel that ANGLES sharply, useful for the camera turning through a fork.  
+   ↳ **use for:** four-way split ForgeSplit — proof a molten channel makes hard directional turns; the camera angling through a channel beat
+5. [Photo & Video Chronology — Kilauea July 4, 2018 (braided channel)](https://www.usgs.gov/volcanoes/kilauea/news/photo-and-video-chronology-kilauea-july-4-2018) — *USGS*. Documents braided sections of the lava channel ~3.5–6 km downstream where one channel splits into two ~325 m wide before rejoining. The single-most-relevant real reference for a molten river DIVIDING and re-merging.  
+   ↳ **use for:** four-way split ForgeSplit — real-world molten channel braiding/splitting then rejoining, the exact SPLIT→REJOIN mechanic of the site
+6. [Photo & Video Chronology — Kilauea July 8, 2018](https://www.usgs.gov/volcanoes/kilauea/news/photo-and-video-chronology-kilauea-july-8-2018) — *USGS*. Series of channelized fissure-8 flow images: glowing orange open channel, spatter cone source, overflow crusting at the levees. Multiple angles of the same molten river — flow texture, surface crust skin breaking to reveal brighter interior.  
+   ↳ **use for:** the pour spine — surface texture of flowing metal (skin/crust vs molten interior) for shader reference
+7. [Fluid basalt in a well-developed channelized 'a'a lava flow](https://www.usgs.gov/media/images/fluid-basalt-a-well-developed-channelized-aa-lava-flow-th) — *USGS*. Close, fluid basalt running fast in a channel between chilled levees — bright yellow-orange molten core, rough crusting 'a'a edges, the textbook image of lava that builds its own channel walls. High flow velocity legible in the surface streaking.  
+   ↳ **use for:** the pour spine — fast-flow channel surface detail; how the molten metal builds and is bounded by its own banks
+8. [Basaltic Lava Flows (channels between levees)](https://www.nps.gov/subjects/volcanoes/basaltic-lava-flows.htm) — *U.S. National Park Service*. NPS reference describing/showing lava traveling in surface channels that develop between levees of chilled flow, following pre-existing lows. Good for the geology of why channels form — dark basalt banks, glowing channel center.  
+   ↳ **use for:** world-building reference — the physics/look of a molten channel between dark basalt levees (matches Irish-basalt world rule)
+9. [Lava Flow Forms — pahoehoe vs a'a channels](https://www.nps.gov/articles/000/lava-flow-forms.htm) — *U.S. National Park Service*. Catalog of lava flow morphologies incl. channelized flows; smooth ropey pahoehoe (mirror-bright skin) vs rough a'a (broken, ember-cored). Both flow in channels. Useful for deciding the metal's surface character on the spine vs the four forks.  
+   ↳ **use for:** four-way split — distinct surface characters per channel (smooth jewel-bright Web fork vs rough mechanical Automations fork)
+10. [Basalt: Igneous Rock (green-black basalt + lava context)](https://geology.com/rocks/basalt.shtml) — *Geology.com*. Reference pictures of basalt — the dark, fine-grain, near-black volcanic rock (often green-black) that forms lava channel walls and cooled flows. Matte, matte-to-glassy, columnar jointing. Defines the GAELWORX wall material.  
+   ↳ **use for:** world-building — the dark Irish basalt (green-black) channel walls; the cooled-iron finale material reference
+11. [Columbia River Flood Basalts](https://volcano.oregonstate.edu/volcano) — *Oregon State Univ. — Volcano World*. Massive flood-basalt flows and channelized basalt landscapes; long dark basalt canyon/channel forms carved by enormous lava volumes. Scale reference for an epic, cathedral-sized molten channel running through black rock.  
+   ↳ **use for:** ride-down camera — epic scale of a basalt channel/canyon the camera rides through
+12. [Molten Aluminium Trough and Launder](https://www.alalloycasting.com/molten-aluminium-trough/) — *AL Alloy Casting*. Industrial U-shaped refractory launders carrying liquid aluminium — the engineered foundry version of our channel. Pale-grey refractory trough with a bright molten stream running its length; the cross-section is exactly the trough geometry of the site spine.  
+   ↳ **use for:** the pour spine — engineered channel/launder geometry (U-section trough) the metal rides down
+13. [Troughs and Launders for Molten Metal (Refractory Launder)](https://www.alalloycasting.com/troughs-and-launders/) — *AL Alloy Casting*. Foundry launder assemblies that move molten metal by gravity from furnace to caster. Shows straight runs, branch junctions and bends in the refractory channel — the man-made analog of the four-way split, with molten metal flowing in a controlled stream.  
+   ↳ **use for:** four-way split ForgeSplit — branching/junction geometry of engineered molten-metal channels
+14. [Foundry Launder / Molten Aluminum Transfer Trough](https://www.alalloycasting.com/foundry-launder/) — *AL Alloy Casting*. Refractory transfer trough with quiet, low-turbulence molten aluminium flow — bright silvery-orange liquid surface, smooth laminar stream in a pale channel. Good for the calm, controlled 'metal being guided' feel rather than chaotic lava.  
+   ↳ **use for:** the pour spine — laminar, controlled molten flow surface (the metal being deliberately guided/cast)
+15. [Molten Metal Launder, Transfer Runner System](https://www.alalloycasting.com/molten-metal-launder/) — *AL Alloy Casting*. Transfer runner system imagery — channel segments, covers, and the molten metal river inside. Industrial, brutal, engineered, monochrome refractory with the one bright molten line. Matches the Neo-Gaelic-Brutalist 'meticulously engineered' ethos.  
+   ↳ **use for:** the pour spine — brutalist engineered-channel detailing; covers/segments as stone-tablet analog on channel walls
+16. [Molten Aluminum Launder Systems for Casting Foundries](https://www.c-adtech.com/molten-aluminum-launder-systems-for-aluminium-casting-foundries/) — *AdTech (c-adtech)*. Launder systems carrying liquid aluminium between furnaces and casters; the bright molten stream against grey refractory, with turns and degassing/filtration stations along the run. Stations-along-the-channel mirror the copy-on-the-walls beat.  
+   ↳ **use for:** story on the channel — features/stations spaced along a long molten channel (where the copy lives)
+17. [Troughs and Launders (casthouse metal transfer)](https://www.pyrotek.com/primary-solutions/aluminium/casthouse/metal-transfer-casthouse/troughs-and-launders) — *Pyrotek*. Casthouse trough/launder products for quiet molten-metal transfer; engineered U-channels minimizing turbulence and oxide. Clean industrial reference for a precisely-formed channel carrying a glowing metal stream.  
+   ↳ **use for:** the pour spine — precision-engineered channel form; reference for the cast metal surface
+18. [Handling of Hot Metal in Blast Furnace Iron Making](https://www.ispatguru.com/handling-of-hot-metal-in-blast-furnace-iron-making/) — *IspatGuru*. Cast-house diagrams/photos: molten iron exits the taphole into a refractory main trough, flows under a skimmer, over an iron dam, into iron runners branching to ladle cars. The classic 'molten iron in a trench past workers' look — fierce orange against black iron, sparks, smoke.  
+   ↳ **use for:** the pour spine + split — main trough → skimmer → branching runners is the literal pour-then-split mechanic; richest foundry-channel reference
+19. [Blast Furnace Cast House and its Operation](https://www.ispatguru.com/blast-furnace-cast-house-and-its-operation/) — *IspatGuru*. Cast-house floor: main runner, iron runner, slag runner, tilting runners distributing tapped hot metal. Shows multiple molten-metal channels diverging across the floor — the four-channel split rendered in real industry. Glowing orange runners, dark refractory, dramatic backlit smoke.  
+   ↳ **use for:** four-way split ForgeSplit — multiple runners diverging from one tap; the four-channels-one-per-service geometry
+20. [Blast Furnace Cast House Equipments (runner systems)](https://www.ispatguru.com/blast-furnace-cast-house-equipments/) — *IspatGuru*. Detailing of trough, runner and skimmer equipment — the hardware that disperses the kinetic energy of the molten stream and distributes it. Useful for the brutalist mechanical edges/structures lining the channel.  
+   ↳ **use for:** the pour spine — brutalist channel-edge mechanical structures; the engineered banks of the molten run
+21. [Refractory solutions for Casthouse (HWI)](https://thinkhwi.com/industries/iron-steel/casthouse/) — *HarbisonWalker International*. Casthouse refractory imagery — molten iron in troughs and runners glowing intensely against dark linings; trough covers and the river of incandescent metal. Industrial heat-glow palette close to Celtic Blood / Ember.  
+   ↳ **use for:** the pour spine — molten-iron-in-trough glow palette; channel-cover detailing
+22. [Tapping a blast furnace, running molten iron into ladles — Homestead, PA](https://calisphere.org/item/ark:/13030/kt6r29q0p2/) — *Calisphere (historical archive)*. Historic photograph: blast furnace tapped, molten iron running down a trough/runner into ladles, past silhouetted workers. Stark high-contrast monochrome-plus-glow, sparks, the channel as a fierce bright line through a dark mill. Brutalist, battle-tested mood.  
+   ↳ **use for:** the pour spine — gritty historic molten-iron channel; the 'metal being poured and cast' founding image, mood/tone reference
+23. [Molten iron flowing to moulds — Lithgow Blast Furnace, 1907](https://commons.wikimedia.org/wiki/Category:Lithgow_Blast_Furnace) — *Wikimedia Commons (Category: Lithgow Blast Furnace)*. Early-1900s photographs documenting molten iron flowing in casting channels to moulds. Branching sand-cast runners (the 'pig' bed) — a molten river dividing into many parallel cast channels. Historic, archival, public-domain-leaning.  
+   ↳ **use for:** four-way split + the cast — molten metal dividing into parallel cast channels then setting into form (pig casting ≈ casting the letters)
+24. [Category: Blast furnaces (molten iron tapping/runners)](https://commons.wikimedia.org/wiki/Category:Blast_furnaces) — *Wikimedia Commons*. Commons category with many freely-licensed blast-furnace images incl. tapping, troughs, runners and molten iron channels (taphole→trough→skimmer). Best public-domain/CC source to harvest actual molten-channel photographs from.  
+   ↳ **use for:** the pour spine — freely-licensed molten-iron channel photo source for the reference board
+25. [Molten Lava — free photo collection](https://unsplash.com/s/photos/molten-lava) — *Unsplash*. 100+ free, commercial-use lava photographs — incandescent flows, crusting black skin cracking to orange, molten streams. Free harvest pool for channelized-flow and molten-surface stills in the warm forge palette.  
+   ↳ **use for:** the pour spine — free molten-flow stills for the board; surface/glow texture reference
+26. [Lava Flow — free photo collection](https://unsplash.com/s/photos/lava-flow) — *Unsplash*. Free lava-flow images incl. channelized flows between dark banks, fast-moving bright streams, ropey skins. No-attribution commercial use. Harvest source for the ride-down spine reference.  
+   ↳ **use for:** ride-down camera — free channelized-flow stills
+27. [Lava River — free stock photos](https://www.pexels.com/search/lava%20river/) — *Pexels*. Large free pool of 'lava river' photos — open channels of molten rock running through black volcanic terrain, glowing orange ribbons, heat haze. Directly on-subject and free to use.  
+   ↳ **use for:** the pour spine — primary free 'river of molten' photo pool
+28. [Lava — free stock photos & 4K](https://www.pexels.com/search/lava/) — *Pexels*. 5,000+ free lava stills and clips, incl. slow-motion flowing lava and channelized streams. Good for motion reference (flow speed, surface crust breaking) for the shader/animation.  
+   ↳ **use for:** the pour spine — flow-motion reference (speed, crust skin) for the metal shader
+29. [Lava in Volcano in Slow Motion (4K video)](https://www.pexels.com/video/lava-in-volcano-in-slow-motion-13438865/) — *Pexels*. Free 4K slow-mo of churning molten lava — bright orange surface with black crust plates drifting and cracking, viscous folding flow. Best motion ref for how the molten metal surface should move on the spine.  
+   ↳ **use for:** the pour spine — molten surface motion/viscosity reference for r3f shader animation
+30. [Molten Metal & Foundry — free images](https://pixabay.com/images/search/molten%20metal/) — *Pixabay*. 10,000+ free molten-metal/foundry images — pouring streams, glowing runners, sparks. Pixabay license (free commercial, no attribution). Harvest pool for foundry-channel stills.  
+   ↳ **use for:** the pour spine — free foundry molten-metal stills
+31. [Molten Steel & Foundry — free images](https://pixabay.com/images/search/molten%20steel/) — *Pixabay*. 8,000+ free molten-steel images — bright pours, ladle streams, runner flow against dark mill interiors. Strong Celtic-Blood/Ember glow against void-black backgrounds, matching the palette.  
+   ↳ **use for:** the pour spine — free molten-steel pour/runner stills in the brand palette
+
+### Fantasy / Concept Art (69)
+
+1. [The Lava Forge — Jeong Chan Wuk](https://www.artstation.com/artwork/1OErG) — *ArtStation*. Concept of a vast forge environment threaded with molten lava channels — glowing orange rivers cutting through dark rock/structures, deep void shadows, fire as the only light. Epic scale, exactly the 'giant dwarf forge with molten channels' brief.  
+   ↳ **use for:** ride-down camera / the cast — the hero forge-with-molten-channels look; mood for the whole spine
+2. [UE4 Environment and VFX — Lava River — Aaran Burnett](https://www.artstation.com/artwork/zAWgGD) — *ArtStation*. Real-time lava-river environment in Unreal: a glowing molten channel running through dark rocky banks with emissive flow, ember particles and heat haze. Directly relevant as a buildable r3f/UE reference for a flowing channel of fire.  
+   ↳ **use for:** the pour spine — buildable real-time lava-channel reference (flow material, embers, banks)
+3. [Mitiriana, the Lava Serpent — Magia Artificial](https://www.artstation.com/artwork/rJVRnJ) — *ArtStation*. A titanic serpent of molten rock slithering through an underworld river of flame, scales glowing like molten metal. The sinuous bright-molten line winding through darkness is a perfect form-language ref for the channel as a living flowing 'creature' of metal.  
+   ↳ **use for:** the pour spine — the channel as a living, winding molten flow (the metal feels alive)
+4. [Cooling Molten Lava — Kyle Horwood](https://www.artstation.com/artwork/3qPX5g) — *ArtStation*. Substance Designer molten-lava material: bright cracking molten veins inside cooling black crust, the transition from glowing liquid to forged dark rock. Exactly the finale state — metal cooling to iron with glowing seams remaining.  
+   ↳ **use for:** the cast (finale) — the cool-to-forged-iron transition with glowing veins (the A/E divine-fire seams)
+5. [Stylized Molten Lava](https://www.artstation.com/artwork/9mq50o) — *ArtStation*. Stylized molten lava material — punchy orange-to-white-hot gradient veins through dark crust, clean readable shapes. Good stylized (not photoreal) target matching a brutalist, graphic rendering of the molten channel.  
+   ↳ **use for:** the pour spine — stylized/graphic molten material target (fits Neo-Gaelic-Brutalist render)
+6. [Molten Lava — Matthieu Gouault](https://www.artstation.com/artwork/6e2OO) — *ArtStation*. Molten lava study — viscous glowing flow with crusting black skin, hot interior glow, ember sparks. Surface-detail reference for the metal's skin as it flows down the channel.  
+   ↳ **use for:** the pour spine — molten surface skin/crust detail reference
+7. [Stylized Lava — Substance Designer](https://www.artstation.com/artwork/6b1RaO) — *ArtStation*. Semi-stylized lava material, rendered/animated in Marmoset — flowing emissive veins, controllable crust ratio. Reference for an animated flowing channel surface with adjustable molten-vs-crust balance per fork.  
+   ↳ **use for:** four-way split — per-fork molten/crust balance (Voice soft glow vs Automations dense crust)
+8. [Stylized Lava Cave (with Unreal scene) — Stefan Ivanov](https://stiff-north.artstation.com/projects/GXA1m1) — *ArtStation*. Underground cavern with a glowing molten lava channel/pool, dark stylized rock, warm bounce light filling the cave. Strong example of fire as the sole light source in an enclosed dark chamber — the 'open in the forge' beat.  
+   ↳ **use for:** open in the forge — enclosed dark chamber lit only by the molten channel
+9. [How to Animate Lava Materials in Unreal Engine 5 (tutorial)](https://www.artstation.com/artwork/8BJNvw) — *ArtStation*. Breakdown of animating realistic flowing/deforming lava in UE5 — panning emissive, mesh deformation, flow maps. Technique reference to actually build the moving molten channel surface in our renderer.  
+   ↳ **use for:** the pour spine — technique for animating the flowing molten channel (flow maps, emissive)
+10. [Lava material in Unreal Engine 5 — Alexandre Martin](https://www.artstation.com/artwork/DLY0Z9) — *ArtStation*. UE5 lava material study — flowing molten channel with crusted edges and bright cracks, heat distortion. Buildable shader reference for a real-time channel of fire.  
+   ↳ **use for:** the pour spine — buildable molten-channel shader reference
+11. [Forge of Hephaestus — Eryk Szczygiel](https://www.artstation.com/artwork/RKPDmA) — *ArtStation*. The god-smith's forge: cavernous volcanic workshop, molten metal glowing amid a shower of golden sparks, dark stone ruins. Mythic divine-forge mood — molten gold light, deep shadow, sacred fire. Aligns with the A/E 'divine fire' theme.  
+   ↳ **use for:** the cast (finale) — mythic divine-forge mood; molten-gold sacred fire for the A/E reveal
+12. [Forge World (Warhammer 40k) — Sergey Malinov](https://www.artstation.com/artwork/NGewE1) — *ArtStation*. Industrial forge-world vista where rivers of molten metal carve through a dark industrial crust — exactly 'channels of molten metal through black engineered rock', massive scale, grim brutalist machinery, ember glow piercing void shadow.  
+   ↳ **use for:** ride-down camera — epic molten-channels-through-industrial-crust scale; brutalist forge-world mood
+13. [Dwarven Forge](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven underground forge hall with molten metal/lava channels running between carved stone — warm fire glow on dark engineered masonry, monumental brutalist architecture. The Middle-Earth-meets-Gaelic giant-dwarf-forge target.  
+   ↳ **use for:** open in the forge / story on the channel — dwarven forge architecture with molten channels and carved stone walls (Ogham tablets)
+14. [Environment SciFi Modular Set — FORGE STUDIOS](https://www.artstation.com/artwork/ykdxDx) — *ArtStation*. Modular industrial/sci-fi forge environment — engineered channels, catwalks, brutalist metal structures with hot emissive accents. Reference for the hard-edged engineered banks and structures lining a molten channel.  
+   ↳ **use for:** the pour spine — engineered brutalist channel-edge structures (catwalks, banks, machinery)
+15. [Industrial Sci-Fi Environment study](https://www.artstation.com/artwork/48RaY1) — *ArtStation*. Dark industrial interior with strong directional emissive light, hard brutalist forms, smoke and atmosphere. Mood/lighting reference for a chamber where the channel's molten glow is the dominant light.  
+   ↳ **use for:** open in the forge — dark industrial chamber lit by emissive molten source
+16. [God of War Ragnarok — Muspelheim Lava Materials — Allen Kung](https://www.artstation.com/artwork/5Bm2Z1) — *ArtStation*. Production lava materials for Muspelheim: rivers of molten rock, lavafalls, crusting flows, obsidian-like surfaces. AAA reference for layered molten-channel materials (flow, crust, ember, heat shimmer) in a fire realm.  
+   ↳ **use for:** the pour spine — AAA layered molten-channel material breakdown
+17. [God of War Ragnarok — Muspelheim Architecture — Matteo Marjoram](https://www.artstation.com/artwork/9NvEVa) — *ArtStation*. Muspelheim architecture amid lava — obsidian-like structures appearing to melt and decay with active heat inside, rivers of molten rock below ash-choked skies. Reference for structures cooling around molten channels.  
+   ↳ **use for:** the cast (finale) — structures/letterforms with active heat inside, cooling around molten channels
+18. [God of War Ragnarok — Muspelheim — Matteo Marjoram (alt)](https://www.artstation.com/artwork/8w2Qnx) — *ArtStation*. Muspelheim fire-realm vista: lavafalls spurting into rivers of molten rock, fiery volcanoes, ash and ember atmosphere. Epic establishing mood for a world built around flowing molten channels.  
+   ↳ **use for:** ride-down camera — epic fire-realm establishing mood with molten rivers
+19. [God of War Ragnarok — Muspelheim — environment](https://www.artstation.com/artwork/klArPl) — *ArtStation*. Additional Muspelheim environment art — molten channels and lava lakes amid black volcanic structures, deep contrast of ember-orange against near-black rock. Palette and contrast match the void-black + Celtic-Blood/Ember brief.  
+   ↳ **use for:** the pour spine — ember-on-void contrast palette reference
+20. [Muspelheim Arena — Lava Art (God of War)](https://www.creativeuncut.com/gallery-34/gow-muspelheim-arena3.html) — *Creative Uncut*. Official GoW art of the Muspelheim arena ringed by molten lava — glowing channels/moats of fire encircling dark stone combat platforms. Reference for molten channels as framing/boundary elements around a focal stage.  
+   ↳ **use for:** story on the channel — molten channel as a framing boundary around the 'stage' where the message lives
+21. [Muspelheim Art gallery (God of War)](https://www.creativeuncut.com/gallery-34/gow-muspelheim.html) — *Creative Uncut*. Gallery of Muspelheim concept/production art — rivers of molten rock, lavafalls, obsidian architecture, ember skies. Multiple framings of molten channels in a forge-like fire realm.  
+   ↳ **use for:** ride-down camera — multi-frame molten-channel fire-realm reference set
+22. [Diablo IV — Environment Art Blast (Hell / Helltide rivers)](https://magazine.artstation.com/2023/07/blizzard-entertainment-diablo-iv-environment-art-blast/) — *ArtStation Magazine*. Official Diablo IV environment art incl. hell environments and ominous Helltide rivers, lava/fire treatment. Dark, oppressive, brutal — glowing molten/blood rivers cutting through blackened ruin. Strong dark-fantasy channel mood.  
+   ↳ **use for:** the pour spine — dark, oppressive molten/blood-river mood through blackened terrain
+23. [Diablo IV — Concept Art / UI Art Blast](https://magazine.artstation.com/2023/07/blizzard-entertainment-diablo-iv-concept-art-ui-art-blast/) — *ArtStation Magazine*. Diablo IV concept art including hellish depths — molten/fire channels, infernal glow against near-black environments, grim brutalist forms. Mood and color reference for the most aggressive end of the channel look.  
+   ↳ **use for:** the pour spine — aggressive infernal molten-channel mood/color
+24. [Diablo IV | Hell — Jonathon Ruland](https://www.artstation.com/artwork/39Z9Jm) — *ArtStation*. Hell environment concept — rivers of fire/molten matter through charred ruin, glowing channels as the only light, deep blacks. Reference for a channel of fire reading as the singular light in a void.  
+   ↳ **use for:** open in the forge — channel of fire as the only light in pure-void blackness
+25. [Diablo IV | Hell's Champion — Roland Richartz](https://www.artstation.com/artwork/8bqQdq) — *ArtStation*. Infernal scene with molten/fire flows and ember atmosphere behind a figure — dramatic backlit molten channel, silhouettes, intense orange-on-black. Composition reference for copy/figures read against a glowing channel.  
+   ↳ **use for:** story on the channel — silhouetted message read against a backlit molten channel
+26. [Hell Concept Art (Diablo IV)](https://www.creativeuncut.com/gallery-38/d4-hell.html) — *Creative Uncut*. Gallery of Diablo IV Hell concept art — multiple molten/fire river environments, charred architecture, glowing veins of lava through black stone. Broad reference set for dark molten channels.  
+   ↳ **use for:** the pour spine — dark molten-channel reference set
+27. [Diablo IV Environment concept — KAVA Gaming Studio](https://www.artstation.com/artwork/3E9Wo2) — *ArtStation*. Diablo-style environment with molten/fire channels threading dark gothic ruin; oppressive atmosphere, ember light. Reference for channels woven through monumental dark architecture.  
+   ↳ **use for:** story on the channel — molten channel woven through monumental dark stone (Ogham architecture)
+28. [VOLCANO ALTAR FORGE — hermesaesthetic](https://www.therookies.co/entries/16919) — *The Rookies*. Matte painting of a Hephaestus-style volcanic altar forge — temple/ruins built over molten rock, the smith-god crystallized under volcanic stone, molten channels and altar fire. Mythic, divine, brutal stone-over-fire mood.  
+   ↳ **use for:** the cast (finale) — divine altar-forge where the figure/word is cast in stone over fire
+29. [Fiery Volcano Environment Concept Art Gallery](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Curated gallery of pro volcano/lava environment concept art — many pieces feature lava rivers/channels through dark rock, lavafalls, ember atmosphere, glowing molten cores against black terrain. Broad fantasy-channel survey.  
+   ↳ **use for:** ride-down camera — broad survey of fantasy molten-channel environments
+30. [Fantasy concept art of a canyon with a lava river](https://openart.ai/discovery/sd-1007085830168387654) — *OpenArt*. A dramatic river of molten lava flowing through a dark, ominous canyon — bright orange channel between towering black canyon walls, strong leading perspective. Almost a direct illustration of the ride-down-the-channel spine.  
+   ↳ **use for:** ride-down camera — molten river down a dark canyon with strong perspective (the spine, illustrated)
+31. [Concept art — subterranean cave lit by lava, circular metal platform](https://arthub.ai/art/215205) — *Arthub.ai*. Dark-fantasy subterranean cavern lit solely by lava, with a large circular metal structure partly submerged in a lava stream. Fire-as-only-light + engineered metal-in-molten — close to the forge interior with a cast structure in the flow.  
+   ↳ **use for:** the cast (finale) — engineered metal form submerged/cast in the molten stream, lit only by lava
+32. [cave 2 (underground lava cave) — HeeWann Kim](https://ca.pinterest.com/mrdungeonmaster/caverns-for-dd/) — *ArtStation (via Pinterest collection)*. Underground fantasy lava cave concept — glowing molten channels/pools threading a dark cavern, warm bounce light, brutal rock forms. Reference for the enclosed forge chamber with channels feeding through it.  
+   ↳ **use for:** open in the forge — enclosed cavern with molten channels feeding the chamber
+33. [Volcano matte painting — SalmaMohsen](https://www.deviantart.com/salmamohsen/art/volcano-matte-painting-844661476) — *DeviantArt*. Cinematic volcano matte painting — molten lava flows/channels descending dark slopes, ember glow, smoke, epic depth. Establishing-shot mood for a molten channel descending into the forge world.  
+   ↳ **use for:** the pour — establishing shot of molten flow descending into the world
+34. [Volcano forge — Oission](https://www.pinterest.com/pin/796011302891819328/) — *DeviantArt (via Pinterest)*. Speed-painted volcano forge — molten channels and fire within a dark forge/volcano structure, loose dramatic ember light. Quick mood ref for a fire-lit forge with molten flow.  
+   ↳ **use for:** open in the forge — fire-lit forge mood with molten flow
+35. [Inktober Map #5 — Magma Forge (Duergar Magmaforges) — Crimson-Water](https://www.deviantart.com/crimson-water/art/Inktober-Map-5-Magma-Forge-720247489) — *DeviantArt*. Top-down ink map of dwarven magma-forges — channels of magma routed through carved chambers and combat areas. Useful as a PLAN/layout reference for how molten channels branch through a forge complex (the split routing).  
+   ↳ **use for:** four-way split ForgeSplit — layout/plan of magma channels branching through a forge complex
+36. [Volcano — Concept-Art-House](https://www.deviantart.com/concept-art-house/art/Volcano-495477624) — *DeviantArt*. Pro studio volcano concept — erupting volcano with lava and magma flowing in channels down dark slopes, ember sky. Clean readable molten-channel forms against dark rock; studio-quality fantasy reference.  
+   ↳ **use for:** the pour — clean molten-channel forms flowing down dark terrain
+37. [Volcano matte painting — MartaNael (Fantasy Matte Painting)](https://www.deviantart.com/martanael/art/Fantasy-Matte-Painting-132455745) — *DeviantArt*. Atmospheric fantasy matte painting with fiery/volcanic elements, dramatic depth and god-rays. Mood/atmosphere reference for the cinematic, awe-scaled forge world around the channel.  
+   ↳ **use for:** ride-down camera — cinematic atmosphere/scale around the molten channel
+38. [Volcano Magma Stream Overlay Package — Megaxstreamgfx](https://www.deviantart.com/megaxstreamgfx/art/Volcano-Magma-Stream-Overlay-Package-1053439599) — *DeviantArt*. Stylized magma-stream graphics — bright molten flows with crusted edges as overlay assets. Graphic, high-contrast molten-channel shapes useful as a stylized brutalist treatment reference.  
+   ↳ **use for:** the pour spine — stylized graphic molten-stream treatment
+39. [Total War: Warhammer — Lava Fields (Chaos Dwarfs, Dark Lands)](https://totalwarwarhammer.fandom.com/wiki/Lava_Fields) — *Total War: WARHAMMER Wiki*. Chaos-Dwarf 'endless plains of the Dark Lands with vast fields of molten lava' — industrialized infernal landscape, molten channels among black volcanic ground and brutal dwarf-industry structures. On-theme for an evil-dwarf forge of molten channels.  
+   ↳ **use for:** ride-down camera — industrialized dwarf-forge molten landscape mood
+40. [Total War: Warhammer 2 — Lustria/Naggaroth landscape — Daniel McCarthy](https://www.artstation.com/artwork/RGvEe) — *ArtStation*. Epic Total War environment art with dramatic terrain and atmosphere; volcanic/molten passages among dark rock. Scale and cinematic camera-framing reference for sweeping across a molten landscape.  
+   ↳ **use for:** ride-down camera — sweeping cinematic framing across molten terrain
+41. [Forge World concept art — Mark Molnar (40k)](https://archive.org/details/40kForgeWorldMarkMolnar) — *Internet Archive*. Pro 40k forge-world concept set — sprawling industrial forge planets, molten metal glow, rivers of molten metal through dark machine-crust, smog and ember. Freely viewable archive of brutalist forge-world molten-channel concepts.  
+   ↳ **use for:** ride-down camera — brutalist forge-world molten-channel concept set (freely viewable)
+42. [Lathe Forge Worlds concept art — Mark Molnar (40k)](https://archive.org/details/40kLatheForgeWorldsMarkMolnar) — *Internet Archive*. More Molnar forge-world concepts — colossal foundry structures, molten-metal channels and pours, ember-lit industrial gloom. Reference for monumental engineered channels at planetary scale.  
+   ↳ **use for:** ride-down camera — monumental engineered-channel scale reference
+43. [Forge world — Warhammer 40k — Sergey Malinov (gallery)](https://40k.gallery/artist/forge-world/) — *40k.gallery*. Curated forge-world art gallery — industrial molten environments, glow of molten metal through dark forge-crust. Multiple framings of molten channels/pours in a grim brutalist forge.  
+   ↳ **use for:** the pour spine — multi-frame brutalist forge molten-channel/pour reference
+44. [Warhammer 40k Mechanicus Forge World (Titan Forge) — taumich](https://www.deviantart.com/taumich/art/Warhammer-40k-Mechanicus-Forge-World-768107425) — *DeviantArt*. Mechanicus forge-world depicting titanic foundry with molten metal flows, dark gothic-industrial machinery, ember glow piercing smog. Reference for cathedral-scale forge interior with molten channels.  
+   ↳ **use for:** open in the forge — cathedral-scale forge interior with molten channels
+45. [Mount Doom — John Howe (LOTR concept)](https://www.elfenomeno.com/en/info/ver/24529/mount-doom-by-john-howe) — *Elfenomeno (John Howe gallery)*. John Howe's Mount Doom — brooding volcanic cone with molten interior glow, lava and ash, the iconic Tolkien fire-mountain. Mythic LOTR mood for a forge of doom; the cooled-lava plateau also references the finale's forged-iron state.  
+   ↳ **use for:** the cast (finale) — mythic LOTR fire-mountain mood; cooled-lava-to-iron finale reference
+46. [Mount Doom — Alan Lee (LOTR concept)](https://alan-and-john.tumblr.com/post/40247999610/mount-doom-by-alan-lee) — *The Art of Alan Lee and John Howe*. Alan Lee's delicate-watercolor Mount Doom — restrained, atmospheric, lava and smoke against dark rock, the Crack of Doom's inner fire. Softer, painterly mood reference for awe over spectacle.  
+   ↳ **use for:** open in the forge — restrained painterly fire-mountain atmosphere (awe serves the message)
+47. [26 LOTR Concept Art Pieces by Alan Lee and John Howe](https://cheezburger.com/41439237/26-stunning-lord-of-the-rings-concept-art-pieces-by-alan-lee-and-john-howe) — *Cheezburger/Geek (Lee & Howe collection)*. Collection incl. Mordor/Mount Doom pieces — volcanic vistas, molten glow, ash plains, dark Tolkien grandeur. Broad mood board for the Middle-Earth side of the giant-dwarf-forge aesthetic.  
+   ↳ **use for:** world-building — Middle-Earth molten/volcanic mood board
+48. [Monolith — Middle-earth: Shadow of War Art Blast](https://magazine.artstation.com/2017/10/monolith-productions-middle-earth-shadow-war-art-blast/) — *ArtStation Magazine*. Shadow of War environment/concept art incl. fiery Mordor regions (Udun) — molten/fire channels, forge-fortresses, ember-lit volcanic terrain, palette/lighting/atmosphere driving immersion. AAA Mordor-forge molten reference.  
+   ↳ **use for:** story on the channel — AAA Mordor forge-fortress with molten channels and dark architecture
+49. [Crafting Udun: Concept Art Exploration (Shadow of War)](https://shadowofwar.fandom.com/wiki/User_blog:MonolithAndy/Crafting_Ud%C3%BBn:_Concept_Art_Exploration) — *Shadow of War Wiki*. Concept exploration of Udun, Mordor's fiery forge region — lava channels, smelting structures, fire-and-iron palette. Behind-the-scenes molten-forge environment development directly on theme.  
+   ↳ **use for:** open in the forge — fiery forge-region concept development (lava channels + smelting)
+50. [Middle-earth: Shadow of Mordor concept art (Daryl Mandryk)](https://www.creativeuncut.com/art_middle-earth-shadow-of-mordor_a.html) — *Creative Uncut*. Shadow of Mordor concept gallery — bleak volcanic Mordor, fire and molten accents, dark brutal architecture under ash skies. Mood reference for the grim Gaelic-meets-Mordor forge surroundings of the channel.  
+   ↳ **use for:** world-building — grim volcanic forge surroundings mood
+51. [Witcher 3: Hearts of Stone — Mark Foreman](https://www.artstation.com/artwork/VN5Z4) — *ArtStation*. CD Projekt environment art — moody, painterly location design and lighting. Reference for atmospheric, grounded environment lighting where a single warm source (e.g. a molten channel) can dominate a dark scene.  
+   ↳ **use for:** story on the channel — grounded atmospheric lighting around a warm molten source
+52. [Hearts of Stone — Concept Art category (Witcher)](https://witcher.fandom.com/wiki/Category:Hearts_of_Stone_images_-_Concept_art) — *Witcher Wiki*. Concept-art set incl. dark, fire-lit interiors and forge-adjacent locations. Reference for the painterly Slavic-dark-fantasy treatment of fire and metal in enclosed spaces.  
+   ↳ **use for:** open in the forge — painterly dark-fantasy fire-lit interior treatment
+53. [Lava City Fantasy Art (curated ideas board)](https://www.pinterest.com/ideas/lava-city-fantasy-art/916469320508/) — *Pinterest*. Large curated board of lava-city/lava-river fantasy art — many molten channels through dark rock, rivers of fire cascading from summits, glowing orange against black, lava-falls. Broad harvesting board for channel concepts.  
+   ↳ **use for:** ride-down camera — broad fantasy molten-channel/lava-city harvesting board
+54. [Volcanic (fantasy landscape board) — franktl](https://www.pinterest.com/franktl/volcanic/) — *Pinterest*. Curated volcanic fantasy-landscape board — lava rivers, magma channels, lavafalls, ember-lit dark terrain across many artists. Good for surveying channel/flow compositions and palettes.  
+   ↳ **use for:** the pour spine — survey board of molten-channel compositions
+55. [Lava terrain (concept art board) — adesanya2183](https://www.pinterest.com/adesanya2183/lava-terrain/) — *Pinterest*. Board of lava-terrain concept art — molten channels, cracked-crust ground with glowing veins, lava rivers between black rock. Texture/ground reference for the channel floor and banks.  
+   ↳ **use for:** the pour spine — channel floor/bank texture (cracked crust with glowing veins)
+56. [Volcanic lair (fantasy board) — j_canales224](https://www.pinterest.com/j_canales224/volcanic-lair/) — *Pinterest*. Board of volcanic-lair fantasy art — interior forge/lair spaces with molten channels and pools, dramatic fire light in dark stone chambers. Reference for the enclosed forge interior beats.  
+   ↳ **use for:** open in the forge — volcanic-lair interior with molten channels
+57. [Dwarven Forge Concept Art (curated board)](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Curated dwarven-forge concept board — underground forge halls, molten channels routed through carved stone, monumental dwarf architecture, fire glow. Directly on-brief for the giant-dwarf-forge with molten channels.  
+   ↳ **use for:** story on the channel — dwarven forge halls with molten channels and carved Ogham-like stone
+58. [Dwarven Halls (curated board) — karl7911](https://www.pinterest.com/karl7911/dwarven-halls/) — *Pinterest*. Board of dwarven-hall concept art — vast carved underground architecture, some with molten/forge channels and warm fire light. Architecture reference for the channel running through monumental halls.  
+   ↳ **use for:** story on the channel — monumental dwarven-hall architecture around the channel
+59. [Lava River Fantasy — stock illustration collection](https://www.dreamstime.com/illustration/lava-river-fantasy.html) — *Dreamstime*. 1,300+ lava-river fantasy illustrations — dramatic molten rivers through dark/ominous canyons, glowing channels, fantasy book-cover/game-background framings. Broad ideation pool for the channel motif.  
+   ↳ **use for:** ride-down camera — broad lava-river fantasy ideation pool
+60. [Fantasy Lava — stock illustration collection](https://www.dreamstime.com/illustration/fantasy-lava.html) — *Dreamstime*. 13,000 fantasy-lava illustrations — molten channels, lavafalls, glowing magma through stone tunnels, cavernous landscapes with orange glow vs blue-crystal contrast. Wide pool for channel/forge motifs.  
+   ↳ **use for:** four-way split — varied molten-channel/tunnel motifs (per-fork character ideation)
+61. [Fantasy landscape — inferno with molten magma flows in stone tunnel](https://www.istockphoto.com/illustrations/fantasy-fire) — *iStock (illustrations)*. Illustration set incl. fiery molten-magma flows through a stone mountain tunnel — a glowing channel of magma running through a carved/natural tunnel. Tunnel-channel framing matches riding the camera through a passage.  
+   ↳ **use for:** ride-down camera — molten channel running through a stone tunnel/passage
+62. [Volcanologist's Lab — molten masterpiece in Unreal (Alec Tucker)](https://www.exp-points.com/alec-tucker-volcanologists-lab-in-unreal-engine) — *EXP Points*. Epic Games breakdown of a lava-filled landscape in Unreal with convincing heat — molten flows, terrain shader, ember atmosphere, real-time lighting from the lava. Buildable reference for selling heat from a glowing channel in-engine.  
+   ↳ **use for:** the pour spine — in-engine technique to sell heat/light from the molten channel
+63. [Stylized Lava Cave (with Unreal scene) — marketplace](https://www.artstation.com/marketplace/p/xBmx/stylized-lava-cave-with-unreal-engine-scene) — *ArtStation Marketplace*. Game-ready stylized lava cave: glowing molten channel/pool through stylized dark rock with full lighting setup. Concrete, buildable reference for an enclosed molten-channel chamber with controlled glow.  
+   ↳ **use for:** open in the forge — buildable enclosed molten-channel chamber
+64. [Mega Active Volcano — Animated Lava Material Bundle (UE5.1)](https://www.artstation.com/marketplace/p/qV20l/mega-active-volcano-animated-lava-material-bundle-unreal-engine-5-1) — *ArtStation Marketplace*. Animated lava bundle: customizable flowing-lava shaders, molten texture variants, dripping lava-falls, splash/ember particles, and Blueprint Splines to build CUSTOM lava flows along a path. Directly buildable for a spline-driven molten channel.  
+   ↳ **use for:** the pour spine + ForgeSplit — spline-driven custom molten channel/flow you can branch into four
+65. [100 Stylized Lava Flow Textures (4K)](https://www.artstation.com/marketplace/p/PX5LB/100-stylized-lava-flow-textures-4k-v-7) — *ArtStation Marketplace*. Library of 100 stylized 4K lava-flow textures — varied molten-vein patterns, crust ratios, glow intensities. Texture-bank reference for differentiating the four forks' channel surfaces.  
+   ↳ **use for:** four-way split — per-fork molten-flow texture differentiation
+66. [Lava Rock Ground — Stone Flow Liquid Seamless Texture](https://www.artstation.com/marketplace/p/bb0X/lava-rock-ground-environment-fantasy-sci-fi-stone-flow-liquid-seamless-texture) — *ArtStation Marketplace*. Seamless lava-rock ground texture — black stone crust with glowing molten flow seams, fantasy/sci-fi. Tileable reference for the channel banks and the cracked floor between flows.  
+   ↳ **use for:** the pour spine — tileable channel-bank / cracked-floor texture
+67. [Dark fantasy underworld cave with glowing lava rivers and blue crystals](https://www.craiyon.com/fr/image/BZ8scf2OSAevTfOIncLRcQ) — *Craiyon*. Underworld cavern with glowing lava rivers winding through dark rock, a small luminous figure for scale, cool-crystal accents against warm molten glow. Scale/contrast reference for a lone viewer beside the molten channel.  
+   ↳ **use for:** ride-down camera — sense of scale of a lone viewer beside a winding molten channel
+68. [Diablo IV Hawezar Concepts (swamp/helltide fire flows)](https://www.artstation.com/artwork/VJ33Y8) — *ArtStation*. Diablo IV regional concepts with ominous glowing flows and oppressive dark atmosphere. Reference for menacing, low-key environments where a glowing channel/river is the focal light.  
+   ↳ **use for:** story on the channel — menacing low-key environment with the channel as focal light
+69. [Total War Warhammer landscape — oTimON](https://www.deviantart.com/otimon/art/Total-War-Warhammer-landscape-674417592) — *DeviantArt*. Sweeping Warhammer landscape with dramatic terrain and atmosphere; volcanic/molten passages amid dark rock and epic depth. Camera-scale and atmospheric reference for crossing a molten landscape.  
+   ↳ **use for:** ride-down camera — epic atmospheric scale crossing molten terrain
+
+
+## Molten Pours
+
+### Real (26)
+
+1. [Molten Gold in Crucible at Bangkok Foundry](https://www.pexels.com/photo/molten-gold-in-crucible-at-bangkok-foundry-30836332/) — *Pexels*. Glowing molten gold pooled in a crucible, intense yellow-white core fading to deep orange at the cooler skin. The metal is the only light source; surrounding foundry is crushed to near-black. Reflective liquid surface with a thin oxidized skin.  
+   ↳ **use for:** molten-flow shader color/temperature ramp (white-hot core -> ember edge) and the pour-pool look where metal is the only light
+2. [Molten metal and sparks in a foundry](https://www.freeimages.com/photo/molten-metal-and-sparks-in-a-foundry-1935557) — *FreeImages*. A molten metal pour from a large ladle throwing bright orange and yellow sparks against a dark industrial background. Strong orange-on-black contrast, dramatic spark scatter.  
+   ↳ **use for:** spark atmosphere reference and the pour beat (ladle release with airborne sparks)
+3. [Sparks Molten Metal (hot iron)](https://pixabay.com/photos/sparks-molten-metal-hot-iron-687092/) — *Pixabay*. Close shot of hot iron throwing a dense fan of orange sparks. Warm ember palette over dark surround; sparks read as fine glowing particles with motion trails.  
+   ↳ **use for:** spark atmosphere particle reference (size, density, trail length) for the pour
+4. [Fire Molten Metal (furnace, foundry)](https://pixabay.com/photos/fire-molten-metal-furnace-foundry-687089/) — *Pixabay*. Molten metal in a furnace/foundry with fire, smoke and sparks. Deep orange glow, smoky atmosphere, metallurgical mood.  
+   ↳ **use for:** molten-flow shader glow + smoke atmosphere around the channel
+5. [Molten Metal Melting (hot casting)](https://pixabay.com/photos/molten-metal-melting-hot-casting-687088/) — *Pixabay*. Molten metal mid-melt during casting; glowing orange liquid surface with hot highlights. Liquid skin and slag textures visible.  
+   ↳ **use for:** macro liquid-metal surface skin reference for the molten-flow shader
+6. [Molten Metal Crucible Melting](https://pixabay.com/photos/molten-metal-crucible-melting-571823/) — *Pixabay*. Crucible holding molten metal, glowing orange pool with a darker oxidized skin at the rim. Self-illuminated liquid against dark surround.  
+   ↳ **use for:** molten pool surface + skin formation reference for the pour and shader
+7. [Crucible Foundry Molten Bronze](https://pixabay.com/photos/crucible-foundry-molten-bronze-2109202/) — *Pixabay*. Molten bronze in a foundry crucible. Warm gold-orange liquid, glowing surface with subtle skin, dark industrial context.  
+   ↳ **use for:** bronze/gold temperature variant for the molten-flow shader palette
+8. [Molten metal pouring from ladle (Goodwin Steel Castings)](https://www.flickr.com/photos/55810025@N06/5205904395) — *Flickr*. Documentary shot of molten metal pouring from a ladle at a steel castings works. Bright orange stream and sparks, dark foundry surround. Real industrial pour geometry.  
+   ↳ **use for:** the pour beat - authentic ladle-to-mold stream shape and spark spray
+9. [Pouring Molten Metal in Foundry, Sparks Flying in the Air](https://www.dreamstime.com/liquid-metal-pouring-container-mold-igniting-sparks-creating-vibrant-fiery-glow-industrial-foundry-image350219420) — *Dreamstime*. Liquid metal pouring from a container into a mold, igniting sparks, vibrant fiery glow in an industrial foundry. Bright orange against deep shadow, dynamic spark burst.  
+   ↳ **use for:** the pour beat (release into channel/mold) and spark ignition at impact
+10. [Industrial Molten Metal Glowing in a Foundry Pit, Scorched Textures and Sparks](https://www.dreamstime.com/industrial-molten-metal-glowing-foundry-pit-surrounded-scorched-textures-sparks-image385392223) — *Dreamstime*. Molten metal glowing in a foundry pit, surrounded by scorched dark textures and sparks. Strong orange emission lighting blackened scorched rock/iron surfaces nearby.  
+   ↳ **use for:** molten-flow lighting the basalt channel walls; scorched-stone texture cue and metal-as-only-light principle
+11. [Molten metal poured with sparks from ladle into mold (steel mill / cast iron)](https://www.alamy.com/molten-metal-is-poured-with-sparks-from-ladle-into-mold-smelting-of-multi-ton-cast-iron-parts-in-foundry-metallurgical-plant-or-steel-mill-image438892421.html) — *Alamy*. Molten metal poured with sparks from ladle into mold, smelting multi-ton cast iron parts. Heavy industrial scale, bright orange stream, large spark plume.  
+   ↳ **use for:** the pour beat at large scale; stream-to-mold splash and spark plume reference
+12. [Background of molten metal, liquid steel close-up (reflective surface)](https://www.alamy.com/background-of-molten-metal-liquid-steel-close-up-liquid-metal-texture-shiny-reflective-surface-copy-space-image500793546.html) — *Alamy*. Macro close-up of liquid steel surface: shiny reflective molten skin with bright hot highlights and darker cooler patches. Liquid-metal texture, copy space.  
+   ↳ **use for:** macro liquid-metal surface reference for the molten-flow shader (skin, highlights, reflectivity)
+13. [Molten iron sparks (collection)](https://www.alamy.com/stock-photo/molten-iron-sparks.html) — *Alamy*. Collection of molten iron + sparks photographs; glowing orange iron flows and dense spark showers against dark mills.  
+   ↳ **use for:** spark atmosphere library and molten iron flow color reference
+14. [Men pouring molten iron into a mold at a foundry near Mentougou (historical)](https://hpcbristol.net/visual/hv25-006) — *Historical Photographs of China (HPC Bristol)*. Historical documentary photo of workers pouring molten iron into a mold by hand. Glowing stream and pool, period foundry. Strong silhouette of figures against the glow.  
+   ↳ **use for:** the pour beat - human-scale gesture of pouring; silhouette-against-glow staging
+15. [Molten Metal Pour (free image)](https://stockcake.com/i/molten-metal-pour_1573586_1189380) — *StockCake*. Molten metal pour with vibrant orange glow and cascading liquid, sharp spark detail against dark background.  
+   ↳ **use for:** the pour beat - cascade shape and glow falloff
+16. [Molten Metal Pour (free image, alt)](https://stockcake.com/i/molten-metal-pour_828260_712362) — *StockCake*. Alternate molten metal pour scene; bright orange liquid stream, glowing pool, dark surround.  
+   ↳ **use for:** the pour beat - stream + pool framing variant
+17. [Molten Metal Pour (free image, variant 191643)](https://stockcake.com/i/molten-metal-pour_191643_33837) — *StockCake*. Molten metal pour, intense orange glow, sparks and heat shimmer, dark industrial backdrop.  
+   ↳ **use for:** the pour beat - spark + heat-shimmer atmosphere
+18. [Molten metal pouring (free image)](https://stockcake.com/i/molten-metal-pouring_215619_39763) — *StockCake*. Stream of molten metal pouring with sparks; warm orange-to-yellow stream, crushed black surround.  
+   ↳ **use for:** the pour beat - stream shape and spark trail reference
+19. [Molten Steel Pour (Foundry, Metalworking)](https://stockcake.com/i/vertido-de-acero-fundido_2801626_1564782) — *StockCake*. Molten steel pour in a foundry; bright cascading steel, glowing splash, dark metalworking environment.  
+   ↳ **use for:** the pour beat - steel cascade and splash impact
+20. [Glowing molten iron (mid-forging)](https://stockcake.com/i/glowing-molten-iron_405859_285739) — *StockCake*. A vibrant piece of molten iron emitting a fiery glow, captured mid-forging. Saturated orange core with hot-white hotspots, dark surround.  
+   ↳ **use for:** molten-flow shader emissive core + hotspot reference
+21. [Glowing Iron Furnace](https://stockcake.com/i/glowing-iron-furnace_1368688_444079) — *StockCake*. Glowing iron furnace interior, deep orange-red heat, molten metal light filling a dark cavity.  
+   ↳ **use for:** molten-flow shader ambient glow filling the channel cavity
+22. [Fiery Molten Metal](https://stockcake.com/i/fiery-molten-metal_181973_31375) — *StockCake*. Fiery molten metal surface, intense orange-red with bright highlights; turbulent liquid skin.  
+   ↳ **use for:** macro liquid-metal surface turbulence for the shader
+23. [Fiery Metal Forge](https://stockcake.com/i/fiery-metal-forge_485547_406516) — *StockCake*. Fiery forge scene with glowing metal; warm ember light, dark forge surround, sparks.  
+   ↳ **use for:** spark atmosphere + warm forge grade reference
+24. [Glowing Hot Metal](https://stockcake.com/i/glowing-hot-metal_1110053_596119) — *StockCake*. Glowing hot metal with intense orange-amber light against deep black shadow; molten/forging state.  
+   ↳ **use for:** molten-flow shader color temperature (amber-orange) and metal-as-only-light
+25. [Sparks in Factory](https://stockcake.com/i/sparks-in-factory_893225_643786) — *StockCake*. Dense factory spark shower; bright orange sparks scattering across a dark industrial scene with motion streaks.  
+   ↳ **use for:** spark atmosphere - dense scatter and streak reference for impact moments
+26. [Melted iron metal - 4K liquid silver, macro 3D render of grey chrome (illustration/photo-real)](https://stock.adobe.com/images/melted-iron-metal-4k-liquid-silver-paint-abstract-texture-of-shiny-grey-liquid-with-reflections-close-up-macro-3d-render-of-grey-chrome-abstract-melted-metal-wallpaper-3d-rendering-background/521852879) — *Adobe Stock*. Macro of shiny grey liquid metal with strong reflections; smooth molten skin, mirror highlights. Cool chrome variant (for contrast to the warm forge).  
+   ↳ **use for:** macro liquid-metal surface reflectivity reference (cool variant) for the shader skin
+
+### Fantasy / Concept Art (58)
+
+1. [Molten Metal](https://www.artstation.com/artwork/6Nkovw) — *ArtStation - AALIREZA HOSSEINI*. CG molten-metal study; glowing liquid metal with hot orange flow and reflective skin, dark cinematic surround. Smart-material molten look.  
+   ↳ **use for:** molten-flow shader look-dev (flow + skin + emissive) for the pour
+2. [Houdini Liquid Metal](https://dusang.artstation.com/projects/ykDEqx) — *ArtStation - Dusan Gojak*. Houdini POP-fluid liquid metal simulation; viscous metallic liquid with droplets and ligaments, reflective surface, dramatic lighting.  
+   ↳ **use for:** molten-flow shader + sim reference for viscous metal droplets/ligaments in the pour
+3. [Houdini Liquid Metal (Behance gallery)](https://www.behance.net/gallery/101335317/Houdini-Liquid-Metal) — *Behance*. Liquid-metal sim renders; chrome-to-warm metallic fluid, sheeting and splashing, reflective skin.  
+   ↳ **use for:** molten-flow sim reference - sheeting/splash behavior and metal skin
+4. [Cinematic Magma Liquid Gold Melting FX for Houdini (preview renders)](https://stevedatelier.gumroad.com/l/forging-fire) — *Gumroad - Steve Datelier (stevedatelier)*. Glowing liquid-metal/magma gold setup with dark cinematic lighting, molten gold shading, surface breakup, dramatic close-up composition. Hot white-gold core to deep ember edges.  
+   ↳ **use for:** molten-flow shader color/temperature + surface-breakup; the pour finale gold look
+5. [Cinematic Liquid Gold Melting & Erosion FX for Houdini (preview renders)](https://stevedatelier.gumroad.com/l/melting-erosion) — *Gumroad - Steve Datelier*. A gold head slowly consumed by liquid gold; medieval-fantasy high-end VFX look. Molten gold flowing over a surface, erosion masks, pyro, material breakup.  
+   ↳ **use for:** molten-flow shader - metal flowing over/casting onto a form (relevant to casting the GAELWORX letters)
+6. [Cinematic Liquid Gold Melting & Erosion FX for Houdini (CG Persia listing)](https://cgpersia.com/2026/06/gumroad-cinematic-liquid-gold-melting-erosion-fx-for-houdini-203749.html) — *CG Persia*. Listing with preview stills of the liquid-gold melting/erosion FX; molten gold over a head form, dark cinematic grade.  
+   ↳ **use for:** molten-flow shader + casting-onto-form reference for the finale cast
+7. [|Molten Gold Slice|](https://www.artstation.com/artwork/6aleXO) — *ArtStation - Wasiq I. Akbar*. RealFlow molten-gold liquid texture sliced/sheeting; thick golden liquid with glossy skin, hot highlights, dark backdrop.  
+   ↳ **use for:** macro liquid-metal surface (gold) sheeting/skin reference for the shader
+8. [Liquid Gold](https://www.artstation.com/artwork/KQODW) — *ArtStation - Bram Leegwater*. Liquid-gold artwork; molten gold forms with warm glow and reflective metallic skin.  
+   ↳ **use for:** molten-flow shader gold palette and skin reference
+9. [Liquid Gold (Houdini / Karma CPU)](https://www.artstation.com/artwork/JeLJRz) — *ArtStation - Patrick Schwalbe*. CG liquid gold made in Houdini, rendered in Karma CPU; cloud-motion-driven particles forming a flowing golden liquid mass, reflective surface, dark scene.  
+   ↳ **use for:** molten-flow sim/shader - particle-driven flow forming liquid metal in the channel
+10. [Liquid Gold (RealFlow / Redshift)](https://www.artstation.com/artwork/JyyD0) — *ArtStation - Andrey Panfilov*. RealFlow liquid-gold + particles, Redshift render, hot-air effect comped in After Effects. Rich molten gold, glossy skin, heat distortion, dark grade.  
+   ↳ **use for:** molten-flow shader + heat-distortion atmosphere for the pour
+11. [Liquid Gold - Melt Sim (Houdini)](https://www.artstation.com/artwork/9mVaPQ) — *ArtStation - Darren Kern*. Houdini melt simulation of a pillar turning to liquid gold; molten metal sheeting off a form, glossy reflective skin, warm glow.  
+   ↳ **use for:** molten-flow sim reference - solid form melting/pouring; relevant to channel release
+12. [Blender 2.9 Liquid Metal Fluid Simulation (Mantaflow) - tutorial/render](https://www.artstation.com/artwork/48aQ1Y) — *ArtStation - Aria Faith Jones*. Liquid-metal fluid sim in Blender Mantaflow (Eevee/Cycles); reflective metallic liquid pouring and pooling, glossy chrome-to-warm skin.  
+   ↳ **use for:** molten-flow sim/shader reference for liquid-metal pour behavior in real-time-ish engines
+13. [Blender 2.9 Liquid Metal Fluid Simulation (Mantaflow) - PREVIEW](https://www.artstation.com/artwork/3dbPWm) — *ArtStation - Aria Faith Jones*. Preview render of the liquid-metal Mantaflow sim; metallic fluid stream and splash, reflective surface.  
+   ↳ **use for:** molten-flow sim reference - stream + splash for the pour
+14. [Blender 2.9 Easy Lava Flow Simulation (Cycles/Eevee) - tutorial/render](https://www.artstation.com/artwork/mD5Z01) — *ArtStation - Aria Faith Jones*. Lava-flow sim; glowing molten flow with emissive cracks, hot orange channels in a cooling dark crust.  
+   ↳ **use for:** molten-flow shader - emissive cracked-crust look as metal cools along the channel
+15. [Blender 2.9 Easy Lava Flow Simulation - 4K PREVIEW](https://www.artstation.com/artwork/R3zRny) — *ArtStation - Aria Faith Jones*. 4K preview of the lava-flow sim; bright molten channels in dark rock, emissive glow, drifting heat.  
+   ↳ **use for:** molten-flow shader reference - molten channel through dark basalt (matches Scene 2 channel)
+16. [Molten Lava in Substance Designer (material)](https://www.artstation.com/artwork/d0nyxw) — *ArtStation - Kyle Horwood (Experience Points)*. Procedural molten-lava material; dark cooled crust with bright emissive orange veins, fine cracked skin. Strong emissive map.  
+   ↳ **use for:** molten-flow shader - cooled-crust + emissive-vein authoring for the channel skin
+17. [Cooling Molten Lava (material)](https://www.artstation.com/artwork/3qPX5g) — *ArtStation - Kyle Horwood*. Cooling lava material; transition from bright molten orange to darkening crust, cracked surface, glowing seams.  
+   ↳ **use for:** molten-flow shader - cooling transition (hot -> forged iron) for the finale cast
+18. [Lava (PBR material x PBR texture)](https://www.artstation.com/artwork/g8DdZQ) — *ArtStation*. PBR lava material; emissive molten cracks over dark rock, tileable, warm orange glow.  
+   ↳ **use for:** molten-flow shader - tileable molten-crust texture reference for channel walls
+19. [100 Stylized Lava Flow Textures (4K) V.7](https://www.artstation.com/marketplace/p/PX5LB/100-stylized-lava-flow-textures-4k-v-7) — *ArtStation Marketplace*. Library of 4K stylized lava-flow textures; varied molten patterns, emissive channels, cooled crust variants.  
+   ↳ **use for:** molten-flow shader - flow-map and pattern library for the channel surface
+20. [The Lava Forge](https://www.artstation.com/artwork/1OErG) — *ArtStation - Jeong Chan Wuk*. Fantasy lava-forge environment; molten metal/lava channels lighting a dark cavernous forge, warm orange key light, deep shadow.  
+   ↳ **use for:** the pour beat staging - molten channel as the only light in a dark forge chamber
+21. [Lava forge](https://silentfield.artstation.com/projects/48NJ8k) — *ArtStation - silentfield*. Lava-forge environment; glowing molten flows through dark stone, forge architecture, ember atmosphere.  
+   ↳ **use for:** the pour beat / channel environment reference (basalt + molten light)
+22. [Legendary Forge](https://www.artstation.com/artwork/x3y2ym) — *ArtStation*. Fantasy forge environment (UE4) with molten metal flows and glowing furnaces for weapon forging; dramatic warm glow against dark stone.  
+   ↳ **use for:** channel environment + molten flow lighting reference for the pour
+23. [GOD of WAR III Hephaestus Forge](https://www.artstation.com/artwork/knNE0) — *ArtStation - Lewis Walden*. Hephaestus forge concept/3D with lava animations; fiery cavern with a lake of molten lava, intense orange emission, dark volcanic rock.  
+   ↳ **use for:** the pour beat staging - lava lake/channel lighting a dark cavern; basalt + molten contrast
+24. [God of War Ragnarok - The Forge](https://www.artstation.com/artwork/ZeLZDx) — *ArtStation - Nick Comeau*. The Forge environment art; molten/forge glow, dark stone architecture, warm key light from the metal.  
+   ↳ **use for:** channel environment + warm-on-dark grade reference
+25. [The Lady of the Forge (concept art)](https://www.creativeuncut.com/gallery-41/gowr-the-lady-of-the-forge-concept.html) — *Creative Uncut - God of War Ragnarok*. Concept art of a forge with molten metal; glowing liquid metal, dark surroundings, warm rim light.  
+   ↳ **use for:** the pour beat - molten metal as light source in a forge interior
+26. [Dwarven Forge Caverns](https://www.artstation.com/artwork/143Qy2) — *ArtStation*. Dwarven forge cavern; molten channels and furnaces lighting carved stone, warm ember glow in deep dark.  
+   ↳ **use for:** channel environment reference - dwarven forge cavern with molten light (matches the giant dwarf forge world)
+27. [Dwarven Forge](https://www.artstation.com/artwork/JlvWLd) — *ArtStation*. Dwarven forge environment; molten metal/lava, dark stone, glowing furnaces, ember particles.  
+   ↳ **use for:** channel environment + ember atmosphere reference
+28. [Dwarven Forge](https://www.artstation.com/artwork/K3z2A9) — *ArtStation - Rotann Colyn*. Dwarven forge scene; molten light pooling in dark carved halls, warm orange against blue-black stone.  
+   ↳ **use for:** channel environment - warm molten light vs cold basalt (green-black) palette tension
+29. [Dwarven Forge](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation - Louis-Philippe Ross Boivin*. Dwarven forge environment; molten metal flows and forge fires, dark stone, dramatic warm lighting.  
+   ↳ **use for:** channel environment + molten-flow lighting reference
+30. [Dwarven Forge in Cave (dark fantasy concept, AI)](https://creator.nightcafe.studio/creation/2xSRhiwBmyxXGTBMFKtr) — *NightCafe*. Dwarven forge deep in a cave with firelight as the only source of light; molten orange glow, near-black cavern.  
+   ↳ **use for:** the pour beat - 'metal is the only light' staging in a pure-void cavern
+31. [How to render metal (study)](https://www.artstation.com/artwork/rrgWm) — *ArtStation*. Metal-rendering study; reflective metal surfaces under controlled lighting, useful for liquid-metal skin reflectance.  
+   ↳ **use for:** molten-flow shader - metal reflectance/skin reference
+32. [Glowing Hot Metal (Blender material)](https://www.blendkit.com/asset-gallery-detail/082a0e65-02e8-4659-9048-d76fe89b2a46/) — *Blendkit - NK Productions*. Procedural glowing-hot-metal shader; intense orange/yellow/red gradients mimicking radiant heat of superheated/molten metal.  
+   ↳ **use for:** molten-flow shader - heat-gradient (temperature ramp) authoring reference
+33. [Particle Flow - Particle-Based 3D Fluid Simulation / Glowing Liquid Collision FX](https://www.artstation.com/marketplace/p/erK72/particle-flow-particle-based-3d-fluid-simulation-fluid-collision) — *ArtStation Marketplace*. Glowing particle-based liquid simulation with luminous collision FX; bright fluid sculptures, looping motion, dark backdrop.  
+   ↳ **use for:** spark/glow atmosphere + molten-flow particle motion reference
+34. [Particle Flow - Fluid Simulation in 3D / Realistic Fluid Collision FX](https://www.artstation.com/marketplace/p/bp236/particle-flow-fluid-simulation-in-3d-particle-based-liquid-animation-realistic-fluid-collision-fx-dynamic-particle-system-cgi-vfx-fluid-motion-graphics-simulation-reel-physics-based-liquid-animation) — *ArtStation Marketplace*. Physics-based liquid animation reel; dynamic particle fluid, collision splashes, motion-graphic flows.  
+   ↳ **use for:** molten-flow sim reference - splash/collision dynamics for the pour impact
+35. [Houdini Tutorial: Melting Things using FLIP (renders)](https://entagma.com/houdini-tutorial-melting-things-using-flip/) — *Entagma*. FLIP melt to molten-lava look; geometry liquefying into glowing molten flow, emissive surface over dark.  
+   ↳ **use for:** molten-flow sim reference - object liquefying into molten flow (channel release)
+36. [Houdini Melting (FLIP fluid, variable viscosity, Mantra)](https://vimeo.com/97202068) — *Vimeo*. FLIP fluid melt with variable viscosity rendered in Mantra; thick viscous flow, sheeting, reflective skin.  
+   ↳ **use for:** molten-flow sim reference - viscosity-driven thick metal flow for the pour
+37. [Molten Angel (Houdini FLIP with temperature)](https://www.instagram.com/p/CC-zmzugw1i/) — *Instagram*. Houdini FLIP sim driven by temperature; a form turning molten, hot emissive metal with cooling gradient.  
+   ↳ **use for:** molten-flow shader/sim - temperature-driven emissive (matches the 'one temperature signal' rule)
+38. [Fluid Simulation: HEAVY Metal (pouring molten iron)](https://blenderartists.org/t/fluid-simulation-heavy-metal/551277) — *Blender Artists Community*. Community sim of pouring molten iron; dense liquid behavior, stream into pool, glowing metal.  
+   ↳ **use for:** molten-flow sim reference - dense molten iron pour behavior
+39. [Molten Lava in Substance Designer (Experience Points page, extra stills)](https://www.exp-points.com/exp-tuts-kyle-horwood-molten-lava-substance-designer) — *Experience Points (exp-points.com)*. Additional stills of the molten-lava material; emissive orange veins in dark cooled crust, Marmoset presentation.  
+   ↳ **use for:** molten-flow shader - emissive-vein + crust authoring reference
+40. [Molten Lava in Substance Designer (FlippedNormals listing)](https://flippednormals.com/product/molten-lava-in-substance-designer-kyle-horwood-22597) — *FlippedNormals*. Product listing with molten-lava material previews; hot orange channels, dark crust, cracked skin.  
+   ↳ **use for:** molten-flow shader - channel-crust texture reference
+41. [Modular Legendary Forge (lava with realistic molten metal flows)](https://unrealengine.com/marketplace/en-US/product/modular-legendary-forge) — *Unreal Engine / Fab*. Forge asset pack featuring lava with edge detection and realistic molten metal flows using Distance Fields; cavernous forges, glowing molten channels, Lumen-lit.  
+   ↳ **use for:** the pour beat - molten metal flow with edge-glow along channels; environment staging
+42. [Volcanologists Lab - Molten masterpiece in Unreal Engine (lava flow lighting)](https://www.exp-points.com/alec-tucker-volcanologists-lab-in-unreal-engine) — *Experience Points - Alec Tucker*. Lava-filled scene with strong sense of heat; elongated point lights along lava flow paths with panning light functions to convey molten movement.  
+   ↳ **use for:** molten-flow lighting technique - how moving molten light should illuminate the channel as the camera rides
+43. [Stylized Lava Cave (with Unreal Engine scene)](https://www.artstation.com/marketplace/p/xBmx/stylized-lava-cave-with-unreal-engine-scene) — *ArtStation Marketplace - Stefan Ivanov*. Stylized lava cave; glowing molten pools and channels in dark rock, warm emissive, atmospheric.  
+   ↳ **use for:** channel environment - stylized molten cave reference
+44. [Lava material in Unreal Engine 5](https://www.artstation.com/artwork/DLY0Z9) — *ArtStation - Alexandre Martin*. Animated UE5 lava material; flowing molten surface with emissive cracks and crust, warm orange glow.  
+   ↳ **use for:** molten-flow shader - animated flow + emissive-crack reference
+45. [Mega Active Volcano - Animated Lava Material Bundle (UE5.1)](https://www.artstation.com/marketplace/p/qV20l/mega-active-volcano-animated-lava-material-bundle-unreal-engine-5-1) — *ArtStation Marketplace*. Animated lava material bundle; multiple molten flow variants, dripping lava-falls, glow controls.  
+   ↳ **use for:** molten-flow shader - flow speed / drip / glow parameter reference
+46. [Forge of Mordor](https://www.deviantart.com/pirateofmangrove/art/Forge-of-Mordor-1085289339) — *DeviantArt - PirateOfMangrove*. Mordor forge scene; rivers of molten metal/lava channeled through black volcanic rock, ominous orange glow, deep void shadows.  
+   ↳ **use for:** the pour beat - molten channels through black basalt (directly matches Scene 2 channel + dark basalt rule)
+47. [Molten Flow](https://www.deviantart.com/jemgirl/art/Molten-Flow-1111341513) — *DeviantArt - jemgirl*. Molten-flow artwork; glowing liquid metal/lava flowing, warm emissive against dark.  
+   ↳ **use for:** molten-flow shader look reference for the channel
+48. [Molten lava lotus](https://www.deviantart.com/punionn/art/Molten-lava-lotus-1093449550) — *DeviantArt - Punionn*. Form with a constant flow of molten liquid pouring from it; glowing orange streams, dark surround, liquid sheeting.  
+   ↳ **use for:** the pour beat - continuous molten pour/sheeting reference
+49. [Molten lava demon rising from the abyss](https://www.deviantart.com/abstractpalette/art/Molten-lava-demon-rising-from-the-abyss-1171999491) — *DeviantArt - AbstractPalette*. Hyper-real colossal molten entity emerging; cracked dark crust with bright molten orange seams, dramatic glow.  
+   ↳ **use for:** molten-flow shader - cooled-crust + glowing-seam skin reference
+50. [Molten Fury](https://www.deviantart.com/arcanepalette/art/Molten-Fury-1193893755) — *DeviantArt - ArcanePalette*. Cloaked figure with molten-gold eyes wielding a weapon, sparks dancing in the air; warm ember palette, dark scene.  
+   ↳ **use for:** spark atmosphere + molten-gold accent reference
+51. [Molten Forge](https://www.deviantart.com/azulmagpie/art/Molten-Forge-875281047) — *DeviantArt - AzulMagpie*. Molten-forge themed artwork; warm forge glow, molten metal accents, dark surround.  
+   ↳ **use for:** the pour beat / forge mood reference
+52. [-Fire- (glowing cords of molten metal)](https://www.deviantart.com/arvalis/art/Fire-262605966) — *DeviantArt - arvalis*. Fire character built from glowing cords of molten metal that contour and flow; bright orange-white molten strands over dark form.  
+   ↳ **use for:** molten-flow shader - flowing molten strands / ligaments reference
+53. [Fantasy Dwarf OC: Molten King](https://www.deviantart.com/a-pancake/art/Fantasy-Dwarf-OC-Molten-King-497386922) — *DeviantArt - A-Pancake*. Dwarven king of fire; molten metal and ember motifs, warm glow, dark fantasy palette.  
+   ↳ **use for:** forge-world mood reference (dwarven + molten) for the channel chapter
+54. [Lava concept art (evil lair landscape)](https://www.deviantart.com/alynspiller/art/Lava-concept-art-768985199) — *DeviantArt - AlynSpiller*. Dark digital painting of an evil lair with lava, volcano, portal; molten orange rivers through black rock, deep shadow.  
+   ↳ **use for:** the pour beat - molten river through dark rock environment composition
+55. [Mordor Landscape with Lava and a Dark Tower (wallpaper)](https://raregallery.art/4577103-sauron-the-lord-of-the-rings-mordor-lava-mountains-fantasy-art.html) — *Rare Gallery*. Mordor fantasy art; rivers of lava through jagged black mountains, glowing orange against near-black, ominous mood.  
+   ↳ **use for:** the pour beat - molten/lava river through volcanic black-rock landscape; mood + palette
+56. [Liquid Terminator Prototypes (Terminator 2029 concept)](https://www.deviantart.com/jarol-tilap/art/Liquid-Terminator-Prototypes-977630475) — *DeviantArt - Jarol-Tilap*. Liquid-metal Terminator concept; chrome mimetic-polyalloy with flowing reflective metal surface, sharp highlights.  
+   ↳ **use for:** macro liquid-metal surface - reflective flowing metal skin reference (cool/chrome variant)
+57. [3D Chrome Liquid Background - fluid metal mercury glossy surface](https://www.dreamstime.com/d-chrome-liquid-background-silver-abstract-futuristic-shape-fluid-metal-mercury-glossy-surface-surreal-hologram-chromatic-effect-image315937219) — *Dreamstime*. Abstract chrome liquid metal; glossy mercury-like fluid forms, mirror reflections, smooth flowing curves.  
+   ↳ **use for:** macro liquid-metal surface - glossy metal skin/reflection reference for the shader
+58. [Lava Forge (concept render)](https://www.artstation.com/artwork/W1bvX) — *ArtStation - W1bvX*. Forge environment with molten metal/lava; glowing orange light against dark stone, ember atmosphere.  
+   ↳ **use for:** the pour beat - forge chamber lit by molten metal reference
+
+
+## Crucibles
+
+### Real (41)
+
+1. [Crucible Foundry Molten Bronze (free photo)](https://pixabay.com/photos/crucible-foundry-molten-bronze-2109202/) — *Pixabay*. Glowing graphite/clay crucible brim-full of molten bronze, surface a fierce orange-to-white-hot meniscus with a dark slag skin at the rim; warm fiery flames lick up around a near-black industrial surround. The crucible is the only light source. Texture: rough refractory wall against liquid-metal sheen. Tight near-overhead composition, intense self-illuminated mood.  
+   ↳ **use for:** source vessel
+2. [Molten Metal in Crucible / Melting (free photo)](https://pixabay.com/photos/molten-metal-crucible-melting-571823/) — *Pixabay*. Close view of metal melting inside a crucible, glowing orange core radiating heat against scorched dark refractory walls. Liquid surface shimmers orange-yellow with a darker oxidized crust forming. Strong chiaroscuro: bright molten pool, near-void surroundings. Reads as the live melt pool itself.  
+   ↳ **use for:** opening melt
+3. [Glowing Hot Crucible Full of Melted Bronze](https://www.dreamstime.com/glowing-hot-crucible-full-melted-bronze-molten-hit-containing-aluminum-image234737864) — *Dreamstime*. Overhead-ish shot of a crucible full of melted bronze/aluminum, the molten surface glowing kiln-orange with bright white-hot center, dark crucible kiln walls framing it. The metal is the sole light. Circular containment composition; furnace heat mood.  
+   ↳ **use for:** opening melt
+4. [Molten Metal Being Poured into Mold at Foundry, Glowing Hot, Evening](https://www.dreamstime.com/molten-metal-being-poured-mold-foundry-glowing-hot-evening-molten-metal-being-carefully-poured-crucible-image319571498) — *Dreamstime*. Molten metal carefully poured from a tilted crucible into a mold at dusk; a bright ribbon of orange-white liquid metal arcs from vessel to mold, throwing warm glow over a dark foundry floor. Pour-stream is the hero. Diagonal composition, cinematic evening mood.  
+   ↳ **use for:** source vessel
+5. [Melting Furnace with Crucible System Pouring Molten Metal in a Foundry](https://www.dreamstime.com/melting-furnace-crucible-system-pouring-molten-metal-foundry-striking-image-featuring-bright-mold-scene-image394072518) — *Dreamstime*. Crucible-and-furnace rig tipping a bright stream of molten metal into a glowing mold; vivid orange liquid against shadowed industrial machinery. Shows the mechanical tilt/pour apparatus that holds and releases the metal. Strong directional light from the pour.  
+   ↳ **use for:** source vessel
+6. [Foundry Crucible Molten Steel (stock gallery)](https://www.dreamstime.com/photos-images/foundry-crucible-molten-steel.html) — *Dreamstime*. Gallery of foundry crucibles holding/pouring molten steel: bright orange liquid steel, flying golden sparks, dark industrial workshop surrounds. Recurrent motif of glowing vessel as sole light. Useful range of pour angles and vessel shapes for the source-vessel design.  
+   ↳ **use for:** source vessel
+7. [Pouring Crucible (stock gallery)](https://www.dreamstime.com/photos-images/pouring-crucible.html) — *Dreamstime*. Many photos of molten metal pouring from a glowing crucible into circular furnace rings/molds, bright flames and flying sparks. Orange-white pour streams, dark surrounds. Good reference for the moment the vessel releases metal into the channel.  
+   ↳ **use for:** source vessel
+8. [Close Up Molten Metal Pouring Crucible (stock gallery)](https://www.dreamstime.com/photos-images/close-up-molten-metal-pouring-crucible.html) — *Dreamstime*. Macro/close gallery of molten metal pouring into a crucible: textured fiery-orange liquid surface, intense heat shimmer, sparks. Tight framing on the liquid metal and vessel lip. Ideal for the opening melt-pool surface detail.  
+   ↳ **use for:** opening melt
+9. [Glowing Hot Metal (stock gallery)](https://www.dreamstime.com/photos-images/glowing-hot-metal.html) — *Dreamstime*. Large gallery of white-hot/glowing molten metal in foundry crucibles, orange-yellow incandescent surfaces against dark furnace interiors. Range of macro textures and color temperatures from cherry-red to white-hot. Reference for the temperature signal of the melt.  
+   ↳ **use for:** opening melt
+10. [Steel Crucible (stock gallery)](https://www.dreamstime.com/photos-images/steel-crucible.html) — *Dreamstime*. Gallery of glowing molten metal in steel/graphite crucibles with intense orange core radiating heat. Vessel walls dark and scorched; liquid surface bright. Good for source-vessel silhouette and the glowing-core lighting model.  
+   ↳ **use for:** source vessel
+11. [Furnace Vessel (stock gallery)](https://www.dreamstime.com/photos-images/furnace-vessel.html) — *Dreamstime*. Molten metal glowing intensely within crucibles/furnace vessels, fiery surfaces shimmering orange and yellow. Containment shapes and the way liquid metal pools inside a vessel; dark refractory rims. Source-vessel and melt-pool reference.  
+   ↳ **use for:** source vessel
+12. [White Hot Molten Metal (industrial)](https://www.dreamstime.com/stock-photography-white-hot-molten-metal-image20308532) — *Dreamstime*. White-hot molten metal, the hottest temperature signal: surface nearly white-gold with orange edges, blinding incandescence against dark industrial surround. Pure light-from-metal. Perfect for the white-hot (#FFF2E0) end of the melt-pool gradient.  
+   ↳ **use for:** opening melt
+13. [Crucible (stock gallery, 2,232 photos)](https://www.dreamstime.com/photos-images/crucible.html) — *Dreamstime*. Broad crucible gallery: foundry pours, glowing bronze, goldsmith torch-melts, white-hot vessels. Mixed scales from jeweler's cup to large foundry pot. Useful survey of crucible vessel shapes and molten-metal lighting for the source vessel.  
+   ↳ **use for:** source vessel
+14. [Foundry Scene (stock gallery)](https://www.dreamstime.com/photos-images/foundry-scene.html) — *Dreamstime*. Foundry scenes with white-hot molten metal in crucibles, sparks, and dark cavernous halls lit only by the metal. Establishes the stage: void-black surround, glowing vessel as sole light source. Mood reference for the opening forge chamber.  
+   ↳ **use for:** opening melt
+15. [Pouring molten metal from the crucible pot into the ingot moulds (HS85-10-32646)](https://commons.wikimedia.org/wiki/File:Pouring_molten_metal_from_the_crucible_pot_into_the_ingot_moulds,_(HS85-10-32646).jpg) — *Wikimedia Commons*. Historical (British Library / Canadian Copyright Collection) photo of molten metal poured from a crucible pot into ingot moulds. Documentary, monochrome-toned but with a glowing pour; shows the channel-of-moulds layout fed by a single vessel. Heritage-foundry mood.  
+   ↳ **use for:** source vessel
+16. [Category: Crucibles](https://commons.wikimedia.org/wiki/Category:Crucibles) — *Wikimedia Commons*. Wikimedia category of crucible images: graphite/clay/ceramic crucibles, foundry pots, archaeological crucibles. Free-license reference for vessel geometry, refractory texture, and rim/lip shapes of the source vessel.  
+   ↳ **use for:** source vessel
+17. [Category: Crucible furnaces (18 files)](https://commons.wikimedia.org/wiki/Category:Crucible_furnaces) — *Wikimedia Commons*. Free-license crucible furnace images, incl. historic melting shops (e.g. Midvale Steel, 1887) showing rows of crucible furnaces, dipping cups, tongs, ingot moulds. Architectural/industrial context for the source vessel and the furnace chamber.  
+   ↳ **use for:** source vessel
+18. [Category: Crucible steel](https://commons.wikimedia.org/wiki/Category:Crucible_steel) — *Wikimedia Commons*. Crucible-steel process imagery and artifacts (Sheffield/Wootz heritage): crucibles, ingots, melting shops. Documentary references for the crucible-steel furnace angle and the cultural weight of the vessel.  
+   ↳ **use for:** source vessel
+19. [Category: Liquid metals](https://commons.wikimedia.org/wiki/Category:Liquid_metals) — *Wikimedia Commons*. Free-license images of liquid/molten metals: glowing pools, pours, droplets. Surface behavior, meniscus, oxidation skins and incandescent color of liquid metal. Direct reference for the opening melt-pool material.  
+   ↳ **use for:** opening melt
+20. [Category: Smelting](https://commons.wikimedia.org/wiki/Category:Smelting) — *Wikimedia Commons*. Smelting process imagery: furnaces, crucibles, molten metal, slag. Documentary range of how vessels hold and release glowing metal; dark surrounds, fiery pools. Context reference for the source vessel and melt.  
+   ↳ **use for:** source vessel
+21. [Crucible furnaces, site of Clyde Steel and Iron Works, Blonk St. Sheffield (geograph 309677)](https://commons.wikimedia.org/wiki/File:Crucible_furnaces,_site_of_Clyde_Steel_and_Iron_Works,_Blonk_St._Sheffield_-_geograph.org.uk_-_309677.jpg) — *Wikimedia Commons*. Heritage photo of surviving Sheffield crucible-furnace structures: yellow refractory brick banding, soot-darkened stone, the cellular furnace holes that held the crucible pots. Architectural texture and the brutal industrial-stone character that suits the basalt forge.  
+   ↳ **use for:** source vessel
+22. [Employees of Foundry Dept. pouring molten metal into molds, US Navy Yard, Mare Island (NARA 296870)](https://commons.wikimedia.org/wiki/File:(Employees_of_Foundry_Departmant,_working_pouring_molten_metal_into_molds,_US_Navy_Yard,_Mare_Island,_CA)_-_NARA_-_296870.jpg) — *Wikimedia Commons*. Archival NARA photo of foundry crew pouring molten metal from vessels into a line of molds. Glowing pour streams in a dark hall, multiple workers ladling. Scale and human reference for a giant-forge pour scene; documentary mood.  
+   ↳ **use for:** source vessel
+23. [Stassano Electric Arc Furnace, Warman Steel Casting Plant, Los Angeles (1914)](https://commons.wikimedia.org/wiki/File:Stassano_Electric_Arc_Furnace_at_Warman_Steel_Casting_Plant,_Los_Angeles_(1914).jpg) — *Wikimedia Commons*. Early electric-arc steel furnace tilting a glowing pour; massive cylindrical vessel, bright molten stream, dark plant. Industrial-archaeology reference for a large mechanized crucible/furnace as the metal source.  
+   ↳ **use for:** source vessel
+24. [Molten metal pouring from ladle (Goodwin Steel Castings)](https://www.flickr.com/photos/55810025@N06/5205904395) — *Flickr*. Molten metal pouring from a ladle/crucible at Goodwin Steel Castings: bright orange-white stream and splash, golden sparks, dark foundry. Crisp action photo of the pour itself. Reference for the moment metal leaves the source vessel into the channel.  
+   ↳ **use for:** source vessel
+25. [Crucible — pouring molten pewter into the mould](https://www.flickr.com/photos/clivenutton/15839084930/) — *Flickr*. Hand-scale crucible pouring molten pewter into a mould; lower-temperature dull-orange/silver liquid, intimate craft setting. Shows a smaller artisanal crucible and the controlled trickle of a pour. Reference for the vessel lip and a calmer pour.  
+   ↳ **use for:** source vessel
+26. [Members Masterclass: Luted Crucible Bronze Casting (The Crucible)](https://www.flickr.com/photos/97323620@N03/14782103661) — *Flickr*. Luted (mud-sealed) bronze-casting crucible, peanut-shaped clay vessel; ancient low-tech casting method, glowing contents, dark workshop. Reference for a primitive/Gaelic-feeling crucible form and rough refractory texture rather than a clean modern pot.  
+   ↳ **use for:** source vessel
+27. [Foundry / molten metal / crucible](https://www.loupiote.com/photos/26781866.shtml) — *Loupiote*. Foundry photograph of molten metal and a crucible: glowing liquid metal, dark industrial surround, warm fiery light. Atmospheric documentary shot of the vessel in working context.  
+   ↳ **use for:** source vessel
+28. [Foundry stock photos (collection)](https://www.pexels.com/search/foundry/) — *Pexels*. Free Pexels foundry collection: molten metal pours, crucibles, glowing furnaces, workers silhouetted against fiery light. Broad, free-to-use survey of the source vessel and pour in dark industrial settings.  
+   ↳ **use for:** source vessel
+29. [Molten Metal stock photos (collection)](https://www.pexels.com/search/molten%20metal/) — *Pexels*. Free Pexels molten-metal collection: incandescent liquid metal surfaces, pours, sparks, crucibles. Strong reference set for the opening melt-pool material and color temperature, free for commercial use.  
+   ↳ **use for:** opening melt
+30. [Casting Process stock photos (collection)](https://www.pexels.com/search/casting%20process/) — *Pexels*. Free Pexels casting-process collection: crucible pours into molds, glowing metal streams, sparks against dark workshops. Reference for the source vessel releasing metal and the channel/mold layout.  
+   ↳ **use for:** source vessel
+31. [Man standing near fire (foundry, molten metal, flames)](https://www.pexels.com/photo/man-standing-near-fire-3361235/) — *Pexels*. Worker beside intense flames and molten metal in a factory; figure silhouetted against orange furnace light. Human scale plus the glowing-vessel-as-only-light mood. Free for commercial use.  
+   ↳ **use for:** opening melt
+32. [Crucible Pictures (collection)](https://unsplash.com/s/photos/crucible) — *Unsplash*. Unsplash crucible search: free high-res photos of crucibles, molten metal, foundry pours and glowing hot vessels. Free for commercial use, no attribution. Survey set for source-vessel shapes and molten lighting.  
+   ↳ **use for:** source vessel
+33. [Foundry stock photos (collection)](https://www.istockphoto.com/photos/foundry) — *iStock*. Large iStock foundry library: crucible pours, glowing molten steel, sparks, dark industrial halls. High production value reference for the source vessel and pour cinematics (comp/license-gated).  
+   ↳ **use for:** source vessel
+34. [Pouring Molten Metal stock photos (collection)](https://www.istockphoto.com/photos/pouring-molten-metal) — *iStock*. iStock gallery dedicated to pouring molten metal: bright pour streams from crucibles/ladles, splash and spark detail, dark backgrounds. Reference for the pour beat where metal leaves the vessel into the channel.  
+   ↳ **use for:** source vessel
+35. [Crucible Furnace stock photos (collection)](https://www.istockphoto.com/photos/crucible-furnace) — *iStock*. iStock crucible-furnace gallery: glowing crucibles seated in furnaces, lids lifted to reveal incandescent metal, intense heat haze. Reference for the vessel-in-furnace arrangement and the glow escaping the pot.  
+   ↳ **use for:** source vessel
+36. [Foundry Crucible stock photos (collection)](https://www.gettyimages.com/photos/foundry-crucible) — *Getty Images*. Getty editorial/creative foundry-crucible set: documentary and stylized crucible pours, glowing molten metal, sparks, workers. High-quality reference for vessel form and the pour, license-gated.  
+   ↳ **use for:** source vessel
+37. [Molten Steel Pour (foundry, metalworking, steel)](https://stockcake.com/i/vertido-de-acero-fundido_2801626_1564782) — *StockCake*. Foundry pour of molten steel: bright orange-white liquid metal streaming, golden sparks, dark workshop. Free-download stock. Reference for the pour stream and spark behavior leaving the source vessel.  
+   ↳ **use for:** source vessel
+38. [Glowing Molten Iron](https://stockcake.com/i/glowing-molten-iron_405859_285739) — *StockCake*. Close glowing molten iron surface: incandescent orange pool with darker oxidized streaks, heat shimmer, near-black surround. Free-download stock. Direct reference for the opening melt-pool surface texture and color.  
+   ↳ **use for:** opening melt
+39. [Molten Metal Pouring](https://stockcake.com/i/molten-metal-pouring_618365_966528) — *StockCake*. Molten metal pouring in a foundry: bright liquid-metal ribbon, sparks, dark surround. Free-download stock. Reference for the released pour stream feeding the channel.  
+   ↳ **use for:** source vessel
+40. [Molten Metal Pour](https://stockcake.com/i/molten-metal-pour_191643_33837) — *StockCake*. Dramatic foundry molten-metal pour, glowing orange stream against shadow, sparks. Free-download stock. Reference for source-vessel release and the cinematic pour.  
+   ↳ **use for:** source vessel
+41. [Glowing Hot Metal stock photos (collection)](https://www.dreamstime.com/photos-images/heat-metal.html) — *Dreamstime*. Hot-metal gallery: cherry-red to white-hot metal, glowing crucibles and bars, heat shimmer. Range of incandescent temperatures and surface textures for tuning the melt's temperature signal.  
+   ↳ **use for:** opening melt
+
+### Fantasy / Concept Art (72)
+
+1. [Foundry, Forge & Crucible (Mariusz Gandzel, Privateer Press)](https://www.artstation.com/artwork/Vdbg8) — *ArtStation*. Concept art of a fantasy foundry with forge and crucible (Privateer Press / Warmachine world). Industrial-arcane vessels, glowing molten metal, smoke and ember light against dark stone-and-iron architecture. Reference for a stylized source-vessel rig in a grim forge.  
+   ↳ **use for:** source vessel
+2. [FORGE CONCEPT ART](https://www.artstation.com/artwork/qe53Ln) — *ArtStation*. Fantasy forge concept: glowing furnace/crucible area, molten metal pools, ember-lit smoky interior. Warm orange key light from the metal against shadowed stone. Reference for the opening forge chamber and the glowing source vessel within it.  
+   ↳ **use for:** source vessel
+3. [Forge — Environment Concept Art (Matheus Schwartz)](https://www.artstation.com/artwork/GvBXld) — *ArtStation*. Atmospheric forge environment about craft and labor: hot furnace, sparks, molten glow, moody volumetric light in a dark workshop. Strong stage-lighting reference (metal as the light) for the opening chamber.  
+   ↳ **use for:** opening melt
+4. [Forging Fantasy (Conrad Justin)](https://conradjustin.artstation.com/projects/klNKal) — *ArtStation*. Hand-painted fantasy forge beneath an open sky: hot furnace, flying sparks, glowing metal. Painterly warm-on-dark palette, expressive ember light. Reference for the romantic/heroic forge mood and spark behavior.  
+   ↳ **use for:** opening melt
+5. [Molten Maw (Mukhlis Nur / Sinlaire)](https://sinlaire.artstation.com/projects/WKPzoN) — *ArtStation*. Swordtember concept of a blade forged from a devil's blackened heart — molten orange cracks glowing through black metal. Black-body-with-glowing-veins material exactly like cooling forged iron with fire in the seams. Reference for the metal's vein-glow look.  
+   ↳ **use for:** opening melt
+6. [RuneScape Archaeology — Bandos Warforge (Thomas Karlsson)](https://www.artstation.com/artwork/gJEn3E) — *ArtStation*. Orcish Warforge concept with a crucible/forge where weapons are cast; brutal iron architecture, molten metal channels, ember glow. Reference for a war-forge crucible and metal-channel layout in a dark stone setting.  
+   ↳ **use for:** source vessel
+7. [PBR Stylized Forge Environment (Tim Boulton)](https://timboulton.artstation.com/projects/mQK19) — *ArtStation*. Game-ready medieval fantasy forge: furnace, anvils, glowing metal, warm interior lit by the fire. Stylized PBR materials and clean shapes. Reference for a buildable forge chamber and the glowing-vessel light source.  
+   ↳ **use for:** source vessel
+8. [Fantasy Cauldron (Nathaniel I. Cordero)](https://www.artstation.com/artwork/rAq9va) — *ArtStation*. Dragon-themed cauldron (after a concept by Daphne Fontijn), rendered in Unreal: ornate cast-iron vessel with relief detail, designed to hold glowing contents. Reference for a sculpted, ornamented crucible/cauldron form with carved sides — fits Celtic-relief vessel.  
+   ↳ **use for:** source vessel
+9. [Steel Crucible (RPG concept commission, John Zeleznik)](https://zeleznik.artstation.com/projects/z04xZ) — *ArtStation*. RPG concept titled 'Steel Crucible': dramatic industrial-fantasy scene built around a crucible of molten steel, fiery glow and dark machinery. Reference for the source-vessel as a hero set-piece in a cinematic frame.  
+   ↳ **use for:** source vessel
+10. [DOOM — Crucible (Emerson Tung)](https://www.artstation.com/artwork/8LQNE) — *ArtStation*. DOOM 'Crucible' weapon concept: a blade of contained energy/molten light, white-hot core within dark metal housing. Reference for white-hot energy held inside a vessel/housing — the contained-divine-fire idea (A+E fire).  
+   ↳ **use for:** ScryingPool
+11. [Dwarven Forge (Rotann Colyn)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Dwarven forge concept: stone-and-iron forge with glowing molten metal, ember-lit cavern. Tolkien-flavored brutal stonework, warm pools of light. Reference for the giant-dwarf-forge stage and the crucible within it.  
+   ↳ **use for:** source vessel
+12. [Iron Forge (KitBash3D — behind the kit)](https://kitbash3d.com/a/blog/behind-the-kit-iron-forge) — *KitBash3D*. KitBash3D 'Iron Forge' — 'the crucible where tales of legend are birthed': fiery chambers of molten metal and brimstone, carved stone molds, Nordic/Slavic/Byzantine dwarven architecture. Reference for forge-world molds, channels, and the source-vessel surroundings.  
+   ↳ **use for:** source vessel
+13. [Encounter 1 — Crucible Chamber (Painted) (Dwarven Forge)](https://dwarvenforge.com/products/6-6-e101-p_encounter-1-crucible-chamber-painted) — *Dwarven Forge*. Tabletop terrain 'Crucible Chamber': sculpted lava pieces, stone walls/floors, an infernal altar — a physical molten-metal chamber. Reference for a built crucible chamber, glowing lava channels and brutal stone framing.  
+   ↳ **use for:** source vessel
+14. [Dwarven Forge (artwork qQGN2)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven forge concept with molten metal and ember light in heavy stone halls. Reference for the cavernous forge stage, glowing channels, and a source vessel/furnace in dark rock.  
+   ↳ **use for:** source vessel
+15. [Blacksmith Forge (Blizzard-style, after David Harrington) (e0dR9X)](https://www.artstation.com/artwork/e0dR9X) — *ArtStation*. Stylized Blizzard-style blacksmith forge: chunky shapes, warm furnace glow, glowing metal. Clean readable stylization. Reference for a buildable forge chamber and crucible silhouette with strong warm-on-dark lighting.  
+   ↳ **use for:** source vessel
+16. [Blacksmith Forge — Concept Art (Gaia Buggio)](https://www.artstation.com/artwork/Xn39lD) — *ArtStation*. Blacksmith forge concept (Maya/V-Ray + Photoshop): furnace, molten metal, atmospheric ember light. Reference for forge composition and the glowing vessel as the scene's key light.  
+   ↳ **use for:** source vessel
+17. [Forge — Character Concept Art (Matheus Schwartz)](https://www.artstation.com/artwork/WXe2oD) — *ArtStation*. Forge-themed character concept; figure amid molten glow and sparks. Reference for human scale against a glowing crucible/forge and the warm rim-light the metal casts.  
+   ↳ **use for:** opening melt
+18. [Lava world — Isometric Concept Art (Aravinthraj Sekar)](https://www.artstation.com/artwork/aYQGOz) — *ArtStation*. Isometric lava-world concept: pools and rivers of molten orange against dark volcanic rock. Reference for molten-channel layout and the contrast of glowing liquid against black basalt.  
+   ↳ **use for:** opening melt
+19. [Fantasy Blacksmith Forge Original (Diego Herrera Sosa)](https://www.artstation.com/artwork/0nnVRy) — *ArtStation*. Detailed fantasy blacksmith forge (3ds Max + Corona): furnace, glowing metal, smoky warm interior. Reference for a richly modeled forge chamber and the source vessel's surroundings.  
+   ↳ **use for:** source vessel
+20. [Medieval Fantasy Forge (Kyryll Borodenko, UE4)](https://www.artstation.com/artwork/0nJvvG) — *ArtStation*. Game-ready medieval fantasy forge in UE4: furnace glow, molten metal, atmospheric haze. Reference for a real-time forge chamber and the warm self-lit vessel — close to the WebGL target.  
+   ↳ **use for:** source vessel
+21. [The Northern Dwarf Forge (Guillermo Martínez)](https://www.artstation.com/artwork/kDqeAz) — *ArtStation*. Stone tower forge in northern mountains where the best weapons are forged: cold exterior, molten-hot interior glow. Reference for the giant brutal-stone forge silhouette and the glowing heart within.  
+   ↳ **use for:** source vessel
+22. [Dwarven Forge (Louis-Philippe Ross Boivin, UE5 Nanite/Lumen)](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation*. UE5 dwarven forge with water-powered machinery in 17th–18th c. style reimagined as dwarven; molten metal, glowing channels, volumetric light. High-fidelity reference for mechanized pour rigs feeding channels.  
+   ↳ **use for:** source vessel
+23. [LOTR portfolio — Dwarven forge (Anton Meineche Falk)](https://www.artstation.com/artwork/rADxA5) — *ArtStation*. Lord-of-the-Rings-flavored dwarven forge: vast carved-stone halls, rivers/channels of molten metal, ember light. Strong reference for the Middle-Earth giant-dwarf-forge stage feeding molten channels.  
+   ↳ **use for:** source vessel
+24. [Dwarven Forge Animation Loop (Rhys Christian)](https://www.artstation.com/artwork/k4kyLx) — *ArtStation*. Looping animated dwarven forge: flowing molten metal, flickering ember light, drifting smoke. Motion reference for how the melt and glow should live and breathe in the opening chamber.  
+   ↳ **use for:** opening melt
+25. [Dwarf Forge Master (artwork 14EXRG)](https://www.artstation.com/artwork/14EXRG) — *ArtStation*. Dwarf forge-master scene: smith and furnace, glowing crucible/metal, warm cavernous light. Reference for the source vessel in active use and the character-scale glow.  
+   ↳ **use for:** source vessel
+26. [Dwarven Forge (Sunny Shung, low-poly)](https://sunnyshung.artstation.com/projects/1P3oo) — *ArtStation*. Low-poly stylized dwarven forge environment: simplified glowing crucible/furnace, lava pools, warm palette. Reference for a performant stylized forge that still reads as molten — useful for the 60fps target.  
+   ↳ **use for:** source vessel
+27. [Dwarven Forge concept (Pinterest ideas board)](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Curated board of dwarven-forge concept art: molten channels, crucibles, brutal stone halls, ember light. Broad mood/inspiration set for the source vessel and the giant-forge stage.  
+   ↳ **use for:** source vessel
+28. [Fantasy Forge Art (Pinterest ideas board)](https://www.pinterest.com/ideas/fantasy-forge-art/960675695823/) — *Pinterest*. Pinterest 'Fantasy Forge Art' board: forges, crucibles, molten metal, Warhammer-40k forge aesthetics. Wide-ranging reference for vessel forms and the warm-on-dark forge palette.  
+   ↳ **use for:** source vessel
+29. [Iron Forge (Pinterest ideas board)](https://www.pinterest.com/ideas/iron-forge/928916308598/) — *Pinterest*. Pinterest 'Iron Forge' board: dwarven and grim-industrial forge imagery, molten metal, glowing vessels. Inspiration set for the source vessel and channels in heavy iron/stone.  
+   ↳ **use for:** source vessel
+30. [Molten Core (Pinterest ideas board)](https://www.pinterest.com/ideas/molten-core/895078417885/) — *Pinterest*. Pinterest 'Molten Core' board: glowing molten pools, lava lakes, fiery cores in darkness. Reference for the opening melt-pool look and the metal-as-only-light atmosphere.  
+   ↳ **use for:** opening melt
+31. [Crucible (Boundless dev art thread)](https://forum.playboundless.com/t/art-crucible/3934) — *Boundless Community*. Game dev-art thread for a 'Crucible' object: stylized vessel holding glowing molten material, emissive surface. Reference for a game-asset crucible silhouette and emissive-glow treatment.  
+   ↳ **use for:** source vessel
+32. [Fantasy Concept Art (artwork aOD58)](https://www.artstation.com/artwork/aOD58) — *ArtStation*. Fantasy concept featuring a glowing crucible/cauldron with molten metal in an ancient workshop; warm radiant light spilling from the vessel into shadow. Reference for the source vessel as the lone light in a dark space.  
+   ↳ **use for:** source vessel
+33. [Cauldron Sculpts (Erik van Helvoirt, via Pinterest)](https://www.pinterest.com/pin/142285669471254671/) — *Pinterest*. Sculpted cauldron/crucible studies: ornamented cast-iron vessels with relief and feet, designed to hold glowing contents. Reference for a decorated, sculptural crucible form suitable for Celtic-relief detailing.  
+   ↳ **use for:** source vessel
+34. [Mystical Forge — Where Magic Meets Metal (Fiulo)](https://www.deviantart.com/fiulo/art/Mystical-Forge-Where-Magic-Meets-Metal-992222914) — *DeviantArt*. Orcish blacksmith in a hearth-lit workshop, sparks flying off glowing metal. Warm fire glow as sole light, dark surround. Reference for the magic-meets-metal forge mood and the glow cast by worked metal.  
+   ↳ **use for:** opening melt
+35. [Lore: Legendary Metals (GavinoElDiabloGuapo)](https://www.deviantart.com/gavinoeldiabloguapo/art/Lore-Legendary-Metals-924400256) — *DeviantArt*. Worldbuilding plate on legendary metals incl. adamant 'kept in liquid state' — glowing molten samples and forge notes. Reference for the conceit of a metal that must stay molten/alive, matching the living-melt opening.  
+   ↳ **use for:** opening melt
+36. [Lore: Legendary Metals (GavinoElDiabloGuapo, v.1102476366)](https://www.deviantart.com/gavinoeldiabloguapo/art/Lore-Legendary-Metals-1102476366) — *DeviantArt*. Second legendary-metals lore plate: glowing molten metal swatches, forge/crucible context, warm emissive samples on dark ground. Reference for molten-metal color/temperature variety and lore framing.  
+   ↳ **use for:** opening melt
+37. [Holy Crucible 'Godspite' (PrimarchMJ)](https://www.deviantart.com/primarchmj/art/Holy-Crucible-Godspite-1133357407) — *DeviantArt*. A 'Holy Crucible' design: sacred vessel charged with divine/molten energy, radiant emissive core. Reference for a venerated crucible holding white-gold divine fire — aligns with the eternal A+E fire idea.  
+   ↳ **use for:** ScryingPool
+38. [Golden Crucible Blast Furnace (FStitz)](https://www.deviantart.com/fstitz/art/Golden-Crucible-Blast-Furnace-143802810) — *DeviantArt*. Crucible/blast-furnace scene depicting molten ore/lava, golden-orange glow pouring from the vessel. Reference for the source vessel as a glowing furnace and the gold (#FFB24D) end of the molten palette.  
+   ↳ **use for:** source vessel
+39. [Obsidian stone block with glowing molten gold ore (thesoftframe)](https://www.deviantart.com/thesoftframe/art/Obsidian-stone-block-with-glowing-molten-gold-ore-1315316201) — *DeviantArt*. Black obsidian stone with veins of glowing molten gold ore — exactly the green-black basalt-with-fiery-veins motif. Reference for the channel/vessel material: dark stone laced with incandescent gold seams.  
+   ↳ **use for:** opening melt
+40. [Molten Forge (AzulMagpie)](https://www.deviantart.com/azulmagpie/art/Molten-Forge-875281047) — *DeviantArt*. Stylized 'Molten Forge' banner art: glowing molten metal and forge elements, warm orange light. Reference for the forge mood and a stylized glowing vessel.  
+   ↳ **use for:** source vessel
+41. [Molten dwarf (DomEddi)](https://www.deviantart.com/domeddi/art/Molten-dwarf-884633595) — *DeviantArt*. Character-design 'Molten Dwarves guard the Sacred Forge and the Primal Flame that feeds it' — molten-veined bodies, glowing cracks. Reference for the black-body-with-glowing-veins material and the sacred-flame concept.  
+   ↳ **use for:** opening melt
+42. [The Magic Forge (shadowlesdragon)](https://www.deviantart.com/shadowlesdragon/art/The-Magic-Forge-1086779637) — *DeviantArt*. Mystical forge with a sword being forged: glowing metal, magical sparks, warm-on-dark. Reference for the magic-forge atmosphere and emissive worked-metal glow.  
+   ↳ **use for:** opening melt
+43. [Forgesmeltered In Fire (Master-Of-Dreams)](https://www.deviantart.com/master-of-dreams/art/Forgesmeltered-In-Fire-837313280) — *DeviantArt*. Fire-elemental forged figure with armor plating and a fire horn; molten/ember detailing emerging from concept. Reference for fire-within-metal forms and ember-glow surfacing.  
+   ↳ **use for:** opening melt
+44. [Molten Birth (chillier17)](https://www.deviantart.com/chillier17/art/Molten-Birth-555452737) — *DeviantArt*. Creature of molten rock/metal (Red Elemental Token vibe): black crust split by glowing orange magma. Reference for the cooling-crust-over-molten-core look of the metal as it sets.  
+   ↳ **use for:** opening melt
+45. [Molten World (Jadago-Art)](https://www.deviantart.com/jadago-art/art/Molten-World-882374940) — *DeviantArt*. Molten planet/world: glowing magma channels across dark crust, fiery seams. Reference for large-scale molten-channel networks against black, scalable to the pour-channel design.  
+   ↳ **use for:** opening melt
+46. [Mystical Forge / Blacksmith Weapon Forge Fantasy Art (sadewadesign17)](https://www.deviantart.com/sadewadesign17/art/Blacksmith-Weapon-Forge-Fantasy-Art-1086957629) — *DeviantArt*. Fantasy blacksmith weapon-forge illustration: furnace glow, glowing blade and metal, warm interior light. Reference for the forge stage and the emissive glow of worked metal.  
+   ↳ **use for:** source vessel
+47. [Overlord: Forging and Equipment — dwarven forge in molten lava (alienfinderx)](https://www.deviantart.com/alienfinderx/art/Overlord-Explanations-Forging-and-Equipment-799001803) — *DeviantArt*. Lore plate describing a deep-dwelling dwarven forge built into rivers of molten lava; glowing channels and crucibles. Reference for a forge fed directly by molten lava channels — the pour-channel premise.  
+   ↳ **use for:** source vessel
+48. [Crucible art tag (browse)](https://www.deviantart.com/tag/crucible) — *DeviantArt*. DeviantArt 'crucible' tag feed: a broad mix of crucible vessels, molten-metal scenes, and arcane variations. Discovery surface for additional source-vessel and melt references.  
+   ↳ **use for:** source vessel
+49. [Alchemy Lab (Asim A. Steckel)](https://www.artstation.com/artwork/1BnZG) — *ArtStation*. Alchemist's lab concept: glowing crucibles/flasks of luminous liquid, volumetric light in a moody interior. Reference for an alchemical glowing vessel and the scrying-pool-like luminous-liquid look.  
+   ↳ **use for:** ScryingPool
+50. [Alchemist Laboratory (Pedro Moran)](https://pedro_moran_art.artstation.com/projects/nQnVmr) — *ArtStation*. Alchemist laboratory with bubbling glowing vessels and crucibles, warm/teal mixed light. Reference for a glowing central vessel and the magical-liquid surface of a scrying pool.  
+   ↳ **use for:** ScryingPool
+51. [Alchemy Lab (Kateryna Klymenko)](https://www.artstation.com/artwork/Z53XE8) — *ArtStation*. Detailed alchemy lab: shelves of glowing flasks and a central cauldron/crucible emitting luminous swirls. Reference for the central glowing-vessel focal point and emissive liquid surface.  
+   ↳ **use for:** ScryingPool
+52. [Alchemist's Laboratory (artwork Qz4VWl)](https://www.artstation.com/artwork/Qz4VWl) — *ArtStation*. Alchemist's laboratory concept around the Philosopher's Stone / elixir: glowing crucible, transmutation glow, cinematic dark interior. Reference for a magical crucible whose contents glow like living light.  
+   ↳ **use for:** ScryingPool
+53. [The Alchemist's Laboratory (Gustavo Elliott)](https://gustavoelliott.artstation.com/projects/Ye3NnK) — *ArtStation*. Cinematic alchemist's lab: a central glowing vessel/crucible as key light, smoky atmosphere, warm emissive liquid. Strong reference for the lone-glowing-vessel staging and luminous-pool surface.  
+   ↳ **use for:** ScryingPool
+54. [Modern Alchemist Lab (Aleksey Pollack)](https://www.artstation.com/artwork/1nlJxq) — *ArtStation*. Alchemy-meets-machinery lab with glowing crucibles and weird apparatus. Reference for an industrial-arcane vessel rig and emissive molten/luminous contents.  
+   ↳ **use for:** ScryingPool
+55. [Magic: the Gathering — Molten Duplication (Justyna Dura)](https://www.artstation.com/prints/art_print/KeP8V/magic-the-gathering-molten-duplication) — *ArtStation*. MTG illustration of molten duplication: bright molten metal/lava forming shapes, intense orange-white glow against dark. Reference for molten metal taking form — echoes the metal casting into letterforms at the finale.  
+   ↳ **use for:** opening melt
+56. [Crucible of Worlds — Core Set 2019 (Scryfall)](https://scryfall.com/card/m19/229/crucible-of-worlds) — *Scryfall*. MTG 'Crucible of Worlds' card art (Ron Spencer): an arcane crucible/artifact channeling worlds, glowing energy and ornate vessel. Reference for a mythic ornamented crucible as a focal artifact.  
+   ↳ **use for:** source vessel
+57. [Crucible of Worlds print (Original Magic Art)](https://www.originalmagicart.store/products/crucible-of-worlds-print-1) — *Original Magic Art*. Print listing for the 'Crucible of Worlds' painting: detailed ornate crucible vessel with glowing contents. Reference for a decorative, lore-heavy crucible silhouette and surface detailing.  
+   ↳ **use for:** source vessel
+58. [Crucible of Worlds Art by Chris Rahn (MTGNexus)](https://www.mtgnexus.com/gallery/art/1597-crucible-of-worlds) — *MTGNexus*. Alternate 'Crucible of Worlds' artwork (Chris Rahn): a glowing crucible artifact with molten/energy interior, dramatic lighting. Reference for vessel-as-artifact and emissive contents.  
+   ↳ **use for:** source vessel
+59. [Free Crucible images (collection)](https://stockcake.com/s/crucible) — *StockCake*. StockCake AI crucible set: stylized crucibles pouring glowing molten metal, sparks, dark workshops; some epic 'foundry kingdom in a volcano' scenes. Free-download. Reference for stylized source-vessel pours blending real and fantastical.  
+   ↳ **use for:** source vessel
+60. [Free Molten Bronze images (collection)](https://stockcake.com/s/molten-bronze) — *StockCake*. StockCake molten-bronze set: artisans pouring glowing bronze into molds, warm orange light in dark workshops. Free-download. Reference for the bronze color and pour staging of the source vessel.  
+   ↳ **use for:** source vessel
+61. [Free Molten Metal images (collection)](https://stockcake.com/s/molten-metal) — *StockCake*. StockCake molten-metal set: incandescent liquid-metal surfaces, pours and splashes, sparks. Free-download. Reference for the opening melt-pool surface and spark dynamics.  
+   ↳ **use for:** opening melt
+62. [Free Molten Metal Energy images (collection)](https://stockcake.com/s/molten-metal-energy) — *StockCake*. StockCake 'molten metal energy' set: glowing, energized molten-metal effects, white-hot cores and ember trails. Free-download. Reference for an energized/divine-fire treatment of the melt (A+E white-gold).  
+   ↳ **use for:** ScryingPool
+63. [Volcanic Forge / Molten Crucible (ambient atmosphere page)](https://fantasy.ambient-mixer.com/molten-crucible) — *Ambient-Mixer*. 'Molten Crucible' volcanic-forge atmosphere page with a fantasy forge key image: glowing crucible/lava in a dark volcanic forge. Reference for the volcanic-forge mood and the source vessel amid molten rock.  
+   ↳ **use for:** source vessel
+64. [Saugus Ironworks (Fallout) — vats of molten metal](https://fallout.fandom.com/wiki/Saugus_Ironworks) — *Fallout Wiki / Fandom*. Game location with many vats/crucibles of molten metal in a grim industrial ironworks; glowing orange pools against rusted dark steel. Reference for an industrial-fantasy crucible/vat array as the metal source.  
+   ↳ **use for:** source vessel
+65. [Emberheart Forge / volcanic citadel (StylArts stylized fantasy environment)](https://stylarts.artstation.com/store/2dLmb/stylized-fantasy-environment) — *ArtStation*. Stylized fantasy environment pack themed around a volcanic citadel with obsidian structures, lava-forged bridges and molten-metal workshops. Reference for a stylized molten-metal workshop and crucible vessels in obsidian architecture.  
+   ↳ **use for:** source vessel
+66. [Chinese alchemy cauldron (3D game model)](https://www.artstation.com/artwork/29V6wB) — *ArtStation*. Chinese-alchemy cauldron/crucible game model: ornate cast vessel with relief and feet, designed to hold glowing alchemical contents. Reference for a ritual cauldron form with surface ornament, adaptable to Celtic relief.  
+   ↳ **use for:** source vessel
+67. [Stylized Witch Cauldron (game asset)](https://www.artstation.com/marketplace/p/P31Ar/stylized-witch-cauldron) — *ArtStation*. Stylized witch cauldron 3D asset: round black iron vessel built to emit glowing/bubbling contents, clean readable shapes. Reference for a stylized source-vessel silhouette with an emissive liquid surface.  
+   ↳ **use for:** ScryingPool
+68. [PBR Witch Cauldron — Medieval Craft Magic Potion Scene (game asset)](https://www.artstation.com/marketplace/p/RxRnn/pbr-witch-cauldron-medieval-craft-art-magic-potion-scene-3d-model) — *ArtStation*. PBR cauldron in a medieval craft/potion scene: iron vessel over fire with glowing liquid, props and warm light. Reference for a cauldron-over-flame setup and the emissive surface of magical liquid.  
+   ↳ **use for:** ScryingPool
+69. [Magic Pool Fantasy Art (Pinterest ideas board)](https://www.pinterest.com/ideas/magic-pool-fantasy-art/919029388924/) — *Pinterest*. Pinterest 'Magic Pool' board: luminous magical pools, glowing liquid surfaces, reflective scrying basins. Direct reference for the ScryingPool surface — emissive, reflective, otherworldly liquid.  
+   ↳ **use for:** ScryingPool
+70. [Fantasy Altar Concept Art (Pinterest ideas board)](https://www.pinterest.com/ideas/fantasy-altar-concept-art/906727210292/) — *Pinterest*. Pinterest fantasy-altar board: ritual basins, glowing offerings, carved-stone altars with luminous centers. Reference for a carved-stone vessel/altar holding glowing liquid — the ScryingPool / opening melt staged as sacred.  
+   ↳ **use for:** ScryingPool
+71. [Molten Edge (ArtStation game assets)](https://www.artstation.com/marketplace/p/y1bz8/molten-edge) — *ArtStation*. 'Molten Edge' game-asset set: black rock with glowing molten-orange edges and seams, lava transitions. Reference for the molten-edge material on the channel/vessel rims (basalt with fiery glowing edges).  
+   ↳ **use for:** opening melt
+72. [Fantasy Forge Original — Blacksmith dwarf (Lucas De Andreotti)](https://www.artstation.com/artwork/3E9gVY) — *ArtStation*. Blacksmith-dwarf forge scene: stout smith at a glowing furnace, molten metal and sparks, warm cavern light. Reference for character-scale forge action and the glow the source vessel casts on a smith.  
+   ↳ **use for:** source vessel
+
+
+## Cauldrons
+
+### Real (47)
+
+1. [Gundestrup Cauldron (full vessel) - Wikipedia](https://en.wikipedia.org/wiki/Gundestrup_cauldron) — *Wikipedia / National Museum of Denmark*. Largest known European Iron Age silver work (c.150 BC-AD), gilt-silver. Cold reflective silver body, repousse relief panels of gods, antlered Cernunnos, warriors and beasts; gold gilding catches warm highlights against shadowed recesses. Heavy hemispherical bowl form, broad shoulder, ritual gravity.  
+   ↳ **use for:** Celtic vessel mood
+2. [Gundestrup Cauldron - World History Encyclopedia](https://www.worldhistory.org/Gundestrup_Cauldron/) — *World History Encyclopedia*. Museum photography of the silver cauldron and its plates. Burnished metal, deep engraved Celtic figural interlace, raised bosses; lit so gilding glows amber while ground stays dark. Authentic ancient Celtic-vessel ornament and silhouette.  
+   ↳ **use for:** Celtic vessel mood
+3. [Gundestrup Cauldron - National Museum of Denmark (natmus.dk)](https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-early-iron-age/the-gundestrup-cauldron/) — *National Museum of Denmark*. Official museum record images. The intact gilt-silver bowl plus individual inner/outer plates. Cool silver play-of-light, gold-gilt deities, glass-inlaid eyes; precise Iron Age metalworking texture, sacred Celtic iconography.  
+   ↳ **use for:** Celtic vessel mood
+4. [Gundestrup Cauldron - Ancient Origins feature](https://www.ancient-origins.net/artifacts-other-artifacts/gundestrup-cauldron-largest-and-most-exquisite-iron-age-silver-work-europe-020989) — *Ancient Origins*. Detailed close-ups of the repousse panels. Strong directional museum light raking across silver relief - antlered figure, torcs, serpents - warm metallic sheen against velvet-black background. Dense Celtic ornament reference.  
+   ↳ **use for:** Celtic vessel mood
+5. [Gundestrup Cauldron - The Art Bog (Celtic Myth in Silver)](https://theartbog.com/the-gundestrup-cauldron-celtic-myth-in-silver/) — *The Art Bog*. Editorial photography of the cauldron and panels. Silver and gold tonality, mythic relief scenes, dramatic shadowing. Conveys the ancient ritual-vessel aura - mythology cast into metal.  
+   ↳ **use for:** Celtic vessel mood
+6. [File:Gundestrupkarret1.jpg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gundestrupkarret1.jpg) — *Wikimedia Commons*. General view of the Gundestrup Cauldron on display at Nationalmuseet, Denmark. Hemispherical silver bowl, gilt figural frieze around the shoulder, museum spotlighting giving warm metal highlights over a dark surround.  
+   ↳ **use for:** Celtic vessel mood
+7. [File:Gundestrupkarret2.jpg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gundestrupkarret2.jpg) — *Wikimedia Commons*. Inside panel of the Gundestrup Cauldron. Close repousse relief of a Celtic deity surrounded by beasts; raised silver figures catch light, recesses read black. Strong interlace/figural-ornament reference.  
+   ↳ **use for:** Celtic vessel mood
+8. [File:Silver cauldron.jpg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silver_cauldron.jpg) — *Wikimedia Commons*. Gundestrup Cauldron showing the 13 silver plaques - large deities, small humans, animals and mythical creatures. Cold burnished silver, intricate Celtic figuration, gallery lighting; the canonical ancient-vessel silhouette.  
+   ↳ **use for:** Celtic vessel mood
+9. [File:Sanglier chaudron de Gundestrup.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sanglier_chaudron_de_Gundestrup.png) — *Wikimedia Commons*. Detail of a boar motif from the Gundestrup Cauldron. Single repousse animal in silver relief, crisp linework, isolated against dark. Useful as Celtic emblem/ornament reference for carved-metal detailing.  
+   ↳ **use for:** Celtic vessel mood
+10. [File:Gundestrup cauldron - F.I.4277.jpg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gundestrup_cauldron_-_F.I.4277.jpg) — *Wikimedia Commons*. Catalogued museum photograph of a Gundestrup plate. Gilt-silver relief, warm gold highlights on raised figures, deep shadow in the field. High-detail Iron Age Celtic metal-ornament reference.  
+   ↳ **use for:** Celtic vessel mood
+11. [File:Detail of antlered figure on the Gundestrup Cauldron.jpg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Detail_of_antlered_figure_on_the_Gundestrup_Cauldron.jpg) — *Wikimedia Commons*. Close detail of the antlered Cernunnos figure holding a torc and serpent. Silver relief catching warm light, intricate Celtic linework; iconic sacred-vessel imagery for mood and carved-relief texture.  
+   ↳ **use for:** Celtic vessel mood
+12. [Category:Gundestrup cauldron - Wikimedia Commons (82 files)](https://commons.wikimedia.org/wiki/Category:Gundestrup_cauldron) — *Wikimedia Commons*. Full Commons category (82 images) of the Gundestrup Cauldron - whole vessel and every plate/detail. Silver-and-gold metallurgy, Celtic figural relief, varied museum lighting. Deep well of authentic Celtic-vessel reference.  
+   ↳ **use for:** Celtic vessel mood
+13. [File:Battersea Cauldron in the British Museum.jpg - Wikimedia](https://en.m.wikipedia.org/wiki/File:Battersea_Cauldron_in_the_British_Museum.jpg) — *Wikimedia Commons / British Museum*. Battersea Cauldron, a large bronze cooking vessel c.800-700 BC dredged from the Thames. Riveted bronze sheet body, rounded base, twin ring handles; aged greenish-brown patina under museum light. Ancient ritual cooking-vessel form.  
+   ↳ **use for:** Celtic vessel mood
+14. [Category:Battersea Cauldron - Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Battersea_Cauldron) — *Wikimedia Commons*. Commons category for the Battersea Cauldron: full vessel plus handle and side-detail close-ups (high-res, up to 4699x3138). Hammered/riveted bronze construction, dark patina, hemispherical Iron Age silhouette.  
+   ↳ **use for:** Celtic vessel mood
+15. [Battersea Cauldron - Wikipedia](https://en.wikipedia.org/wiki/Battersea_Cauldron) — *Wikipedia / British Museum*. Bronze Late Bronze Age cauldron, British Museum Room 50. Sheet-bronze body assembled with conical rivets, two iron ring handles. Earthy oxidised bronze tone; a genuine archaeological boiling-vessel reference.  
+   ↳ **use for:** Celtic vessel mood
+16. [File:Bronze Age Cauldron fragment / metalworking debris - Wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_Age_,_Cauldron_fragment_or_metal_working_debris_(FindID_120560-90738).jpg) — *Wikimedia Commons (Portable Antiquities Scheme)*. Bronze Age cauldron fragment / casting debris on neutral background. Corroded green-brown bronze, rough cast surface and edges. Texture reference for ancient, weathered metal vessel material.  
+   ↳ **use for:** Celtic vessel mood
+17. [File:Etruscan Bronze Cauldron with Griffins, 7th C. BC - Wikimedia](https://commons.wikimedia.org/wiki/File:Etruscan_Bronze_Cauldron_with_Griffins,_7th_C._BC_(48465528756).jpg) — *Wikimedia Commons*. Etruscan bronze cauldron ringed with cast griffin-head protomes. Rounded body, fierce projecting beast-heads, dark-green bronze patina. Ancient ritual-vessel grandeur with mythic creature ornament.  
+   ↳ **use for:** Celtic vessel mood
+18. [Caldron - French/South Netherlandish - The Met](https://www.metmuseum.org/art/collection/search/471343) — *The Metropolitan Museum of Art*. Medieval cast bronze/copper-alloy caldron with three legs and bail handle. Squat tripod cooking-vessel form, dark metal, simple brutal silhouette. Functional medieval cauldron reference (clean studio lighting).  
+   ↳ **use for:** Celtic vessel mood
+19. [Bronze Age Cauldron from Shipton-on-Cherwell - Ashmolean](https://britisharchaeology.ashmus.ox.ac.uk/highlights/cauldron.html) — *Ashmolean Museum (British Archaeology)*. One of the earliest Late Bronze Age cauldrons in Britain (c.1100-1000 BC). Riveted sheet-bronze hemispherical bowl with ring handles, aged patina. Authentic ancient boiling-vessel form and construction.  
+   ↳ **use for:** Celtic vessel mood
+20. [Cauldron - Wikipedia (overview, multiple historical images)](https://en.wikipedia.org/wiki/Cauldron) — *Wikipedia*. Encyclopedia article with photos of historical cauldrons - cast iron tripod pots, bronze vessels, cauldrons on hangers over fire. Range of dark metal forms, patinas and silhouettes; broad vessel-typology reference.  
+   ↳ **use for:** Celtic vessel mood
+21. [Category:Cauldrons - Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Cauldrons) — *Wikimedia Commons*. Master Commons category of cauldron photographs - cast iron, bronze, copper; reenactment cooking pots over fire, museum artefacts. Many real photos of dark metal vessels, firelight and patina. Large reference pool.  
+   ↳ **use for:** Celtic vessel mood
+22. [File:Brazier with copper cauldron and flaming wine.jpg - Wikimedia](https://commons.wikimedia.org/wiki/File:Brazier_with_copper_cauldron_and_flaming_wine.jpg) — *Wikimedia Commons*. Copper cauldron on a brazier with live blue-orange flames licking up the vessel. Warm fire glow on burnished copper, dark surround, real flame reflections on metal. Excellent firelit-vessel reference.  
+   ↳ **use for:** opening bubbling melt
+23. [Cauldron Pictures - Unsplash (free, ~92 photos)](https://unsplash.com/s/photos/cauldron) — *Unsplash*. Unsplash free-license cauldron collection: cast iron pots, cauldrons over campfire, dark moody product shots. Many show black iron against firelight or void backgrounds. CDN host (images.unsplash.com) blocked for direct fetch this session.  
+   ↳ **use for:** opening bubbling melt
+24. [Witch Cauldron Pictures - Unsplash (free)](https://unsplash.com/s/photos/witch-cauldron) — *Unsplash*. Unsplash free witch-cauldron set: black cast iron cauldrons, smoke, low-key dramatic lighting, some with glowing interiors. Useful moody real-photo base; direct image CDN blocked for fetch here.  
+   ↳ **use for:** opening bubbling melt
+25. [Iron Cauldron images - Pixabay (free, no attribution)](https://pixabay.com/images/search/iron%20cauldron/) — *Pixabay*. Pixabay royalty-free iron cauldron photos - cast iron pots, some over flame/embers, dark backgrounds. Black matte metal, warm fire accents. CDN host (cdn.pixabay.com) blocked for direct fetch this session.  
+   ↳ **use for:** opening bubbling melt
+26. [Cauldron / Halloween images - Pixabay (300+ free)](https://pixabay.com/images/search/cauldron/) — *Pixabay*. Large Pixabay free cauldron set including glowing/smoking cauldrons, cast iron pots and firelit scenes. Mix of real photos and renders; warm-on-black palette aligns with the forge mood.  
+   ↳ **use for:** opening bubbling melt
+27. [Cast Iron images - Pixabay (5,000+ free)](https://pixabay.com/images/search/cast%20iron/) — *Pixabay*. Pixabay cast iron material reference - matte black pitted iron surfaces, pots and pans, some firelit. Useful for the iron-vessel surface texture sitting in pure-void black.  
+   ↳ **use for:** Celtic vessel mood
+28. [Magical Cauldron Flames - StockCake (free)](https://stockcake.com/i/magical-cauldron-flames_1574339_1190012) — *StockCake*. Cauldron with flames rising from within - amber/orange firelight against a dark medieval setting. Glowing interior, smoke, warm-on-black. Strong reference for a vessel that is itself the light source.  
+   ↳ **use for:** opening bubbling melt
+29. [Glowing Molten Metal - StockCake (free)](https://stockcake.com/i/glowing-molten-metal_1071963_720645) — *StockCake*. A single piece of metal glowing intensely in darkness, throwing sparks in a forge. White-hot core fading to ember-orange, deep black surround. Direct reference for molten metal as the only light.  
+   ↳ **use for:** opening bubbling melt
+30. [Glowing Molten Iron - StockCake (free)](https://stockcake.com/i/glowing-molten-iron_405859_285739) — *StockCake*. Streams of molten iron cascading through darkness - liquid fire and rising steam. Intense orange-white liquid metal, void-black background, fluid surface highlights. Ideal for the bubbling/pouring molten pool.  
+   ↳ **use for:** opening bubbling melt
+31. [Cauldron Fire image set - StockCake (free)](https://stockcake.com/s/cauldron-fire) — *StockCake*. StockCake free gallery of cauldron-fire scenes: iron cauldrons lit by amber firelight, ethereal steam, dark medieval chambers, glowing potions. Consistent warm-glow-on-black mood matching the brief.  
+   ↳ **use for:** opening bubbling melt
+32. [Hanging Cauldron image set - StockCake](https://stockcake.com/s/hanging-cauldron) — *StockCake*. Cauldrons suspended on hangers/chains over fire. Black iron vessel silhouetted by flame below, sparks and smoke, dark ground. Classic over-the-fire cauldron staging reference.  
+   ↳ **use for:** opening bubbling melt
+33. [Crucible image set - StockCake](https://stockcake.com/s/crucible) — *StockCake*. Foundry crucibles holding glowing molten metal. White-hot liquid surface, ember rim, dark industrial surround. Adjacent vessel form (crucible = small cauldron) for the molten-pool look.  
+   ↳ **use for:** opening bubbling melt
+34. [Foundry Heat Glow - StockCake (free)](https://stockcake.com/i/foundry-heat-glow_119619_12340) — *StockCake*. Foundry interior bathed in molten-metal glow - intense orange light radiating into darkness, heat haze. Pure metal-as-light atmosphere; reference for ambient ember illumination of the forge chamber.  
+   ↳ **use for:** opening bubbling melt
+35. [Molten Metal Pouring - StockCake (free)](https://stockcake.com/i/molten-metal-pouring_215619_39763) — *StockCake*. Molten metal pouring from a ladle, sparks and fiery glow against dark foundry. Bright orange liquid stream, scattered sparks, black background. Reference for the metal releasing/pouring beat.  
+   ↳ **use for:** opening bubbling melt
+36. [Molten Metal Pour - StockCake (free)](https://stockcake.com/i/molten-metal-pour_191643_33837) — *StockCake*. Liquid metal pouring into a mold, vibrant fiery glow and igniting sparks in an industrial setting. Glowing orange flow, dramatic sparks, dark surround. Pour-of-the-metal motion reference.  
+   ↳ **use for:** opening bubbling melt
+37. [Traditional cauldron over open fire (reenactment) - Alamy](https://www.alamy.com/traditional-outdoor-cooking-with-a-large-metal-cauldron-over-an-open-fire-during-historical-reenactment-event-image705040423.html) — *Alamy*. Large metal cauldron cooking over an open fire at a historical reenactment. Soot-blackened vessel, live flames and embers beneath, warm firelight on iron. Authentic over-fire cauldron staging (watermarked preview).  
+   ↳ **use for:** opening bubbling melt
+38. [Ancient copper cauldron over fire (reenactment) - Alamy](https://www.alamy.com/ancient-copper-cauldron-burns-over-a-fire-during-a-medieval-historical-reenactment-image232892233.html) — *Alamy*. Copper cauldron burning over a fire at a medieval reenactment. Warm copper body glowing with flame reflection, dark smoky background. Real firelit ancient-vessel reference (watermarked preview).  
+   ↳ **use for:** Celtic vessel mood
+39. [Cauldron Fire - iStock (11,400+ stock photos)](https://www.istockphoto.com/photos/cauldron-fire) — *iStock*. iStock library of cauldron-over-fire photography: hot stews in dark iron pots on campfires, glowing embers, sparks. Many dark, warm-lit real shots of iron vessels above flame (watermarked previews).  
+   ↳ **use for:** opening bubbling melt
+40. [Cauldron Over Fire - iStock (132,100+ images)](https://www.istockphoto.com/photos/cauldron-over-fire) — *iStock*. Very large iStock set of cauldrons suspended/standing over fire. Black iron silhouettes against orange flame, ember beds, steam. Broad real-photo reference for the over-fire vessel mood (watermarked).  
+   ↳ **use for:** opening bubbling melt
+41. [Cast Iron Cauldron - iStock (990+ photos)](https://www.istockphoto.com/photos/cast-iron-cauldron) — *iStock*. iStock cast iron cauldron product and scene photography. Matte black pitted iron, three legs, bail handles; some on black, some firelit. Clean material/silhouette reference for the iron vessel (watermarked).  
+   ↳ **use for:** Celtic vessel mood
+42. [Cast Iron Cauldron Over Open Fire - Dreamstime](https://www.dreamstime.com/photos-images/cast-iron-cauldron-over-open-fire.html) — *Dreamstime*. Dreamstime gallery of cast iron cauldrons over open fire. Black iron vessels above live flame, glowing logs and embers, warm light on metal against darkness. Real over-fire staging (watermarked previews).  
+   ↳ **use for:** opening bubbling melt
+43. [Old Cauldron Over Open Fire - Dreamstime (123 photos)](https://www.dreamstime.com/photos-images/old-cauldron-over-open-fire.html) — *Dreamstime*. Weathered/old cauldrons over open fire. Aged soot-black iron, firelight and embers, dark rustic backdrops. Texture-rich ancient-feeling vessel-over-flame reference (watermarked previews).  
+   ↳ **use for:** Celtic vessel mood
+44. [Molten Metal Poured To Industrial Cauldron - Dreamstime (footage)](https://www.dreamstime.com/stock-footage-molten-metal-poured-to-industrial-cauldron-molten-steel-pouring-liquid-ladle-liquid-foundry-liquid-video88858434) — *Dreamstime*. Stock footage: molten steel poured into an industrial cauldron/ladle. Glowing white-orange liquid metal filling a large dark vessel, sparks and heat-glow. Direct reference for a cauldron brimming with living molten metal.  
+   ↳ **use for:** opening bubbling melt
+45. [Glowing Furnace Foundry Molten Metal - Shutterstock (footage)](https://www.shutterstock.com/video/clip-4001189857-molten-metal-pouring-furnace-foundry-glowing-liquid) — *Shutterstock*. Foundry footage of glowing molten metal pouring from a furnace. Liquid fire, intense orange-white glow, flying sparks, pitch-dark surround. Motion reference for the living molten pour (watermarked).  
+   ↳ **use for:** opening bubbling melt
+46. [Volcanic eruption / bubbling magma pool - Dreamstime](https://www.dreamstime.com/volcanic-eruption-glowing-orange-lava-flow-surrounded-pool-bubbling-magma-image273924914) — *Dreamstime*. Glowing orange lava flow around a pool of bubbling magma. Black basalt crust cracking to reveal molten orange beneath, bubbling surface, ember light. Nature reference for the bubbling-molten-pool surface and basalt-vs-glow contrast.  
+   ↳ **use for:** opening bubbling melt
+47. [Lava Lakes - Hawaii Volcanoes NPS](https://www.nps.gov/havo/learn/nature/lava-lakes.htm) — *U.S. National Park Service*. Public-domain NPS imagery of active lava lakes. Living molten surface with shifting black crust plates and incandescent orange-yellow cracks; the metal/rock is the only light at night. Prime bubbling-melt reference.  
+   ↳ **use for:** opening bubbling melt
+
+### Fantasy / Concept Art (62)
+
+1. [Concept Art - The Cauldron Witch, George McGill](https://www.artstation.com/artwork/rAD4dG) — *ArtStation (George McGill)*. Concept art of a witch and her cauldron - 'she's up to something terrible.' Dark moody palette, glowing cauldron contents lighting the scene from below, painterly smoke. Character-and-vessel mood, ominous firelight.  
+   ↳ **use for:** Celtic vessel mood
+2. [Witch, Leonid Koliagin](https://www.artstation.com/artwork/nQlozO) — *ArtStation (Leonid Koliagin)*. Witch concept with cauldron. Low-key lighting with the glowing brew as key light, cold shadows, eerie atmosphere. Strong example of a vessel as the scene's only light source.  
+   ↳ **use for:** opening bubbling melt
+3. [Stylized Witch Cauldron (game asset)](https://www.artstation.com/marketplace/p/P31Ar/stylized-witch-cauldron) — *ArtStation Marketplace*. Highly detailed stylized 3D cauldron, clean UVs, 4K textures. Cast iron tripod vessel, emissive glowing liquid, stylized PBR rendering. Reference for a clean game-ready cauldron form and emissive interior.  
+   ↳ **use for:** Celtic vessel mood
+4. [PBR Witch Cauldron Medieval Craft - Magic Potion Scene (3D)](https://www.artstation.com/marketplace/p/RxRnn/pbr-witch-cauldron-medieval-craft-art-magic-potion-scene-3d-model) — *ArtStation Marketplace*. PBR medieval witch cauldron magic-potion scene. Iron cauldron with glowing potion, candles and props, warm interior lighting. Whole staged 'vessel + glow + dark room' reference.  
+   ↳ **use for:** opening bubbling melt
+5. [Fantasy Cauldron, Nathaniel I. Cordero (dragon cauldron)](https://www.artstation.com/artwork/rAq9va) — *ArtStation (Nathaniel I. Cordero)*. Dragon-themed fantasy cauldron, modeled/textured at 2048 in Unreal (concept by Daphne Fontijn). Ornate cast metal with sculpted dragon motifs, glowing molten interior. Excellent ornamented-vessel + molten-glow reference.  
+   ↳ **use for:** Celtic vessel mood
+6. [Forging Fantasy, Conrad Justin](https://www.artstation.com/artwork/klNKal) — *ArtStation (Conrad Justin)*. Fantasy forge beneath an open sky (Blender 3.0). Glowing molten metal and embers, dark stone surround, warm forge light. Forge-atmosphere reference - metal as the dominant light source in a dark space.  
+   ↳ **use for:** opening bubbling melt
+7. [Medieval Fantasy Forge, Kyryll Borodenko](https://www.artstation.com/artwork/0nJvvG) — *ArtStation (Kyryll Borodenko)*. Game-ready medieval fantasy forge (UE4). Hot forge glow, dark timber/stone interior, ember particles. Reference for warm molten light bleeding across dark brutal architecture.  
+   ↳ **use for:** opening bubbling melt
+8. [Asian Fantasy Magical Forge, Haneol Lim](https://www.artstation.com/artwork/29yJyB) — *ArtStation (Haneol Lim)*. Magical blacksmith forge using secret family magic. Glowing molten metal, mystical light, dark workshop. Reference for enchanted-forge glow and the metal-is-magic mood.  
+   ↳ **use for:** opening bubbling melt
+9. [Forge Fantasy, Sergey Mauze](https://www.artstation.com/artwork/1lnB2) — *ArtStation (Sergey Mauze)*. Fantasy forge interior. Intense ember-orange light from the fire/molten metal, deep shadow, atmospheric haze. Strong warm-glow-in-darkness forge reference.  
+   ↳ **use for:** opening bubbling melt
+10. [The Pale Forge, Jon Comoglio](https://www.artstation.com/artwork/8NDbQ) — *ArtStation (Jon Comoglio)*. Moody fantasy forge environment. Restrained palette with molten/ember light as the focal glow against pale stone and shadow. Cinematic forge-chamber mood.  
+   ↳ **use for:** opening bubbling melt
+11. [Fantasy Blacksmith Forge Original, Diego Herrera Sosa](https://www.artstation.com/artwork/0nnVRy) — *ArtStation (Diego Herrera Sosa)*. Blacksmith forge built in 3DS Max, Corona render. Glowing coals/molten metal, dark workshop, warm rim light on iron tools. Reference for ember light grading and forge texture.  
+   ↳ **use for:** opening bubbling melt
+12. [Temple Forge, Travis Sindewald](https://www.artstation.com/artwork/bEVDk) — *ArtStation (Travis Sindewald)*. Real-time temple forge (UE4.19). Sacred stone architecture lit by molten/forge glow, dramatic shadow. Reference for a monumental, ritual forge space - giant-dwarf-forge scale.  
+   ↳ **use for:** opening bubbling melt
+13. [Blacksmith forge, ArtStation artwork L3q85k](https://www.artstation.com/artwork/L3q85k?album_id=8107095) — *ArtStation*. Blacksmith forge scene. Molten metal and fire as primary light, dark iron surroundings, ember particulates. Forge-glow and metal-light reference.  
+   ↳ **use for:** opening bubbling melt
+14. [Medieval Cauldron (game asset)](https://www.artstation.com/marketplace/p/GmgaM/medieval-cauldron) — *ArtStation Marketplace*. Medieval cauldron game asset. Cast iron/bronze vessel, PBR texturing, suitable for firelit or molten-fill setups. Clean ancient-cooking-vessel form reference.  
+   ↳ **use for:** Celtic vessel mood
+15. [Mine Cauldron 3D Model (game asset)](https://www.artstation.com/marketplace/p/kxj7q/mine-cauldron-3d-model) — *ArtStation Marketplace*. PBR game-ready cauldron, 2048 textures, low poly. Industrial dark-metal vessel form. Reference for an efficient, brutal cauldron mesh for real-time WebGL.  
+   ↳ **use for:** Celtic vessel mood
+16. [Cauldron - Caldeirao 3D model (with emission materials)](https://www.artstation.com/marketplace/p/N3o7/cauldron-caldeirao-3d-model) — *ArtStation Marketplace*. Detailed cauldron model (28,788 polys) with 3 emission materials. Iron vessel with glowing emissive contents/runes. Reference for emissive-interior + glowing-rune cauldron treatment.  
+   ↳ **use for:** opening bubbling melt
+17. [Chinese alchemy cauldron (game model)](https://www.artstation.com/artwork/29V6wB) — *ArtStation (artwork 29V6wB)*. Chinese alchemy cauldron (ding) game model. Ornate cast bronze tripod vessel with relief decoration; supports glowing interior. Ancient-alchemy-vessel ornament + form reference.  
+   ↳ **use for:** Celtic vessel mood
+18. [Making a Witch Cauldron in Blender and ZBrush, Alejandro Garcia](https://www.artstation.com/artwork/YeO486) — *ArtStation / 80 Level (Alejandro Garcia)*. Breakdown of a witch's cauldron made in Blender/ZBrush - sculpting, texturing, liquid and bubbles. Cast iron vessel with bubbling glowing brew; great reference for liquid-surface and bubble shading on a cauldron.  
+   ↳ **use for:** opening bubbling melt
+19. [Potion Witch Character Concept Art](https://www.artstation.com/artwork/mz0dk9) — *ArtStation (artwork mz0dk9)*. Potion-witch character concept who mixes potions. Glowing vials and brew casting colored light, dark moody rendering. Reference for emissive potion glow and dramatic up-light.  
+   ↳ **use for:** opening bubbling melt
+20. [BlockBench 'Icarus Uprising' cauldron, Homegaddiel](https://www.artstation.com/artwork/dKPReW) — *ArtStation (Homegaddiel)*. Voxel/blocky cauldron model. Stylized dark iron vessel with glowing molten/lava fill. Simple stylized-cauldron silhouette + emissive interior reference.  
+   ↳ **use for:** opening bubbling melt
+21. [Minecraft Cauldron rendition, Lycanstar Art](https://www.artstation.com/artwork/Vy9WNN) — *ArtStation (Lycanstar Art)*. Stylized cauldron render. Dark metal pot with glowing contents, clean lighting. Stylized vessel + glow reference for a more graphic treatment.  
+   ↳ **use for:** Celtic vessel mood
+22. [Molten Lava, Matthieu Gouault](https://www.artstation.com/artwork/6e2OO) — *ArtStation (Matthieu Gouault)*. Molten lava study. Incandescent orange-yellow flowing surface with cooling black crust, ember light. Material/shader reference for the bubbling molten pool surface.  
+   ↳ **use for:** opening bubbling melt
+23. [Glowing Molten Lava Rock (tile material) - Sketchfab Store](https://sketchfab.com/3d-models/glowing-molten-lava-rock-2k-tile-material-47bdc6a7f931406599429e3658a63df8) — *Sketchfab Store (EiGoS)*. Tileable molten lava rock material with glowmap. Black cracked basalt crust over glowing orange veins. Direct texture/shader reference for the bubbling-melt and basalt-with-glow look.  
+   ↳ **use for:** opening bubbling melt
+24. [Dark Fantasy environment, Magdalena Swiderska](https://www.artstation.com/artwork/OPxQb) — *ArtStation (Magdalena Swiderska)*. Dark fantasy environment. Deep shadow, restrained glow, ominous atmosphere. Mood reference for the green-black, near-void forge world surrounding a single light source.  
+   ↳ **use for:** Celtic vessel mood
+25. [Fantasy Environment concept art (WBzevD)](https://www.artstation.com/artwork/WBzevD) — *ArtStation*. Fantasy environment concept. Atmospheric lighting, painterly depth. General mood/lighting reference for staging a vessel within a brooding fantasy space.  
+   ↳ **use for:** Celtic vessel mood
+26. [Dark fantasy concept art (NGvm5q)](https://www.artstation.com/artwork/NGvm5q) — *ArtStation*. Dark fantasy concept piece. Low-key palette with a focal glow, heavy shadow. Reference for the contrast of a single warm light against pervasive darkness.  
+   ↳ **use for:** opening bubbling melt
+27. [Dark Fantasy Environment, Gerrin Tramis](https://gtram.artstation.com/projects/mqDAB8) — *ArtStation (Gerrin Tramis)*. Dark fantasy environment project. Moody, atmospheric, restrained lighting with ember/fire accents. Mood and grade reference for the forge-world darkness.  
+   ↳ **use for:** Celtic vessel mood
+28. [Lava Environment Concept Paint, misi006](https://www.deviantart.com/misi006/art/Lava-Environment-Concept-Paint-214012513) — *DeviantArt (misi006)*. Lava environment concept painting. Rivers of glowing orange lava through black rock, ember haze, dramatic dark sky. Reference for molten channels and the basalt-vs-glow palette of the pour.  
+   ↳ **use for:** opening bubbling melt
+29. [Dark Fantasy environment, Pumax001](https://www.deviantart.com/pumax001/art/Dark-Fantasy-environment-613684726) — *DeviantArt (Pumax001)*. Dark fantasy environment painting. Brooding shadowed setting with focal warm light. Mood reference for the oppressive darkness around the forge.  
+   ↳ **use for:** Celtic vessel mood
+30. [Witch's Cauldron Fantasy, VGe90](https://www.deviantart.com/vge90/art/Witch-s-Cauldron-Fantasy-1255111008) — *DeviantArt (VGe90)*. Witch's cauldron fantasy (collage/manipulation). Cast iron cauldron with glowing magical contents, smoky dark scene, eerie up-light. Vessel-as-light mood reference.  
+   ↳ **use for:** opening bubbling melt
+31. [witch potion cauldron, azraqteam](https://www.deviantart.com/azraqteam/art/witch-potion-cauldron-1249074565) — *DeviantArt (azraqteam)*. Witch potion cauldron artwork. Bubbling brew glowing in a dark iron pot, colored vapor, low-key scene. Reference for emissive brew and rising magical steam.  
+   ↳ **use for:** opening bubbling melt
+32. [Potions tag gallery - DeviantArt](https://www.deviantart.com/tag/potions) — *DeviantArt*. Curated DeviantArt potions tag - many glowing-cauldron and potion concept pieces. Recurring warm/colored emissive light in dark settings. Broad fantasy-glow reference pool.  
+   ↳ **use for:** opening bubbling melt
+33. [Dark fantasy tag gallery - DeviantArt](https://www.deviantart.com/tag/darkfantasy) — *DeviantArt*. DeviantArt dark-fantasy tag. Deep shadow, ember/molten accents, ominous architecture. Mood and lighting reference pool for the brutal, near-void forge world.  
+   ↳ **use for:** Celtic vessel mood
+34. [Magic Cauldron - Pinterest idea board](https://www.pinterest.com/ideas/magic-cauldron/900521981385/) — *Pinterest*. Pinterest collection of magic cauldrons. Iron vessels with glowing potions, bubbling brews, smoke; many warm-on-dark fantasy renders and paintings. Wide concept-art reference pool.  
+   ↳ **use for:** opening bubbling melt
+35. [Witch Cauldron - Pinterest idea board](https://www.pinterest.com/ideas/witch-cauldron/897553561919/) — *Pinterest*. Pinterest witch-cauldron board. Cast iron cauldrons, glowing green/orange brews, candlelit and firelit scenes. Strong vessel-and-glow reference variety.  
+   ↳ **use for:** opening bubbling melt
+36. [Cauldron Fantasy Art - Pinterest idea board](https://www.pinterest.com/ideas/cauldron-fantasy-art/929982743909/) — *Pinterest*. Pinterest cauldron fantasy-art board. Painterly and 3D cauldrons with luminous contents, dark backdrops, mystical light. Concept reference for glowing-vessel illustration.  
+   ↳ **use for:** opening bubbling melt
+37. [Cauldron Art - Pinterest board (bellarylee)](https://www.pinterest.com/bellarylee/cauldron-art/) — *Pinterest*. 53 cauldron-art ideas. Halloween/witch cauldrons, glowing brews, flame and smoke. Mixed illustration/render reference for vessel + emissive glow.  
+   ↳ **use for:** opening bubbling melt
+38. [Witch Cauldron Art - Pinterest idea board](https://www.pinterest.com/ideas/witch-cauldron-art/954573499317/) — *Pinterest*. Pinterest witch-cauldron-art board. Cauldrons emitting sparkling luminous swirls that light the scene, dark trees, green moons. Reference for radiant brew lighting a dark space.  
+   ↳ **use for:** opening bubbling melt
+39. [Witch Lair Concept Art - Pinterest idea board](https://www.pinterest.com/ideas/witch-lair-concept-art/909144324498/) — *Pinterest*. Witch-lair concept board: cauldron rooms, glowing furnace interiors, dark cluttered chambers. Reference for staging a glowing cauldron within a dim, characterful interior.  
+   ↳ **use for:** Celtic vessel mood
+40. [Witch Hut Interior Concept Art - Pinterest idea board](https://www.pinterest.com/ideas/witch-hut-interior-concept-art/913929123948/) — *Pinterest*. Witch-hut interior concept board. Cauldron over crackling fire in a dim midnight kitchen, hanging ingredients, warm firelight pockets. Reference for intimate firelit vessel staging.  
+   ↳ **use for:** opening bubbling melt
+41. [Magic Potions: Concept Art Prop Gallery - Concept Art Empire](https://conceptartempire.com/magic-potion-art/) — *Concept Art Empire*. Gallery of potion/alchemy prop concept art for games. Glowing elixirs, alchemical vessels, mystical light. Reference for emissive liquid color and alchemical mood.  
+   ↳ **use for:** opening bubbling melt
+42. [Fiery Volcano Environment Concept Art Gallery - Concept Art Empire](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Volcano environment concept gallery. Molten lava, glowing fissures in black rock, ash and ember atmosphere. Reference for the molten-channel pour and basalt-vs-incandescence contrast.  
+   ↳ **use for:** opening bubbling melt
+43. [Magic Potions / Potions concept - Deep Dream Generator tag](https://deepdreamgenerator.com/tags/potions) — *Deep Dream Generator*. Generated potions/cauldron imagery. Bubbling cauldrons, glowing potions, smoke, dark moody fantasy framing. Reference pool for emissive brew and atmosphere (AI-generated).  
+   ↳ **use for:** opening bubbling melt
+44. [Magic: the Gathering - Molten Duplication, Justyna Dura](https://www.artstation.com/prints/art_print/KeP8V/magic-the-gathering-molten-duplication) — *ArtStation (Justyna Dura)*. MTG illustration with molten metal duplication. Glowing liquid metal, ember sparks, dark dramatic composition. Reference for liquid-metal light and high-contrast molten staging.  
+   ↳ **use for:** opening bubbling melt
+45. [Creating a Stylized Witch Hut Interior in UE4 - 80 Level](https://80.lv/articles/creating-a-stylized-witch-hut-interior-in-ue4) — *80 Level*. Production article: stylized witch-hut interior with a cauldron room in UE4. Glowing cauldron as key light, stylized dark wood/stone, emissive brew. Reference for cauldron-room lighting and emissive setup.  
+   ↳ **use for:** opening bubbling melt
+46. [Cauldron Fantasy Art / Magic Cauldron - Freepik (glowing potion)](https://www.freepik.com/vectors/witch-brewing-cauldron-with-glowing-potion) — *Freepik*. Freepik 'witch brewing cauldron with glowing potion' set. Black cauldron, vivid glowing potion casting light up and out, smoke. Reference for emissive-brew color and up-light (mixed vector/illustration).  
+   ↳ **use for:** opening bubbling melt
+47. [Cauldron Fire stock illustrations - Vecteezy](https://www.vecteezy.com/free-photos/cauldron-fire) — *Vecteezy*. Vecteezy cauldron-fire image/illustration set. Iron cauldrons over flame, glowing contents, dark backgrounds. Mixed real/illustrated reference for over-fire vessel staging.  
+   ↳ **use for:** opening bubbling melt
+48. [The Cauldron - Calamity Mod Wiki (bubbling lava weapon)](https://calamitymod.wiki.gg/wiki/The_Cauldron) — *Calamity Mod Wiki*. Game item 'The Cauldron' that lobs gravity-affected lava bombs with a bubbling effect. Pixel/game-art cauldron spewing molten lava. Reference for a cauldron actively brimming/spilling molten material.  
+   ↳ **use for:** opening bubbling melt
+49. [Dark Fantasy Still Life with Cauldron and Potions - Dreamstime](https://www.dreamstime.com/dark-fantasy-still-life-cauldron-potions-image382114816) — *Dreamstime*. Dark fantasy still life: cauldron with potions. Black iron vessel, glowing brew, scattered alchemical props in deep shadow. Moody vessel-and-glow staging reference (watermarked).  
+   ↳ **use for:** opening bubbling melt
+50. [Witch Brewing Potion - StockCake (free)](https://stockcake.com/i/witch-brewing-potion_674196_1146941) — *StockCake*. Witch brewing a potion over a cauldron. Glowing brew under-lighting the figure, dark surround, rising vapor. Reference for vessel-as-key-light character staging.  
+   ↳ **use for:** opening bubbling melt
+51. [Witch Lair / Fantasy Caves concept - Pinterest (Underdark)](https://www.pinterest.com/questinggm/underdark/) — *Pinterest*. Underdark concept board - dark caverns lit by glowing crystals/lava/pools. Black rock, focal emissive light, deep void. Reference for a molten light source within pure-dark cave architecture.  
+   ↳ **use for:** opening bubbling melt
+52. [Fantasy Caves concept - Pinterest board](https://www.pinterest.com/tom4611/fantasy-caves/) — *Pinterest*. Fantasy caves board. Dark cavernous spaces lit by lava, embers and glowing pools; basalt-like rock. Reference for the cavern stage around the molten pool and channels.  
+   ↳ **use for:** opening bubbling melt
+53. [Alchemy Lab concept - Pinterest board (javertprufrock)](https://www.pinterest.com/javertprufrock/alchemy-lab/) — *Pinterest*. Alchemy-lab concept board. Cauldrons, glowing apparatus, potion shops, dim characterful interiors. Reference for alchemical-vessel context and warm emissive accents in darkness.  
+   ↳ **use for:** Celtic vessel mood
+54. [The Dagda and Cauldron of Plenty - Celtic Mythology art (Etsy)](https://www.etsy.com/listing/1703359087/the-dagda-and-cauldron-of-plenty-celtic) — *Etsy*. Illustration of the Dagda and his Cauldron of Plenty (Tuatha De Danann). Mythic Celtic figure with the great cauldron, ornamental Celtic styling. Reference for the Cauldron-of-the-Dagda subject and Celtic-myth vessel mood.  
+   ↳ **use for:** Celtic vessel mood
+55. [Celtic Druid King Dagda Statue](https://www.medievalcollectibles.com/product/celtic-druid-king-dagda-statue/) — *Medieval Collectibles*. Sculpted statue of the Dagda, chief Celtic deity associated with the cauldron. Bronze-toned figure, Celtic robes and staff. Reference for the Dagda character and Celtic-deity form tied to the cauldron myth.  
+   ↳ **use for:** Celtic vessel mood
+56. [Dagda's Cauldron - mythological object feature (Connolly Cove)](https://www.connollycove.com/dagdas-cauldron-mythological-objects/) — *Connolly Cove*. Editorial feature on Dagda's Cauldron (the coire ansic, the un-dry cauldron), one of the Four Treasures. Celtic illustration/imagery of the inexhaustible cauldron. Lore + mood reference for the sacred Celtic vessel.  
+   ↳ **use for:** Celtic vessel mood
+57. [The Evolution of the Cauldron into a Grail - Medium (Colcombe)](https://medium.com/i-m-h-o/the-evolution-of-the-cauldron-into-a-grail-in-celtic-mythology-a96a41604e9f) — *Medium*. Essay tracing the Celtic cauldron-to-grail mythology with accompanying imagery. Sacred vessel symbolism, Celtic-myth framing. Reference for the cauldron's mythic gravitas and ornament associations.  
+   ↳ **use for:** Celtic vessel mood
+58. [Cauldrons in art - Wikimedia Commons category](https://commons.wikimedia.org/wiki/Category:Cauldrons_in_art) — *Wikimedia Commons*. Commons category of cauldrons depicted in historical art - paintings, woodcuts, engravings of witches' and mythic cauldrons. Public-domain artistic vessel imagery and traditional ornament.  
+   ↳ **use for:** Celtic vessel mood
+59. [File:Witches add ingredients to a cauldron.JPG - Wikimedia](https://commons.wikimedia.org/wiki/File:Witches_add_ingredients_to_a_cauldron.JPG) — *Wikimedia Commons*. 15th-century woodcut of witches adding ingredients to a cauldron. Stark black-line engraving, large tripod cauldron, ritual figures. Historical/public-domain witch-cauldron imagery and silhouette.  
+   ↳ **use for:** Celtic vessel mood
+60. [Witchy Cauldron Flame Aesthetic posters - TeePublic](https://www.teepublic.com/posters-and-art/witchy-cauldron-flame-aesthetic) — *TeePublic*. Witchy cauldron-flame aesthetic art prints. Stylized cauldrons with flame/glow, high-contrast graphic treatments on dark grounds. Reference for bold graphic cauldron + flame iconography.  
+   ↳ **use for:** opening bubbling melt
+61. [Lava Environment / Volcanic concept - Pinterest board (franktl)](https://www.pinterest.com/franktl/volcanic/) — *Pinterest*. Volcanic fantasy-landscape board. Lava flows, glowing magma, black volcanic rock, ember skies. Reference for the molten-channel pour and basalt-and-glow palette of the home journey.  
+   ↳ **use for:** opening bubbling melt
+62. [30 Best Dark Fantasy Concept Art - Kreafolk](https://kreafolk.com/blogs/inspirations/dark-fantasy-concept-art) — *Kreafolk*. Curated dark-fantasy concept art roundup. Brooding palettes, focal ember/fire glow, monumental dark architecture. Mood and lighting reference for the overall forge-world tone.  
+   ↳ **use for:** Celtic vessel mood
+
+
+## Casting Molds
+
+### Real (39)
+
+1. [Detailed view of glowing molten metal being poured into a mold (metallurgical process)](https://www.mining.com/web/column-raw-materials-squeeze-jolts-copper-out-of-its-torpor/detailed-view-of-a-glowing-molten-metal-being-poured-into-a-mold-demonstrating-metallurgical-processes/) — *MINING.COM*. Tight close-up: a ribbon of incandescent yellow-white molten metal arcs from a ladle into a dark mold; deep shadow surround, bright core falling off to ember-orange at the edges. The brightest light source IS the metal — exactly the world rule. High contrast, gritty industrial texture.  
+   ↳ **use for:** LetterCast finale — the moment the bright pour-stream hits the negative form; reference for how the metal self-illuminates against pure-void black.
+2. [Molten metal being poured into mold at foundry, glowing hot, evening](https://www.dreamstime.com/molten-metal-being-poured-mold-foundry-glowing-hot-evening-molten-metal-being-carefully-poured-crucible-image319571498) — *Dreamstime*. Crucible tipping a controlled stream of orange-gold molten metal into a mold at dusk; warm glow pools on the surrounding sand/floor, cool blue evening shadows behind. Color contrast of ember-orange against cold steel-blue gloom.  
+   ↳ **use for:** How molten fills a form — controlled, single-stream pour into a cavity; mood reference (warm fire vs cold dark) for the cast finale.
+3. [Red hot molten gold being poured into ingot mold](https://www.dreamstime.com/red-hot-molten-gold-being-poured-ingot-mold-image221254114) — *Dreamstime*. Liquid gold, red-hot at the pour and brightening to white-gold where thinnest, streaming into a rectangular ingot mold. The metal reads as the gold/white-hot palette (#FFB24D / #FFF2E0). Smelter sparks, dark background.  
+   ↳ **use for:** Direct color match for the white-gold 'divine fire' that never cools; ingot mold = simplest negative-form analogue to a letter cavity.
+4. [Molten ingot casting in a busy steel mill, illuminated by light and smoke](https://www.dreamstime.com/molten-ingot-casting-busy-steel-mill-illuminated-light-smoke-industrial-operations-high-temperature-flows-image354497124) — *Dreamstime*. Large-scale ingot casting; high-temperature flows of molten metal light up smoke and the mill interior with orange. Atmosphere of glowing haze around a bright molten source — scale and drama.  
+   ↳ **use for:** Establishing-scale reference for the finale's pour into the giant GAELWORX letterforms; glowing smoke/atmosphere lit only by the metal.
+5. [330+ Ingot Mould stock photos collection](https://www.istockphoto.com/photos/ingot-mould) — *iStock*. Gallery of ingot-mould photographs: empty cast-iron rectangular molds, rows of molds, and molds mid-pour with glowing metal. Hard-edged negative forms, dark iron, occasional incandescent fill.  
+   ↳ **use for:** Negative-form / mold-cavity geometry library; how a hard rectangular cavity reads empty vs filled with glowing metal.
+6. [Foundry workers pouring molten metal into an ingot (T810/0162)](https://www.sciencephoto.com/media/356587/view/foundry-workers-pouring-molten-metal-into-an-ingot) — *Science Photo Library*. Two silvered-suit foundry workers tip a furnace of molten metal into an ingot mould; reflective heat-protective gear glows orange from the pour. Documentary realism, the molten metal as sole warm light.  
+   ↳ **use for:** Human-scale pour ritual; reference for the deliberate, controlled act of filling a form — mood for the 'cast' beat.
+7. [5,200+ Sand Casting stock photos & royalty-free images](https://www.istockphoto.com/photos/sand-casting) — *iStock*. Broad sand-casting set: green-sand molds split into cope and drag, patterns, casting cavities, sprues/runners, and molten pours into sand. Matte grey-brown sand, sharp cavity impressions.  
+   ↳ **use for:** Negative-form / casting-cavity reference — how the GAELWORX letters would exist as a hollow in a sand bed before the metal arrives.
+8. [5,200+ Foundry Casting stock photos & royalty-free images](https://www.istockphoto.com/photos/foundry-casting) — *iStock*. Foundry casting gallery: ladle pours, molds being filled, glowing castings cooling, sparks against dark interiors. Ember-orange and white-hot metal dominating low-key industrial scenes.  
+   ↳ **use for:** General pour-into-mold and cooling-casting reference; ember/void contrast for the finale environment.
+9. [1,000+ Molten Aluminum stock photos & royalty-free images](https://www.istockphoto.com/photos/molten-aluminum) — *iStock*. Molten aluminum pours and molds; bright silver-white liquid metal, lighter and cooler-toned than iron, filling cavities with reflective shimmer. Clean glowing surfaces.  
+   ↳ **use for:** Reference for the bright, almost-white liquid metal surface (closer to #FFF2E0) as it fills a cavity — the divine-fire highlight tone.
+10. [4,000+ Pouring Molten Metal stock photos & royalty-free images](https://www.istockphoto.com/photos/pouring-molten-metal) — *iStock*. Dedicated pouring-molten-metal collection: streams from ladles, splash/spark patterns, glowing fill into molds, often isolated on black. The pour-stream as a bright vertical/diagonal light line.  
+   ↳ **use for:** How molten fills a form — the falling stream and the spark burst at impact; isolated-on-black framing matches the void aesthetic.
+11. [600+ Ingot Casting stock photos & royalty-free images](https://www.istockphoto.com/photos/ingot-casting) — *iStock*. Ingot-casting set: molten metal filling rectangular molds, freshly cast glowing ingots, cooling bars dimming from white-hot to red to dark grey iron. Visible cooling gradient.  
+   ↳ **use for:** Cooling gradient reference — the finale where metal cools to forged iron EXCEPT the A and E; shows the white-hot-to-iron transition on a cast form.
+12. [363 Sand Mold stock photos, high-res pictures](https://www.gettyimages.com/photos/sand-mold) — *Getty Images*. Sand-mold photography: open molds revealing the carved negative cavity, cope/drag halves, patterns pressed into sand. Fine matte sand texture, crisp imprinted detail.  
+   ↳ **use for:** Casting-cavity detail — the texture and edge quality of a negative form carved to receive metal (sand grain on letter walls).
+13. [2,625 Foundry Mold stock photos, high-res pictures](https://www.gettyimages.com/photos/foundry-mold) — *Getty Images*. Foundry molds and the casting/pour process; molds clamped and weighted, molten metal entering gating systems, glowing risers. Heavy iron tooling, dark foundry ambience.  
+   ↳ **use for:** Negative-form / gating reference for how molten enters and fills a closed mold; the engineered, brutalist hardware around the cavity.
+14. [264 Gold Ingot Mold stock photos, high-res pictures](https://www.gettyimages.com/photos/gold-ingot-mold) — *Getty Images*. Gold ingot molds, empty and mid-pour; warm graphite/iron molds receiving glowing gold. Gold palette, reflective liquid surface, hard rectangular cavity.  
+   ↳ **use for:** White-gold pour-into-cavity color/material match; clean negative form for the letter-cast analogue.
+15. [Sand Casting — process imagery and explanation](https://www.reliance-foundry.com/blog/sand-casting) — *Reliance Foundry*. Illustrated foundry article: cope-and-drag diagrams, sprue/runner/gate cavity layout, photos of molten pours into sand molds and resulting castings. Clear technical depiction of the negative form.  
+   ↳ **use for:** Understanding cavity + gating so the LetterCast finale reads as a believable pour into a real negative form, not a vague glow.
+16. [Metal Sand Casting Process — Step by Step](https://ermak.com/metal-sand-casting-process-step-by-step/) — *Ermak Foundry & Machining*. Step-by-step photos: pattern, packed sand mold, the open casting cavity, molten pour, shakeout of the glowing casting. Shows the empty letter-like cavity then the filled, glowing result.  
+   ↳ **use for:** Beat-by-beat reference for the cast sequence (empty form -> bright fill -> cooling casting) to time the finale.
+17. [What Is The Metal Solidification Process?](https://ermak.com/metal-solidification-process/) — *Ermak Foundry & Machining*. Solidification explainer with imagery of metal cooling in molds — chill zone at the cavity wall, the surface skinning over and darkening from white-hot to grey iron.  
+   ↳ **use for:** Cooling-to-iron physics for the finale — how the cast GAELWORX letters skin over and darken while the A/E stay molten-bright.
+18. [Type casting (typography) — overview and process imagery](https://en.wikipedia.org/wiki/Type_casting_(typography)) — *Wikipedia*. Casting individual letter 'sorts' by pouring molten type-metal into brass matrices (the negative letter mold). Macro images of matrices, hand molds, and freshly cast metal letters — directly LETTERS cast from molten metal.  
+   ↳ **use for:** THE most on-point real reference for LetterCast: molten metal poured into a letter-shaped negative to produce a solid metal letter.
+19. [Hot metal typesetting — Linotype/Monotype letter casting](https://en.wikipedia.org/wiki/Hot_metal_typesetting) — *Wikipedia*. Machines casting type from molten lead-tin-antimony alloy; images of slugs, matrices, and the moment crisp new metal letters emerge from molds. Shiny silver freshly-cast letterforms.  
+   ↳ **use for:** Mechanism and look of letters being born from molten metal in a mold — informs the GAELWORX cast finale and the 'fresh metal letter' surface.
+20. [Type metal — alloy and cast-letter reference](https://en.wikipedia.org/wiki/Type_metal) — *Wikipedia*. Cast metal type close-ups: rows of shining and tarnished lead-alloy letters, the as-cast surface and sharp serif edges. Material reference for cast letterforms.  
+   ↳ **use for:** Surface/material reference for the GAELWORX letters once cast and cooled to dark iron — sharpness of cast letter edges.
+21. [Matrix (printing) — the negative letter mold](https://en.wikipedia.org/wiki/Matrix_(printing)) — *Wikipedia*. The matrix: the brass/nickel negative impression of a single glyph used to cast a letter. Macro photos of the recessed letter cavity and gleaming nickel-plated matrices.  
+   ↳ **use for:** Direct negative-form reference for a single letter cavity — how the GAELWORX letters exist as a hollow before the pour.
+22. [Type Founding — casting sorts (process documentation)](https://letterpresscommons.com/type-founding/) — *Letterpress Commons*. Documentary of type founding: matrices installed in hand molds, molten metal ladled in, letters knocked out and dressed. Working-foundry photography of letter casting.  
+   ↳ **use for:** Practical letter-cast workflow; the human gesture of pouring molten metal into a letter mold for the finale's ritual feel.
+23. [Casting Metal Letters — sand-cast metal letterforms](http://timwhittondesign.blogspot.com/2011/03/casting-metal-letters.html) — *Tim Whitton Design (blog)*. Hands-on project: sand molds carved with letter shapes, molten metal poured in until it overflows the top, molds split to reveal shining cast metal letters. Real letters cast in a sand negative.  
+   ↳ **use for:** Closest hobby analogue to the GAELWORX finale — letters as carved sand cavities, then a glowing pour, then the revealed cast letterform.
+24. [Lost-wax casting — pouring bronze into a shell mold](https://en.wikipedia.org/wiki/Lost-wax_casting) — *Wikipedia*. Ceramic-shell molds preheated and filled with molten bronze; images of the glowing pour into a buried form and the recovered casting. Warm glow inside a sand pit, dark surround.  
+   ↳ **use for:** How molten fills a complex 3D form (not just a flat ingot) — relevant to filling sculpted 3D letterforms in the finale.
+25. [Free Molten Metal Pour image](https://stockcake.com/i/molten-metal-pour_1573586_1189380) — *StockCake*. Protected hands pour a glowing stream of molten metal into a casting mold as smoke rises in a dark foundry. Ember-orange core, smoke catching the light, deep black surround. Free to download.  
+   ↳ **use for:** How molten fills a form — clean single-stream pour into a mold against darkness; close to the void+fire palette.
+26. [Free Molten Steel Pour image (foundry/steel)](https://stockcake.com/i/vertido-de-acero-fundido_2801626_1564782) — *StockCake*. Molten steel pours in a foundry; bright white-orange liquid, showering sparks, dark steel structure behind. The metal is the only light source. Free to download.  
+   ↳ **use for:** Spark-burst and bright-stream reference at the moment of pour; white-hot core for the divine-fire tone.
+27. [Free Molten metal pouring image](https://stockcake.com/i/molten-metal-pouring_215619_39763) — *StockCake*. A controlled molten-metal pour, glowing orange ribbon descending, low-key dark environment. Simple, graphic pour-stream isolated by shadow. Free to download.  
+   ↳ **use for:** Minimal pour-stream silhouette against void — the descending metal that will fill the letter cavities.
+28. [Free Molten Metal Pour image (variant)](https://stockcake.com/i/molten-metal-pour_191643_33837) — *StockCake*. Worker in protective gear pouring glowing molten metal into a mold; intense orange light on the apron and visor, surrounding gloom. Free to download.  
+   ↳ **use for:** Mood + light-on-surroundings reference: how the molten pour throws warm light onto everything near the form.
+29. [Free Foundry Heat Glow image](https://stockcake.com/i/foundry-heat-glow_119619_12340) — *StockCake*. A foundry pit/crucible glowing intensely with heat, orange-to-white core fading into smoke and shadow. Pure heat-glow texture. Free to download.  
+   ↳ **use for:** Texture of incandescent metal/heat haze for the molten-channel and the glowing cavity in the finale.
+30. [Free Crucible stock images collection](https://stockcake.com/s/crucible) — *StockCake*. Crucibles of glowing molten metal being tipped into molds; workers in protective gear, dramatic orange light against dark refinery interiors. Free to download.  
+   ↳ **use for:** Vessel-to-mold pour reference; the source vessel that delivers metal into the cavity in the finale.
+31. [Free Ingot stock images collection](https://stockcake.com/s/ingot) — *StockCake*. Ingot molds and freshly cast ingots — glowing bronze/copper streams filling rectangular cavities, cooling bars dimming to dull metal. Free to download.  
+   ↳ **use for:** Negative-form fill + cooling reference for the simplest cast-form (ingot) analogue to a letter.
+32. [Free Molten Metal stock images collection](https://stockcake.com/s/molten-metal/2) — *StockCake*. Assorted molten-metal scenes: pours, glowing pools, foundry workers, sparks against dark backgrounds. Ember/white-hot palette throughout. Free to download.  
+   ↳ **use for:** General molten-metal light/texture library for the channel and the cast finale.
+33. [10,000+ Free Molten Metal & Foundry images](https://pixabay.com/images/search/molten%20metal/) — *Pixabay*. Large royalty-free (no-attribution) library of molten metal and foundry photos — pours, ladles, molds, glowing castings, sparks. Wide range of framings and palettes.  
+   ↳ **use for:** Bulk royalty-free source for pour-into-mold and glowing-metal plates usable directly in moodboards/textures.
+34. [8,000+ Free Molten Steel & Foundry images](https://pixabay.com/images/search/molten%20steel/) — *Pixabay*. Royalty-free molten steel imagery: bright white-orange liquid, casting and pouring, dark mill interiors, spark showers. The metal as the only light.  
+   ↳ **use for:** White-hot steel pour reference for the divine-fire brightness and the spark burst at cavity impact.
+35. [Foundry — free images on Unsplash](https://unsplash.com/s/photos/foundry) — *Unsplash*. Free, commercial-use foundry photography: furnaces, ladles, molten pours, molds, glowing castings. High-quality, often moody low-key lighting.  
+   ↳ **use for:** Royalty-free hero plates for the molten channel and the cast environment; foundry mood reference.
+36. [Gold Ingot — free images on Unsplash](https://unsplash.com/s/photos/gold-ingot) — *Unsplash*. Free gold ingot photography: cast gold bars, reflective warm-gold surfaces, occasional mold context. Clean #FFB24D-range gold.  
+   ↳ **use for:** Cast-gold material/color reference for the white-gold A and E once solidified yet still 'divine'.
+37. [Gold Bars — free stock photos on Pexels](https://www.pexels.com/search/gold%20bars/) — *Pexels*. Free gold-bar photography, including cast/ingot forms with warm reflective surfaces; some molds and stacks. Gold/white-gold palette.  
+   ↳ **use for:** Color and reflective-surface reference for the cooled-but-glowing gold letterforms (A/E).
+38. [Foundry Sand Casting Process — step-by-step photos](https://www.patriotfoundry.com/news/foundry-sand-casting-process-steps/) — *Patriot Foundry*. Documentary process photos: ramming sand, lifting the pattern to reveal the cavity, the molten pour, and shakeout of the glowing casting. Clear empty-cavity-to-filled progression.  
+   ↳ **use for:** Reference for the negative-form reveal and pour timing in the LetterCast finale.
+39. [Foundry 101 — Understanding Molds and Cores in Sand Casting](https://badgeralloys.com/news/foundry-101-understanding-molds-and-cores-in-the-sand-casting-process/) — *Badger Alloys*. Mold-and-core explainer with imagery of cavities, cores, cope/drag, and gating that shapes the metal. Shows the engineered hollow that defines a casting.  
+   ↳ **use for:** Negative-form / core understanding so sculpted GAELWORX letter cavities read as real, engineered molds.
+
+### Fantasy / Concept Art (61)
+
+1. [Magic: the Gathering — Molten Duplication](https://www.artstation.com/artwork/LRYxnv) — *ArtStation (Justyna Dura)*. Card art: an object being copied through molten metal — glowing liquid metal flowing and re-forming a shape, intense ember-orange and white-gold highlights against dark. Magical molten duplication / casting.  
+   ↳ **use for:** Concept reference for metal flowing into and taking the form of an object — the magical version of casting a shape from molten metal.
+2. [Magic: the Gathering — Molten Duplication (print page)](https://www.artstation.com/prints/art_print/KeP8V/magic-the-gathering-molten-duplication) — *ArtStation (Justyna Dura)*. Higher-detail print listing of the molten duplication artwork; emphasizes the glowing molten material reconstituting an object. Fiery palette, dark backdrop.  
+   ↳ **use for:** Detail study of glowing-liquid-metal-forming-a-shape for the LetterCast morph from liquid to solid letter.
+3. [Mold (sci-fi concept art)](https://www.artstation.com/artwork/5vwYGP) — *ArtStation (Sergei Demidov)*. Personal sci-fi project concept titled 'Mold' — industrial casting/forming machinery and forms. Hard-surface, mechanical, moody lighting.  
+   ↳ **use for:** Brutalist mold/casting-apparatus design language for the hardware around the GAELWORX letter mold.
+4. [Molten Core Key Art (Warcraft Rumble)](https://www.artstation.com/artwork/1xd3d3) — *ArtStation (David Sladek)*. Key art of a molten core environment: rivers and pools of glowing lava/metal, fiery cracks, dark rock. Strong ember-orange against black-rock.  
+   ↳ **use for:** Molten-channel + glowing-fissure reference; the fiery river that feeds the cast in the journey.
+5. [Molten Dwarf — guardian of the Sacred Forge / Primal Flame](https://www.artstation.com/artwork/Ye18Rw) — *ArtStation (Domenico 'Domeddi' Esposito)*. Character of a dwarf infused with molten metal/primal fire — glowing veins of liquid fire through dark stone-like body. White-hot core, ember cracks, dark mass.  
+   ↳ **use for:** The 'glowing fire through dark iron' look — directly the finale state where letters cool to iron but the A/E hold divine fire.
+6. [Molten Metal (concept/3D)](https://www.artstation.com/artwork/6Nkovw) — *ArtStation (Aalireza Hosseini)*. Study of molten metal — glowing liquid surface with bright crust forming, incandescent flow. Realistic ember-to-white gradient.  
+   ↳ **use for:** Surface look of liquid metal as it fills and crusts over a form — the molten material in the cavity.
+7. [Dwarven Forge](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation (Louis-Philippe Ross Boivin)*. UE5 dwarven blacksmith forge inspired by LOTR; molten channels, glowing metal, hard stone-and-iron architecture, atmospheric warm light against dark rock.  
+   ↳ **use for:** Giant-dwarf-forge environment reference (the GAELWORX world) including molten flow feeding work areas.
+8. [Dwarven Forge (concept)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven forge concept: vast subterranean foundry hall, molten metal runs, Celtic/dwarven stonework, ember glow piercing deep shadow.  
+   ↳ **use for:** Stage reference for the molten channel and the cathedral-scale forge that frames the cast finale.
+9. [Dwarven Forge (based on Marius Villard concept)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation (Rotann Colyn)*. Dwarven forge interior with channels of molten metal, heavy iron infrastructure and carved stone. Warm metal glow as the only real light source.  
+   ↳ **use for:** Molten-channel-through-stonework reference; the 'metal is the only light' rule embodied in a forge hall.
+10. [Dwarven Forge Caverns](https://www.artstation.com/artwork/143Qy2) — *ArtStation*. Cavernous dwarven forge with molten pools and pours deep underground; black rock, glowing orange veins and channels, monumental scale.  
+   ↳ **use for:** Subterranean molten-river setting for the pour journey that leads to the cast.
+11. [Forge Cinematic (UE4)](https://www.artstation.com/artwork/XByNgw) — *ArtStation (Ben Kauffman)*. Cinematic forge render: glowing molten metal, sparks, dramatic camera and lighting through a dark industrial forge. Ember palette, cinematic mood.  
+   ↳ **use for:** Cinematic framing/lighting reference for the camera ride down the molten channel into the cast.
+12. [Forge Environment](https://www.artstation.com/artwork/oAVJz4) — *ArtStation*. Detailed forge environment: molten metal, glowing furnaces, iron tooling, warm-on-dark lighting. Industrial-fantasy mood.  
+   ↳ **use for:** Set-dressing reference for the forge stage around the molten channel and the mold.
+13. [FORGE — UE Cinematic #1](https://www.artstation.com/artwork/xJL9zY) — *ArtStation (Lawson Jiang)*. Cinematic forge sequence with molten metal and dramatic glow; dark interior lit by the fire of the work. Atmospheric ember haze.  
+   ↳ **use for:** Camera-beat + atmosphere reference for the cinematic pour-and-cast finale.
+14. [Droid Forge Sequence (2019)](https://www.artstation.com/artwork/PeXWG4) — *ArtStation (Arthur Sayanoff)*. Sequence of forming/casting a figure with molten material and melt effects; bright liquid metal solidifying into a defined form. Sci-fi molten-cast animation frames.  
+   ↳ **use for:** Liquid-metal-solidifying-into-a-shape reference for the GAELWORX letters forming from the pour.
+15. [Anthem: Title and Forge](https://www.artstation.com/artwork/QzE5rr) — *ArtStation*. Game title + forge UI/art: heavy metal letterforms and a forge motif, ember accents on dark hard-surface design. Title-treatment-meets-forge.  
+   ↳ **use for:** Direct reference for a forge-themed TITLE treatment — metal letterforms tied to a forge, like the GAELWORX wordmark finale.
+16. [The Lava Forge](https://www.artstation.com/artwork/1OErG) — *ArtStation (Jeong Chan Wuk)*. Environment of a forge built into lava: glowing molten rivers, black volcanic rock, intense orange-to-white heat against deep shadow.  
+   ↳ **use for:** Molten-river-through-basalt reference matching the green-black basalt + molten-light world rules.
+17. [UE4 Environment and VFX — Lava River](https://www.artstation.com/artwork/zAWgGD) — *ArtStation (Aaran Burnett)*. Real-time lava river environment + VFX: flowing molten channel with bright crust cracks, dark rock banks, emissive glow. Flow-map driven molten surface.  
+   ↳ **use for:** The molten channel the camera rides down; shader/look reference for flowing metal in a channel.
+18. [Molten Lava in Substance Designer](https://www.artstation.com/artwork/d0nyxw) — *ArtStation (Kyle Horwood)*. Procedural molten-lava material: dark cooled crust broken by glowing orange-white veins. Tileable, controllable hot/cool ratio.  
+   ↳ **use for:** Material reference for the cooling cast surface — dark crust + glowing seams, exactly the letters-cooling-to-iron look.
+19. [Cooling Molten Lava (material study)](https://www.artstation.com/artwork/3qPX5g) — *ArtStation (Kyle Horwood)*. Material capturing molten lava as it cools: bright cracks dimming, dark crust thickening over glowing interior. The cooling transition itself.  
+   ↳ **use for:** Cooling-gradient reference for the finale moment letters skin over to iron while the A/E stay bright.
+20. [Foundry, Forge & Crucible](https://www.artstation.com/artwork/Vdbg8) — *ArtStation (Mariusz Gandzel)*. Concept art of a foundry/forge with crucibles of molten metal; glowing pours, heavy iron, dark cavernous space. Ember light dominating.  
+   ↳ **use for:** Crucible-and-pour staging reference for delivering molten metal to the mold in the finale.
+21. [Metal melting furnace (Unreal Engine 5)](https://www.artstation.com/artwork/r9oKwa) — *ArtStation (Cesar Fernandez Gonzalez)*. Hard-surface metal-melting furnace with glowing molten metal inside; industrial brutalist forms, orange emissive against dark steel.  
+   ↳ **use for:** The source furnace/crucible apparatus that melts metal before the pour; brutalist forge hardware design.
+22. [Rune Sword](https://www.artstation.com/artwork/qAeA5D) — *ArtStation (Bruno Braga)*. Sword with glowing runes inset into dark metal; the runes read as molten light held in carved channels of the blade. Ember/white glow on iron.  
+   ↳ **use for:** How glowing 'molten' light sits in carved channels of dark metal — analogue to glowing Ogham revealed in the cast letters.
+23. [Molten sword (Burning Legion)](https://www.artstation.com/artwork/Omy4N6) — *ArtStation*. Weapon with molten metal coursing through dark plating; bright lava-like seams of orange-white over near-black metal. Aggressive, fiery.  
+   ↳ **use for:** Dark-iron-with-molten-seams look for the cast GAELWORX letters before full cooling; divine-fire seam reference.
+24. [Molten Forge (illustration)](https://www.deviantart.com/azulmagpie/art/Molten-Forge-875281047) — *DeviantArt (AzulMagpie)*. Forge banner art with molten metal flows and fiery glow in a dark setting; stylized ember palette, dramatic warm light.  
+   ↳ **use for:** Stylized molten-forge mood/composition reference for the channel and cast environment.
+25. [Glowing embers and molten lava illuminate a dwarven blacksmith forge](https://www.deviantart.com/thedustmen/art/Glowing-embers-and-molten-lava-illuminate-the-rugg-1086876412) — *DeviantArt (TheDustmen)*. A dwarven smith amid flames and sparks in a cavernous forge, lit by glowing embers and molten lava; the work is the only light. Warm fire against deep cave shadow.  
+   ↳ **use for:** Forge-cavern mood + the-metal-is-the-only-light reference for the GAELWORX world.
+26. [Forge Concept Art](https://www.deviantart.com/sporadicdreams/art/Forge-Concept-Art-1086703848) — *DeviantArt (Sporadicdreams)*. Fantasy/medieval forge architecture concept with glowing furnace and molten light; heavy stone and iron, warm glow against cool shadow.  
+   ↳ **use for:** Forge architecture + lighting reference for the stage that houses the molten channel and mold.
+27. [Concept Art: Forge Temple](https://www.deviantart.com/gycinn/art/Concept-Art-Forge-Temple-448249021) — *DeviantArt (Gycinn)*. A temple-scale forge: monumental stonework, glowing molten elements, sacred-industrial atmosphere. Awe-scale, warm-on-dark.  
+   ↳ **use for:** Sacred-scale framing for the cast finale (the forge as cathedral, the pour as ritual).
+28. [Glowing Runes — fantasy art ideas board](https://www.pinterest.com/ideas/glowing-runes-fantasy-art/940412169693/) — *Pinterest*. Curated board of glowing-rune art: incised symbols emitting molten/ember light from dark metal and stone. Range of palettes incl. gold/orange.  
+   ↳ **use for:** Reference set for the glowing carved Ogham revealed in the cast A/E.
+29. [Magic Runes — fantasy art ideas board](https://www.pinterest.com/ideas/magic-runes-fantasy-art/914968074841/) — *Pinterest*. Board of magical rune designs glowing within dark surfaces; many warm-light examples of inscriptions lit from within.  
+   ↳ **use for:** Carved-and-glowing inscription reference for the Ogham + ignited A/E.
+30. [Metal Magic — fantasy art ideas board](https://www.pinterest.com/ideas/metal-magic-fantasy-art/911506095069/) — *Pinterest*. Board of metal-magic art: molten and enchanted metal, glowing seams, forged artifacts. Ember/gold over dark iron recurring.  
+   ↳ **use for:** Mood reference for magical molten metal forming/charging an artifact — the cast letters as forged artifact.
+31. [Molten Metal Aesthetic — ideas board](https://www.pinterest.com/ideas/molten-metal-aesthetic/909708579621/) — *Pinterest*. Aesthetic board of molten metal: glowing pours, liquid-metal surfaces, ember-on-black compositions. Strong palette match.  
+   ↳ **use for:** Broad molten-metal look/feel library for the channel and cast.
+32. [Fantasy Metal Ingot — ideas board](https://www.pinterest.com/ideas/fantasy-metal-ingot/940382191168/) — *Pinterest*. Board of fantasy ingots and cast metal forms — glowing/enchanted bars, runed metal, ember highlights on dark metal.  
+   ↳ **use for:** Cast-form (ingot/letter) fantasy reference; runed/glowing cast metal for the finale letters.
+33. [Molten Metal Drawing — ideas board](https://www.pinterest.com/ideas/molten-metal-drawing/946565291401/) — *Pinterest*. Board of molten-metal illustrations: stylized glowing pours, liquid metal forming shapes, ember light studies.  
+   ↳ **use for:** Stylized pour-and-form reference for the liquid-to-letter transition.
+34. [Foundry — molten metal poured from ladle for casting (pin)](https://www.pinterest.com/pin/230950287128947645/) — *Pinterest*. Foundry pin: a glowing stream of molten metal poured from a ladle for casting; ember-orange ribbon, dark surround. Documentary-style.  
+   ↳ **use for:** Single-stream pour-into-mold reference for the cast moment.
+35. [Pouring Metal (pin)](https://www.pinterest.com/pin/637822365974930154/) — *Pinterest*. Pin of molten metal being poured; bright liquid line, sparks, dark industrial backdrop.  
+   ↳ **use for:** Pour-stream + spark reference at the cavity impact.
+36. [Molten Heart of Legends — magic artifact relic (pin)](https://www.pinterest.com/pin/molten-heart-of-legends-magic-artifact-art-fantasy-relic--19421842138695111/) — *Pinterest*. Concept of a molten-cored magic relic; glowing liquid-fire interior within a dark forged shell. White-gold/ember core, dark metal exterior.  
+   ↳ **use for:** The 'eternal molten core inside cooled metal' idea — directly the A/E divine fire inside the iron wordmark.
+37. [Ancient Rune Stone with Glowing Symbols (pin)](https://www.pinterest.com/pin/523473156706332079/) — *Pinterest*. Stone with carved runes glowing from within; inscriptions lit by inner fire against dark rock. Mystical, illuminated-engraving look.  
+   ↳ **use for:** Carved-inscription-glowing-from-within reference for revealed Ogham on the cast letters.
+38. [Glowing Runes Stock Illustrations (5,365)](https://www.dreamstime.com/illustration/glowing-runes.html) — *Dreamstime*. Large set of glowing-rune illustrations: incised symbols emitting light, many on dark metal/stone, warm and cool variants. Inscription-glow library.  
+   ↳ **use for:** Volume reference for glowing carved runes/Ogham in the cast A/E.
+39. [Fantasy Rune Stock Illustrations (2,617)](https://www.dreamstime.com/illustration/fantasy-rune.html) — *Dreamstime*. Fantasy rune illustration collection: runic alphabets, glowing inscriptions, runed metal and stone. Useful for mark/glyph styling.  
+   ↳ **use for:** Glyph/rune styling reference to design the carved Ogham revealed at the finale.
+40. [Glowing Forge Stock Illustrations (3,020)](https://www.dreamstime.com/illustration/glowing-forge.html) — *Dreamstime*. Glowing-forge illustration set: molten metal, furnaces, sparks, dark forges lit by their own fire. Ember-on-black mood.  
+   ↳ **use for:** Illustrated forge-glow mood for the channel and cast environment.
+41. [Foundry Crucible Stock Illustrations (689)](https://www.dreamstime.com/illustration/foundry-crucible.html) — *Dreamstime*. Crucible illustrations: vessels of glowing molten metal, pours into molds, ember light. Stylized casting imagery.  
+   ↳ **use for:** Crucible-pour-into-mold staging reference (illustrated) for the cast delivery.
+42. [Crucible Stock Illustrations (1,439)](https://www.dreamstime.com/illustration/crucible.html) — *Dreamstime*. Crucible/alchemical-vessel illustrations with glowing molten contents; warm light, dark backdrops, some fantasy framing.  
+   ↳ **use for:** Vessel + molten-glow reference for the pour source in the finale.
+43. [Industrial molten metal glowing in a foundry pit, scorched textures & sparks](https://www.dreamstime.com/industrial-molten-metal-glowing-foundry-pit-surrounded-scorched-textures-sparks-image385392223) — *Dreamstime*. A foundry pit of glowing molten metal ringed by scorched, blackened textures and flying sparks. Bright orange-white core, charred dark surround.  
+   ↳ **use for:** Glowing cavity + scorched-edge reference for how the filled GAELWORX letter forms read hot against burnt-black.
+44. [Metal on casting / metallurgy — high temperature melting furnace (illustration)](https://www.dreamstime.com/metal-casting-metallurgy-high-temperature-melting-furnace-heavy-forging-steelmaking-plant-workshop-oven-water-image130486423) — *Dreamstime*. Stylized casting/metallurgy illustration: droplets and flows of molten metal, high-temperature furnace glow, heavy industry. Ember/white-hot droplets.  
+   ↳ **use for:** Molten-droplet and pour-splash reference for the cavity-fill impact moment.
+45. [Glowing Hot Metal Ingot on a Forging Anvil (illustration)](https://www.dreamstime.com/glowing-hot-metal-ingot-forging-anvil-image355076352) — *Dreamstime*. A freshly formed glowing ingot on an anvil; white-hot core fading to orange then dark at the edges, dark forge behind. Cast-form heat gradient.  
+   ↳ **use for:** Cast-ingot heat-gradient reference for the just-cast, still-glowing GAELWORX letters.
+46. [Free Molten Metal Stock AI Images](https://stockcake.com/s/molten-metal) — *StockCake*. AI-generated molten-metal scenes: pours into molds, glowing crucibles, ingot casting in pixel-art and realistic styles. Vertical liquid-metal streams, ember palette. Free to download.  
+   ↳ **use for:** Concept/moodboard fill for pour-into-mold; varied stylization of molten casting.
+47. [Free Glowing Rune Stock AI Images](https://stockcake.com/s/glowing-rune) — *StockCake*. AI images of glowing runes: symbols shifting with golden light on stone/metal tablets, illuminated from within against dark backgrounds. Free to download.  
+   ↳ **use for:** Golden glowing-inscription reference for the revealed Ogham and the divine-fire A/E.
+48. [Blacksmith's Glowing Forge (free image)](https://stockcake.com/i/blacksmith-s-glowing-forge_1887148_1293547) — *StockCake*. A blacksmith's forge glowing with hot coals/metal; warm orange light pooling in a dark workshop. The fire is the only light. Free to download.  
+   ↳ **use for:** Forge-glow ambience reference for the world; warm-on-black lighting model.
+49. [Glowing molten metal (free image)](https://stockcake.com/i/glowing-molten-metal_1253581_1081740) — *StockCake*. Close study of glowing molten metal: incandescent orange-white liquid surface with darkening crust, deep shadow surround. Free to download.  
+   ↳ **use for:** Molten-surface texture for the metal as it sits in and fills the cavity.
+50. [Iron Forge (cinematic kit — molten metal scenes)](https://www.fab.com/listings/0db56e11-1afa-4a9a-b663-29ebb952b241) — *Fab / KitBash3D-style listing*. High-poly cinematic iron-forge kit: industrial structures, detailed iron foundries, molten metal scenes, large-scale furnaces. Brutalist iron + ember glow.  
+   ↳ **use for:** 3D dressing + molten-foundry scene reference for building the forge stage and cast apparatus.
+51. [Behind the Kit: Iron Forge (foundry/molten reference article)](https://kitbash3d.com/a/blog/behind-the-kit-iron-forge) — *KitBash3D*. Article with iron-forge concept imagery: foundries, molten pours, furnaces, heavy industrial brutalism lit by ember glow against dark.  
+   ↳ **use for:** Design-language reference for the brutalist forge that frames the molten channel and the cast.
+52. [God of War Ragnarok — Muspelheim (Surtr's Forge)](https://www.artstation.com/artwork/klArPl) — *ArtStation*. Muspelheim/Surtr's Forge environment: rivers of molten metal/lava, ash-covered swords, black volcanic rock, intense fire-realm glow. AAA molten-forge realism.  
+   ↳ **use for:** Top-tier molten-realm + forge reference for the channel and the fiery cast environment.
+53. [God of War Ragnarok — Muspelheim Molten Lowlands](https://www.artstation.com/artwork/nEoleE) — *ArtStation (Allen Kung)*. Molten Lowlands: lava-material blending and flow maps, glowing molten channels through dark volcanic terrain. Bright orange flow vs black rock.  
+   ↳ **use for:** Flowing-molten-channel shader/look reference for the camera ride down the metal.
+54. [God of War Ragnarok — Materials (molten/forge)](https://www.artstation.com/artwork/d0YONJ) — *ArtStation (Jon Arellano)*. Material breakdowns incl. molten/forge surfaces from Ragnarok: glowing metal, lava crust, hot-and-cool gradients on hard surfaces.  
+   ↳ **use for:** Material reference for cast-metal surfaces transitioning hot-to-cold (letters cooling to iron).
+55. [XIII — Cleric of the Forge God](https://www.artstation.com/artwork/A92mv5) — *ArtStation (Matt Gasbarre)*. Forge-god themed character: divine fire, molten metal accents, sacred-industrial design. Warm fire and gold against dark armor.  
+   ↳ **use for:** Divine-fire-of-the-forge mood reference for the 'eternal divine fire' concept of the A and E.
+56. [Ruby Rocksplitter — Dwarven Runesmith Artificer](https://www.artstation.com/artwork/lVPqAo) — *ArtStation (Annadel Cinco)*. Dwarven runesmith with glowing rune-magic and forged metalwork; ember glow on runed iron, dark dwarven palette. Rune + metal craft.  
+   ↳ **use for:** Runesmith/rune-magic-on-metal reference for the Ogham-and-forge identity of the finale.
+57. [Hjalmar, Dwarf Forge Cleric](https://iampowers.artstation.com/projects/klzmV2) — *ArtStation (iampowers)*. Dwarf forge-cleric character with molten/forge motifs; glowing metal and fire against dark dwarven gear. Forge-divinity vibe.  
+   ↳ **use for:** Character-scale forge-divinity reference reinforcing the sacred-forge tone of the cast.
+58. [Molten Forge / Dwarven Forge concept (Vladimir Kiselev) pin](https://www.pinterest.com/pin/game-design--13933080088523712/) — *Pinterest*. Dwarf-forge game concept: molten metal channels, vast iron-and-stone foundry hall, ember glow piercing deep shadow.  
+   ↳ **use for:** Game-art forge-hall reference for the cast stage and molten channel.
+59. [Heated Metal Substrate Material — UE5](https://www.artstation.com/artwork/m8YRKa) — *ArtStation*. Procedural heated-metal material in UE5: dark metal with glowing hot zones, controllable temperature/emissive. Hot-to-cold gradient on a surface.  
+   ↳ **use for:** Shader reference for selectively-hot metal — the A/E staying white-gold while the rest cools to iron.
+60. [Glowing Hot Metal — Blender material](https://www.blendkit.com/asset-gallery-detail/082a0e65-02e8-4659-9048-d76fe89b2a46/) — *Blendkit (NK Productions)*. Procedural glowing-hot-metal material simulating molten/forging state; customizable incandescence over dark metal. Emissive heat look.  
+   ↳ **use for:** Material reference for the just-cast glowing metal surface and the persistent divine-fire emissive.
+61. [Forge Studios — Concept Art album](https://forgestudios.artstation.com/albums/5480315) — *ArtStation (Forge Studios)*. Concept-art album spanning forge/fantasy environments and props; warm-fire-on-dark moods, metal and stone craft.  
+   ↳ **use for:** Broad concept-art reference pool for forge environment and props around the cast.
+
+
+## Lava & Magma
+
+### Real (25)
+
+1. [Pāhoehoe Lava flow (Kīlauea, 2007) — Wikimedia Commons Picture of the Day](https://commons.wikimedia.org/wiki/File:P%C4%81hoehoe_Lava_flow.JPG) — *Wikimedia Commons*. Active pahoehoe lava advancing over a black hardened crust; molten orange-yellow lobes seep through dark fissures, classic ropy smooth skin. Bright incandescent channels against near-black basalt — the canonical dark-crust-with-glowing-cracks reference. High contrast, daylight.  
+   ↳ **use for:** molten-material shader
+2. [Kilauea Eruption Closeup](https://commons.wikimedia.org/wiki/File:Kilauea_Eruption_Closeup.jpg) — *Wikimedia Commons*. Tight close-up of molten lava with white-hot to deep-orange gradient; cooling skin tears into a black crackled crust. Strong temperature ramp visible (white-gold core -> orange -> dull red -> black). Self-illuminated, void-dark surroundings.  
+   ↳ **use for:** temperature ramp
+3. [Hawaii lava flow 1 (2007 Kīlauea, pahoehoe and aa)](https://commons.wikimedia.org/wiki/File:Hawaii_lava_flow_1.JPG) — *Wikimedia Commons*. Aerial of an active flow field mixing smooth pahoehoe and rubbly aa; glowing orange channels thread through cooled black-grey crust. Good channel-flow / branching reference; warm light over cold rock.  
+   ↳ **use for:** channel flow
+4. [USGS Kīlauea multimediaFile-2175 (2018-06-05)](https://commons.wikimedia.org/wiki/File:USGS_K%C4%ABlauea_multimediaFile-2175(2018-06-05).jpg) — *Wikimedia Commons / USGS*. USGS HVO documentation of the 2018 lower East Rift Zone eruption; molten channel and crusting lava, orange-on-black. Public-domain USGS imagery. Bright molten river bounded by darkening levees.  
+   ↳ **use for:** channel flow
+5. [USGS Kīlauea multimediaFile-2209 (2018-06-09)](https://commons.wikimedia.org/wiki/File:USGS_K%C4%ABlauea_multimediaFile-2209_(2018-06-09).jpg) — *Wikimedia Commons / USGS*. 2018 Kīlauea fissure-8 channelized flow; incandescent orange surface with darker cooling skin patches. Public domain. Strong directional flow lines for channel reference.  
+   ↳ **use for:** channel flow
+6. [Lava Field at Kilauea Volcano, Big Island, Hawaii](https://commons.wikimedia.org/wiki/File:Lava_Field_at_Kilauea_Vulcano,_Big_Island,_Hawaii.jpg) — *Wikimedia Commons*. Cooled black lava field with residual glowing cracks; matte fine-grain black crust broken by thin incandescent fissures. Excellent dark-basalt-with-glowing-cracks plate; reads at iPhone OLED true-black.  
+   ↳ **use for:** Plinths material
+7. [Ropy texture that forms on the surface of pāhoehoe lava](https://www.usgs.gov/media/images/ropy-texture-forms-surface-pahoehoe-lava) — *USGS*. Macro of solidified ropy pahoehoe skin — folded, coiled, glassy black-grey ridges. Pure surface texture (cooled, no glow). Public domain. Ideal displacement/normal reference for the crust geometry.  
+   ↳ **use for:** Plinths material
+8. [January 3, 2025 — Active Kīlauea lava flow (pahoehoe lobe in Kaluapele)](https://www.usgs.gov/media/images/january-3-2025-active-kilauea-lava-flow) — *USGS*. Close-up of an active pahoehoe lobe advancing in the summit caldera; bright orange molten front oozing under a forming dark skin. Public domain USGS HVO. Clean dark-crust/glowing-crack contrast.  
+   ↳ **use for:** molten-material shader
+9. [January 10, 2025 — Lava visible within Kīlauea summit eruptive vent](https://www.usgs.gov/media/images/january-10-2025-lava-visible-within-kilauea-summit-eruptive-vent) — *USGS*. Eruptive cone with lava glowing from within the vent; deep void around an incandescent core. Public domain. Good for the 'metal is the only light' emission read and a hot vent focal point.  
+   ↳ **use for:** temperature ramp
+10. [Small breakout sends lava into crack](https://www.usgs.gov/media/images/small-breakout-sends-lava-crack) — *USGS*. A small molten breakout pours into a crack in older crust; bright orange tongue against dark rubbly black. Public domain. Literal 'lava-into-crack' reference for channel splits/forks.  
+   ↳ **use for:** channel flow
+11. [Bulging, gnarly breakout (lava oozing from crack in crust)](https://www.usgs.gov/media/images/bulging-gnarly-breakout) — *USGS*. Lava bulging out from a crack in the hardened crust; the dark skin splits to reveal molten orange beneath. Public domain. Perfect crust-tear/cracking-open behavior for the shader.  
+   ↳ **use for:** molten-material shader
+12. [Lava burst from under crust of inflating flow](https://www.usgs.gov/media/images/lava-burst-under-crust-inflating-flow) — *USGS*. Molten lava bursting upward through the cooled crust of an inflating flow. Black plate cracks and glows orange at the rupture. Public domain. Inflation/upwelling crack pattern reference.  
+   ↳ **use for:** molten-material shader
+13. [Sluggish breakout with thick, wrinkling crust](https://www.usgs.gov/media/images/sluggish-breakout-thick-wrinkling-crust) — *USGS*. Slow breakout where a thick crust wrinkles and folds as it cools; muted glow in the seams. Public domain. Shows the wrinkle/fold geometry and the cooling-color gradient on a slow flow.  
+   ↳ **use for:** Plinths material
+14. [Lava starting to escape from crack (inflating Kohola flow)](https://www.usgs.gov/media/images/lava-starting-escape-crack) — *USGS*. Molten lava just beginning to escape from a crack in an inflating flow; thin incandescent line widening in the black crust. Public domain. Great for an animated crack 'opening' keyframe.  
+   ↳ **use for:** molten-material shader
+15. [Incandescent crack in roof of lava tube (Highcastle flow)](https://www.usgs.gov/media/images/lava-finds-its-way-crack) — *USGS*. Glowing crack in the roof of a lava tube — narrow bright fissure radiating into surrounding dark rock at night. Public domain. The cleanest 'glowing vein in void' reference for emissive cracks.  
+   ↳ **use for:** molten-material shader
+16. [Lava breakout uplifting crust](https://www.usgs.gov/media/images/lava-breakout-uplifting-crust) — *USGS*. Breakout that lifts and fractures the overlying crust into glowing plates. Public domain. Shows crust shards tilting with molten light leaking between them — tectonic plate-crack look.  
+   ↳ **use for:** Plinths material
+17. [A skylight in the master lava tube](https://www.usgs.gov/media/images/skylight-master-lava-tube) — *USGS*. Skylight opening into a lava tube revealing a molten river flowing below; intense orange glow framed by black rock. Public domain. Hidden-molten-channel-beneath-crust concept reference.  
+   ↳ **use for:** channel flow
+18. [A close up view of a lava flow (Tomáš Malík)](https://unsplash.com/photos/a-close-up-view-of-a-lava-flow-yZzjdLHp9pY) — *Unsplash*. High-res close-up of a glowing lava flow; bright orange-yellow molten surface with black crusting edges. Free Unsplash license. Detailed molten texture and temperature falloff for shader matching.  
+   ↳ **use for:** molten-material shader
+19. [A close up of a volcano with lava pouring out of it (Tomáš Malík)](https://unsplash.com/photos/a-close-up-of-a-volcano-with-lava-pouring-out-of-it-aflXuredOgc) — *Unsplash*. Lava pouring/cascading from a vent; molten ribbon of orange-white against dark volcanic rock. Free Unsplash license. The pour/cascade beat — molten metal releasing into a channel.  
+   ↳ **use for:** channel flow
+20. [An aerial view of a lava flow at night (Tomáš Malík)](https://unsplash.com/photos/an-aerial-view-of-a-lava-flow-at-night-aUCPbctz9eQ) — *Unsplash*. Night aerial: glowing orange lava channels forming a branching network of veins across pure-black terrain. Free Unsplash license. The signature 'orange veins in a sea of black' — void background, emissive only.  
+   ↳ **use for:** channel flow
+21. [An aerial view of a lava flow in the ocean (Tomáš Malík)](https://unsplash.com/photos/an-aerial-view-of-a-lava-flow-in-the-ocean-b_ojGoSH3eA) — *Unsplash*. Lava flow meeting water; white-hot core, orange body, black chilled crust where it quenches. Free Unsplash license. Strong quench/cooling temperature ramp from white-hot to black.  
+   ↳ **use for:** temperature ramp
+22. [Lava dripping to ocean (4K)](https://unsplash.com/photos/lava-dripping-to-ocean-E4944K_4SvI) — *Unsplash*. Molten lava dripping/streaming, glowing orange filaments against dark backdrop. Free Unsplash license. Drip/strand behavior and bright emissive thread reference.  
+   ↳ **use for:** molten-material shader
+23. [A lava flow is seen in this aerial view (black background)](https://unsplash.com/photos/a-lava-flow-is-seen-in-this-aerial-view-cIISrPzIxV4) — *Unsplash*. Aerial lava flow isolated on near-pure black; thin glowing-crack network reads as fire on void. Free Unsplash license. Excellent true-black plate for the emissive-vein look on iPhone OLED.  
+   ↳ **use for:** molten-material shader
+24. [Close-up of Red Lava Magma Surface](https://www.pexels.com/photo/close-up-of-red-lava-magma-surface-14918662/) — *Pexels*. Macro of a red-orange molten magma surface with darkening crust forming web-like black cracks. Free Pexels license, no attribution. Tight surface detail — the core dark-crust/glowing-crack texture.  
+   ↳ **use for:** molten-material shader
+25. [Close-up of Lava](https://www.pexels.com/photo/close-up-of-lava-17732702/) — *Pexels*. Close-up of molten lava with bright incandescent body and forming dark skin. Free Pexels license. Good mid-temperature reference between white-hot core and cooled black.  
+   ↳ **use for:** temperature ramp
+
+### Fantasy / Concept Art (75)
+
+1. [Lava world - Isometric - Concept Art (Aravinthraj Sekar)](https://www.artstation.com/artwork/aYQGOz) — *ArtStation*. Stylized isometric lava world; black rock islands veined with bright orange-red magma channels, glowing pools as the only light. Clean readable temperature ramp and channel layout — strong stage-composition reference.  
+   ↳ **use for:** channel flow
+2. [Environment lava concept art (Pablo Deiver)](https://www.artstation.com/artwork/brzed) — *ArtStation*. Cinematic lava environment; molten rivers cut through dark volcanic terrain, hazy ember atmosphere, warm rim-light from the lava. Mood and scale reference for the molten channel ride.  
+   ↳ **use for:** channel flow
+3. [Environment lava concept art (Pablo Deiver — artist portfolio mirror)](https://deiver.artstation.com/projects/brzed) — *ArtStation*. Portfolio mirror of Deiver's lava environment; black basalt, glowing magma seams, atmospheric haze. Useful for value structure (dark stage, molten star) and ember drift.  
+   ↳ **use for:** channel flow
+4. [lava field concept art](https://www.artstation.com/artwork/aGOoWq) — *ArtStation*. Broad lava field; cooled black-grey crust fractured by glowing orange cracks across the plain. Reference for an expansive cracked-crust ground plane and crack-network density.  
+   ↳ **use for:** Plinths material
+5. [Lava Level Concept Art](https://www.artstation.com/artwork/ZP55R) — *ArtStation*. Game lava-level environment; layered rock ledges with molten falls and channels, fiery key light. Level-layout reference for staging copy along channel walls/ledges.  
+   ↳ **use for:** channel flow
+6. [Fortnite Lava Concept (Save the World)](https://www.artstation.com/artwork/29qYJA) — *ArtStation*. Stylized lava map concept; punchy orange magma against dark rock, bold readable shapes. Stylization reference for keeping molten color graphic and high-contrast at small scale.  
+   ↳ **use for:** temperature ramp
+7. [Volcanic Environment](https://www.artstation.com/artwork/3oEnqE) — *ArtStation*. Volcanic environment concept; dark cliffs and molten flows, smoke and ember atmosphere, warm-on-cold lighting. General hellscape stage reference with strong depth/parallax layers.  
+   ↳ **use for:** molten-material shader
+8. [Volcanic Environment Sketch](https://www.artstation.com/artwork/lGgkwa) — *ArtStation*. Loose volcanic environment sketch; gestural magma rivers and glowing fissures defining the composition. Quick-read reference for where the light (molten) leads the eye.  
+   ↳ **use for:** channel flow
+9. [Forge - Environment Concept Art (Matheus Schwartz)](https://www.artstation.com/artwork/GvBXld) — *ArtStation*. A forge environment — molten metal and fire as the dominant light inside dark industrial/stone architecture. Directly on-brief for the giant-dwarf-forge: molten as the only light, hot metal channels.  
+   ↳ **use for:** channel flow
+10. [Magma Worm Concept Art (Jesse Rivera)](https://www.artstation.com/artwork/8w1Ovm) — *ArtStation*. Creature arching from a magma tunnel; harsh molten key light, vivid orange-on-black, glowing cracks across rock and hide. Strong reference for intense emissive lighting and crack-on-surface treatment.  
+   ↳ **use for:** molten-material shader
+11. [Magma Lurker — elemental token design (Michael Bakker)](https://mikebakker.artstation.com/projects/R3yoYe) — *ArtStation*. Elemental made of molten rock — black crust plates over a glowing magma interior, cracks tracing the body. Exactly the 'dark-crust-with-glowing-cracks' material on an organic/animated form.  
+   ↳ **use for:** molten-material shader
+12. [Lava Cave (Carbon Based Studio)](https://www.artstation.com/artwork/4XYbmk) — *ArtStation*. Production lava-cave environment; sculpted black rock with molten pools and seams as the only light source in a dark cavern. Reference for enclosed forge-chamber lighting and rock displacement.  
+   ↳ **use for:** molten-material shader
+13. [Explore — lava/volcanic environment piece](https://www.artstation.com/artwork/mDvL8e) — *ArtStation*. Volcanic/magma environment surfaced via ArtStation explore; molten flows and ember atmosphere over dark terrain. General mood/value reference for the molten channel world.  
+   ↳ **use for:** channel flow
+14. [DOOM — Molten DLC (Colin Geller)](https://www.artstation.com/artwork/Kd81B) — *ArtStation*. DOOM 'Molten' map concept — volcanic temples and a facility harnessing lava energy; a planet enveloped in molten rock, intense orange glow against black industrial ruin. On-brief brutalist+molten mood.  
+   ↳ **use for:** molten-material shader
+15. [Middle-earth: Shadow of Mordor — Mount Doom Landscapes (Andrew Averkin)](https://www.artstation.com/artwork/wYe2w) — *ArtStation*. Mount Doom environment; ash-black volcanic plain with rivers of glowing lava and a smoke-choked sky lit by molten red. Mordor-grade hellscape staging and crack-network reference.  
+   ↳ **use for:** channel flow
+16. [Middle-earth: Shadow of Mordor — Mount Doom (Andrew Averkin)](https://www.artstation.com/artwork/YydkK) — *ArtStation*. Mount Doom cinematic environment; molten lava lakes and glowing fissures lighting black stone ruins, heavy atmosphere. Reference for the cast/finale molten-pour mood and warm-on-cold grade.  
+   ↳ **use for:** molten-material shader
+17. [Diablo IV — Environment Art Blast (Blizzard, ArtStation Magazine)](https://magazine.artstation.com/2023/07/blizzard-entertainment-diablo-iv-environment-art-blast/) — *ArtStation Magazine*. Collection of Diablo IV environment art incl. infernal/hell biomes; grim molten depths, glowing lava against blackened rock, oppressive mood. Multiple hellscape references in one source.  
+   ↳ **use for:** molten-material shader
+18. [Diablo III Environment Art (Oliver Chipping)](https://www.artstation.com/artwork/21yaa) — *ArtStation*. Diablo III environments including fiery hell zones; molten rivers and lava lakes lighting dark gothic rock. Reference for stylized-but-grim molten lighting and silhouette of cracked terrain.  
+   ↳ **use for:** channel flow
+19. [DOOM (2016) Concept Art (Emerson Tung)](https://emersontung.com/doom) — *Emerson Tung portfolio*. DOOM (2016) environment/prop concept art including hell-fortress and lava settings; molten orange light cutting through dark industrial-infernal architecture. Brutalist machinery + molten light reference.  
+   ↳ **use for:** molten-material shader
+20. [DOOM Eternal Concept Art (Emerson Tung)](https://emersontung.com/doom-eternal) — *Emerson Tung portfolio*. DOOM Eternal concept art with hell/volcanic environments; lava flows and glowing cracks against black rock and metal. Reference for emissive-crack detail on hard-surface and rock.  
+   ↳ **use for:** molten-material shader
+21. [Blizzard Insider #39 — Art of the Firelands (WoW)](https://worldofwarcraft.blizzard.com/en-us/news/2993675/blizzard-insider-39-art-of-the-firelands) — *World of Warcraft (Blizzard)*. Firelands art feature; floating obsidian islands, magma falls and molten fields, alien fiery atmosphere — molten as the dominant light. Reference for magma-fall channels and ember particle staging.  
+   ↳ **use for:** channel flow
+22. [Guild Wars 2 — Environment Concept (volcanic, set 38)](https://videogamesartwork.com/games/guild-wars-2/environment-concept-38) — *Video Games Artwork*. GW2 environment concept art (Daniel Dociu / ArenaNet school); painterly volcanic terrain with molten light and dark dramatic rock. Reference for atmospheric scale and warm/cool value split.  
+   ↳ **use for:** molten-material shader
+23. [Guild Wars 2 — Environment Concept (volcanic, set 45)](https://www.videogamesartwork.com/games/guild-wars-2/environment-concept-45) — *Video Games Artwork*. More GW2 environment concepts with molten/volcanic content; glowing lava channels and ember haze over dark stone. Composition reference for leading the eye with the molten light.  
+   ↳ **use for:** channel flow
+24. [Guild Wars 2 Concept Art & Characters (gallery)](https://www.creativeuncut.com/art_guild-wars-2_a.html) — *Creative Uncut*. Curated GW2 concept-art gallery (multiple environments incl. fiery/volcanic). Broad value/lighting study source — dark stages lit by warm elemental light.  
+   ↳ **use for:** molten-material shader
+25. [Guild Wars 2 (2012) Concept Art by Levi Hopkins](https://conceptartworld.com/news/guild-wars-2-concept-art-by-levi-hopkins/) — *Concept Art World*. Levi Hopkins GW2 environment concepts; several volcanic/fiery vistas with molten rivers and dark rock. Reference for grand-scale molten landscape staging.  
+   ↳ **use for:** channel flow
+26. [Fiery Volcano Environment Concept Art Gallery](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Curated gallery of volcano/lava environment concept art from dozens of artists; molten flows, glowing cracks, ember skies, dark rock. One-stop reference set for mood, palette and crack patterns.  
+   ↳ **use for:** molten-material shader
+27. [Cave & Cavern Environments for Digital Art Inspiration](https://conceptartempire.com/caves-and-caverns/) — *Concept Art Empire*. Cavern gallery including molten/lava caves; enclosed dark rock chambers lit only by glowing magma pools and seams. Reference for forge-chamber interior lighting (molten = only light).  
+   ↳ **use for:** molten-material shader
+28. [Environment Concept Art — 50+ Examples (gallery)](https://conceptartempire.com/environment-concept-art-gallery/) — *Concept Art Empire*. Broad environment-concept gallery with several volcanic/molten entries; useful for composition, depth and where emissive light anchors a dark scene. Mixed mood reference.  
+   ↳ **use for:** channel flow
+29. [Lava Environment Concept Paint (misi006)](https://www.deviantart.com/misi006/art/Lava-Environment-Concept-Paint-214012513) — *DeviantArt*. Painterly lava environment; rivers of molten orange winding through dark jagged rock under a smoky sky. Reference for channel meander and warm haze over cold stone.  
+   ↳ **use for:** channel flow
+30. [Lava planet Concept art (Sergey82M)](https://www.deviantart.com/sergey82m/art/Lava-planet-Concept-art-938375287) — *DeviantArt*. Sci-fi lava planet; cracked black crust glowing with orange magma fissures across the surface, void-black sky. Planet-scale dark-crust/glowing-crack reference — great for the emissive vein network.  
+   ↳ **use for:** molten-material shader
+31. [Lava World (m-hugo)](https://www.pinterest.com/pin/503277327083656361/) — *DeviantArt (via Pinterest mirror)*. Lava world environment; molten channels and pools lighting a dark rocky landscape. Reference for staging and the warm-key/cool-fill split. (Pinterest mirror of a DeviantArt piece.)  
+   ↳ **use for:** channel flow
+32. [Lava Landscape (Goosedacreator)](https://www.deviantart.com/goosedacreator/art/Lava-Landscape-1101838957) — *DeviantArt*. Lava landscape in red/orange/grey/black; molten flows threading dark terrain. Palette-on-brief reference (Celtic-blood reds, ember oranges, void blacks).  
+   ↳ **use for:** temperature ramp
+33. [Molten lava demon rising from the abyss (AbstractPalette)](https://www.deviantart.com/abstractpalette/art/Molten-lava-demon-rising-from-the-abyss-1171999491) — *DeviantArt*. Figure of molten lava rising from darkness; black crust over a white-hot/orange interior with glowing cracks. Reference for emissive cracks on a dynamic silhouette and white-hot core falloff.  
+   ↳ **use for:** molten-material shader
+34. [Digital Painting — Lava (DomaradzkiLucas)](https://www.deviantart.com/domaradzkilucas/art/Digital-Painting-Lava-649252208) — *DeviantArt*. Study of rock and lava together; realistic molten orange against dark stone with crusting edges. Reference for the rock/lava boundary and how crust forms at the molten edge.  
+   ↳ **use for:** molten-material shader
+35. [Lava WasteLand Digital Painting (DLT2020)](https://www.deviantart.com/dlt2020/art/Lava-WasteLand-Digital-Painting-998108713) — *DeviantArt*. Desolate lava wasteland; cracked dark ground with glowing magma veins under a hazy ember sky. Reference for a wide cracked-crust ground plane and atmospheric depth.  
+   ↳ **use for:** Plinths material
+36. [Lava Planet Texture (ItzImcool)](https://www.deviantart.com/itzimcool/art/Lava-Planet-Texture-1032639253) — *DeviantArt*. Seamless-style lava planet texture; black crust webbed with glowing orange cracks. Tileable dark-crust/glowing-crack reference suitable for an actual material/displacement map study.  
+   ↳ **use for:** Plinths material
+37. [Lava Cave (Aude Guivarc'h)](https://guivar.ch/Lava-Cave) — *guivar.ch (artist site)*. Real-time/CG lava cave; dark rock chamber lit by molten pools and glowing seams. Reference for enclosed forge-chamber molten lighting and emissive-pool falloff.  
+   ↳ **use for:** molten-material shader
+38. [Stylized Lava Cave (Stefan Ivanov, Unreal scene)](https://stiff-north.artstation.com/store/xBmx/stylized-lava-cave-with-unreal-engine-scene) — *ArtStation*. Stylized game-ready lava cave; chunky black rock with bright molten orange cracks and pools, Unreal lighting. Reference for stylized crack emissive intensity and rock module shapes.  
+   ↳ **use for:** molten-material shader
+39. [Hellish Landscape: Molten Lava & Ominous Clouds](https://easy-peasy.ai/ai-image-generator/images/terrifying-landscape-visualization-hell-molten-lava-ominous-clouds) — *Easy-Peasy.AI gallery*. Hell landscape concept; lakes/rivers of molten lava under dark ominous clouds, strong orange glow vs near-black ground. Mood reference for an oppressive molten hellscape sky/ground split.  
+   ↳ **use for:** channel flow
+40. [Volcanic Citadel: Lava Falls & Bridges](https://deepdreamgenerator.com/ddream/pppefevsa9i) — *Deep Dream Generator*. Volcanic citadel with lava falls and bridges; dark architecture spanning molten channels, glowing falls as light. Directly on-brief 'forge citadel over molten channels' staging reference.  
+   ↳ **use for:** channel flow
+41. [Molten Lava Cave / Gem Mine Cavern (concept art scenery)](https://stock.adobe.com/images/a-gem-mine-cave-underground-molten-lava-cave-deep-cavern-big-stalactite-concept-art-scenery-book-illustration-video-game-scene-serious-digital-painting-cg-artwork-background/529542406) — *Adobe Stock*. Underground molten-lava cavern concept painting; deep cavern, big stalactites, glowing magma below, dark rock walls. Reference for vertical forge-cavern depth and molten light from below (licensed stock — preview/inspo).  
+   ↳ **use for:** molten-material shader
+42. [Lava Cracks Glowing in the Dark on Volcanic Landscape at Night (illustration)](https://www.dreamstime.com/lava-cracks-glowing-dark-volcanic-landscape-night-fiery-lava-flows-cracks-lava-crack-wallpaper-lava-cracks-image332411869) — *Dreamstime*. Stylized night scene of fiery lava flowing through glowing cracks across a black volcanic landscape. Near-literal target look (glowing cracks on void-black crust at night). Licensed stock — preview/inspo only.  
+   ↳ **use for:** molten-material shader
+43. [Lava Texture with Glowing Cracks on Dark Surface (dramatic)](https://www.dreamstime.com/lava-texture-glowing-cracks-dark-surface-creating-dramatic-effect-image372663348) — *Dreamstime*. Dark surface webbed with glowing orange cracks creating a dramatic emissive contrast. Tight texture reference for the molten-material crack network. Licensed stock — preview/inspo only.  
+   ↳ **use for:** Plinths material
+44. [Ultra-detailed Macro of Molten Blue Lava (Ijen volcano look)](https://www.dreamstime.com/ultra-detailed-macro-shot-molten-blue-lava-oozing-ijen-volcano-indonesia-glowing-eerie-otherworldly-light-image374553009) — *Dreamstime*. Stylized macro of eerie blue-glowing molten lava (Ijen sulfur-fire aesthetic) oozing over dark rock. Counter-palette reference — what the molten should NOT drift toward (keep warm forge-glow, not blue). Licensed stock.  
+   ↳ **use for:** temperature ramp
+45. [Molten Lava River through Rocky Landscape (illustration)](https://www.dreamstime.com/depiction-molten-lava-flowing-cracked-landscape-creating-striking-contrast-fiery-liquid-dark-image443768425) — *Dreamstime*. Illustration of a molten lava river flowing through a cracked dark landscape; striking contrast of fiery liquid against black rock. Channel-flow + cracked-banks reference. Licensed stock — preview/inspo only.  
+   ↳ **use for:** channel flow
+46. [Free Molten Lava Textures](https://stockcake.com/i/molten-lava-textures_1015296_848523) — *StockCake*. Molten lava texture plate; orange-red flowing surface breaking into a dark crust. Free StockCake image. Usable molten-surface texture study for the shader's flow + crusting.  
+   ↳ **use for:** molten-material shader
+47. [Free Glowing Lava Cracks](https://stockcake.com/i/glowing-lava-cracks_858923_1001093) — *StockCake*. Black crust webbed with bright glowing lava cracks. Free StockCake image. Clean dark-crust/glowing-crack plate for the core molten material look.  
+   ↳ **use for:** Plinths material
+48. [Cracked Lava Surface (Austin Michaud) — Blender material](https://www.blenderkit.com/asset-gallery-detail/a2ce049b-4e02-41f1-9cff-512a1c7df09d/) — *BlenderKit*. Procedural cracked-lava Blender material preview; black crust with glowing orange cracks, tileable. Reference for an actual shader graph approach (crust mask + emissive cracks + temperature ramp).  
+   ↳ **use for:** molten-material shader
+49. [Cracked Lava Texture (seamless)](https://aitextured.com/textures/lava/cracked-lava-texture.html) — *AITextured*. Seamless cracked-lava texture preview; dark crust with glowing fissures, tileable. Reference for a tiling base-color/emissive map for the Plinths and channel-bed material.  
+   ↳ **use for:** Plinths material
+50. [Volcanic Rock with Glowing Lava Cracks (motion plate)](https://elements.envato.com/volcanic-rock-with-glowing-lava-cracks-7SCLACB) — *Envato Elements*. Animated volcanic rock with glowing lava cracks (motion graphic); dark rock, pulsing orange fissures. Reference for animating crack glow over time (pulse/breathe) on the shader. Licensed asset — preview only.  
+   ↳ **use for:** molten-material shader
+51. [Volcanic Landscape — Rocky Peaks of Molten Lava (fantasy art)](https://www.etsy.com/listing/1802333939/paysage-volcanique-decors-fantastique) — *Etsy*. Fantasy volcanic landscape; rocky peaks amid molten lava, warm glow over dark mountains. Wide-vista mood reference for the forge-world establishing beat. Licensed art print — inspo only.  
+   ↳ **use for:** channel flow
+52. [Environment: Lava / Hell — curated board](https://www.pinterest.com/pabloperez50596/environment-lava-hell/) — *Pinterest*. Large curated board of lava/hell environment concept art; many dark-rock + molten-channel + glowing-crack pieces. Broad inspiration set spanning games/film for mood and crack patterns.  
+   ↳ **use for:** molten-material shader
+53. [Volcanic Wasteland — curated board](https://www.pinterest.com/seregruthon/volcanic-wasteland/) — *Pinterest*. Curated volcanic-wasteland board; fantasy places with cracked molten ground and ash skies. Reference for desolate cracked-crust grounds and the warm/ash atmosphere.  
+   ↳ **use for:** Plinths material
+54. [Lava World Fantasy Art — idea collection](https://www.pinterest.com/ideas/lava-world-fantasy-art/907438486758/) — *Pinterest*. Pinterest idea cluster of lava-world fantasy art; molten channels, glowing cracks, dark rock worlds. Mood/board reference for staging and palette across many pieces.  
+   ↳ **use for:** channel flow
+55. [Fantasy Lava Landscape — idea collection](https://www.pinterest.com/ideas/fantasy-lava-landscape/902444355207/) — *Pinterest*. Idea cluster of fantasy lava landscapes; rivers of molten light through dark terrain. Reference for landscape-scale channel flow and warm-on-cold value structure.  
+   ↳ **use for:** channel flow
+56. [Lava City Fantasy Art — idea collection](https://www.pinterest.com/ideas/lava-city-fantasy-art/916469320508/) — *Pinterest*. Idea cluster of lava-city art incl. 'Emberheart Forge' style obsidian citadels with lava-forged bridges and molten metal workshops. On-brief forge-city staging and molten-channel integration.  
+   ↳ **use for:** channel flow
+57. [Volcanic Forge — idea collection](https://www.pinterest.com/ideas/volcanic-forge/940791699733/) — *Pinterest*. Idea cluster of volcanic forges; dark stone/obsidian forge architecture lit by molten metal and lava channels. Directly on-brief for the giant-dwarf-forge — molten as the only light.  
+   ↳ **use for:** channel flow
+58. [Dwarven Forge Concept Art — idea collection](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Idea cluster of dwarven forges (Erebor / Khazad-dûm / Orzammar references); molten gold/lava channeled through dark obsidian halls. On-brief for the dwarf-forge molten-channel and warm-metal light.  
+   ↳ **use for:** channel flow
+59. [Magma Planet — curated board](https://www.pinterest.com/gameindica/magma-planet/) — *Pinterest*. Curated magma-planet board; environment concept art of cracked molten worlds, void-black with glowing fissures. Reference for planet-scale crack networks and emissive vein density.  
+   ↳ **use for:** molten-material shader
+60. [Volcanic Environment — curated board](https://www.pinterest.com/mjordan1137/volcanic-enviorment/) — *Pinterest*. Curated volcanic-environment board (58 ideas); concept art of magma rivers, glowing cracks and dark cliffs. Reference for channel staging and crust detail variety.  
+   ↳ **use for:** molten-material shader
+61. [Lord of the Rings — Mount Doom / Mordor lava (concept/film art, HD)](https://rare-gallery.com/4515925-nazgl-sauron-the-eye-of-sauron-the-lord-of-the-rings-mordor-mount-doom-lava-artwork-concept-art-fantasy-art-barad-dr.html) — *Rare Gallery*. LOTR fantasy/concept art of Mordor and Mount Doom; black volcanic terrain veined with glowing lava under Barad-dûr and the red Eye. Iconic dark-world-with-molten-veins mood reference.  
+   ↳ **use for:** channel flow
+62. [Shadow of Mordor — Mount Doom lava (screenshot/art, HD)](https://rare-gallery.com/1167499-mountains-deviantart-the-lord-of-the-rings-lava-shadow-of-mordor-the-eye-of-sauron-mordor-screenshot.html) — *Rare Gallery*. Shadow of Mordor lava scene; molten rivers cutting black volcanic mountains, smoky red atmosphere. Reference for in-engine molten-channel lighting and Mordor palette.  
+   ↳ **use for:** channel flow
+63. [Mordor / Mount Doom — lava volcano (fantasy wallpaper art)](https://www.wallpaperflare.com/artwork-lava-mordor-mount-doom-the-lord-of-the-rings-volcano-wallpaper-smbfo) — *WallpaperFlare*. Mount Doom artwork; erupting volcano with lava flows over dark slopes, ember-lit sky. Reference for the cast/finale eruption mood and warm-glow grading on black terrain.  
+   ↳ **use for:** molten-material shader
+64. [Mordor Concept Art — idea collection](https://www.pinterest.com/ideas/mordor-concept-art/895658622816/) — *Pinterest*. Idea cluster of Mordor concept art; ash-black plains, glowing lava fissures, oppressive red skies. Reference for desolate molten-vein terrain and atmosphere across many pieces.  
+   ↳ **use for:** channel flow
+65. [Mustafar (Star Wars) — lava planet aesthetic, idea collection](https://www.pinterest.com/ideas/mustafar-star-wars-aesthetic/940754365950/) — *Pinterest*. Mustafar lava-planet aesthetic cluster; rivers of molten orange across black volcanic terrain, dark castle silhouette. Iconic cinematic lava-world staging and warm/void contrast.  
+   ↳ **use for:** channel flow
+66. [Mustafar (Star Wars) — idea collection](https://www.pinterest.com/ideas/mustafar-star-wars/914660973386/) — *Pinterest*. Mustafar idea cluster; lava falls, molten channels and obsidian-black rock from Revenge of the Sith design (Ryan Church / Doug Chiang lineage). Reference for lava-fall channels and dark-architecture-over-molten.  
+   ↳ **use for:** channel flow
+67. [Anakin vs. Obi-Wan — Behind the Concept Art (Mustafar)](https://starwarsconceptart.substack.com/p/anakin-vs-obi-wan-behind-the-concept) — *Star Wars Concept Art (Substack)*. Article featuring Revenge of the Sith Mustafar concept art (Ryan Church et al.); molten lava rivers, mining facility over black rock, intense orange key light. High-end cinematic lava-world reference.  
+   ↳ **use for:** channel flow
+68. [Volcanic Lair — curated board](https://www.pinterest.com/j_canales224/volcanic-lair/) — *Pinterest*. Curated volcanic-lair board; interior molten chambers, lava moats and dark stone architecture. Reference for enclosed forge-chamber staging and molten-light-from-below.  
+   ↳ **use for:** molten-material shader
+69. [Hell Landscape Art — idea collection](https://www.pinterest.com/ideas/hell-landscape-art/951249450505/) — *Pinterest*. Idea cluster of hell-landscape art; lakes/rivers of fire, glowing cracked ground, oppressive dark skies. Broad hellscape mood and crack-network reference.  
+   ↳ **use for:** Plinths material
+70. [Magma Planet — idea collection](https://www.pinterest.com/pin/703335666799513081/) — *Pinterest*. Dark sci-fi magma planet concept; black-purple rock world laced with glowing magma cracks against space-black. Reference for a deep-void backdrop with emissive molten veins (palette-on-brief).  
+   ↳ **use for:** molten-material shader
+71. [ArtStation Lava Rocks — environment/rock textures (mirror)](https://www.pinterest.com/pin/artstation-lava-rocks--1148558711198518822/) — *Pinterest (ArtStation mirror)*. Lava-rock environment texture art; dark basalt slabs with glowing seams. Reference for the Plinths/channel-bed rock material (crust break-up + emissive seams).  
+   ↳ **use for:** Plinths material
+72. [Lava Background art — idea collection](https://www.pinterest.com/heidiunk/lava-background-art/) — *Pinterest*. Curated lava-background board; molten textures and glowing-crack surfaces suited as backdrops. Reference for full-bleed molten background plates and temperature gradients.  
+   ↳ **use for:** temperature ramp
+73. [Lava City — curated board](https://www.pinterest.com/lilia5011/lava-city/) — *Pinterest*. Curated lava-city board; obsidian/dark architecture threaded with molten channels and glowing light. On-brief forge-city staging — molten channels integrated into built structures.  
+   ↳ **use for:** channel flow
+74. [Lava Planet Concept Art — idea collection](https://www.pinterest.com/ideas/lava-planet-concept-art/915669750106/) — *Pinterest*. Idea cluster of lava-planet concept art; cracked molten worlds, glowing fissure networks on dark crust. Reference for planet-scale crack density and emissive vein color.  
+   ↳ **use for:** molten-material shader
+75. [Volcano Castle — idea collection](https://www.pinterest.com/ideas/volcano-castle/947258300040/) — *Pinterest*. Idea cluster of volcano castles; dark fortresses set in molten/volcanic terrain with lava moats and falls. Reference for dark-architecture-over-molten staging (the forge as a structure).  
+   ↳ **use for:** channel flow
+
+
+## Molten Letterforms
+
+### Real (26)
+
+1. [Dramatic Blacksmith Forging Metal at Night](https://www.pexels.com/photo/dramatic-blacksmith-forging-metal-at-night-29442939/) — *Pexels*. Blacksmith works a glowing workpiece in near-darkness; the heated metal is the sole light source, a deep cherry-red core blooming to orange at the hottest edge and falling to black iron at the cool end. High-contrast void background. Mood: solemn, industrial, the-metal-is-the-only-light.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+2. [Blacksmith Forging Metal with Flying Sparks](https://www.pexels.com/photo/blacksmith-forging-metal-with-flying-sparks-33343627/) — *Pexels*. Hammer strike on glowing stock throws a fan of vivid orange sparks against black. Hot zone is yellow-white at impact, grading to orange then dull red. Sparks read as ember particulate. Mood: violent, kinetic, forge-strike energy.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+3. [A Blacksmith Working over Iron (video still)](https://www.pexels.com/video/a-blacksmith-working-over-iron-5846303/) — *Pexels*. Motion footage of iron worked at the anvil; glowing bar with red-to-orange temperature gradient along its length, surrounding workshop crushed to shadow. Useful as motion reference for how molten light moves and cools. Mood: laborious, warm-on-black.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+4. [Blacksmithing — free stock collection](https://www.pexels.com/search/blacksmithing/) — *Pexels*. Curated set of forge photographs: glowing billets, anvil work, sparks, furnace mouths. Consistent palette of orange-hot metal against dark workshop. Source pool for cooling-gradient and glowing-metal-as-only-light reference.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+5. [Lava — free stock collection](https://www.pexels.com/search/lava/) — *Pexels*. Molten lava photographs: glowing orange-yellow flow through black basalt crust. Cracks emit hot light; crust reads green-black to pure black. Strong analog for molten-channel and the surface of cast metal before it cools.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+6. [Molten Metal Melting (Hot Casting)](https://pixabay.com/photos/molten-metal-melting-hot-casting-687088/) — *Pixabay*. Close view of molten metal in the melt — incandescent yellow-white pool skinning over to orange and grey scale at the edges. The cooling skin shows the exact hot-to-cool gradient cast letters would take. Mood: raw heat, industrial.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+7. [Molten Metal in Crucible (Melting)](https://pixabay.com/photos/molten-metal-crucible-melting-571823/) — *Pixabay*. Crucible of glowing molten metal, surface a bright orange-yellow with a darker oxidized skin forming. Pour-ready liquid metal reference. Mood: contained fury, the glow is the only light.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+8. [Glowing Metal — free image collection](https://pixabay.com/images/search/glowing%20metal/) — *Pixabay*. Large pool of glowing-metal photos and renders: heated bars, ingots, sparks, molten pours. Wide range of red→orange→yellow→white-hot temperatures on dark grounds. Reference pool for the cooling gradient across the GAELWORX letters.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+9. [Molten Metal / Foundry — free image collection](https://pixabay.com/images/search/molten%20metal/) — *Pixabay*. Foundry and molten-metal photographs: pours, crucibles, smelting. Incandescent liquid metal against industrial dark. Source pool for the pour-into-letterforms moment and the white-hot peak temperature.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+10. [Hot Iron / Blacksmith — free image collection](https://pixabay.com/images/search/hot%20iron/) — *Pixabay*. 10,000+ hot-iron and blacksmith photos: red and orange glowing bars, horseshoes, rods at the anvil. Clean examples of the temperature-color progression on forged stock. Mood: traditional smithing, warm-on-black.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+11. [Glowing Metal — illustrations/renders collection](https://pixabay.com/illustrations/search/glowing%20metal/) — *Pixabay*. 18k+ glowing-metal illustrations and 3D renders mixing photographic and CG hot-metal looks; molten orange surfaces, ember glow, dark grounds. Bridges real reference and the CG target for the cast finale.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+12. [Foundry Molten Metal Hot Metal (vector graphic)](https://pixabay.com/vectors/foundry-molten-metal-hot-metal-4462632/) — *Pixabay*. Stylized vector of a foundry pour: bright orange-yellow molten stream into a ladle, ember sparks. Simplified hot-to-cool ramp useful for reading the gradient as flat color stops. Mood: graphic, industrial.  
+   ↳ **use for:** cooling-iron gradient
+13. [Hot Branding Iron — stock collection](https://www.istockphoto.com/photos/hot-branding-iron) — *iStock*. Branding-iron photographs: metal letter/symbol heads heated to glowing red-orange at the tip, cooling to dark iron up the shank. The closest real analog to a single glowing letterform. Mood: western, raw, the letter itself is the ember.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+14. [Branding Iron — stock collection](https://www.istockphoto.com/photos/branding-iron) — *iStock*. Letter-shaped branding irons, some cold and some glowing. Shows letterform geometry in cast iron plus the glow state. Reference for the GAELWORX letters as forged objects with carved faces. Mood: utilitarian, sculptural.  
+   ↳ **use for:** LetterCast finale
+15. [Hot Metal Type — stock collection](https://www.istockphoto.com/photos/hot-metal-type) — *iStock*. Letterpress/foundry type imagery — cast lead glyphs, type metal, sorts. Crisp letterform faces in dull metal; some hot-casting examples. Reference for cast-type surface, mold lines, and carved-glyph faces (Ogham analog). Mood: craft, precision.  
+   ↳ **use for:** LetterCast finale
+16. [Font Molten Metal — stock collection](https://www.istockphoto.com/photos/font-molten-metal) — *iStock*. Molten-metal lettering: glyphs rendered/photographed as glowing liquid metal, orange-hot with dripping highlights. Direct subject match for molten letterforms. Mood: fiery typography.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+17. [Glowing Sword — stock collection](https://www.istockphoto.com/photos/glowing-sword) — *iStock*. Glowing-blade photographs and composites: hot-forged blades and lit blades against black, orange-red glow along the edge fading to dark steel. Real analog for a glowing cast object with a cooling edge gradient. Mood: dramatic, dark.  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+18. [Red Hot Metal — stock collection](https://www.gettyimages.com/photos/red-hot-metal) — *Getty Images*. Red-hot metal, glowing-metal and blacksmith photography; molten and heated stock showing the full red→orange→yellow temperature range on dark grounds. Reference pool for accurate hot-metal color science. Mood: industrial heat.  
+   ↳ **use for:** cooling-iron gradient
+19. [Blacksmith — stock collection](https://www.gettyimages.com/photos/blacksmith) — *Getty Images*. Broad blacksmith library: forges, anvils, glowing billets, sparks, dim workshops lit by the metal. Consistent warm-on-black grading. Reference for staging the forge as dark stage where the metal is the only light.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+20. [Pouring Metal — stock collection](https://www.gettyimages.com/photos/pouring-metal) — *Getty Images*. Foundry pours: incandescent yellow-white molten metal streaming into molds, fierce sparks, orange spill light raking dark machinery. Direct reference for the metal-pours-into-letterforms beat. Mood: dangerous, awe.  
+   ↳ **use for:** LetterCast finale
+21. [Glowing Hot Iron Rod — stock collection](https://www.dreamstime.com/photos-images/glowing-hot-iron-rod.html) — *Dreamstime*. Glowing iron rods/bars: a clean linear hot-to-cool gradient down the length (white-yellow tip → orange → cherry red → black iron). Ideal isolated study of the cooling-iron ramp. Mood: clean forge study.  
+   ↳ **use for:** cooling-iron gradient
+22. [Shaping White-Hot Iron on an Anvil (900F leaf design)](https://www.dreamstime.com/shaping-white-hot-iron-anvil-blacksmith-shapes-wrought-rod-to-form-decorative-leaf-design-glowing-degrees-image161624303) — *Dreamstime*. Blacksmith forms a white-hot wrought-iron rod; the working end glows near white-yellow (~900F+) and falls steeply to dull red and black up the bar. Excellent peak-temperature white-hot reference. Mood: precise, incandescent.  
+   ↳ **use for:** A-E divine fire / cooling-iron gradient
+23. [Glowing Hot Metal — stock collection](https://www.dreamstime.com/photos-images/glowing-hot-metal.html) — *Dreamstime*. 17k+ glowing-hot-metal photos: ingots, billets, sparks, molten surfaces with the full incandescence ramp on black. Broad reference pool for grading the cast letters as they cool. Mood: industrial heat.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+24. [Glowing Iron — stock collection](https://www.dreamstime.com/photos-images/glowing-iron.html) — *Dreamstime*. 16k+ glowing-iron photos: heated bars and forms emitting their own orange light into dark surroundings. Reference for self-illuminated metal as the scene's only light. Mood: warm-on-black.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+25. [Steel Temper Colors: Explanation & Chart](https://www.servicesteel.org/resources/steel-tempering-colors) — *Service Steel*. Reference chart mapping steel temperature to glow/temper color: faint red ~900F up through cherry, orange, yellow to white ~2400F. Ground-truth color science for an accurate, non-arbitrary cooling-iron gradient and the white-hot A/E. Mood: technical.  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+26. [Steel Temperature Color Chart: A Complete Comparison](https://www.machinemfg.com/temperature-and-color-chart/) — *MachineMFG*. Detailed temperature-to-color tables (dark red 700C → orange-red 1100C → white-yellow 1200-1300C → white 1300-1500C). Defines the exact hex stops for hot→cool. Directly informs the gradient ramp and where the A/E sit on it (white-hot).  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+
+### Fantasy / Concept Art (73)
+
+1. [Molten Lava Text Effect](https://www.artstation.com/artwork/mXyZ1) — *ArtStation (Sutej Pal Chaudhary)*. Red-hot lava text: 3D letterforms with a glowing molten body, bright orange-yellow cracks through a darkening crust, ember glow halo. Almost exactly the LetterCast look — letters made of cooling cast metal. Mood: forge-core, incandescent.  
+   ↳ **use for:** LetterCast finale
+2. [Molten Lava](https://www.artstation.com/artwork/6e2OO) — *ArtStation (Matthieu Gouault)*. Molten lava material study: bright incandescent flow (yellow-white core) breaking through a near-black cracked crust. The crust-over-glow contrast is the cooling-iron read at material scale. Mood: dark, glowing-from-within.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+3. [Cooling Molten Lava](https://www.artstation.com/artwork/3qPX5g) — *ArtStation (Kyle Horwood)*. Substance Designer material of lava in the act of cooling — glowing orange veins receding as black crust spreads. The literal hot→cool transition reference for the moment GAELWORX letters skin over to forged iron. Mood: cooling, residual heat.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+4. [Explore — molten/forge render](https://www.artstation.com/artwork/mDvL8e) — *ArtStation*. Molten-metal/lava themed render surfaced for forge-fire typography; glowing liquid metal against dark. Use as composition and glow-grade reference for hot cast surfaces. Mood: fiery, dark ground.  
+   ↳ **use for:** LetterCast finale
+5. [Fire Dragon Lava](https://www.artstation.com/artwork/R3rb0y) — *ArtStation*. Lava/fire environment with molten orange channels glowing through black volcanic rock. Reference for molten metal as the only light within green-black basalt. Mood: infernal, cinematic.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+6. [C4D Octane Volcano Burning Logo (Magma/Lava/Fire)](https://www.artstation.com/marketplace/p/y1llw/c4d-octane-volcano-burning-logo-magma-lava-moutain-fire-finalized-version) — *ArtStation Marketplace*. C4D/Octane burning-logo setup: a logo/title rendered as glowing magma — molten orange body, ember sparks, lava crust. Closest motion-design analog to a brand mark cast in molten metal. Mood: epic title, fire-forged.  
+   ↳ **use for:** LetterCast finale
+7. [Iron Forge — Premium 3D Asset Kit](https://www.artstation.com/artwork/zPNLoD) — *ArtStation (artwork zPNLoD)*. Forge asset kit with molten metal and brimstone amid carved stone molds and mortar. Reference for the stone-mold-and-channel staging around the cast, and molten metal pooling in carved forms. Mood: dwarven, industrial-fantasy.  
+   ↳ **use for:** LetterCast finale
+8. [Dwarven Forge (artwork qQGN2)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Subterranean dwarven forge: molten channels and crucibles cast warm orange light across carved stone, deep shadow elsewhere. Environment reference for the molten-channel home journey and the finale chamber. Mood: cavernous, warm-on-black.  
+   ↳ **use for:** LetterCast finale
+9. [Dwarven Forge](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation (Louis-Philippe Ross Boivin)*. UE5 (Nanite/Lumen) dwarven blacksmith shop, LOTR-inspired: glowing forge mouth and molten metal as primary light, sharp carved stone. High-fidelity target for the forge-world look. Mood: cinematic, Middle-Earth.  
+   ↳ **use for:** LetterCast finale
+10. [Dwarven Forge](https://www.artstation.com/artwork/K3z2A9) — *ArtStation (Rotann Colyn)*. Dwarven forge environment focused on set dressing and composition; warm molten glow pooling in a dark stone hall. Reference for staging the cast within carved architecture. Mood: grand, smoldering.  
+   ↳ **use for:** LetterCast finale
+11. [LOTR Portfolio Project — Dwarven Forge](https://www.artstation.com/artwork/rADxA5) — *ArtStation (Anton Meineche Falk)*. LOTR-styled dwarven forge: molten runnels, glowing crucibles, deep carved stone, true-black shadow. Reference for molten metal channeled through stone and the only-light rule. Mood: epic fantasy, warm/black.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+12. [Dwarven Forge Caverns (artwork 143Qy2)](https://www.artstation.com/artwork/143Qy2) — *ArtStation*. Cavernous forge with rivers of molten metal lighting black rock from below. Strong reference for the molten-channel ride and pure-void surrounds. Mood: subterranean, glowing veins.  
+   ↳ **use for:** LetterCast finale
+13. [Heroes of the Storm — Forged by Fire Cinematic Trailer](https://www.artstation.com/artwork/vdeKv) — *ArtStation (Yewon Park / Blizzard)*. Blizzard cinematic: molten metal, forge sparks, glowing-hot blades and props with rich orange-on-black grade. AAA reference for forge cinematography and how hot metal reads on screen. Mood: heroic, cinematic forge.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+14. [Blacksmith Cinematic UE5 2024](https://www.artstation.com/artwork/rlZ6BL) — *ArtStation (Agnieszka Michalska)*. In-engine UE5 blacksmith cinematic with metalwork and fire; glowing forge light, hot stock, dramatic dark staging. Reference for real-time forge lighting and motion of the glow. Mood: filmic, warm-on-black.  
+   ↳ **use for:** LetterCast finale
+15. [Rune Sword](https://www.artstation.com/artwork/qAeA5D) — *ArtStation (Bruno Braga)*. Sword with carved runes that glow from within the blade — bright line-light tracing engraved glyphs against dark metal. Direct reference for carved Ogham on the GAELWORX letters lit from inside. Mood: arcane, edge-lit.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+16. [Dark Rune Sword](https://www.artstation.com/artwork/oA0Yym) — *ArtStation (Andrea Chierchia)*. Dark blade with runic engraving glowing in a hot orange/amber; near-black steel body so the glyph-light dominates. Reference for glowing engraving on dark forged metal (carved letter faces). Mood: ominous, glowing runes.  
+   ↳ **use for:** A-E divine fire / cooling-iron gradient
+17. [FLAMING SWORD](https://www.artstation.com/artwork/OGJlgg) — *ArtStation (artwork OGJlgg)*. Sword wreathed in deadly flame; blade radiates orange-white fire along its length. Reference for a metal object holding eternal fire (the A/E divine-fire conceit) and ember-glow falloff. Mood: wrathful, fire-clad.  
+   ↳ **use for:** A-E divine fire
+18. [Flaming Sword Concept Art (Uriel)](https://www.artstation.com/artwork/NG6DxD) — *ArtStation (Vicky Beland-Labonte)*. Concept of a flaming sword representing fire and light; warm white-gold flame on a bright blade. Reference for white-gold divine fire rather than red — closest to the A/E's eternal white-gold glow. Mood: holy, radiant.  
+   ↳ **use for:** A-E divine fire
+19. [Glowing Fantasy Sword](https://www.artstation.com/artwork/R44de) — *ArtStation (Brandi Koloski)*. Hand-painted stylized sword (after Tyson Murphy) with a glowing blade; controlled emissive on metal, clean falloff. Reference for stylized glow on a forged blade and how emissive reads against PBR steel. Mood: clean fantasy, luminous.  
+   ↳ **use for:** A-E divine fire / cooling-iron gradient
+20. [Flaming Sword](https://www.artstation.com/artwork/6NmlLN) — *ArtStation (Ambre Boucher)*. Flaming sword with Houdini fire sim (Maya Arnold render): physically-plausible flame sheeting off the blade, orange core to wispy tips. Reference for fire that radiates from the letterforms. Mood: cinematic, volatile.  
+   ↳ **use for:** A-E divine fire
+21. [Fantasy Sword Concept Art (Scifica Studio)](https://www.artstation.com/artwork/abEP9) — *ArtStation (Anton Cermak)*. Sword shape study/concept with glowing accents; dark blade with hot emissive details. Reference for forged-blade silhouette and where glow sits on a dark metal object. Mood: studied, dark-fantasy.  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+22. [Fantasy Weapon Concept Art](https://www.artstation.com/artwork/v1Dqzx) — *ArtStation (Mauricio Carrasco)*. Weapon concepts across Blizzard/Darksiders/Skyrim styles; several blades with glowing runic/emissive elements on dark metal. Reference pool for engraved-glow treatments on forged weapons. Mood: game-art, varied.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+23. [Rune Generator and Black Metal](https://www.artstation.com/artwork/L38X4k) — *ArtStation (Juan Carlos Nuno)*. Mortal-Shell-inspired runes on black metal — crisp glyphs catching hot rim-light against a matte-black body. Reference for carved-glyph faces (Ogham) and glyph-on-iron contrast. Mood: brutal, dark-metal.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+24. [Runic Chest](https://www.artstation.com/artwork/GamaG1) — *ArtStation (Nikkei Ferron)*. BOTW-style game asset chest with custom runic alphas; runes designed from letterforms/katakana, lit to glow. Reference for inventing a coherent carved rune-alphabet and lighting it on metal. Mood: stylized game art.  
+   ↳ **use for:** LetterCast finale
+25. [Fire Rune Stone](https://www.artstation.com/artwork/18PL9Z) — *ArtStation (artwork 18PL9Z)*. Stone inscribed with a fire rune that glows hot orange from within the carved channel. Reference for glowing engraving revealed in a dark surface — directly maps to carved Ogham igniting on the cast letters. Mood: elemental, smoldering.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+26. [Fire Magic](https://www.artstation.com/artwork/xY4q4E) — *ArtStation (artwork xY4q4E)*. Fire-magic FX study: swirling orange-to-white flame and ember energy on black. Reference for the radiating divine-fire aura around the ignited A/E. Mood: arcane, energetic.  
+   ↳ **use for:** A-E divine fire
+27. [Magic: The Gathering — Dragon's Fire](https://www.artstation.com/artwork/18qmkK) — *ArtStation (Campbell White)*. MTG illustration of intense dragon fire — white-hot core blooming to orange, deep black surrounds. Reference for the brightest white-gold heat read and dramatic fire-on-void grading. Mood: explosive, painterly.  
+   ↳ **use for:** A-E divine fire
+28. [Fire Magic](https://www.artstation.com/artwork/1xbgBK) — *ArtStation (Derek Paxton)*. Stylized fire magic with glowing embers and warm light. Reference for ember particulate and the soft glow halo around an ignited element. Mood: warm, magical.  
+   ↳ **use for:** A-E divine fire
+29. [100+ Magic Energy FX (resource set)](https://www.artstation.com/marketplace/p/a7Ld1/100-magic-energy-fx) — *ArtStation Marketplace*. Set of magic/plasma/energy images on black: fire bursts, rays, rings, embers. Reference library for the radiance and energy filaments emanating from the divine-fire A/E. Mood: VFX, high-energy.  
+   ↳ **use for:** A-E divine fire
+30. [147 Hi-Res Magic Energy Fire Rays & Rings (PNGs)](https://www.artstation.com/marketplace/p/3Nlb/147-hi-res-magic-energy-fire-rays-rings-pngs) — *ArtStation Marketplace*. Fire rays, energy rays, fire rings and hits on black grounds. Reference for the radiating-spokes/halo geometry of light coming off the ignited letters. Mood: VFX overlay, fiery.  
+   ↳ **use for:** A-E divine fire
+31. [How to Render Metal (tutorial art)](https://www.artstation.com/artwork/rrgWm) — *ArtStation (artwork rrgWm)*. Metal-rendering study showing reflective vs. emissive behavior, value steps and rim light. Reference for getting forged-iron material right so the cooled GAELWORX letters read as real metal, not flat grey. Mood: technical, instructive.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+32. [Painting / Rendering Metal](https://www.artstation.com/artwork/9mwGBN) — *ArtStation (artwork 9mwGBN)*. Tutorial on painting metal: how heated metal shifts value and hue, where highlights and reflected warmth fall. Reference for hand-grading the hot→cool transition convincingly. Mood: instructive.  
+   ↳ **use for:** cooling-iron gradient
+33. [Metal Rendering](https://www.artstation.com/artwork/A9yLee) — *ArtStation (Naranbaatar Ganbold)*. Polished metal-rendering study with crisp reflections and value control. Reference for forged-iron surface finish on the cooled letters and how ambient warmth tints cold metal. Mood: clean, technical.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+34. [Magical Crystal Sword with Glowing Blade (Low Poly)](https://www.artstation.com/marketplace/p/We67/magical-crystal-sword-with-glowing-blade-low-poly-3d-model) — *ArtStation Marketplace (impylse)*. C4D/Octane sword model with an emissive glowing blade; clean control of glow intensity and bloom on a hard surface. Reference for tuning emissive + bloom on the divine-fire A/E in a real-time-ish budget. Mood: MMORPG, luminous.  
+   ↳ **use for:** A-E divine fire
+35. [Stylized Glowing Rune Sword (Game Ready)](https://sketchfab.com/3d-models/stylized-glowing-rune-sword-game-ready-dbe60d058f5040209b832fca39bb4fbe) — *Sketchfab (balasekar)*. Real-time sword with a realistic steel blade and glowing runes; viewable in 3D to study how emissive glyphs sit on PBR metal under lighting. Reference for carved glowing glyphs on forged steel in-engine. Mood: game-ready, runic.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+36. [Runic Sword | Mystic Fantasy Blade](https://sketchfab.com/3d-models/runic-sword-mystic-fantasy-blade-7685d4caf6144393ba8b316a86cb040e) — *Sketchfab (Victor Crissostomo)*. Blade engraved with glowing mystical runes; rotatable model to read glyph depth, channel glow and metal interaction from all angles. Reference for carved-and-lit letterforms. Mood: mystic, dark steel.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+37. [Rune Sword (3D model)](https://sketchfab.com/3d-models/rune-sword-ff6976033cad4bbea72769d4ff7062a0) — *Sketchfab (Aerun_)*. Stylized hand-painted rune sword; runes painted to glow against dark metal. Reference for a stylized, performant approach to glowing engraving (no heavy sim). Mood: stylized, painterly.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+38. [Enigmatic Warrior with a Glowing Rune Sword](https://www.deviantart.com/arcaneheaven/art/Enigmatic-Warrior-with-a-Glowing-Rune-Sword-1121014321) — *DeviantArt (ArcaneHeaven)*. Warrior wields a sword radiating intense golden light with glowing runes carved along the blade. Strong reference for white-gold glyph light and outward radiance — the A/E divine-fire feel. Mood: heroic, golden glow.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+39. [Forged in Fire](https://www.deviantart.com/eneakelo/art/Forged-in-Fire-1171353624) — *DeviantArt (eneakelo)*. Sword-engulfed-in-flame design; flame licks along the blade with barbed detail. Reference for fire clinging to a metal object's silhouette. Mood: aggressive, fiery.  
+   ↳ **use for:** A-E divine fire
+40. [Flame Blade (Magical Sword of Fire)](https://www.deviantart.com/spookiboi96/art/Flame-Blade-Magical-Sword-of-Fire-1077215033) — *DeviantArt (spookiboi96)*. Legendary fire-sword: blade sheathed in orange-yellow flame against dark. Reference for a glowing metal object whose heat is its identity, mapping to the eternal-fire A/E. Mood: legendary, hot.  
+   ↳ **use for:** A-E divine fire
+41. [Forged In Fire](https://www.deviantart.com/arcanepalette/art/Forged-In-Fire-1189189338) — *DeviantArt (ArcanePalette)*. Sword wreathed in flame mirroring fiery chaos; warm orange fire over steel. Reference for chaotic-yet-readable flame radiating from a blade/letter. Mood: chaotic, blazing.  
+   ↳ **use for:** A-E divine fire
+42. [The Abyssrend Dominion](https://www.deviantart.com/kidjoker27/art/The-Abyssrend-Dominion-1232853943) — *DeviantArt (kidjoker27)*. Massive blade of dragon scale and infernal metal whose edges burn with volatile hellfire and shimmer with elemental energy. Reference for hot energy along a metal edge plus dark heavy iron body. Mood: infernal, monumental.  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+43. [Swords (black blade with black flame)](https://www.deviantart.com/artigas/art/Swords-893808079) — *DeviantArt (Artigas)*. Collection including a black blade with black flame that absorbs light. Useful as a contrast/negative reference — the inverse of glowing metal — to calibrate how much the GAELWORX glow must dominate the void. Mood: dark, anti-glow.  
+   ↳ **use for:** LetterCast finale
+44. [Glowing Runes](https://www.deviantart.com/boginoid/art/Glowing-runes-556559139) — *DeviantArt (Boginoid)*. Sheet of glowing rune sets (futhark and others) rendered as bright emissive glyphs on dark. Reference library for rune/glyph shapes and emissive treatment for carved letter faces. Mood: arcane, catalog.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+45. [Glowing Runes Tutorial](https://www.deviantart.com/michaelmetcalf/art/glowing-runes-tutorial-310947995) — *DeviantArt (MichaelMetcalf)*. Step-by-step tutorial for a glowing-rune effect: inner core, bloom, ember falloff. Reference for the layering recipe to make carved Ogham ignite convincingly. Mood: instructive.  
+   ↳ **use for:** A-E divine fire
+46. [275+ Magic Rune Circles and Glyphs Overlay Effects](https://www.deviantart.com/blazgad/art/275-Magic-Rune-Circles-and-Glyphs-Overlay-Effects-1012798703) — *DeviantArt (Blazgad)*. Large pack of glowing rune circles and glyph overlays on black. Reference for glyph-ring composition and emissive overlay treatment around the ignited letters. Mood: VFX overlay, arcane.  
+   ↳ **use for:** A-E divine fire / LetterCast finale
+47. [Fantasy Stone Runes](https://www.deviantart.com/wisestprojectstudio/art/Fantasy-Stone-Runes-1032735411) — *DeviantArt (WisestProjectStudio)*. Stone runes carrying ancient power; carved glyphs in rock with subtle glow. Reference for carved-into-dark-material glyphs (Ogham in basalt/iron) before they ignite. Mood: ancient, weighty.  
+   ↳ **use for:** LetterCast finale
+48. [The Dwarven God of Runes and Craftsmanship](https://www.deviantart.com/ravenforgestudios/art/The-Dwarven-God-of-Runes-and-Craftsmanship-1146295281) — *DeviantArt (RavenforgeStudios)*. Dwarven-forge themed piece with runes and craftsmanship; warm forge light, carved runic detail. Reference for the dwarven-forge rune aesthetic tying the letterform finale to the world. Mood: mythic, warm.  
+   ↳ **use for:** LetterCast finale
+49. [Fantasy Lands, Magical Spells and Glowing Runes](https://www.deviantart.com/stormbiz/art/Fantasy-Lands-Magical-Spells-And-Glowing-Runes-999152127) — *DeviantArt (stormbiz)*. Scene with glowing runes and spell light; emissive glyphs floating/inscribed in a dark fantasy setting. Reference for glyph-glow in atmosphere and how rune light reads against gloom. Mood: magical, atmospheric.  
+   ↳ **use for:** A-E divine fire
+50. [Sabers (And One-Handers)](https://www.deviantart.com/marafirebrand/art/Sabers-And-One-Handers-920651072) — *DeviantArt (MaraFirebrand)*. Fantasy blade sheet including a celestial sword whose slash bursts the wicked into flame; several blades with hot accents. Reference pool for blade silhouettes and where heat-glow accents sit. Mood: fantasy armory.  
+   ↳ **use for:** cooling-iron gradient
+51. [FREE PSD — Metal Chrome Text Effect](https://www.behance.net/gallery/105246633/FREE-PSD-METAL-CHROME-TEXT-EFFECT) — *Behance (gallery 105246633)*. 3D chrome/metal text effect: extruded letterforms with crisp metallic reflections and bevels on dark ground. Reference for letterform geometry, bevel and metal reflectivity of the cooled GAELWORX type. Mood: polished, bold title.  
+   ↳ **use for:** LetterCast finale
+52. [Kinetic Typography Reel](https://www.behance.net/gallery/91618125/Kinetic-Typography-Reel) — *Behance (gallery 91618125)*. Motion-design kinetic type reel; animated letterforms with reveals and transforms. Reference for how cast letters could assemble/settle in motion as the metal pours into them. Mood: dynamic, modern.  
+   ↳ **use for:** LetterCast finale
+53. [Motion Graphics — Kinetic Typography 2020 Reel](https://www.behance.net/gallery/88365537/Motion-Graphics-Kinetic-Typography-2020-Reel?tracking_source=search%7CKINETIC) — *Behance (gallery 88365537)*. Kinetic typography reel showcasing letter animation timing and impact. Reference for Brutalist-Snap-style type entrances and settling the cast wordmark. Mood: punchy, kinetic.  
+   ↳ **use for:** LetterCast finale
+54. [Motion Reel 2020](https://www.behance.net/gallery/79948773/Motion-Reel-2020) — *Behance (gallery 79948773)*. General motion-design reel including type and material-driven transitions. Reference for pacing of a reveal where a logo/word forms from a process (pour/cast). Mood: showreel, varied.  
+   ↳ **use for:** LetterCast finale
+55. [Liquid Chrome Projects](https://www.behance.net/search/projects/liquid%20chrome) — *Behance*. Liquid-chrome/chrometype projects: gleaming, flowing 3D metal typography, often dark-on-dark. Reference for molten-into-solid metal type and the transition from liquid sheen to cast solid. Mood: futuristic, sleek.  
+   ↳ **use for:** LetterCast finale
+56. [Liquid Metal Projects](https://www.behance.net/search/projects/liquid%20metal) — *Behance*. Liquid-metal projects pool: dripping, plumped, mercury-like type and forms. Reference for the molten phase of the letters before they skin and cool. Mood: fluid, glossy.  
+   ↳ **use for:** LetterCast finale
+57. [Metal Typography Projects](https://www.behance.net/search/projects/metal%20typography?locale=en_US) — *Behance*. Metal-typography project pool: extruded metal letters, cast and machined looks, reflective and matte. Reference for forged-iron letter finishes and how type reads as a physical metal object. Mood: industrial type.  
+   ↳ **use for:** LetterCast finale
+58. [Metallic Font Projects](https://www.behance.net/search/projects/metallic%20font?locale=en_US) — *Behance*. Metallic font/lettering projects: chrome, gold, steel type with strong speculars on dark grounds. Reference for the cooled-and-polished vs. matte-iron treatment of the wordmark and the gold/white-hot A/E accent. Mood: premium, metallic.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+59. [10 Captivating Examples of the Liquid Metal Effect in Web Design](https://qodeinteractive.com/magazine/captivating-examples-of-liquid-metal-effect-in-web-design/) — *Qode Interactive*. Roundup of liquid-metal effects in web/3D design: chrome and molten-metal typography in motion, several dark-aesthetic. Reference for executing molten-metal type on the web (the GAELWORX medium). Mood: trend survey, dark/metallic.  
+   ↳ **use for:** LetterCast finale
+60. [The Futuristic Gleam of 'Liquid Metal' Is Everywhere Right Now](https://eyeondesign.aiga.org/the-futuristic-gleam-of-liquid-metal-is-everywhere-right-now-heres-why/) — *AIGA Eye on Design*. Editorial on the chrometype/liquid-metal trend with examples of gleaming dripping typography, incl. matte-black variants. Reference for the design language and dark-mode molten-metal type direction. Mood: editorial, of-the-moment.  
+   ↳ **use for:** LetterCast finale
+61. [Glowing Hot Metal (Blender material)](https://www.blendkit.com/asset-gallery-detail/082a0e65-02e8-4659-9048-d76fe89b2a46/) — *Blendkit (NK Productions)*. Procedural glowing-hot-metal Blender material: orange/yellow/red emissive heat patterns with adjustable glow intensity and roughness, simulating molten/forging metal. Direct technical reference for building the cast-metal shader and its heat ramp. Mood: shader study.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+62. [Hot Metal Typesetting (reference + process imagery)](https://en.wikipedia.org/wiki/Hot_metal_typesetting) — *Wikipedia*. Article on injecting molten type metal into glyph-shaped molds (alloy ~70% lead/10% tin/20% antimony). Real process reference for metal literally cast into letterforms — the conceptual backbone of the LetterCast finale, with diagrams of mats/sorts. Mood: documentary, technical.  
+   ↳ **use for:** LetterCast finale
+63. [Forged Cinematic Logo or Title (motion template)](https://motionarray.com/motion-graphics-templates/forged-cinematic-logo-or-title-2138110/) — *Motion Array*. Motion template that reveals a logo/title as forged metal — heat glow, sparks, metal forming. Reference for the reveal choreography of the GAELWORX mark emerging from the forge process. Mood: cinematic title.  
+   ↳ **use for:** LetterCast finale
+64. [Cinematic Inferno Molten Lava Text Effect (PSD mockup)](https://www.dgmockup.com/cinematic-inferno-molten-lava-text-effect-free-psd-mockup/) — *DG Mockup*. Text effect making letters look forged inside a volcanic core: glowing molten texture, dramatic heat cracks, cinematic lava lighting. Direct look-reference for molten-cast letterforms with crust-and-glow. Mood: volcanic, cinematic.  
+   ↳ **use for:** LetterCast finale
+65. [Fiery 3D Text Render — Molten Metal and Burning Embers](https://www.vecteezy.com/png/55921147-fiery-3d-text-render-molten-metal-and-burning-embers-graphic-design-element) — *Vecteezy*. 3D text render of molten metal with burning embers as a design element; glowing orange letterform body with ember particulate. Reference for molten letters mid-cast with embers shedding off. Mood: fiery, graphic.  
+   ↳ **use for:** LetterCast finale / A-E divine fire
+66. [Dynamic Dripping Fire 3D Text Effect (molten appearance)](https://www.vecteezy.com/psd/68099277-dynamic-dripping-fire-3d-text-effect-with-a-vivid-molten-appearance-ideal-for-high-energy-game-titles-movie-posters-or-fiery-event-promotions) — *Vecteezy*. Dripping-fire 3D text with a vivid molten appearance for game titles/posters; hot orange letters with downward molten drips and glow. Reference for the just-poured, still-flowing letter state. Mood: high-energy, molten.  
+   ↳ **use for:** LetterCast finale
+67. [Glowing Molten Metal](https://stockcake.com/i/glowing-molten-metal_1071963_720645) — *StockCake*. Glowing molten-metal image: incandescent orange-yellow liquid metal with a darker forming skin against black. Reference for the surface and glow of metal just before it sets into the letters. Mood: molten, dark ground.  
+   ↳ **use for:** LetterCast finale / cooling-iron gradient
+68. [Glowing Hot Metal](https://stockcake.com/i/glowing-hot-metal_1110053_596119) — *StockCake*. Glowing hot metal in a forge: bright orange heated stock radiating into shadow. Reference for self-illuminated metal as the only light and the orange-to-black falloff. Mood: forge heat.  
+   ↳ **use for:** cooling-iron gradient / LetterCast finale
+69. [Glowing Iron Furnace](https://stockcake.com/i/glowing-iron-furnace_1368688_444079) — *StockCake*. Iron glowing inside a furnace: deep orange/yellow heat in an enclosed dark space. Reference for the furnace/melt chamber that opens the home journey and feeds the pour. Mood: contained inferno.  
+   ↳ **use for:** LetterCast finale
+70. [Molten Metal Pour](https://stockcake.com/i/molten-metal-pour_191643_33837) — *StockCake*. Molten metal pouring: bright yellow-white stream falling, orange spill light, sparks. Reference for the exact pour-into-mold moment that becomes the cast letterforms. Mood: dramatic pour.  
+   ↳ **use for:** LetterCast finale
+71. [Glowing Katana (AI/stock image set)](https://stockcake.com/s/glowing+katana) — *StockCake*. Set of glowing-katana images: blades with hot orange or white emissive edges against dark. Reference for a long glowing metal object with a cooling-edge gradient (analog to a letter stroke). Mood: dramatic, dark.  
+   ↳ **use for:** cooling-iron gradient / A-E divine fire
+72. [Iron Forge — Premium 3D Asset Kit (store listing)](https://www.artstation.com/marketplace/p/r0aYk/ultrarealistic-fire-and-coast-ue5) — *ArtStation Marketplace*. UltraRealistic Fire UE5 asset: physically-based fire/embers for real-time, warm orange flame on dark. Reference for real-time fire on/around the ignited A/E within the WebGL budget mindset. Mood: realtime VFX.  
+   ↳ **use for:** A-E divine fire
+73. [From Fire to Finish: How Sword Blades Are Forged, Quenched, and Perfected](https://swordsinfo.com/general-information/from-fire-to-finish-how-sword-blades-are-forged-quenched-and-perfected/) — *Swords Info*. Article (with forging imagery) describing the blade going from dull red to bright orange in the forge, then quenched — the glow as temperature gauge. Reference for the believable hot→cool narrative and color cues of the cast. Mood: documentary, smithing.  
+   ↳ **use for:** cooling-iron gradient
+
+
+## Anvils & Smithing
+
+### Real (26)
+
+1. [Blacksmith hammers red-hot metal on anvil, sparks lighting dark surroundings](https://www.dreamstime.com/blacksmith-skillfully-hammers-red-hot-metal-anvil-sparks-illuminating-dark-surroundings-forges-flying-impact-image398915882) — *Dreamstime*. Single point-source of orange-white incandescent metal on a black anvil; sparks spray outward and rake light across an otherwise pitch-dark smithy. High contrast, warm key light, deep crushed blacks. Texture: scaled hot steel + matte cast-iron anvil. Tight working composition.  
+   ↳ **use for:** smith mood; forge-chamber staging (metal as the only light against pure void)
+2. [Anvil detail stock photo collection](https://www.dreamstime.com/photos-images/anvil-detail.html) — *Dreamstime*. Close-up studies of anvil horns, faces, hardy holes and worn steel surfaces. Cold neutral-to-warm tones, fine pitting and tool-wear texture. Useful for prop geometry and material reference.  
+   ↳ **use for:** props (anvil geometry, worn-steel material)
+3. [Anvil + blacksmith stock photo collection (10,905 images)](https://www.dreamstime.com/photos-images/anvil-blacksmith.html) — *Dreamstime*. Broad gallery of smiths at anvils, glowing billets, tongs and hammers. Mix of warm forge glow and dim ambient. Good survey of staging, body posture and tool placement.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+4. [Ancient forging hammer + anvil stock photos](https://www.dreamstime.com/photos-images/ancient-forging-hammer-anvil.html) — *Dreamstime*. Aged hammers and anvils, rust and hand-worn handles, traditional smithy context. Muted earthy palette with occasional ember accents. Texture-rich.  
+   ↳ **use for:** props (period-correct hammer/anvil); forge-chamber staging
+5. [Anvil sparks stock photos (1,600+)](https://www.istockphoto.com/photos/anvil-sparks) — *iStock*. Hammer strikes throwing arcs of bright sparks off hot metal on the anvil. Frozen spark trails, warm orange streaks over dark surrounds. Strong motion-energy reference.  
+   ↳ **use for:** smith mood; props (spark/particle reference for impact)
+6. [Blacksmith anvil stock photos (9,100+)](https://www.istockphoto.com/photos/blacksmith-anvil) — *iStock*. Large survey of smiths and anvils, many with glowing workpieces and dim shops. Warm-on-dark grading common. General staging and lighting library.  
+   ↳ **use for:** forge-chamber staging; smith mood
+7. [Anvil sparks high-res photos (Getty)](https://www.gettyimages.com/photos/anvil-sparks) — *Getty Images*. Editorial-grade close-ups of sparks flying off the anvil; crisp incandescent metal, dramatic dark backgrounds. Cinematic spark and glow reference.  
+   ↳ **use for:** smith mood; props (spark behaviour)
+8. [Blacksmith stock photos (14,705) — hammer/forge/tools](https://www.gettyimages.com/photos/blacksmith) — *Getty Images*. Wide library: smiths at work, forge fires, hammers, tongs and anvils. Range from warm firelit to neutral documentary. Strong for posture, tool sets and shop layout.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+9. [20 blacksmithing photos — the art behind the anvil](https://www.thescroller.net/67218/blacksmithing-photos-art-behind-anvil/) — *The Scroller*. Curated editorial set of blacksmithing photographs: sparks in air, metal glowing like fire, concentrated faces. Atmospheric, warm-keyed, dark-surround. Good mood/storytelling reference.  
+   ↳ **use for:** smith mood; forge-chamber staging
+10. [Blacksmith pictures — free images](https://unsplash.com/s/photos/blacksmith) — *Unsplash*. Free high-res blacksmith photos: forge, anvil, forging, fire, hammer, spark. Many low-key warm-lit frames with deep blacks suited to OLED targets. Free license.  
+   ↳ **use for:** forge-chamber staging; smith mood (license-safe)
+11. [Anvil pictures — free images](https://unsplash.com/s/photos/anvil) — *Unsplash*. Free anvil photos: isolated anvils, anvil + hammer, worn steel faces. Neutral and warm lighting, clean compositions. Free license; good for prop plates.  
+   ↳ **use for:** props (anvil reference, license-safe)
+12. [Forge pictures — free images (6,400+)](https://unsplash.com/s/photos/forge) — *Unsplash*. Free forge interiors and fires: blacksmith, forging, anvil, foundry, metal. Glowing coals and molten light against dark stone. Free license.  
+   ↳ **use for:** forge-chamber staging (chamber light/glow, license-safe)
+13. [Blacksmithing pictures — free images](https://unsplash.com/s/photos/blacksmithing) — *Unsplash*. Free in-action blacksmithing photos: hammering, hot billets, sparks. Warm key from the work, dim surrounds. Free license.  
+   ↳ **use for:** smith mood; forge-chamber staging (license-safe)
+14. [Anvil & blacksmith images (200+ free)](https://pixabay.com/images/search/anvil/) — *Pixabay*. Free, no-attribution anvil and blacksmith photos. Mix of studio-isolated anvils and lit smithies. Clean and varied; safe for moodboards and prop plates.  
+   ↳ **use for:** props; forge-chamber staging (license-safe)
+15. [Blacksmith & anvil images (600+ free)](https://pixabay.com/images/search/blacksmith/) — *Pixabay*. Free, no-attribution gallery of smiths, forges, hot iron, hammers. Many warm-glow-on-dark frames. Broad license-safe survey.  
+   ↳ **use for:** forge-chamber staging; smith mood (license-safe)
+16. [Blacksmiths & anvil images (600+ free)](https://pixabay.com/images/search/blacksmiths/) — *Pixabay*. Additional free Pixabay set of blacksmiths at anvils and forges. Glowing workpieces, tongs, sparks; warm-on-dark grading. License-safe.  
+   ↳ **use for:** smith mood; props (license-safe)
+17. [Blacksmith anvil photos — free](https://www.pexels.com/search/blacksmith%20anvil/) — *Pexels*. Free Pexels gallery of smiths shaping heated iron on anvils. Warm firelit rustic shops, deep shadow. License-safe staging/mood reference.  
+   ↳ **use for:** forge-chamber staging; smith mood (license-safe)
+18. [Blacksmith forging iron in traditional workshop](https://www.pexels.com/photo/blacksmith-forging-iron-in-traditional-workshop-34495354/) — *Pexels*. Smith shaping heated iron on an anvil in a rustic workshop (Safranbolu, Turkiye). Warm tungsten-and-ember key, hand-and-tool detail, earthy palette. Free license.  
+   ↳ **use for:** smith mood; forge-chamber staging (license-safe)
+19. [Crop man forging metal in smithy](https://www.pexels.com/photo/crop-man-forging-metal-in-smithy-4575137/) — *Pexels*. Tight crop of hands hammering hot metal on an anvil indoors. Glowing workpiece as the bright accent over a dim smithy. Free license; good for prop + hand-action plate.  
+   ↳ **use for:** props; smith mood (license-safe)
+20. [Blacksmithing photos — free](https://www.pexels.com/search/blacksmithing/) — *Pexels*. Free Pexels blacksmithing gallery: forges, anvils, sparks, hot billets. Warm-keyed, atmospheric, deep blacks. License-safe survey.  
+   ↳ **use for:** forge-chamber staging; smith mood (license-safe)
+21. [Blacksmith holds red-hot metal by tongs in forge furnace](https://www.dreamstime.com/work-blacksmith-forge-holds-red-hot-metal-tongs-furnace-image153681886) — *Dreamstime*. Tongs lifting a red-hot billet straight out of the furnace mouth; intense orange glow, drifting smoke, dark shop. Strong tongs-and-billet prop and heat-glow reference.  
+   ↳ **use for:** props (tongs + hot billet); forge-chamber staging
+22. [Glowing forge — yellow fire / embers / workshop wallpaper](https://www.wallpaperflare.com/yellow-fire-forge-blacksmith-glow-craft-hot-embers-workshop-wallpaper-zzcpf) — *Wallpaper Flare*. Forge fire roaring yellow-orange with floating embers; the glow is the only light against a black shop. Warm saturated key, ember particulate. Excellent chamber-glow plate.  
+   ↳ **use for:** forge-chamber staging (molten/ember light as sole source)
+23. [Blacksmith Simon Grant-Jones hammering hot metal, sparks flying](https://www.alamy.com/stock-photo-blacksmith-simon-grant-jones-hammering-hot-metal-with-sparks-flyingin-87219323.html) — *Alamy*. Documentary frame of a UK craftsman hammering hot metal with sparks streaking off. Real spark geometry, warm work-light, dim forge surround.  
+   ↳ **use for:** smith mood; props (authentic spark spray)
+24. [Blacksmith hammering red-hot metal, sparks in all directions (Drumlanrig Castle, Scotland)](https://www.alamy.com/stock-photo-blacksmith-hammering-red-hot-metal-on-an-anvil-with-sparks-fly-off-14835642.html) — *Alamy*. Anvil strike scattering sparks radially; bright incandescent metal, dark heritage-forge background. Energetic, warm-on-dark. Strong impact-moment reference.  
+   ↳ **use for:** smith mood; props (radial spark burst on anvil)
+25. [Heavy hammer on anvil in forge — close-up photos (560+)](https://www.istockphoto.com/photos/heavy-hammer-on-the-anvil-in-the-forge-close-up) — *iStock*. Macro close-ups of a heavy hammer resting/striking the anvil face. Hard steel texture, neutral-to-warm light, shallow depth. Clean prop and material reference.  
+   ↳ **use for:** props (hammer + anvil close-up, material)
+26. [Blacksmiths hammering red-hot iron on anvil (1,400+)](https://www.istockphoto.com/photos/blacksmiths-anvil-hammering-red-hot-iron) — *iStock*. Action gallery of smiths driving the hammer into glowing iron on the anvil. Bright workpiece, sparks, dim shop. Posture and impact-staging reference.  
+   ↳ **use for:** smith mood; forge-chamber staging
+
+### Fantasy / Concept Art (87)
+
+1. [Fantasy Blacksmith — concept (Kieran Stephen)](https://k_stephen.artstation.com/projects/oAJr8W) — *ArtStation*. Concepted blacksmith building/forge area in a fantasy setting. Painterly, warm forge interior glow against cooler stone exterior. Architectural-staging reference for a forge chamber.  
+   ↳ **use for:** forge-chamber staging (chamber architecture + glow)
+2. [Fantasy Blacksmith Concept Art (Ethan Cantrell)](https://www.artstation.com/artwork/298AyB) — *ArtStation*. Stylized fantasy blacksmith concept. Strong warm key from the forge, saturated ember oranges, moody dark surrounds. Character + workspace staging.  
+   ↳ **use for:** smith mood; forge-chamber staging
+3. [Fantasy Blacksmith Shop (Sam Harries)](https://www.artstation.com/artwork/lxQe8e) — *ArtStation*. Fantasy-RPG blacksmith's shop: forge, grindstone, workbenches, racked weapons. Warm hearth glow pooling on tools; dense, layered prop set. Excellent prop-and-layout reference.  
+   ↳ **use for:** props; forge-chamber staging
+4. [Fantasy Blacksmith Forge — University project (Tom Farr)](https://tomfarrartist.artstation.com/projects/oL2mW) — *ArtStation*. Built fantasy forge environment. Glowing forge as the scene's light core, embers and warm bounce on stone/wood. Whole-chamber composition reference.  
+   ↳ **use for:** forge-chamber staging
+5. [Blacksmith concept-art board](https://www.pinterest.com/luxrayvision/blacksmith/) — *Pinterest*. Large curated board of blacksmith/forge concept art. Mixed styles, recurring warm-forge-on-dark mood, anvils, sparks, smiths. Broad inspiration sweep.  
+   ↳ **use for:** smith mood; forge-chamber staging; props
+6. [Fantasy Blacksmiths — people & creatures board](https://www.pinterest.com/aniboy87/ig-people-creatures-fantasy-blacksmiths/) — *Pinterest*. Board of fantasy blacksmith characters and creature-smiths. Stylized, firelit, dramatic. Good for smith silhouette, costume and pose ideas.  
+   ↳ **use for:** smith mood (character/pose)
+7. [Blacksmith Concept Art — idea collection](https://www.pinterest.com/ideas/blacksmith-concept-art/927656705810/) — *Pinterest*. Aggregated blacksmith concept art ideas. Recurring molten glow, anvils, tongs, sparks across many artists. Quick mood survey.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+8. [Blacksmith Art — idea collection](https://www.pinterest.com/ideas/blacksmith-art/926493263419/) — *Pinterest*. Broad blacksmith-art idea feed: smiths at anvils, glowing metal, forge interiors. Warm-on-dark dominates. General inspiration.  
+   ↳ **use for:** smith mood; forge-chamber staging
+9. [Stylized blacksmith ideas board](https://www.pinterest.com/johnliamfishman/stylized-blacksmith/) — *Pinterest*. Stylized/low-poly-leaning blacksmith and forge concepts. Bold shapes, punchy ember light, clean silhouettes. Useful if leaning graphic/brutalist.  
+   ↳ **use for:** props; forge-chamber staging (stylized direction)
+10. [Dwarf Blacksmith Weapon Forge — fantasy art (sadewadesign17)](https://www.deviantart.com/sadewadesign17/art/Dwarf-Blacksmith-Weapon-Forge-Fantasy-Art-1086957548) — *DeviantArt*. Dwarf smith at a weapon forge. Heavy warm glow, glowing blade/billet, dark cavern surround. On-theme for a dwarven forge chamber and smith.  
+   ↳ **use for:** smith mood; forge-chamber staging (dwarven)
+11. [Blacksmith Weapon Forge — fantasy art (sadewadesign17)](https://www.deviantart.com/sadewadesign17/art/Blacksmith-Weapon-Forge-Fantasy-Art-1086957629) — *DeviantArt*. Fantasy weapon-forge scene: anvil, racked blades, glowing hearth. Saturated ember key, deep shadow. Prop-dense staging reference.  
+   ↳ **use for:** props; forge-chamber staging
+12. [Dwarf Blacksmith Weapon Forge — fantasy art variant (sadewadesign17)](https://www.deviantart.com/sadewadesign17/art/Dwarf-Blacksmith-Weapon-Forge-Fantasy-Art-1086957570) — *DeviantArt*. Alternate dwarf-forge composition; molten orange light, hot metal as focal accent against near-black stone. Dwarven mood and staging.  
+   ↳ **use for:** forge-chamber staging (dwarven); smith mood
+13. [Dwarven Forge concept (80.lv tutorial — Blender/Substance/UE5)](https://80.lv/articles/crafting-realistic-dwarven-forge-with-blender-substance-3d-ue5) — *80.lv*. Production breakdown of a realistic dwarven forge: medieval machinery reimagined dwarven, coal piles, forge construction. Warm molten light in a dark stone hall. Excellent for believable chamber + prop construction.  
+   ↳ **use for:** forge-chamber staging; props (construction logic)
+14. [Fantasy Blacksmith — weapon-crafting simulator (Steam)](https://store.steampowered.com/app/959520/Fantasy_Blacksmith/) — *Steam*. Game art/stills of a magically-realistic forge: anvil, glowing billets, sparks, tongs. Warm hearth lighting, interactive smithing setups. Prop and staging reference.  
+   ↳ **use for:** props; forge-chamber staging
+15. [Dwarven Blacksmith (Miggy Montemayor)](https://www.artstation.com/artwork/gvZkm) — *ArtStation*. Dwarven blacksmith character/scene. Rugged, firelit, warm rim from the forge; strong silhouette. On-theme dwarf smith.  
+   ↳ **use for:** smith mood (dwarven character)
+16. [Dwarven forge board](https://www.pinterest.com/bkirchner777/dwarven-forge/) — *Pinterest*. Deep board of dwarven forge concept art: cavern halls, molten channels, anvils, forge fires. Recurring orange-on-black, monumental stone. Strong dwarven-chamber sweep.  
+   ↳ **use for:** forge-chamber staging (dwarven hall)
+17. [Dwarven Forge Concept Art — idea collection](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Aggregated dwarven-forge concept ideas. Molten metal, lava channels, vast carved stone, ember glow. Quick survey for chamber scale + light.  
+   ↳ **use for:** forge-chamber staging (dwarven, molten)
+18. [Blacksmith Forge Fantasy Art — idea collection](https://www.pinterest.com/ideas/blacksmith-forge-fantasy-art/893517947332/) — *Pinterest*. Fantasy forge-art feed: glowing forges, anvils, smiths, sparks. Warm-on-dark throughout. General mood and staging inspiration.  
+   ↳ **use for:** forge-chamber staging; smith mood
+19. [Dwarf Forge concept (Vladimir Kiselev)](https://www.pinterest.com/pin/game-design--13933080088523712/) — *Pinterest*. Game-design dwarf-forge concept pin. Molten light in a carved-stone forge; warm core, cool shadow. Chamber and machinery reference.  
+   ↳ **use for:** forge-chamber staging (dwarven)
+20. [Fantasy illustration — dwarf blacksmith working forge (generative)](https://www.dreamstime.com/fantasy-illustration-dwarf-blacksmith-working-forge-fire-hammer-anvil-workshop-art-stock-photo-generative-ai-depicting-character-image372877849) — *Dreamstime*. Dwarf smith with hammer at an anvil in a fire-lit workshop. Warm forge glow, hot metal accent, dense props. Note: AI-generated. Mood/staging reference.  
+   ↳ **use for:** smith mood; forge-chamber staging
+21. [A sword, an anvil and a hammer](https://www.artstation.com/artwork/g0GqBP) — *ArtStation*. Focused study of the three core props — blade, anvil, hammer. Clean rendering, hot-metal accents possible, controlled lighting. Direct prop reference.  
+   ↳ **use for:** props (sword/anvil/hammer)
+22. [Hammer and Anvil (Fatima Mahinay)](https://www.artstation.com/artwork/Xn1vlD) — *ArtStation*. Hammer and anvil shaping a blade in progress; glowing workpiece, sparks, warm key over dark. Action prop + impact reference.  
+   ↳ **use for:** props; smith mood
+23. [The Old Anvil (Kevin Brunt)](https://www.artstation.com/artwork/QOzNB) — *ArtStation*. Nordic-inspired blacksmithing piece centered on a weathered anvil. Earthy, firelit, textured iron. Strong hero-anvil prop reference.  
+   ↳ **use for:** props (hero anvil); forge-chamber staging
+24. [FORGE CONCEPT ART](https://www.artstation.com/artwork/qe53Ln) — *ArtStation*. Environment concept of a forge. Glowing core light, embers, atmospheric haze; warm-on-dark cinematic grade. Whole-chamber staging reference.  
+   ↳ **use for:** forge-chamber staging
+25. [Fantasy Blacksmith Concept Art — idea collection](https://www.pinterest.com/ideas/fantasy-blacksmith-concept-art/924226120304/) — *Pinterest*. Idea feed including intense scenes of smiths forging magical swords in fiery workshops, sparks flying. Saturated, dramatic, warm. Mood reference.  
+   ↳ **use for:** smith mood; forge-chamber staging
+26. [AI-generated anvil artwork (Deep Dream Generator tag)](https://deepdreamgenerator.com/tags/anvil?m=9) — *Deep Dream Generator*. Tag gallery of anvil/forge AI art. Varied, often glowing-metal-on-dark and fantastical. Note: AI-generated. Loose mood/idea reference.  
+   ↳ **use for:** smith mood; forge-chamber staging (idea-only)
+27. [A Viking blacksmith working in his forge (tripleviking-art)](https://www.deviantart.com/tripleviking-art/art/A-Viking-blacksmith-working-in-his-forge-1091239395) — *DeviantArt*. Smith hammering a glowing sword on an anvil in a tool-filled forge; forge-fire glow fills the room. Warm key, hot blade accent, dark surround. Strong smith-at-work staging.  
+   ↳ **use for:** smith mood; forge-chamber staging
+28. [Viking Blacksmith (tripleviking-art)](https://www.deviantart.com/tripleviking-art/art/Viking-Blacksmith-1092214720) — *DeviantArt*. Inside a Viking forge: red-hot sword on the anvil, sparks flying, forge fire roaring behind. Saturated orange-red glow, deep blacks. Impact + mood reference.  
+   ↳ **use for:** smith mood; props (hot blade + sparks)
+29. [WIP — Blacksmith forge and shop (MQPixel)](https://www.deviantart.com/mqpixel/art/WIP-Blacksmith-forge-and-shop-960993073) — *DeviantArt*. Blacksmith forge/shop design packing in all the expected elements. Warm hearth glow, layered tools and racks. Prop inventory and layout reference.  
+   ↳ **use for:** props; forge-chamber staging
+30. [Dwarven Forge (ArtStation)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven forge environment; carved stone, anvils, molten/lava light. Warm core against cold rock, monumental scale. Strong dwarven-chamber reference.  
+   ↳ **use for:** forge-chamber staging (dwarven, molten light)
+31. [Dwarven Forge (Rotann Colyn, after Marius Villard)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Realized dwarven forge from concept: tools, anvils, molds for pouring metal; Slavic/Byzantine/Nordic stonework. Molten glow, ember haze. Excellent staging + prop logic.  
+   ↳ **use for:** forge-chamber staging; props (dwarven)
+32. [Dwarven Forge (Louis-Philippe Ross Boivin, UE5)](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation*. Dwarven blacksmith shop with water-powered machinery (17-18thC reimagined), rendered in UE5 Nanite/Lumen. Molten metal flows, warm volumetrics, dark hall. Top-tier chamber reference.  
+   ↳ **use for:** forge-chamber staging (dwarven, molten flows)
+33. [Dwarven Forge in Cave — dark fantasy (NightCafe)](https://creator.nightcafe.studio/creation/2xSRhiwBmyxXGTBMFKtr) — *NightCafe*. Dwarven forge in a dim cave lit by firelight. Warm core glow, deep cave black, atmospheric. Note: AI-generated. Mood/idea reference.  
+   ↳ **use for:** forge-chamber staging (cave + firelight, idea-only)
+34. [Glowing Furnace concept (Zach Hoy / Wiser2k1)](https://www.artstation.com/artwork/aRnoJX) — *ArtStation*. Concept of a glowing furnace; intense incandescent interior, ember spill, dark machinery. Warm-on-dark with strong falloff. Furnace/forge-mouth light reference.  
+   ↳ **use for:** forge-chamber staging (furnace glow)
+35. [The Forge: Concept art (James Combridge)](https://www.artstation.com/artwork/QKrQ9x) — *ArtStation*. Forge structure concept (sunken ship repurposed for smelting rare metals, energy-core glow). Industrial-fantasy, warm molten light, dark hull/stone. Chamber + machinery reference.  
+   ↳ **use for:** forge-chamber staging (industrial-fantasy)
+36. [Furnace Concept Art (Brian McMurray)](https://www.artstation.com/artwork/r94lke) — *ArtStation*. Furnace/forge concept; glowing throat of fire, heavy metal housing, ember atmosphere. Warm key, crushed blacks. Prop + chamber-light reference.  
+   ↳ **use for:** props; forge-chamber staging (furnace)
+37. [Furnace concepts (Pascal Nicolas Tremblay)](https://www.artstation.com/artwork/OyrE3w) — *ArtStation*. Set of furnace/forge design variations. Molten interior glow, industrial silhouettes, dark surrounds. Useful for forge-apparatus shapes.  
+   ↳ **use for:** props (forge/furnace apparatus); forge-chamber staging
+38. [Steampunk forge — game environment (ArtStation)](https://www.artstation.com/artwork/w8G156) — *ArtStation*. Steampunk forge interior with a central collectible object. Warm forge glow, brass/iron props, moody dark room. Chamber-staging and prop-density reference.  
+   ↳ **use for:** forge-chamber staging; props
+39. [Master Blacksmith Concept Art (bwatacookie)](https://www.artstation.com/artwork/dyRJVx) — *ArtStation*. Master-smith character built to read strength and the craft of forging. Firelit, rugged, strong silhouette. Smith character/mood reference.  
+   ↳ **use for:** smith mood (character)
+40. [Blacksmith — Character Design (Gaia Buggio)](https://gaiabuggio.artstation.com/projects/q9BxkP) — *ArtStation*. Stylized blacksmith character (Procreate). Bold shapes, warm palette, clean design. Smith silhouette/costume reference.  
+   ↳ **use for:** smith mood (stylized character)
+41. [blacksmith (ArtStation artwork GeagW4)](https://www.artstation.com/artwork/GeagW4) — *ArtStation*. Blacksmith scene/character concept. Warm forge light, anvil and tools, dark surround. General smith + staging reference.  
+   ↳ **use for:** smith mood; forge-chamber staging
+42. [Unity 5 — The Blacksmith concept art (Georgi Simeonov)](https://www.artstation.com/artwork/Ze3NR) — *ArtStation*. Concept art behind the Unity 'The Blacksmith' demo (smith loosely after Wayland). Cinematic, moody, weathered metal; cool ambient with warm forge accents. High-craft mood reference.  
+   ↳ **use for:** smith mood; forge-chamber staging (cinematic grade)
+43. [Master Blacksmith — concept process video (Michael Myers / drawsgood)](https://drawsgood.artstation.com/store/XKoA/blacksmith-character-concept-process-video) — *ArtStation*. Fantasy blacksmith character concept (3hr process). Firelit rendering, strong forms. Smith design/mood reference.  
+   ↳ **use for:** smith mood (character)
+44. [Legendary Forge (ArtStation, UE4 environment)](https://www.artstation.com/artwork/x3y2ym) — *ArtStation*. Modular legendary-forge environment, fantasy/medieval-industrial. Realistic molten-metal flows, ember atmosphere, warm light pooling in a dark cavernous forge. Premier chamber-staging reference.  
+   ↳ **use for:** forge-chamber staging (molten channels, cavern)
+45. [Behind the Kit: Iron Forge (KitBash3D)](https://kitbash3d.com/a/blog/behind-the-kit-iron-forge) — *KitBash3D*. Asset-kit breakdown of an iron-forge world: furnaces, molds, gantries, molten metal. Warm industrial glow, heavy iron, dark scale. Strong prop-kit and chamber reference.  
+   ↳ **use for:** props; forge-chamber staging (industrial forge kit)
+46. [Modular Legendary Forge (Fab asset pack)](https://www.fab.com/listings/b91e0942-7668-44cc-8b3a-6b977bd831ee) — *Fab*. 106-mesh modular forge pack: cavernous forges, exterior smithy, molten-metal flows via distance fields, fog/smoke. Warm-on-dark, monumental. Chamber + prop reference (and possible asset source).  
+   ↳ **use for:** forge-chamber staging; props (molten flows)
+47. [Molten Dwarf (Domenico 'Domeddi' Esposito)](https://www.artstation.com/artwork/Ye18Rw) — *ArtStation*. Dwarf character infused with molten/forge fire. Glowing veins of orange-white over dark armor/skin — directly echoes the 'metal is the only light' and A+E divine-fire idea. Strong mood/character reference.  
+   ↳ **use for:** smith mood (molten-fire character); forge-chamber staging (glow logic)
+48. [Magma forge — Dwarf Fortress Wiki](https://dwarffortresswiki.org/index.php/Magma_forge) — *Dwarf Fortress Wiki*. Magma-powered forge reference (lore + tile art). Lava-fed smithing concept: molten channel as both power and light. Idea reference for molten-channel staging.  
+   ↳ **use for:** forge-chamber staging (magma/molten-channel concept)
+49. [Bryn, the God of the Forge (GrimorioFantastico)](https://www.deviantart.com/grimoriofantastico/art/Bryn-The-god-of-the-Forge-954619433) — *DeviantArt*. Divine smith deity at the forge. Heroic, fire-lit, glowing metal; warm radiant key. On-theme for a god-tier smith and divine-fire mood.  
+   ↳ **use for:** smith mood (divine smith)
+50. [Skyforge — God Form (Grigory Lebidko)](https://www.artstation.com/artwork/Ar3eW) — *ArtStation*. Skyforge MMO god-form concept; molten/forge energy, glowing core, dark armor. Saturated fire palette. Divine-fire and glow-character reference.  
+   ↳ **use for:** smith mood (divine/molten character)
+51. [God of War Ragnarok — The Forge (Nick Comeau)](https://www.artstation.com/artwork/ZeLZDx) — *ArtStation*. The Forge atop a mountain in Svartalfheim (GoW Ragnarok). Dwarven smithing on a grand scale, warm forge glow against cold stone and sky. AAA chamber-staging reference.  
+   ↳ **use for:** forge-chamber staging (dwarven, monumental)
+52. [Brok and Sindri (Raf Grassetti)](https://www.artstation.com/artwork/gzWGZ) — *ArtStation*. Character art of God of War's dwarf blacksmith brothers. Detailed dwarf-smith design, weathered, warm-lit. Reference for the smith characters who run a forge.  
+   ↳ **use for:** smith mood (dwarf blacksmith characters)
+53. [Glowing embers and molten lava illuminate the forge (TheDustmen)](https://www.deviantart.com/thedustmen/art/Glowing-embers-and-molten-lava-illuminate-the-rugg-1086876412) — *DeviantArt*. Dwarven smith hammering a radiant, ethereal sword amid a sea of flames in a cavernous forge; embers and molten lava as the only light. Saturated orange-white core, vast dark cavern. Directly on-brief.  
+   ↳ **use for:** forge-chamber staging (molten/lava light); smith mood
+54. [Fantasy forge (BaconLover420)](https://www.deviantart.com/baconlover420/art/Fantasy-forge-1163472367) — *DeviantArt*. Fantasy forge interior. Warm hearth glow, anvil and tools, dark stone. General chamber-staging reference.  
+   ↳ **use for:** forge-chamber staging
+55. [Forge — Environment Concept Art (Matheus Schwartz)](https://www.artstation.com/artwork/GvBXld) — *ArtStation*. Cinematic forge environment concept. Strong molten light core, atmospheric ember haze, warm-on-dark mood and depth. High-craft chamber reference.  
+   ↳ **use for:** forge-chamber staging (cinematic)
+56. [Medieval Forge (Oceane Leflon)](https://www.artstation.com/artwork/BmalLl) — *ArtStation*. Medieval forge with multiple mood variations; anvil, hearth, tools. Warm firelight, period stone/wood. Prop + mood-variation reference.  
+   ↳ **use for:** forge-chamber staging; props
+57. [FORGE CONCEPT ART (alt — artwork L3q85k)](https://www.artstation.com/artwork/L3q85k?album_id=8107095) — *ArtStation*. Additional forge concept piece. Glowing forge focal light, embers, dark surround; warm cinematic grade. Chamber-staging reference.  
+   ↳ **use for:** forge-chamber staging
+58. [Blacksmith Forge Fantasy Art — idea collection (alt)](https://www.pinterest.com/ideas/blacksmith-forge-concept-art/913855287198/) — *Pinterest*. Idea feed of blacksmith-forge concept art. Recurring molten glow, anvils, sparks, smiths. Warm-on-dark survey.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+59. [Fantasy Blacksmith Workshop Concept Art — idea collection](https://www.pinterest.com/ideas/fantasy-blacksmith-workshop-concept-art/906097250022/) — *Pinterest*. Workshop-focused fantasy forge idea feed: benches, racks, anvils, hearth glow. Dense prop staging, warm light. Layout reference.  
+   ↳ **use for:** props; forge-chamber staging
+60. [Medieval Blacksmith Concept Art — idea collection](https://www.pinterest.com/ideas/medieval-blacksmith-concept-art/954954832646/) — *Pinterest*. Medieval smithy concept feed; hearths, anvils, tools, smiths. Warm firelit, earthy palette. Period staging and prop reference.  
+   ↳ **use for:** forge-chamber staging; props
+61. [Volcanic Forge — idea collection](https://www.pinterest.com/ideas/volcanic-forge/940791699733/) — *Pinterest*. Volcanic/lava forge idea feed: molten channels, magma light, vast dark rock. Saturated orange-on-black, monumental scale. Directly aligned with molten-channel chamber.  
+   ↳ **use for:** forge-chamber staging (volcanic/molten)
+62. [Witcher 3 — environment concept art (pin)](https://www.pinterest.com/pin/547257792197344300/) — *Pinterest*. Witcher 3 environment concept reference. Dark-fantasy mood, painterly, atmospheric; useful for grim worn smithy/world tone even where not strictly a forge.  
+   ↳ **use for:** forge-chamber staging (dark-fantasy world tone)
+63. [Blacksmith forge board (henrytfricker)](https://www.pinterest.com/henrytfricker/blacksmith-forge/) — *Pinterest*. Curated blacksmith-forge board: forges, anvils, hot metal, smiths. Warm-on-dark throughout. Broad staging/prop survey.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+64. [Dark Fantasy viking blacksmith at his forge (NightCafe)](https://creator.nightcafe.studio/creation/IWlcnEaGsZAQ5qMh1LHV) — *NightCafe*. Dark-fantasy viking smith portrait at the forge; head-and-shoulders, firelit. Warm rim glow, deep shadow. Note: AI-generated. Smith mood reference.  
+   ↳ **use for:** smith mood (character, idea-only)
+65. [Weta Workshop — LOTR Fellowship conceptual design](https://wetaworkshopdesignstudio.artstation.com/projects/mD2ore) — *ArtStation*. Weta's Middle-earth conceptual design (Fellowship). Dwarven/forged metalwork, monumental stone, earthy heroic palette. Top-tier reference for craft, scale and Gaelic/Norse-adjacent forms.  
+   ↳ **use for:** forge-chamber staging; props (dwarven metalwork)
+66. [Weta Workshop — LOTR Return of the King conceptual design](https://wetaworkshopdesignstudio.artstation.com/projects/182QKG) — *ArtStation*. Weta conceptual design (Return of the King). Forged arms/armor, carved stone halls, dramatic light. Reference for legendary smithing aesthetic and material craft.  
+   ↳ **use for:** props (forged arms/armor); forge-chamber staging
+67. [Weta Workshop — LOTR Two Towers conceptual design](https://wetaworkshopdesignstudio.artstation.com/projects/GaNGx4) — *ArtStation*. Weta conceptual design (Two Towers), incl. Isengard's industrial forges/furnaces — fire, smoke, hammered iron in cavernous dark. Strong dark-forge-industry reference.  
+   ↳ **use for:** forge-chamber staging (industrial dark forge)
+68. [The Key to Erebor (Weta Workshop / John Howe design)](https://www.wetanz.com/us/the-key-to-erebor) — *Weta Workshop*. Dwarven artifact designed by John Howe for the Hobbit films. Intricate forged-metal craft, runic detail. Reference for dwarven metalwork ornament (pairs with Celtic interlace/Ogham direction).  
+   ↳ **use for:** props (dwarven forged ornament/runic detail)
+69. [LOTR concept art collection by Weta Workshop artists (IamAG)](https://www.iamag.co/the-lord-of-the-rings-concept-art-collection-by-weta-workshop-artists/) — *IamAG*. Large compiled gallery of Weta LOTR concept art incl. dwarven halls, forged metal, monumental stone. Heroic earthy palette, dramatic light. Broad legendary-craft reference.  
+   ↳ **use for:** forge-chamber staging; props
+70. [Erebor Concept Art — idea collection](https://www.pinterest.com/ideas/erebor-concept-art/916913745862/) — *Pinterest*. Erebor (Lonely Mountain) dwarven-kingdom concept feed: golden halls, forges, carved stone at vast scale. Warm gold-on-black, monumental. Dwarven-chamber scale reference.  
+   ↳ **use for:** forge-chamber staging (dwarven hall scale)
+71. [Durin's Designs — dwarven design board](https://www.pinterest.com/ladyofdurin/durins-designs/) — *Pinterest*. Dwarven design board (architecture, forged ornament, runes). Heavy stone + worked metal, gold/ember accents. Reference for dwarven motif and forged detail.  
+   ↳ **use for:** props (dwarven motif/ornament); forge-chamber staging
+72. [Weta concept-art ideas board (Middle-earth)](https://www.pinterest.com/middleearthnews/weta-concept-art/) — *Pinterest*. Board of Weta Middle-earth concept art: dwarven halls, forges, forged arms. Cinematic, earthy, dramatic light. Broad legendary-smithing inspiration.  
+   ↳ **use for:** forge-chamber staging; props
+73. [Erebor — dwarven city / the Hobbit board](https://www.pinterest.com/gennievanatta/erebor/) — *Pinterest*. Erebor dwarven-city reference board: vast forges, mining, carved halls, gold and ember light. Monumental scale, warm-on-dark. Chamber-scale + dwarven mood.  
+   ↳ **use for:** forge-chamber staging (dwarven, monumental)
+74. [Forge — Environment Concept Art channel (ArtStation)](https://www.artstation.com/channels/environmental_concept_design) — *ArtStation*. ArtStation environmental concept channel — ongoing feed including forge/furnace environments. Mixed high-craft concepts, often warm-glow-in-dark. Living staging reference.  
+   ↳ **use for:** forge-chamber staging (ongoing reference feed)
+75. [FORGE STUDIOS — concept art album](https://forgestudios.artstation.com/albums/5480315) — *ArtStation*. Studio concept-art album with environment/forge-adjacent pieces. Polished, cinematic, often dark-fantasy. General environment + mood reference.  
+   ↳ **use for:** forge-chamber staging (cinematic mood)
+76. [Forge of Empires — Aztec concept art (Manuel Vormwald)](https://manuel_vormwald.artstation.com/projects/rAvz6e) — *ArtStation*. Stylized forge/smithing-adjacent building concepts. Clean readable forms, warm accents. Useful for graphic/stylized forge-prop direction.  
+   ↳ **use for:** props (stylized forge buildings)
+77. [Fire godlike fanart (ArtStation 6DKYW)](https://www.artstation.com/artwork/6DKYW) — *ArtStation*. Fire-aspected godlike character; glowing molten body, ember atmosphere over dark. Saturated fire palette. Divine-fire/glow-character mood (pairs with A+E divine-fire idea).  
+   ↳ **use for:** smith mood (divine-fire character)
+78. [Concept Character — Fire Goddess (ArtStation Lo0Jv)](https://www.artstation.com/artwork/Lo0Jv) — *ArtStation*. Fire-goddess concept; incandescent figure, warm radiant light, dark ground. Strong glow-as-light reference for divine-fire treatment.  
+   ↳ **use for:** smith mood (divine-fire/glow logic)
+79. [Glowing Forge stock illustrations (3,020)](https://www.dreamstime.com/illustration/glowing-forge.html) — *Dreamstime*. Large illustration gallery of glowing forges: red-hot hearths, sparks off the anvil, molten iron. Warm-on-dark, energetic. Broad mood/staging survey (illustration/AI mix).  
+   ↳ **use for:** forge-chamber staging; smith mood
+80. [Fantasy Forge stock illustrations (697)](https://www.dreamstime.com/illustration/fantasy-forge.html) — *Dreamstime*. Fantasy forge illustration set: stone forges radiating molten glow, anvils, tools, fire and skill. Warm saturated light, dark surrounds. Staging/prop survey.  
+   ↳ **use for:** forge-chamber staging; props
+81. [Forge Interior stock illustrations (619)](https://www.dreamstime.com/illustration/forge-interior.html) — *Dreamstime*. Forge-interior illustration gallery: hearths, anvils, racked tools, warm firelight. Cozy-to-dramatic warm grades. Interior-layout reference.  
+   ↳ **use for:** forge-chamber staging (interior layout)
+82. [Medieval Forge stock illustrations (1,314)](https://www.dreamstime.com/illustration/medieval-forge.html) — *Dreamstime*. Medieval forge illustrations: molten iron in the hearth, hammer striking the anvil, sparks flying. Warm firelit, period detail. Staging + impact reference.  
+   ↳ **use for:** forge-chamber staging; smith mood
+83. [Medieval blacksmith shop interior — forge, anvil, tools, firelight (Dreamstime illustration)](https://www.dreamstime.com/detailed-interior-medieval-fantasy-blacksmith-shop-glowing-forge-anvil-racks-tools-warm-firelight-image409289762) — *Dreamstime*. Detailed medieval-fantasy smithy interior: glowing forge, anvil, racks of tools, warm firelight filling the room. Dense props, warm-on-dark. Strong interior-staging reference.  
+   ↳ **use for:** forge-chamber staging; props
+84. [Medieval blacksmith forging a sword on an anvil, sparks flying (Adobe Stock illustration)](https://stock.adobe.com/images/medieval-blacksmith-forging-a-sword-hammering-glowing-metal-on-an-anvil-with-sparks-flying-in-a-dimly-lit-atmospheric-workshop-full-of-old-tools/985406498) — *Adobe Stock*. Medieval smith hammering glowing metal on an anvil, sparks flying, dimly-lit atmospheric workshop full of old tools. Warm key, deep shadow, dense props. On-theme staging + impact.  
+   ↳ **use for:** smith mood; forge-chamber staging
+85. [Fantasy Furnace stock illustrations (314)](https://www.dreamstime.com/illustration/fantasy-furnace.html) — *Dreamstime*. Fantasy furnace illustrations: glowing throats of fire, molten metal, industrial-magic apparatus. Warm-on-dark. Furnace/forge-apparatus reference.  
+   ↳ **use for:** props (furnace apparatus); forge-chamber staging
+86. [Blacksmith Forge stock illustrations (8,632)](https://www.dreamstime.com/illustration/blacksmith-forge.html) — *Dreamstime*. Very large blacksmith-forge illustration library: smiths, anvils, hot metal, sparks, hearths. Wide stylistic + lighting range. Broad survey for mood and props.  
+   ↳ **use for:** forge-chamber staging; props; smith mood
+87. [Explore the Best Forge Art (DeviantArt forge tag)](https://www.deviantart.com/tag/forge) — *DeviantArt*. DeviantArt 'forge' tag feed: forge interiors, smiths, molten metal, anvils across many artists. Predominantly warm-glow-on-dark. Living inspiration sweep.  
+   ↳ **use for:** forge-chamber staging; smith mood; props
+
+
+## Celtic Knotwork
+
+### Real (36)
+
+1. [Category:Celtic knots — Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Celtic_knots) — *Wikimedia Commons*. Master category of public-domain Celtic knot photographs and scans: carved stone knotwork, endless plaits, key patterns and zoomorphic interlace. Mix of weathered grey/sandstone carving and high-contrast manuscript scans. Raw reference plate for authentic over-under band logic.  
+   ↳ **use for:** channel-wall carving / interlace split / UI borders
+2. [Category:Celtic crosses — Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Celtic_crosses) — *Wikimedia Commons*. Photo category of ringed Irish/Scottish high crosses — deeply carved sandstone with interlaced panels, spirals and bosses. Weathered green-grey stone, raking daylight emphasising the carving depth and shadow. Directly parallels green-black basalt channel walls lit only by the metal.  
+   ↳ **use for:** channel-wall carving
+3. [High cross — Wikipedia](https://en.wikipedia.org/wiki/High_cross) — *Wikipedia*. Survey of ~300 Irish high crosses (8th–12th c.) carved with endless knotwork, spirals, meanders, key patterns and zoomorphic animal interlace in stone. Establishes how the same interlace vocabulary moves between stone, metal and manuscript — the cross-medium logic GAELWORX wants on the channel.  
+   ↳ **use for:** channel-wall carving / interlace split
+4. [Ahenny High Crosses (North & South Cross), Tipperary](https://heritageireland.ie/unguided-sites/ahenny-high-crosses/) — *Heritage Ireland*. 8th-c. sandstone Ossory-group crosses, 3m+, surfaces covered in interlaced Celtic knot panels and spirals with raised bosses imitating metal rivets — stone copying metalwork. High pattern density, shallow-to-medium relief, sandy weathered tone. Ideal carved-band density target for the channel walls.  
+   ↳ **use for:** channel-wall carving
+5. [Ahenny High Crosses — graphic symbol breakdown](https://2dgraphicdesign.ie/ahenny-high-crosses-%E2%80%A2-graphic-symbols/) — *2D Graphic Design (2dgraphicdesign.ie)*. Close documentation of the Ahenny crosses' carved knot panels treated as graphic symbols — spirals, plaitwork and bosses isolated. Useful as flattened pattern reference for translating carving into a tileable wall trim or UI motif.  
+   ↳ **use for:** channel-wall carving / UI borders
+6. [Muiredach's High Cross, Monasterboice — Wikipedia](https://en.wikipedia.org/wiki/Muiredach's_High_Cross) — *Wikipedia*. Finest 10th-c. Irish high cross, ~5.8m, 124+ figures. Bold low-relief biblical scenes set against knotwork borders, key patterns and paired felines amid subtle interlace. Dense, deeply cut sandstone — strong shadowed grooves. Reference for carving depth and figure-plus-knot border framing.  
+   ↳ **use for:** channel-wall carving / interlace split
+7. [Muiredach Cross, Monasterboice — detail image set](https://homepages.bluffton.edu/~Sullivanm/muiredach/muiredach.html) — *Bluffton College (Mary Ann Sullivan, Digital Imaging Project)*. Many on-site detail photographs of Muiredach's Cross capturing individual knot panels, raised bosses and animal interlace in raking light. High-value macro reference for exact carving depth, groove width and weathering on hard stone.  
+   ↳ **use for:** channel-wall carving
+8. [Cross of the Scriptures, Clonmacnoise — Europeana](https://www.europeana.eu/en/item/2048705/object_HA_141) — *Europeana*. c.900 sandstone high cross, ~4m, with Celtic interlacing, animal interlace in the ring and human-interlace panels on the shaft beside biblical scenes. Well-preserved cuts. Reference for ring-of-interlace motif — relevant to the four-channel rejoin forming a knot.  
+   ↳ **use for:** interlace split / channel-wall carving
+9. [Clonmacnois Scripture Cross — Irish High Crosses photo archive](https://irishhighcrosses.com/clonmacnois-scripture-cross.html) — *irishhighcrosses.com (Barney McLaughlin)*. Dedicated photographic study of the Cross of the Scriptures with panel-by-panel carving detail — abstract interlace, animal and human knot panels. Clean documentation of how knot bands wrap a structural shaft, useful for channel-wall layout.  
+   ↳ **use for:** channel-wall carving
+10. [St John's Cross, Iona Abbey — Historic Environment Scotland](https://www.historicenvironment.scot/archives-and-research/archives-and-collections/properties-in-care-collections/object/st-johns-cross-8th-century-early-medieval-iona-abbey-18287) — *Historic Environment Scotland*. 8th-c. Iona cross, progenitor of the ringed high-cross form: deeply carved serpent-and-boss design and an eight-part interlocking cross head. Bold, sculptural, high-relief snake/boss work on grey stone. Reference for serpentine interlace and the ring-as-engineering motif.  
+   ↳ **use for:** channel-wall carving / interlace split
+11. [St John's Cross — trove.scot object record](https://www.trove.scot/object/18287) — *trove.scot (HES)*. Museum object record for the reassembled St John's Cross fragments with documentary imagery — snake-and-boss panels and interlace on early medieval Iona stone. Good for close serpent-interlace and boss geometry.  
+   ↳ **use for:** channel-wall carving
+12. [Aberlemno Sculptured Stones — Wikipedia](https://en.wikipedia.org/wiki/Aberlemno_sculptured_stones) — *Wikipedia*. Pictish stones (AD 500–800). The kirkyard cross-slab is among the finest Pictish carving: entire cross surface covered in complex neat interlace, angular key patterns on the arms, central spirals, backed by interlaced beasts and serpents. Reference for ultra-dense, precise interlace fields.  
+   ↳ **use for:** channel-wall carving / interlace split
+13. [Aberlemno Sculptured Stones — Historic Environment Scotland](https://www.historicenvironment.scot/visit-a-place/places/aberlemno-sculptured-stones/history/) — *Historic Environment Scotland*. On-site documentation of the Aberlemno Pictish stones with photographs of the elaborately interlaced cross face and entwined beasts/serpents/sea-horses. Weathered red-grey stone, crisp carved channels. Strong macro-carving reference.  
+   ↳ **use for:** channel-wall carving
+14. [Tara Brooch — Wikipedia](https://en.wikipedia.org/wiki/Tara_Brooch) — *Wikipedia*. 8th-c. masterpiece of Celtic metalwork (gilt bronze, silver, gold, amber, glass). Surface alive with fine filigree interlace and stylised animal forms in La Tène lineage. Warm gold/amber metal against dark grounds — directly maps to ember/gold-on-void palette for glowing interlace.  
+   ↳ **use for:** interlace split / UI borders
+15. [The Tara Brooch — National Museums NI (Therese McCaul)](https://www.visitmournegullionstrangford.com/museums/blog/read/2026/04/the-tara-brooch-a-jewel-of-irelands-artistic-legacy-by-therese-mccaul-b598) — *Visit Mourne Gullion Strangford / NMD Museums*. Detailed feature on the Tara Brooch's gold filigree interlace and animal ornament, front and back. Close metalwork imagery showing tiny tight knot panels catching light — the look for a glowing, fine, metal interlace inlay.  
+   ↳ **use for:** interlace split / UI borders
+16. [Ardagh Chalice — National Museum of Ireland](https://www.museum.ie/en-ie/collections-research/collection/the-treasury/artefact/the-ardagh-chalice/ac53e68e-76a4-4560-a624-c87647c57a00) — *National Museum of Ireland (museum.ie)*. 8th-c. silver-and-gold chalice, 250+ components, with panels of fine gold/silver filigree combining interlaced animal forms and spirals with abstract patterns, enamel studs at intervals. Plain body, jewel-like ornament bands — reference for restrained interlace accents glowing on dark metal.  
+   ↳ **use for:** interlace split / UI borders
+17. [Ardagh Chalice — Britannica](https://www.britannica.com/topic/Ardagh-Chalice) — *Encyclopaedia Britannica*. Reference entry with imagery of the Ardagh Chalice's filigree girdle and handle escutcheons — concentrated zones of interlace and spiralwork against polished silver. Useful for how dense ornament reads as a band amid plain surfaces.  
+   ↳ **use for:** UI borders / interlace split
+18. [Sutton Hoo great gold belt buckle — British Museum](https://www.britishmuseum.org/collection/object/H_1939-1010-1) — *British Museum*. Early Anglo-Saxon gold buckle (~400g), surface entirely covered in zoomorphic interlace of intertwining creatures, design picked out in punched circles and inlaid with black niello. Gold-and-black contrast, intricate gripping beasts. Prime reference for high-contrast metal interlace.  
+   ↳ **use for:** interlace split / UI borders
+19. [Sutton Hoo gold belt buckle — Google Arts & Culture](https://artsandculture.google.com/asset/gold-belt-buckle-from-the-ship-burial-at-sutton-hoo/ywGloVQL6jfErg) — *Google Arts & Culture / British Museum*. High-zoom asset of the Sutton Hoo buckle showing every interwoven serpent and the niello-filled grooves. Gold body, deep black inlay channels — direct template for glowing-metal-with-dark-recesses interlace on UI and forge inlay.  
+   ↳ **use for:** UI borders / interlace split
+20. [The Sutton Hoo Great Gold Buckle — World History Encyclopedia](https://www.worldhistory.org/image/5100/the-sutton-hoo-great-gold-buckle/) — *World History Encyclopedia*. Clear photographic plate of the buckle's animal-interlace face. Useful flattened view of the full zoomorphic knot composition for tracing a four-way gripping-beast split motif.  
+   ↳ **use for:** interlace split / UI borders
+21. [Book of Kells — Wikipedia](https://en.wikipedia.org/wiki/Book_of_Kells) — *Wikipedia*. c.800 insular gospel book: spirals, tiny interlace animals, faces and knots so dense that a one-inch square can hold ~158 interlacements. Vivid red/yellow/green/black ribbon-with-border interlace. The benchmark for maximum-density knotwork detail.  
+   ↳ **use for:** channel-wall carving / interlace split / UI borders
+22. [Book of Kells — Trinity College Dublin facsimile pages](https://www.visittrinity.ie/book-of-kells-pages-on-display/) — *Library of Trinity College Dublin / Visit Trinity*. Official high-resolution digitised folios (carpet pages, Chi Rho, decorated initials) zoomable to the ribbon level. Authoritative source for exact insular interlace structure, colour and density.  
+   ↳ **use for:** interlace split / UI borders
+23. [Symbolism in the Book of Kells: the Chi Rho page — Visit Trinity](https://www.visittrinity.ie/blog/symbolism-in-the-book-of-kells-the-chi-rho-page/) — *Visit Trinity (TCD)*. Deep look at the Chi Rho folio — the densest single page of insular interlace, spirals and hidden creatures. Reference for a focal 'hero' interlace medallion at a key beat (e.g. the finale knot).  
+   ↳ **use for:** interlace split / UI borders
+24. [Book of Kells — Internet Archive scan](https://archive.org/details/book-of-kells) — *Internet Archive*. Downloadable public-domain reproduction of Book of Kells folios. Convenient bulk source of interlace, initials and carpet-page imagery for moodboarding ribbon logic and palette.  
+   ↳ **use for:** interlace split / UI borders
+25. [Lindisfarne Gospels — Wikipedia](https://en.wikipedia.org/wiki/Lindisfarne_Gospels) — *Wikipedia*. c.690–720 insular masterpiece. Cross-carpet pages place a cross inside dense fields of symmetrical interlace and interlaced bird/animal patterns built from a few repeated units. 'Decoration has become text.' Reference for axis-symmetric interlace panels.  
+   ↳ **use for:** interlace split / UI borders / channel-wall carving
+26. [Carpet page — Wikipedia](https://en.wikipedia.org/wiki/Carpet_page) — *Wikipedia*. Survey of insular carpet pages: full-page, near-symmetric fields of brilliant interlace with no text, organised around a cross. The clearest model for a full-surface knot 'tapestry' — apt for a channel-wall mural or the four-channel split graphic.  
+   ↳ **use for:** interlace split / channel-wall carving
+27. [Lindisfarne Gospels carpet page F26v — public-domain plate](https://sdcason.com/carpet-page-f26v-from-lindisfarne-gospels-715-720-public-domain-illuminated-manuscript/) — *sdcason.com*. Public-domain reproduction of the Matthew cross-carpet page — woven ribbons and cords forming a complex symmetrical web around a cross. High-detail flat reference for tracing ribbon over-under for a UI border or split motif.  
+   ↳ **use for:** UI borders / interlace split
+28. [Book of Durrow — Wikipedia](https://en.wikipedia.org/wiki/Book_of_Durrow) — *Wikipedia*. c.700, oldest complete insular gospel book. Six carpet pages dominated by red/yellow/green zoomorphic interlace in repeating panel patterns; densely knotted folios. Reference for early, bold, panelised interlace and limited warm palette.  
+   ↳ **use for:** interlace split / UI borders
+29. [Book of Durrow — Google Arts & Culture story](https://artsandculture.google.com/story/the-book-of-durrow-trinity-college-dublin-library/qAWx0erUfMJQIQ) — *Google Arts & Culture / TCD Library*. Curated high-res tour of Durrow's carpet pages and interlace panels. Good for seeing how panels of knot, spiral and animal interlace tile together — modular logic for a channel of repeating carved bays.  
+   ↳ **use for:** channel-wall carving / interlace split
+30. [Insular art — Wikipedia](https://en.wikipedia.org/wiki/Insular_art) — *Wikipedia*. Overview of the whole insular interlace tradition across manuscript, metal and stone, with representative interlace, spiral and zoomorphic plates. Foundational page for cross-medium interlace vocabulary and terminology.  
+   ↳ **use for:** channel-wall carving / interlace split / UI borders
+31. [Celtic knot — Wikipedia](https://en.wikipedia.org/wiki/Celtic_knot) — *Wikipedia*. Reference on endless-knot construction: plaits of 2–6 strands, consistent over-under alternation, breaks that 'make' patterns. Includes diagrams of the underlying braid logic — essential for engineering a correct four-strand split that re-joins.  
+   ↳ **use for:** interlace split / UI borders
+32. [Early medieval interlace — British Library Medieval Manuscripts blog](https://blogs.bl.uk/digitisedmanuscripts/2020/10/early-medieval-interlace.html) — *British Library*. Scholarly post on how interlace pervades early medieval art, with manuscript plates showing braided, looped and twisted bands. Good context-plus-imagery source for authentic ribbon behaviour and where interlace sits historically.  
+   ↳ **use for:** interlace split / UI borders
+33. [Animal interlace — Britannica](https://www.britannica.com/art/animal-interlace) — *Encyclopaedia Britannica*. Reference entry on zoomorphic interlace — beasts with limbs, tongues and tails looped and tangled like ribbons. Imagery of gripping-beast knots. Reference for an animated, organic split where four 'serpents' braid and part.  
+   ↳ **use for:** interlace split / channel-wall carving
+34. [Urnes Stave Church — Wikipedia](https://en.wikipedia.org/wiki/Urnes_Stave_Church) — *Wikipedia*. North portal carved with sinuous Urnes-style animal interlace — intertwining dragons, serpents and tendrils morphing into lilies, in deep relief wood. Norse cousin of Celtic interlace; reference for flowing, high-relief carved knot with directional energy.  
+   ↳ **use for:** channel-wall carving / interlace split
+35. [Stave church animal interlace carving — ZME Science](https://www.zmescience.com/science/archaeology/animals-carved-stave-churches-27032021/) — *ZME Science*. Feature with photographs of Norwegian stave-church portal carving: deep, shadowed, intertwining beast-and-tendril interlace in dark aged wood. Strong reference for high-relief, dramatically lit carved knot on a dark surface — close to the forge mood.  
+   ↳ **use for:** channel-wall carving
+36. [Celtic knot stock photos — iStock](https://www.istockphoto.com/photos/celtic-knot-stone) — *iStock*. Large library (130k+) of Celtic-knot-in-stone photographs, including weathered, mossy and macro carved-stone shots and some gold-backlit knots. Broad sampling pool for carving depth, surface texture and warm-light treatments.  
+   ↳ **use for:** channel-wall carving
+
+### Fantasy / Concept Art (81)
+
+1. [Celtic Knotwork — Interlaces.art](https://www.interlaces.art/celtic-knytwork/) — *Interlaces.art*. Dedicated gallery/explainer of inter-looping Celtic braids and closed loops engineered for movement. Clean modern knot renderings. Good ornamental reference for correct, lively interlace geometry adaptable to UI and split motifs.  
+   ↳ **use for:** UI borders / interlace split
+2. [ArtStation — Celtic Botan (artist portfolio)](https://www.artstation.com/celticbotan) — *ArtStation*. Artist portfolio themed on Celtic ornament and interlace. Stylised, contemporary knot designs — useful for seeing knotwork pushed into polished digital art and motif compositions.  
+   ↳ **use for:** UI borders / interlace split
+3. [ArtStation — Celtic Warrior Concept Art](https://www.artstation.com/artwork/8R6VG) — *ArtStation*. Character concept dressed in Celtic-styled interlace ornament on armour and leather. Reference for how knotwork wraps forms and reads at a distance — translatable to carved bands wrapping the channel.  
+   ↳ **use for:** channel-wall carving / UI borders
+4. [ArtStation — Celtic Knot Mandala](https://www.artstation.com/artwork/g8awGL) — *ArtStation*. Circular, rotationally symmetric Celtic knot mandala. Directly relevant to a radial interlace seal and to the four-channel rejoin resolving into a balanced knot rosette.  
+   ↳ **use for:** interlace split / UI borders
+5. [ArtStation — Celtic Knot (High Poly) game asset](https://www.artstation.com/marketplace/p/vJx9d/celtic-knot-high-poly) — *ArtStation Marketplace*. High-poly 3D Celtic knot ready for texturing/animation. Reference for actual carved/relief knot geometry in 3D — how bands round, overlap and cast self-shadow, exactly the channel-wall carving problem.  
+   ↳ **use for:** channel-wall carving / interlace split
+6. [ArtStation — 115 Celtic Ornament Symbols & Knots 4K Alpha pack](https://www.artstation.com/marketplace/p/6YL5y/115-celtic-ornament-symbols-knots-4k-alpha-pattern-pack) — *ArtStation Marketplace*. 115 high-res Celtic knot/ornament alphas (height/mask maps) for Substance, ZBrush, Blender. The practical asset class for stamping carved interlace into basalt walls and generating UI border patterns.  
+   ↳ **use for:** channel-wall carving / UI borders
+7. [ArtStation — +180 4K Tileable Celtic Trim & Alpha Pattern Borders](https://www.artstation.com/marketplace/p/9aalV/180-4k-tileable-celtic-trim-and-alpha-pattern-borders-png-psd-jpg-creating-video-tutorial) — *ArtStation Marketplace (Titanium Studio / Navid Valizadeh)*. 180 tileable Celtic/Gothic trim and border alphas plus tutorial. Seamless interlace strips — ideal source for repeating carved bands running the length of the channel and for hard-edged brutalist UI borders.  
+   ↳ **use for:** UI borders / channel-wall carving
+8. [ArtStation — 350 Celtic Seamless Trim Brush Ornament alphas vol.09](https://www.artstation.com/marketplace/p/voDDV/350-celtic-seamless-trim-brush-ornament-patterns-and-symbols-alpha-vol09) — *ArtStation Marketplace*. 350 seamless 4K Celtic ornament/symbol alpha patterns. Massive trim library for varied carved-band density across the four distinct channels (soft vs mechanical vs dense vs jewel-bright).  
+   ↳ **use for:** channel-wall carving / UI borders
+9. [ArtStation — 46 Celtic Trim Patterns](https://www.pinterest.com/pin/artstation-46-celtic-trim-patterns--583356957980146593/) — *ArtStation (via Pinterest pin)*. Set of 46 Celtic trim patterns. Quick-reference sheet of border interlace variants for choosing a brutalist UI frame and a channel-edge molding.  
+   ↳ **use for:** UI borders
+10. [ArtStation — Celtic Knot Instructions for Substance Designer](https://www.artstation.com/artwork/oAyow4) — *ArtStation*. Breakdown of building a procedural Celtic knot in Substance Designer with parameters. Directly actionable for generating a custom, tileable, glowing-recess interlace material for the channel walls.  
+   ↳ **use for:** channel-wall carving / UI borders
+11. [ArtStation — Celtic ornaments (Daniil Kazantsev)](https://www.artstation.com/artwork/1Nmw1o) — *ArtStation*. Celtic ornamental panels created via subdivision modelling / Substance Designer. Crisp relief interlace with clean shadowing — excellent target look for carved knot panels and how light should rake across the grooves.  
+   ↳ **use for:** channel-wall carving
+12. [ArtStation — Creating a Fantasy Trim Texture (Phil Liu)](https://www.artstation.com/marketplace/p/bKVy/creating-a-fantasy-trim-texture-phil-liu) — *ArtStation Marketplace*. Tutorial on modelling ornate decorative trim (art nouveau to gothic) in Maya/Substance. Method reference for authoring a bespoke carved interlace trim that holds up at brutalist scale and lights cleanly with only the metal as source.  
+   ↳ **use for:** channel-wall carving / UI borders
+13. [ArtStation — Fantasy Rune Icons (254 set)](https://www.artstation.com/marketplace/p/kxPpk/fantasy-rune-icons) — *ArtStation Marketplace*. 254 hand-drawn fantasy rune icons. Pairs with interlace for glowing carved-rune accents alongside knotwork — supports the Ogham-reveal idea and rune-and-knot channel detailing.  
+   ↳ **use for:** channel-wall carving / UI borders
+14. [ArtStation — Celtic ornaments breakdown blog (subdivision)](https://magazine.artstation.com/2021/02/10-ornamental-marketplace-assets/) — *ArtStation Magazine*. Roundup of ornamental marketplace assets including Celtic interlace trims and alphas. Survey of available knot-trim styles and quality bar for production carved ornament.  
+   ↳ **use for:** UI borders / channel-wall carving
+15. [Celtic Knots in 3D — Evermore Studio workflow](https://evermorestud.io/celtic-knots-in-3d/) — *Evermore Stud.io*. Workflow turning 2D Celtic knots into 3D relief via depth maps (Nomad Sculpt + Blender). Renders of knots as raised carved forms. Practical reference for converting flat interlace into channel-wall relief.  
+   ↳ **use for:** channel-wall carving
+16. [Celtic-knot 3D models — Sketchfab tag](https://sketchfab.com/tags/celtic-knot) — *Sketchfab*. Viewable/free Celtic knot 3D models. Spin around real interlace geometry to study band crossings, depth and self-shadow before carving them into the basalt — and to test how molten light would catch the relief.  
+   ↳ **use for:** channel-wall carving / interlace split
+17. [Celtic knot 3D models — TurboSquid](https://www.turbosquid.com/3d-model/celtic-knot) — *TurboSquid*. 50+ Celtic knot 3D models in many formats with rendered previews, including metallic and glowing treatments. Reference for relief depth and material response of knotwork as a forged object.  
+   ↳ **use for:** channel-wall carving / interlace split
+18. [Celtic Knot Round STL — Interlace Relief CNC Ornament (Cults3D)](https://cults3d.com/en/3d-model/home/celtic-knot-round-stl-interlace-relief-cnc-ornament) — *Cults3D*. Circular interlace relief model with symmetrical woven knotwork. Render shows clean carved grooves. Reference for a radial carved medallion — fits the four-channel rejoin knot or a UI seal.  
+   ↳ **use for:** interlace split / UI borders
+19. [Celtic Knot Ornament — 3D Printable Relief Decor (Cults3D)](https://cults3d.com/en/3d-model/art/celtic-knot-ornament-3d-printable-relief-decor) — *Cults3D*. Rectangular Celtic knot relief panel. Good modular carved-bay reference for tiling interlace along a straight channel wall with consistent depth.  
+   ↳ **use for:** channel-wall carving
+20. [Glowing Celtic-rune standing stone — Meshy AI 3D model](https://www.meshy.ai/3d-models/A-stylized-rugged-standing-stone-with-glowing-Celtic-runes-carved-into-its-surface-placed-atop-a-weathered-stone-pedestal-The-stone-has-uneven-exaggerated-edges-and-a-slightly-cartoonish-vibrant-design-inspired-by-Kena-Bridge-of-Spirits-The-glowing-runes-emit-a-soft-magical-light-accentuating-the-mystical-charmmix-with-chess-rook-v2-01968984-2676-73ca-809d-330ac07ddb92) — *Meshy AI*. Stylised rugged standing stone with glowing Celtic runes carved into weathered rock, soft magical light from the recesses (Kena: Bridge of Spirits vibe). On-theme: carved knot/rune grooves that emit light — the channel-wall-lit-by-the-metal idea.  
+   ↳ **use for:** channel-wall carving
+21. [Fantasy UI Borders — Kenney (CC0 asset pack)](https://kenney.nl/assets/fantasy-ui-borders) — *Kenney.nl*. 140 CC0 fantasy UI border/frame assets with ornamental knot-like corners. Free, license-clean starting frames to harden into 0px-corner brutalist Celtic borders.  
+   ↳ **use for:** UI borders
+22. [Fantasy UI Borders — OpenGameArt](https://opengameart.org/content/fantasy-ui-borders) — *OpenGameArt.org*. 130+ PNG sprites plus vector sources for fantasy window/dialog frames with ornamental borders. Reference and raw material for inventory-style Celtic-bordered panels.  
+   ↳ **use for:** UI borders
+23. [Fantasy Game Interface UI — Kostroman (DeviantArt)](https://www.deviantart.com/kostroman/art/Fantasy-Game-Interface-UI-441285043) — *DeviantArt*. Full fantasy game UI mockup with ornate metal-and-knot framing. Reference for integrating interlace borders into a working interface layout while keeping legibility.  
+   ↳ **use for:** UI borders
+24. [Fantasy game UI — Imogia (DeviantArt)](https://www.deviantart.com/imogia/art/Fantasy-game-UI-440974812) — *DeviantArt*. Ornamental fantasy UI set with decorative knot/scroll borders and panels. Reference for frame proportions and corner ornament density adaptable to the brutalist grid.  
+   ↳ **use for:** UI borders
+25. [Transparent Celtic Knot Border — PhantomHoofbeats (DeviantArt)](https://www.deviantart.com/phantomhoofbeats/art/Transparent-Celtic-Knot-Border-581315137) — *DeviantArt*. Clean transparent-PNG Celtic knot border. Directly usable reference/overlay for a knotwork frame edge on cards and panels.  
+   ↳ **use for:** UI borders
+26. [Celtic Knotwork 4x4 — Knotworking (DeviantArt)](https://www.deviantart.com/knotworking/art/Celtic-Knotwork-4x4-1109722283) — *DeviantArt*. Tight square knotwork panel by a dedicated knot artist — precise over-under bands, balanced field. Reference for a correct, tileable carved bay and for an accurate motif to carve.  
+   ↳ **use for:** channel-wall carving / UI borders
+27. [Celtic Knotwork Band One Ring — Knotworking (DeviantArt)](https://www.deviantart.com/knotworking/art/Celtic-Knotwork-Band-One-Ring-791245434) — *DeviantArt*. Circular continuous knot band — single endless strand around a ring. Key reference for a seamless interlace ring (channel rejoin, radial UI seal, or a rotating loading motif).  
+   ↳ **use for:** interlace split / UI borders
+28. [Celtic Knotwork Mushroom Ring — Knotworking (DeviantArt)](https://www.deviantart.com/knotworking/art/Celtic-Knotwork-Mushroom-Ring-1116142718) — *DeviantArt*. Another circular knot band variant with organic motif integration. Reference for combining a figurative element into an otherwise pure interlace ring without breaking the weave.  
+   ↳ **use for:** interlace split / UI borders
+29. [Celtic knotwork tattoo — mossy-tree (DeviantArt)](https://www.deviantart.com/mossy-tree/art/Celtic-knotwork-tattoo-216591846) — *DeviantArt*. Blackwork-style Celtic knot tattoo design — pure black bands on white, strong contrast, no shading. Reference for a flat, high-contrast interlace that reads instantly as a UI line/border or carved-groove silhouette.  
+   ↳ **use for:** UI borders / channel-wall carving
+30. [Blackwork Celtic Knot Tattoo Design — Tattoos Wizard](https://designs.tattooswizard.com/products/celtic-knot-68) — *Tattoos Wizard Designs*. Bold blackwork Celtic knot, heavy solid bands. Reference for the most graphic, brutalist reading of interlace — thick strands, deep negative space, ideal for a hard-edged border or stamped carving.  
+   ↳ **use for:** UI borders
+31. [Celtic and Nordic knotwork tattoos — Joy Shannon (Paper Crane)](https://www.papercranetattoo.com/joyshannon/celticandnordic) — *Paper Crane Tattoo Studio*. Gallery of authentic Celtic/Nordic knotwork tattoo art with detailed, correct interlace. Reference for blending Celtic and Norse band styles — matches the GAELWORX Norse-Celtic crossover mood.  
+   ↳ **use for:** channel-wall carving / UI borders
+32. [Celtic Tattoo Gallery — Sacred Knot Tattoo](https://www.sacredknottattoo.com/celtic-tattoo-gallery) — *Sacred Knot Tattoo*. Large gallery of Celtic interlace tattoos on skin — knots wrapping curved 3D forms in pure black. Reference for how interlace conforms to a surface and the silhouette strength of solid bands.  
+   ↳ **use for:** channel-wall carving / UI borders
+33. [Tutorial — Celtic Zoomorphic Designs — one-rook (DeviantArt)](https://www.deviantart.com/one-rook/art/Tutorial-Celtic-Zoomorphic-Designs-359726485) — *DeviantArt*. Step tutorial for planning zoomorphic animal interlace in the traditional manner. Reference for constructing the four-channel split as braiding animal-strands that part and rejoin correctly.  
+   ↳ **use for:** interlace split / channel-wall carving
+34. [Zoomorphic knotwork doodle page — Feivelyn (DeviantArt)](https://www.deviantart.com/feivelyn/art/Zoomorphic-knotwork-doodle-page-481077672) — *DeviantArt*. Sheet of zoomorphic knot studies — beasts woven into endless bands. Idea bank for animal-strand interlace motifs to carve along the channel and to seed the split's gripping-beast forms.  
+   ↳ **use for:** channel-wall carving / interlace split
+35. [Celtic Knot Animals (Basics III) — Feivelyn (DeviantArt)](https://www.deviantart.com/feivelyn/art/Celtic-Knot-Animals-Basics-III-459350958) — *DeviantArt*. Instructional knot-animal basics — clear construction of animal interlace from plait logic. Reference for keeping zoomorphic strands legible and correctly over-under in a carved or UI context.  
+   ↳ **use for:** interlace split / UI borders
+36. [Celtic Knot Zoomorphic — Rats — realitysquared (DeviantArt)](https://realitysquared.deviantart.com/art/Celtic-Knot-Zoomorphic-Rats-28206504) — *DeviantArt*. Finished zoomorphic knot piece (rats woven into interlace) with documented iterations. Reference for a polished single zoomorphic knot motif suitable as a carved emblem.  
+   ↳ **use for:** channel-wall carving
+37. [Art History: Celtic Art In Early History — KovoWolf (DeviantArt)](https://www.deviantart.com/kovowolf/journal/Art-History-Celtic-Art-In-Early-History-423974466) — *DeviantArt*. Illustrated journal surveying early Celtic interlace, spirals and zoomorphics with examples. Good consolidated visual primer on authentic motifs to mine for carving and split designs.  
+   ↳ **use for:** channel-wall carving / interlace split
+38. [Celtic — Shurka (DeviantArt)](https://www.deviantart.com/shurka/art/Celtic-36410665) — *DeviantArt*. Hand-inked Celtic ornament coloured in Photoshop — corner/border interlace with spirals. Reference for a refined corner motif and colour treatment for a knot border.  
+   ↳ **use for:** UI borders
+39. [Celtic Knotwork Panel — foxvox (DeviantArt, via Pinterest)](https://www.pinterest.com/pin/celtic-knotwork-panel-by-foxvox-on-deviantart--470133648571364765/) — *DeviantArt (Pinterest pin)*. Rectangular knotwork panel with dense balanced interlace. Reference for a full carved-bay composition with even band weight across the field.  
+   ↳ **use for:** channel-wall carving / UI borders
+40. [Celtic knotwork tattoo by adoomer — corner border (TopPNG)](https://toppng.com/free-image/celtic-knot-pattern-on-a-purse-by-adoomer-on-deviantart-simple-corner-border-designs-PNG-free-PNG-Images_184997) — *TopPNG (DeviantArt source)*. Transparent PNG of a simple Celtic corner-border knot. Clean, reusable corner-treatment reference for a brutalist frame's ornamented corner.  
+   ↳ **use for:** UI borders
+41. [Celtic Art, Knots, and Interlace — Pinterest board (Joan Scanlan)](https://www.pinterest.com/joanscanlan/celtic-art-knots-and-interlace/) — *Pinterest*. Large curated board mixing historical carvings, manuscript interlace and modern knot art. Broad moodboard for density, colour and motif variety across stone/metal/ink.  
+   ↳ **use for:** channel-wall carving / interlace split / UI borders
+42. [Celtic Knots & Tribal Art — Pinterest board (okmcneely)](https://www.pinterest.com/okmcneely/celtic-knots-tribal-art/) — *Pinterest*. Board of bold, graphic Celtic and tribal knotwork. Reference for high-contrast, thick-band interlace suited to brutalist UI lines and stamped carving.  
+   ↳ **use for:** UI borders / channel-wall carving
+43. [Celtic Fantasy Art — Pinterest board (nbarrie359)](https://www.pinterest.com/nbarrie359/celtic-fantasy-art/) — *Pinterest*. Board of Celtic-themed fantasy art — glowing knots, ornate environments, mystical interlace. Mood/atmosphere reference for knotwork that emits light in a dark fantasy setting.  
+   ↳ **use for:** channel-wall carving / interlace split
+44. [Celtic Mandalas — Pinterest board (True North Arts)](https://www.pinterest.com/truenortharts/celtic-mandalas/) — *Pinterest*. Board of symmetrical Celtic knot mandalas — radial interlace, spirals, trinity motifs. Direct reference for a circular split-and-rejoin emblem and a radial UI seal.  
+   ↳ **use for:** interlace split / UI borders
+45. [Celtic / Ornament — Pinterest board (windywingspi)](https://www.pinterest.com/windywingspi/celtic-ornament/) — *Pinterest*. Board focused on Celtic ornamental panels, corners and borders. Reference pool for framing, corner motifs and trim density for UI and channel edges.  
+   ↳ **use for:** UI borders
+46. [Celtic & Viking carvings: wood carvings & patterns — Pinterest (Martins)](https://www.pinterest.com/martins_wood_carvings/celtic-viking-carvings-wood-carvings-patterns/) — *Pinterest*. Board of real Celtic/Viking relief carving with deep grooves and shadow. Strong reference for carving depth and how interlace reads as physical relief under directional light.  
+   ↳ **use for:** channel-wall carving
+47. [Celtic Knot Carving — Pinterest idea board](https://www.pinterest.com/ideas/celtic-knot-carving/917140346643/) — *Pinterest*. Curated 'Celtic knot carving' idea feed — stone and wood relief knots, some gold-backlit. Quick survey of carving styles and warm-light treatments for the channel walls.  
+   ↳ **use for:** channel-wall carving
+48. [Celtic and Nordic knots — Pinterest board (alenaraesharp)](https://www.pinterest.com/alenaraesharp/celtic-and-nordic-knots/) — *Pinterest*. Board blending Celtic and Norse knot carvings and designs. On-theme for the GAELWORX Norse-Celtic crossover — reference for interlace that fuses both traditions.  
+   ↳ **use for:** channel-wall carving / interlace split
+49. [GOD OF WAR: The Jötunheim Wall of Prophecy — J. L. Hilton](https://jlhilton.com/2019/08/gow-jotunheim/) — *jlhilton.com*. Analysis with imagery of God of War's giant carved prophecy wall — oversized runic/relief carving telling story across a surface. Reference for narrative carved walls (story-on-the-channel) at monumental scale.  
+   ↳ **use for:** channel-wall carving
+50. [Lorestones — Hellblade: Senua's Sacrifice (Fandom)](https://thehellblade.fandom.com/wiki/Lorestones) — *Hellblade Wiki (Fandom)*. Hellblade's lorestones: standing stones ringed with glowing carved runes appearing as you approach. Reference for the GAELWORX look — carved knot/rune rings that light up, Celtic-Norse, dark and atmospheric.  
+   ↳ **use for:** channel-wall carving / interlace split
+51. [Hellblade: Senua's Sacrifice — Pinterest art board (trickyrum)](https://www.pinterest.com/trickyrum/hellblade-art/) — *Pinterest*. Board of Hellblade environment/concept art — candle-lit ruins with intricate knots and gold detailing, dark Celtic-Norse mood. Closest tonal match to the GAELWORX forge: knotwork glowing in near-darkness.  
+   ↳ **use for:** channel-wall carving / interlace split
+52. [Hellblade Senua Sacrifice — Pinterest board (crownthekrypw)](https://www.pinterest.com/crownthekrypw/hellblade-senua-sacrifice/) — *Pinterest*. Second Hellblade board with environment and carved-detail imagery. More reference for low-light Celtic-Norse carved surfaces and warm rune/knot glow against dark stone.  
+   ↳ **use for:** channel-wall carving
+53. [Fantasy Stone Door — Pinterest idea board](https://www.pinterest.com/ideas/fantasy-stone-door/927149270338/) — *Pinterest*. Idea feed of carved fantasy stone doors/portals, many ringed with knot/relief ornament and glowing seams. Reference for a knot-bordered portal moment and glowing-recess detailing on the channel.  
+   ↳ **use for:** channel-wall carving / interlace split
+54. [Fantasy Door Concept Art — Pinterest idea board](https://www.pinterest.com/ideas/fantasy-door-concept-art/914701003239/) — *Pinterest*. Concept-art portals and gates with ornamental carved frames and luminous interlace. Reference for framing a major beat (e.g. channel split) with a carved knot arch that glows.  
+   ↳ **use for:** interlace split / channel-wall carving
+55. [Rune Stones Fantasy Art — Pinterest idea board](https://www.pinterest.com/ideas/rune-stones-fantasy-art/961475166597/) — *Pinterest*. Feed of fantasy rune/knot stones, many with glowing carved symbols and altars lit by magical fire (orange/gold). On-palette reference for carved knot grooves emitting ember light.  
+   ↳ **use for:** channel-wall carving
+56. [Runic Circle — Pinterest idea board](https://www.pinterest.com/ideas/runic-circle/949640834447/) — *Pinterest*. Idea feed of glowing runic/knot circles and magic seals on dark grounds. Reference for a radial glowing interlace seal — the four-channel rejoin or a loading/transition motif.  
+   ↳ **use for:** interlace split / UI borders
+57. [Magic circle / Runes / Potions — Pinterest board (xxdarkestherox)](https://www.pinterest.com/xxdarkestheroxx/magic-circlerunespotions/) — *Pinterest*. Board of magic circles and rune layouts with intricate concentric geometric/knot patterns glowing yellow-orange on black. Reference for layered radial interlace and glow falloff against the void.  
+   ↳ **use for:** interlace split / UI borders
+58. [Fantasy Door Concept Art / Portals — Pinterest board (davout1581)](https://www.pinterest.com/davout1581/fantasy-doors-portals/) — *Pinterest*. Large board of fantasy doors and portals, several with carved knot frames and glowing interlace seams. Reference for portal/threshold ornament and how light escapes carved grooves.  
+   ↳ **use for:** channel-wall carving / interlace split
+59. [Celtic Knot Pattern — Vecteezy (vector library)](https://www.vecteezy.com/free-vector/celtic-knot-pattern) — *Vecteezy*. 4,000+ free vector Celtic knot patterns — clean scalable interlace, many seamless. Practical source for crisp vector borders and tileable wall trims that survive brutalist 0px-corner cropping.  
+   ↳ **use for:** UI borders / channel-wall carving
+60. [Celtic Interlace Frame — Vecteezy (vector library)](https://www.vecteezy.com/free-vector/celtic-interlace-frame) — *Vecteezy*. 244 Celtic interlace frame vectors — ready-made knot borders and corner frames. Direct reference/source for a UI frame ornamented with interlace.  
+   ↳ **use for:** UI borders
+61. [Celtic Knot Corner — Vecteezy (vector library)](https://www.vecteezy.com/free-vector/celtic-knot-corner) — *Vecteezy*. Vector Celtic corner ornaments combining spirals and knotwork. Reference for resolving interlace neatly into a sharp brutalist corner without breaking the weave.  
+   ↳ **use for:** UI borders
+62. [Seamless Pattern with Celtic Knot Ornament — FreeVector](https://www.freevector.com/seamless-pattern-with-celtic-knot-ornament-80683) — *freevector.com*. Free seamless Celtic knot ornament vector. Tileable interlace field — directly usable as a repeating carved-band texture or a UI panel background.  
+   ↳ **use for:** channel-wall carving / UI borders
+63. [Celtic Knot Seamless Pattern — FreeVector](https://www.freevector.com/celtic-knot-seamless-pattern-78206) — *freevector.com*. Another seamless Celtic knot pattern vector. Reference/source for a continuous interlace strip to run along the channel and for tiled UI fills.  
+   ↳ **use for:** channel-wall carving / UI borders
+64. [Celtic knot seamless pattern set — Alena Stoyko (Creative Market)](https://creativemarket.com/stoyko/1352443-Celtic-knot-seamless-pattern-set) — *Creative Market*. Black-and-white seamless Celtic knot pattern set. High-contrast tileable interlace — ideal as a flat carved-groove map or a brutalist monochrome UI texture.  
+   ↳ **use for:** channel-wall carving / UI borders
+65. [Celtic Knot Seamless Pattern — iStock illustrations](https://www.istockphoto.com/illustrations/celtic-knot-seamless-pattern) — *iStock*. 1,400+ seamless Celtic knot illustrations — half-drop repeats, medallion knots, with/without fill, on black grounds. Broad reference for tile logic and how interlace reads white-on-black (the forge palette).  
+   ↳ **use for:** channel-wall carving / UI borders
+66. [Celtic Knot In 3D Render — iStock](https://www.istockphoto.com/photos/celtic-knot-in-3d-render) — *iStock*. Library of 3D-rendered glowing Celtic knots on black backgrounds, including metallic and luminous variants. Close palette/mood reference for a glowing metal interlace floating in the void.  
+   ↳ **use for:** interlace split / UI borders
+67. [Celtic Mandala — iStock illustrations](https://www.istockphoto.com/illustrations/celtic-mandala) — *iStock*. 1,400+ Celtic mandala illustrations — symmetrical knot patterns, spirals and Celtic symbols in rings. Reference library for the radial split/rejoin emblem and rotational UI seals.  
+   ↳ **use for:** interlace split / UI borders
+68. [Detailed Celtic knot stone carving with orange flames — Adobe Stock](https://stock.adobe.com/images/detailed-stone-carving-showing-celtic-knot-accentuated-by-orange-flames-creating-a-mystical-and-captivating-visual-representation-of-ancient-heritage/1368758235) — *Adobe Stock*. Carved Celtic knot in stone accentuated by orange flames — exactly the GAELWORX image: interlace carving lit by fire, warm ember glow in the grooves against dark stone. Top hero reference for the channel-wall look.  
+   ↳ **use for:** channel-wall carving
+69. [Mystical Celtic Knot — StockCake (free)](https://stockcake.com/i/mystical-celtic-knot_744399_262243) — *StockCake*. Free atmospheric image of a glowing/mystical Celtic knot. Mood reference for a luminous interlace focal point; license-light source for moodboards.  
+   ↳ **use for:** interlace split / channel-wall carving
+70. [Mystic Celtic Stone — StockCake (free)](https://stockcake.com/i/mystic-celtic-stone_503686_1095372) — *StockCake*. Free image of weathered Celtic knotwork on mossy stone in misty forest light. Reference for aged carved-stone texture and atmosphere (pre-forge, naturalistic) to ground the basalt carving.  
+   ↳ **use for:** channel-wall carving
+71. [Celtic knotwork carved relief — The Stone Carver](https://thestonecarver.com/celtic-knot-sculpture/) — *thestonecarver.com*. Photos of hand-carved Celtic knot stone sculpture (e.g. Dunhouse Blue sandstone plaques) showing real low-relief interlace, crisp grooves and boss work. Authoritative reference for achievable carving depth and band profile.  
+   ↳ **use for:** channel-wall carving
+72. [The Legacy of Celtic Knot & Ironwork — Old West Iron](https://oldwestiron.com/blogs/news/the-legacy-of-celtic-knot-ironwork-how-celtic-design-inspires-modern-metal-decor) — *Old West Iron*. Article with imagery of Celtic knotwork hammered into iron — gate hinges, hardware, hilts. Reference for interlace as forged dark metal (matte iron with raised bands), tying knotwork to the GAELWORX 'forged iron' material story.  
+   ↳ **use for:** channel-wall carving / UI borders
+73. [Free Celtic Interlace Clip Art — Webomator (Bradley W. Schenck)](https://www.webomator.com/bws/data/freeart/celtic/celtic_interlace.html) — *webomator.com*. Free downloadable Celtic interlace clip art — clean line knot panels and borders. Practical, license-friendly source of correct interlace line art for tracing into carving height maps or UI strokes.  
+   ↳ **use for:** UI borders / channel-wall carving
+74. [Celtic zoomorphic designs — CraftsmanSpace (free patterns)](https://www.craftsmanspace.com/free-patterns/celtic-zoomorphic-designs.html) — *CraftsmanSpace*. Free vector zoomorphic Celtic patterns — animal interlace ready to use. Source for accurate beast-knot motifs to populate the channel carving and the split's intertwining-creature logic.  
+   ↳ **use for:** channel-wall carving / interlace split
+75. [Celtic knot pattern — Freepik library](https://www.freepik.com/free-photos-vectors/celtic-knot-pattern) — *Freepik*. Large Freepik pool of Celtic knot vectors and photos, including seamless patterns and black-ground knots. Broad source for tileable interlace and high-contrast border art.  
+   ↳ **use for:** UI borders / channel-wall carving
+76. [Celtic knots medieval seamless borders & corners — Pinterest pin](https://www.pinterest.com/pin/celtic-knots-vector-medieval-seamless-borders-patterns-and-ornament-corners-royaltyfree-stock-vector-art--19562579614540368/) — *Pinterest*. Vector set of medieval Celtic seamless borders, knotted braids and ornament corners. Reference for a coordinated family of border + corner + braid pieces to build a consistent brutalist Celtic UI frame.  
+   ↳ **use for:** UI borders
+77. [How to Design a Celtic Knot — Adobe blog](https://blog.adobe.com/en/publish/2018/03/07/design-celtic-knot-instructions-inspiration) — *Adobe (blog.adobe.com)*. Instructional article with example imagery on constructing Celtic knots correctly (grid + over-under). Reference for authoring an accurate custom knot (split motif, wordmark accent) rather than a fake-looking one.  
+   ↳ **use for:** interlace split / UI borders
+78. [Topology of Celtic Knot Designs — Fisher (VisMath)](http://www.mi.sanu.ac.rs/vismath/fisher/) — *mi.sanu.ac.rs / VisMath*. Academic visual study of Celtic knot topology with many constructed-knot diagrams. Deep reference for the underlying math of strands, crossings and breaks — to procedurally generate a correct four-strand split that rejoins.  
+   ↳ **use for:** interlace split
+79. [Celtic knot 'thingy' generator — explanation (isotropic.org)](https://isotropic.org/celticknot/explanation/) — *isotropic.org*. Explains a parametric Celtic knot generator (grid, walls, crossings). Reference for procedurally driving interlace from a grid — directly applicable to generating channel-wall knot bands and a configurable split.  
+   ↳ **use for:** interlace split / channel-wall carving
+80. [Celtic knotwork design: BREAKS MAKE PATTERNS — Calligraphy Skills](https://www.calligraphy-skills.com/celtic-knotwork-design.html) — *calligraphy-skills.com*. Tutorial showing how inserting 'breaks' (barriers) into a plait turns simple braids into complex knots, with step imagery. Key reference for shaping where the four channel-strands divide and recombine.  
+   ↳ **use for:** interlace split / channel-wall carving
+81. [Celtic Knots Explained (And How to Draw One) — Irish Myths](https://irishmyths.com/2024/09/20/celtic-knots/) — *irishmyths.com*. Accessible illustrated guide to knot types (incl. four-strand) and drawing method. Reference for choosing the right base knot for the four-service split and ensuring it reads as endless.  
+   ↳ **use for:** interlace split / UI borders
+
+
+## Ogham & Runestones
+
+### Real (41)
+
+1. [Ogham inscription (Wikipedia overview)](https://en.wikipedia.org/wiki/Ogham_inscription) — *Wikipedia*. Reference article on orthodox ogham: parallel lines and notches carved along the natural sharp edge (droim/faobhar) of a standing stone, reading bottom-left upward. Article carries photos of weathered grey-stone edges with V-cut grooves; cold dry stone, no light in grooves except raking daylight. Establishes the canonical edge-as-stemline carving logic.  
+   ↳ **use for:** carved-Ogham reveal on letters (authoritative edge-carving geometry) and stone tablets
+2. [Ogham (Wikipedia, alphabet + stones)](https://en.wikipedia.org/wiki/Ogham) — *Wikipedia*. Master article with the full alphabet chart (four aicmi: B/H/M/A groups) plus photos of inscribed stones. Shows the strict 1-5 stroke groupings against a central stemline. Monochrome grey granite, crisp incised lines. NOTE: direct upload.wikimedia.org image URLs could not be harvested - host blocked by egress policy (403 on fetch).  
+   ↳ **use for:** carved-Ogham reveal on letters (letterform construction grammar) and the Ogham chart logic for the A/E carved exception
+3. [Ogham alphabet chart (Omniglot)](https://www.omniglot.com/writing/ogham.htm) — *Omniglot*. Clean reference chart of all 20 (+5 forfeda) ogham characters with the stemline and stroke families laid out. Black strokes on white - ideal as a literal carving key for which notch pattern to incise. Flat diagram, no material/lighting, purely the alphabet grammar.  
+   ↳ **use for:** carved-Ogham reveal on letters (which strokes to carve into each cooled letterform)
+4. [Carved in Stone, Read on the Edge (Ogham explainer)](https://www.lingodigest.com/carved-in-stone-read-on-the-edge-unlocking-ogham-irelands-ancient-alphabet-of-lines/) — *LingoDigest*. Explainer emphasising the lines-and-notches cut along the sharp edge as stemline. Photos of upright field stones, lichen-mottled grey, grooves catching low side-light. Mood: ancient, weathered, austere.  
+   ↳ **use for:** stone tablets (ChannelCopy carved-edge styling) and carved-Ogham reveal
+5. [Ogham Stones gallery (Monumental Ireland)](https://monumentalireland.ie/ogham-stones/) — *Monumental Ireland*. Field photography of standing ogham stones across Ireland - tall rough monoliths in green landscapes, grooves running up the arris. Green-black wet stone, overcast light; grooves read as shadow lines. Strong match for the basalt-tablet-in-a-dark-world mood.  
+   ↳ **use for:** stone tablets beside the channel (form, proportion, weathering)
+6. [Ogham Stones of Ireland (catalogue)](http://www.megalithicireland.com/Ogham%20Stones%20Page%201.htm) — *Megalithic Ireland*. Large amateur-archaeology catalogue with many close photos of individual ogham stones, several macro on the inscribed edge. Useful for the variety of groove depth/spacing and how notches cluster. Grey/brown stone, daylight.  
+   ↳ **use for:** carved-Ogham reveal on letters (groove depth and notch spacing variety)
+7. [Our Ancient Landscapes: Ogham Stones in Ireland (Heritage Council PDF)](https://www.heritagecouncil.ie/content/files/Ogham-Stones.pdf) — *The Heritage Council (Ireland)*. Official heritage publication by Dr Nora White with high-quality colour plates (Ken Williams / National Monuments Service). Includes raking-light and RTI-style shots that make incised strokes pop from the stone - exactly how a carved reveal should read. Authoritative, museum-grade imagery.  
+   ↳ **use for:** carved-Ogham reveal on letters (raking-light groove legibility) and stone tablets
+8. [What Are Ogham Stones? - complete guide](https://www.oghamjewellery.com/blogs/news/what-are-ogham-stones-a-complete-guide-to-irish-ogham-stones) — *Ogham Jewellery*. Guide with photos of orthodox stones and the edge-carving method; ~400 stones, Cork/Kerry concentration. Clean documentary photos of grey incised stone. Good plain-language carving reference.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets
+9. [Ogham Stones: Run Your Hand Across a Piece of History](https://www.aletterfromireland.com/ancient-irish-ogham-stones/) — *A Letter From Ireland*. Travel-heritage piece with tactile close-ups of fingers tracing notched edges. Conveys the carved-by-hand, weathered texture; warm-grey stone in soft daylight.  
+   ↳ **use for:** stone tablets (tactile carved-edge feel)
+10. [Ogham in 3D - Kilmalkedar (CIIC 187), Co. Kerry](https://ogham.celt.dias.ie/stone.php?lang=en&county=Kerry&stone=187._Kilmalkedar&stoneinfo=description) — *Dublin Institute for Advanced Studies (ogham.celt.dias.ie)*. Laser-scanned 3D record (0.2mm point spacing) of a Kerry ogham stone, viewable as shaded relief that isolates the incised strokes from the stone body - the cleanest possible reference for a glowing-groove reveal. Neutral grey render, no colour, pure geometry of the carving.  
+   ↳ **use for:** carved-Ogham reveal on letters (exact incised-stroke geometry to drive an emissive-in-groove shader)
+11. [Ogham in 3D - Inishvickillane (CIIC 185), Co. Kerry](https://ogham.celt.dias.ie/stone.php?lang=en&county=Kerry&stone=185._Inishvickillane&stoneinfo=description) — *Dublin Institute for Advanced Studies (ogham.celt.dias.ie)*. 3D-scanned ogham stone, inscription ANM VEDLLOIGGOI MACI SEDDOINI. Shaded model shows deep clean strokes along the edge. Grey geometry render; ideal to study how notches sit on the arris.  
+   ↳ **use for:** carved-Ogham reveal on letters (edge-arris stroke placement)
+12. [Ogham in 3D - Coolmagort IV (CIIC 200) / Dunloe stones](https://ogham.celt.dias.ie/stone.php?county=Kerry&lang=en&stone=200._Coolmagort_IV&stoneinfo=description) — *Dublin Institute for Advanced Studies (ogham.celt.dias.ie)*. One of the Dunloe/Coolmagort group (CIIC 197-203, 241), 5th-6th c. burial markers reused as souterrain lintels. 3D shaded scan with crisp incised ogham. Neutral render.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone-tablet cluster arrangement
+13. [Ogham Carving Techniques (OG(H)AM project, Glasgow)](https://ogham.glasgow.ac.uk/index.php/2024/10/01/ogham-carving-techniques/) — *University of Glasgow OG(H)AM project*. Technical article distinguishing V-section cutting (clean, narrow, with a visible line at the groove bottom) from pocking (pin-holes from a conical point). Close macro photos of grooves. Critical for making a carved reveal look authentically chiselled, not engraved-by-machine.  
+   ↳ **use for:** carved-Ogham reveal on letters (groove cross-section / chisel authenticity)
+14. [The Stone Corridor - ogham stones at University College Cork](https://ogham.glasgow.ac.uk/index.php/2023/06/26/the-stone-corridor-ogham-stones-at-university-college-cork-part-1/) — *University of Glasgow OG(H)AM project*. Photos of the famous UCC Stone Corridor: a row of ogham stones lit in a dim arcade - dark surroundings, stones picked out by directional light, grooves in shadow. Mood is close to a dark forge corridor lined with carved tablets.  
+   ↳ **use for:** stone tablets beside the channel (a lit row of carved monoliths in darkness)
+15. [Ogham Stone Gallery (historic inscriptions)](https://oghamlore.com/gallery/) — *Ogham Lore*. Curated gallery of ogham stones from Ireland, Wales and Scotland with edge-on inscription shots. Range of stone colours from grey granite to darker sandstone; daylight documentation.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (breadth of real examples)
+16. [Aghascrebagh Ogham Stone (Co. Tyrone) - Flickr](https://www.flickr.com/photos/21212853@N08/6022508609) — *Flickr*. Field photo of a weathered standing ogham stone in green countryside, notches running up the edge. Grey-green lichened stone, soft daylight; grooves read as faint shadow strokes. Good 'monolith in a field' silhouette.  
+   ↳ **use for:** stone tablets (silhouette and weathering)
+17. [The Fardel Ogham Stone, British Museum - Flickr](https://www.flickr.com/photos/dalecruse/53537308694) — *Flickr*. Museum-display photo of the Fardel ogham stone (5th-6th c.) under gallery lighting - dark background, stone lit so the incised edge strokes read clearly. Clean studio-ish look; useful for a carved tablet isolated against void.  
+   ↳ **use for:** stone tablets beside the channel (object-against-darkness lighting)
+18. [Ballycrovane Ogham Stone, Beara Peninsula - Flickr](https://www.flickr.com/photos/39217121@N05/4046517102) — *Flickr*. The tallest ogham stone (~5.3m / 17ft), shot in landscape. Towering rough monolith, grooves up the arris, dramatic scale against sky. Conveys monumental verticality.  
+   ↳ **use for:** stone tablets / monolith scale reference
+19. [Ogham stone, The Long Library, Trinity College Dublin - Flickr](https://www.flickr.com/photos/136736053@N08/44536513061) — *Flickr*. Indoor photo of an ogham stone (Inishvickillane inscription) displayed among dark library shelving - warm low light, stone foregrounded against shadow. Atmospheric, museum-interior mood.  
+   ↳ **use for:** stone tablets (warm-lit carved stone in a dark interior)
+20. [Breastagh Ogham Stone (Sacred Landscapes)](http://www.sacredlandscapes.ie/breastagh-ogham-stone.html) — *Sacred Landscapes (Ireland)*. Tall field monolith with a long ogham inscription up both arrises. Grey-brown weathered stone in open landscape; grooves faint. Documentary daylight photography.  
+   ↳ **use for:** stone tablets (tall inscribed-edge monolith)
+21. [Dunloe Ogham Stones (Heritage Ireland)](https://heritageireland.ie/unguided-sites/dunloe-ogham-stones/) — *Heritage Ireland (OPW)*. Official OPW page for the Coolmagort/Dunloe cluster of eight stones standing together. Photos of the grouped monoliths with visible edge inscriptions. Grey stone, outdoor light.  
+   ↳ **use for:** stone-tablet cluster arrangement beside the channel
+22. [Ballycrovane Ogham Stone (Heritage Ireland)](https://heritageireland.ie/unguided-sites/ballycrovane-ogham-stone/) — *Heritage Ireland (OPW)*. Official page for the tallest ogham stone with documentary photos. Massive standing stone, inscribed arris, coastal Beara backdrop. Authoritative imagery.  
+   ↳ **use for:** stone tablets / monolith scale and form
+23. [File:Ogham Stone Kilmalkedar.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Ogham_Stone_Kilmalkedar.JPG) — *Wikimedia Commons*. CC-licensed photo of the Kilmalkedar ogham stone (1536x2048) with the characteristic bored hole near the top and notched edge. Grey stone, daylight. NOTE: direct upload.wikimedia.org URL not harvestable - host returned 403 to fetch under egress policy; page URL retained for honest sourcing.  
+   ↳ **use for:** stone tablets and carved-Ogham reveal (CC-licensed real reference)
+24. [File:Kilmalkedar Ogham Stone.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Kilmalkedar_Ogham_Stone.JPG) — *Wikimedia Commons*. Second CC photo of the Kilmalkedar stone from a different angle. Useful pairing for how light angle changes groove legibility. Wikimedia host blocked for direct image fetch (403).  
+   ↳ **use for:** carved-Ogham reveal on letters (light-angle vs groove visibility)
+25. [Category:Ogham stones in Ireland (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Ogham_stones_in_Ireland) — *Wikimedia Commons*. Master CC category aggregating dozens of free ogham-stone photos (incl. recent Tullygarran, Tralee shots). Mixed angles, raking light, macro edges. The single richest free real-photo pool. Host blocked for direct fetch; browse page for downloadable originals.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (bulk CC real references)
+26. [Norse/Viking runestone (Wikipedia)](https://en.wikipedia.org/wiki/Runestone) — *Wikipedia*. Overview of ~3,000 Scandinavian runestones, carved with mallet and chisel and originally coloured (fa). Article photos show runes in raised/incised bands, several with restored red pigment in the grooves - directly relevant to a 'colour/light lives in the carved channel' look.  
+   ↳ **use for:** carved-Ogham reveal on letters (pigment/light filling the incised line)
+27. [Viking runestones (Wikipedia)](https://en.wikipedia.org/wiki/Viking_runestones) — *Wikipedia*. Younger Futhark memorial stones, runes carved within serpent/ribbon bands. Photos of grey granite slabs with deep clean grooves. Shows how a script can spiral around a sculpted band rather than sit on a straight line.  
+   ↳ **use for:** stone tablets (band-framed carved inscription layout)
+28. [Category:Runestones (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Runestones) — *Wikimedia Commons*. Master CC category for runestones with many subcategories and high-res originals - carved granite, some with painted red/black grooves, macro detail available. Host blocked for direct image fetch (403); page is the gateway to downloadable free references.  
+   ↳ **use for:** carved-Ogham reveal on letters (grooves with colour) and stone tablets (bulk CC real references)
+29. [File:Runestone Sm10.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Runestone_Sm10.JPG) — *Wikimedia Commons*. CC photo of a Smaland runestone with runes in a serpent band. Grey weathered stone, deep incised lines. Host blocked for direct fetch (403).  
+   ↳ **use for:** stone tablets (single carved-slab reference)
+30. [Jelling stones (Wikipedia)](https://en.wikipedia.org/wiki/Jelling_stones) — *Wikipedia*. The great 10th-c. Jelling runestone (Harald Bluetooth) - massive boulder carved on three faces with runes plus a serpent-and-lion and a crucified Christ in relief. Modern reconstructions show it brilliantly repainted, proving how colour transforms carved grooves. UNESCO monument.  
+   ↳ **use for:** carved-Ogham reveal on letters (relief + coloured-groove precedent) and monumental tablet form
+31. [Rok runestone (Wikipedia)](https://en.wikipedia.org/wiki/R%C3%B6k_runestone) — *Wikipedia*. The most famous runestone - longest runic inscription, runes packed densely across every face in tight ordered rows. Grey granite, shallow crisp grooves. Excellent for a dense wall-of-carved-script texture.  
+   ↳ **use for:** stone tablets (dense all-over carved-text surface)
+32. [Sigurdsristningen / Ramsund Carving (Atlas Obscura)](https://www.atlasobscura.com/places/sigurdsristningen-ramsund-carving) — *Atlas Obscura*. Runes-and-narrative carving cut directly into a flat rocky outcrop (c.1030 CE) - runes run inside the dragon Fafnir's body. Photos show the in-situ rock with chiselled lines, often chalked/painted to read. Living-rock carving, not a standing slab.  
+   ↳ **use for:** carved-Ogham reveal on letters (script following a sculpted form across rock)
+33. [The Ramsund Runestone (World History Encyclopedia)](https://www.worldhistory.org/image/13465/the-ramsund-runestone/) — *World History Encyclopedia*. Clear documentary image of the Ramsund Sigurd carving with the runic band and figural scene. Grey rock, grooves picked out. Good single hero reference for narrative carving.  
+   ↳ **use for:** stone tablets (narrative carved panel)
+34. [Picture stone (Wikipedia)](https://en.wikipedia.org/wiki/Picture_stone) — *Wikipedia*. Gotland limestone picture/image stones - relief-carved slabs, often with a runic border, largest ~3.85m. Pale limestone, low-relief carving. Shows a tall carved tablet with a framed pictorial field.  
+   ↳ **use for:** stone tablets beside the channel (framed relief panel format)
+35. [Tjangvide image stone (Wikipedia)](https://en.wikipedia.org/wiki/Tj%C3%A4ngvide_image_stone) — *Wikipedia*. Famous Gotland picture stone, low-relief carving of Sleipnir and ship with a runic edge. Pale grey-buff limestone, shallow crisp relief. Good for legible incised line on a light stone.  
+   ↳ **use for:** carved-Ogham reveal on letters (shallow-relief legibility) and stone tablets
+36. [Category:Picture stones of Gotland (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Picture_stones_of_Gotland) — *Wikimedia Commons*. CC category of 400+ Gotland picture stones - many high-res, several photographed against dark museum backdrops with grazing light that throws every carved line into relief. Host blocked for direct fetch (403); page is the download gateway.  
+   ↳ **use for:** stone tablets (carved slab lit against darkness, bulk CC references)
+37. [Aberlemno sculptured stones (Wikipedia)](https://en.wikipedia.org/wiki/Aberlemno_sculptured_stones) — *Wikipedia*. Pictish cross-slabs (Aberlemno II) carved in relief with three distinct interlace/knotwork panels and key-pattern. Grey stone, deep crisp interlace. Bridges ogham-era Celtic carving with full knotwork ornament.  
+   ↳ **use for:** stone tablets (Celtic interlace carved panels) and carved-Ogham reveal context
+38. [Celtic inscribed stone (Wikipedia)](https://en.wikipedia.org/wiki/Celtic_inscribed_stone) — *Wikipedia*. Stones (400-1000 AD) inscribed in ogham and/or Roman letters, mostly grave-markers. Photos of rough monoliths with mixed-script carving. Useful for the transitional 'name carved into a memorial stone' idea behind the GAELWORX letterform reveal.  
+   ↳ **use for:** carved-Ogham reveal on letters (name-carved-into-monument concept)
+39. [The Carndonagh cross (Donegal)](https://www.carrowkeel.com/sites/donegal/carndonagh.html) — *Carrowkeel / megalithic survey*. Early Irish high-cross slab (~3m) carved from sandstone, covered in dense Celtic knotwork. Photos show deep continuous interlace grooves. Strong reference for carved Celtic ornament that could surround revealed Ogham.  
+   ↳ **use for:** stone tablets (Celtic knotwork carving surrounding the inscription)
+40. [Rune Stones (Milwaukee Public Museum)](https://www.mpm.edu/research-collections/anthropology/online-collections-research/scandinavian-archaeology/rune-stones) — *Milwaukee Public Museum*. Museum collection page on runestones with documentary photos and carving context. Grey carved granite, neutral lighting. Institutional, reliable reference.  
+   ↳ **use for:** stone tablets and carved-Ogham reveal (museum reference)
+41. [Digitizing Ireland's Ogham-inscribed stones (Artec 3D)](https://www.artec3d.com/cases/digitizing-irelands-ogham-inscribed-stones) — *Artec 3D*. Case study with photos of ogham stones in the field plus on-screen 3D scans - shaded relief renders that strip colour and show pure incised geometry. The render shots are the cleanest reference for driving an emissive-groove shader on a letterform.  
+   ↳ **use for:** carved-Ogham reveal on letters (3D scan geometry -> shader displacement/emissive mask)
+
+### Fantasy / Concept Art (73)
+
+1. [Glowing Rune Stone (Ellsworth Eaton)](https://www.artstation.com/artwork/oJQY2z) — *ArtStation*. Game-art rune stone modelled in ZBrook/ZBrush, textured in Substance, rendered in Marmoset. A weathered standing stone with deeply carved runes whose grooves emit light - exactly the 'cooled stone, light only in the carving' contract. Cool stone body, glowing grooves.  
+   ↳ **use for:** carved-Ogham reveal on letters (PBR carved stone with emissive-in-groove glow)
+2. [Monolith With Runes (Mattias Nordin)](https://www.artstation.com/marketplace/p/LeDl/monolith-with-runes) — *ArtStation*. Tall carved monolith covered in runic strokes, designed so grooves can be lit/resin-glowed. Dark stone slab, vertical format. Directly transferable to the channel-side carved tablet silhouette.  
+   ↳ **use for:** stone tablets beside the channel (carved monolith form)
+3. [Fantasy Medieval Runes 4K Reference/Concept Images](https://www.artstation.com/marketplace/p/jNNND/fantasy-medieval-runes-4k-reference-concept-images) — *ArtStation*. Reference pack: glowing arcane runes on stone tablets, engraved symbols on weathered walls, sacred ritual circles. Multiple lighting treatments of carved-stone-with-light. Broad sourcebook for the reveal look.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (reference sheet)
+4. [Stone Lava Golem Character (Nikita Vitchenko)](https://www.artstation.com/artwork/L2mQxR) — *ArtStation*. Sculpt of a rock creature with molten-orange fissures glowing between cooled stone plates. The cooled-crust-over-glowing-magma material is the precise look of GAELWORX letters cooling to iron while heat lingers in the carving. Black rock, ember-orange cracks.  
+   ↳ **use for:** carved-Ogham reveal on letters (cooled crust + molten light in the seams)
+5. [A Monster Emerges - 'Lava Golem' Concept (Marcus Whinney)](https://www.artstation.com/artwork/VJdo15) — *ArtStation*. ZBrush+Photoshop lava golem: dark stony body laced with bright orange-yellow molten veins and rune-like cracks. Strong palette match (#E85D04/#FFB24D cracks on near-black). Cinematic rim light.  
+   ↳ **use for:** carved-Ogham reveal on letters (molten-vein glow on dark stone)
+6. [Stone Golem (Lava/Stone/Ice/Iron) low-poly 3D model](https://www.artstation.com/marketplace/p/MG5OP/stone-golem-lava-stone-ice-iron-low-poly-3d-model) — *ArtStation*. Game-ready golem with a lava variant: carved rune-like seams glowing orange across cooled rock. Shows real-time emissive-in-crevice material at game budget - useful as a how-to for the WebGL letterform shader.  
+   ↳ **use for:** carved-Ogham reveal on letters (real-time emissive groove material reference)
+7. [Rune-carved Stone Golem (TravTheMad)](https://www.deviantart.com/travthemad/art/Rune-carved-Stone-Golem-426173499) — *DeviantArt*. Stone golem with runic symbols carved into chest and eyes set up for object-source lighting (OSL) - the runes are the light source. Demonstrates carving-as-emitter on a stone body. Grey rock, glowing carved sigils.  
+   ↳ **use for:** carved-Ogham reveal on letters (carving acts as the light source)
+8. [Forgotten Stone Golem Concept - Until You Fall (Zachary D. Coe)](https://artofzacharydcoe.artstation.com/projects/N56E8d) — *ArtStation*. VR-game stone construct with glowing carved runework across cooled rock plates. Clean AAA presentation of carved-stone-plus-light. Cool stone, luminous engraved lines.  
+   ↳ **use for:** carved-Ogham reveal on letters (AAA carved-emissive treatment)
+9. [Dwarven Forge (ArtStation artwork qQGN2)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Subterranean dwarven forge: carved stone pillars and walls lit by molten metal, warm orange glow in deep shadow, runic detailing. Near-exact mood for the GAELWORX forge world - metal is the only light, carved stone surrounds.  
+   ↳ **use for:** stone tablets beside the channel (carved stone lit by molten metal)
+10. [Dwarven Forge (Rotann Colyn)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Cavern forge, firelit, with carved stone architecture and rune-etched surfaces; molten channels pour like lava. Warm orange key, crushed black shadow. Reinforces channel + carved-tablet staging.  
+   ↳ **use for:** stone tablets beside a molten channel (environment staging)
+11. [Dwarven Forge (Louis-Philippe Ross Boivin)](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation*. Another dwarven forge interior, carved stone and glowing runes with rivers of molten metal. Cinematic, deep-shadow, ember-lit. Good wide-shot reference for tablets flanking the pour.  
+   ↳ **use for:** stone tablets beside the channel (wide environment)
+12. [The Dwarven God of Runes and Craftsmanship (RavenforgeStudios)](https://www.deviantart.com/ravenforgestudios/art/The-Dwarven-God-of-Runes-and-Craftsmanship-1146295281) — *DeviantArt*. Dwarven-rune themed piece: hammers and armour etched with molten runes of power, warm glow in incised lines. On-theme fusion of forge + carved glowing runes.  
+   ↳ **use for:** carved-Ogham reveal on letters (molten runes in metal/stone)
+13. [Fantasy Stone Runes (WisestProjectStudio, 1032735411)](https://www.deviantart.com/wisestprojectstudio/art/Fantasy-Stone-Runes-1032735411) — *DeviantArt*. Dark stone runes glowing with ancient power; deep carved glyphs lit from within. Moody, low-key lighting. Adaptable to the warm GAELWORX palette.  
+   ↳ **use for:** stone tablets (glowing carved glyphs)
+14. [Fantasy Stone Runes (WisestProjectStudio, 1032735329)](https://www.deviantart.com/wisestprojectstudio/art/Fantasy-Stone-Runes-1032735329) — *DeviantArt*. Companion piece - carved stone runes with inner glow against shadow. Atmospheric, mystical. Good secondary tablet reference.  
+   ↳ **use for:** stone tablets (glowing carved glyphs)
+15. [Fire Rune Stone (Kinsei01)](https://www.deviantart.com/kinsei01/art/Fire-Rune-Stone-268888491) — *DeviantArt*. A rune stone whose carved symbol burns fire-orange/red - the carving literally holds flame. Direct palette match (Celtic Blood/Ember) and the 'eternal fire in the A/E carving' idea.  
+   ↳ **use for:** carved-Ogham reveal on letters (the carved mark holds fire - A/E divine-fire exception)
+16. [Magic Elemental Runes (Wyngrew)](https://www.deviantart.com/wyngrew/art/Magic-Elemental-Runes-768806202) — *DeviantArt*. Set of elemental rune glyphs incl. a fire rune glowing red-orange. Clean glyph-on-stone designs, each element a colour. Useful glyph vocabulary for invented carved marks.  
+   ↳ **use for:** carved-Ogham reveal on letters (glyph design vocabulary)
+17. [Magic rune stone (olgaaimm)](https://www.deviantart.com/olgaaimm/art/Magic-rune-stone-897157288) — *DeviantArt*. Painted rune stone with glowing carved symbols. Illustrative, atmospheric. Flexible colour. Secondary tablet reference.  
+   ↳ **use for:** stone tablets (painted glowing carved stone)
+18. [WIP Concept art - Rune/Magic stone setting (JekMate)](https://www.deviantart.com/jekmate/art/WIP-Concept-art-Rune-Magic-stone-setting-746639275) — *DeviantArt*. Environment concept of a rune/magic stone installation - carved standing stones in a charged setting. Good for composing a row of carved tablets in a dramatic space.  
+   ↳ **use for:** stone tablets beside the channel (environment composition)
+19. [Fantasy Lands - Magical Spells and Glowing Runes (stormbiz)](https://www.deviantart.com/stormbiz/art/Fantasy-Lands-Magical-Spells-And-Glowing-Runes-999299973) — *DeviantArt*. Wide fantasy scene with glowing runes worked into stone. Atmospheric environment scale. Reference for runes glowing within a larger dark world.  
+   ↳ **use for:** stone tablets (runes glowing in a dark environment)
+20. [Rune Stones (kalter-stahl)](https://www.deviantart.com/kalter-stahl/art/Rune-Stones-100157407) — *DeviantArt*. Carved rune stones rendered with weight and texture. Stony, grounded look. Good for believable carved-stone material.  
+   ↳ **use for:** stone tablets (material/texture)
+21. [275+ Magic Rune Circles and Glyphs Overlay Effects (Blazgad)](https://www.deviantart.com/blazgad/art/275-Magic-Rune-Circles-and-Glyphs-Overlay-Effects-1012798703) — *DeviantArt*. Large pack of glowing rune circles and glyph overlays. Pure emissive line-art on black - drop-in reference for the glow pass that sits in carved grooves. Many configurations.  
+   ↳ **use for:** carved-Ogham reveal on letters (emissive glow-line overlays)
+22. [Glowing Rune Carved into an Ancient Stone Tablet (golden light, dim cavern)](https://creator.nightcafe.studio/creation/53AUtDgVXAEbsOkfkL1e/a-glowing-rune-carved-into-an-ancient-stone-tablet-its-symbols-shifting-with-golden-light-in-a-dim-s) — *NightCafe*. A rune deeply carved into a stone tablet, its symbol shifting with GOLDEN light inside a dim shadowed cavern. Near-perfect brief match: carving as the only light, gold (#FFB24D) glow, void-dark surround.  
+   ↳ **use for:** stone tablets (gold-lit carved tablet in darkness) and carved-Ogham reveal
+23. [Obsidian Slab Engraved with Golden Runes Amid Jungle](https://creator.nightcafe.studio/creation/BhWIFCEBmAqqXNlUG0O7/a-close-up-of-an-ancient-obsidian-stone-slab-deeply-engraved-with-the-name-crystal-prompt-club-in-ma) — *NightCafe*. Close-up of an OBSIDIAN slab deeply engraved with golden runes. Black volcanic glass body + gold-filled grooves = the GAELWORX obsidian-and-fire material almost exactly. Macro, shallow depth.  
+   ↳ **use for:** carved-Ogham reveal on letters (obsidian body + gold-in-groove - the cooled-letter look)
+24. [Glowing Rune Illuminates Ancient Cavern](https://creator.nightcafe.studio/creation/2xSRhiwBmyxXGTBMFKtr) — *NightCafe*. Single carved rune lighting a black cavern - the glyph is the sole light source in near-total dark. Embodies 'the metal/carving is the only light.' Warm glow, pure-void surround.  
+   ↳ **use for:** stone tablets (carving as sole light in void) and carved-Ogham reveal
+25. [Glowing Ancient Magic Tablet with Arcane Symbols (inner fire)](https://www.dreamstime.com/ancient-stone-tablet-long-lost-to-time-awakens-inner-fire-intricate-arcane-symbols-glowing-runes-pulse-immense-image406864556) — *Dreamstime*. Ancient stone tablet 'awakening inner fire' - intricate arcane symbols and glowing runes pulse with fiery orange-red light from the carved lines. Strong palette and 'awakening' (reveal) match. Stone body, ember grooves.  
+   ↳ **use for:** carved-Ogham reveal on letters (tablet awakening - fiery groove glow on reveal)
+26. [Glowing Arcane Tablet of Ancient Power](https://www.dreamstime.com/glowing-arcane-tablet-ancient-power-relic-forgotten-civilization-hums-contained-energy-its-sigil-hints-image406863255) — *Dreamstime*. A relic stone tablet humming with contained energy, central sigil glowing. Carved-stone-with-light, restrained palette. Good hero tablet reference.  
+   ↳ **use for:** stone tablets (hero carved tablet)
+27. [Glowing Runes and Symbols Illuminating Ancient Temple (stone altar, magic circle)](https://www.dreamstime.com/glowing-runes-symbols-illuminating-ancient-temple-stone-altar-magic-circle-floor-image365777634) — *Dreamstime*. Carved glowing runes and a floor magic-circle lighting a dark stone temple. Architectural-scale carved-stone-with-light; the carving lights the room. Useful for the channel's carved-wall ambience.  
+   ↳ **use for:** stone tablets / channel-wall carving (architectural glow)
+28. [Icy Rune Stone with Golden Carvings](https://www.dreamstime.com/icy-rune-stone-covered-snow-golden-carvings-white-background-image401330529) — *Dreamstime*. Rune stone with GOLDEN carvings (here against snow/white). Isolates the gold-in-groove treatment cleanly - invert the background to void for the GAELWORX look. Gold (#FFB24D) carving reference.  
+   ↳ **use for:** carved-Ogham reveal on letters (clean gold-groove study)
+29. [Glowing Runes (5,365 illustrations index)](https://www.dreamstime.com/illustration/glowing-runes.html) — *Dreamstime*. Large index of glowing-rune illustrations: blue, gold and ember variants on carved stone, tablets, walls and circles. Browse pool for the exact warm-glow + carved-groove pairing. Many usable thumbnails.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (broad concept pool)
+30. [Glowing Rune (1,727 illustrations index)](https://www.dreamstime.com/illustration/glowing-rune.html) — *Dreamstime*. Second Dreamstime index focused on single glowing runes on stone. Good for isolated-glyph studies and groove-glow falloff.  
+   ↳ **use for:** carved-Ogham reveal on letters (single-glyph glow studies)
+31. [Fantasy Stone Tablet (507 illustrations index)](https://www.dreamstime.com/illustration/fantasy-stone-tablet.html) — *Dreamstime*. Index of fantasy stone-tablet illustrations - carved slabs, some with glowing inscriptions, varied stone and lighting. Direct sourcebook for ChannelCopy tablet design.  
+   ↳ **use for:** stone tablets beside the channel (tablet design pool)
+32. [Ancient Rune-Engraved Stone Tablet (volcanic rock, fiery-orange runes) 3D model](https://www.cgtrader.com/3d-models/exterior/other/ancient-rune-engraved-stone-tablet) — *CGTrader*. 3D model: cracked VOLCANIC rock tablet with central glowing runes pulsating a FIERY-ORANGE hue. Cracked-basalt body + ember-orange carved glow is a bullseye for the GAELWORX cooled-letter/tablet material. Game-ready geometry.  
+   ↳ **use for:** carved-Ogham reveal on letters (volcanic-rock + ember-orange carved glow) and stone tablets
+33. [Glowing Rune Carving on Cave Wall (fire lights the runes)](https://www.dreamstime.com/fire-lights-up-carved-runes-glow-dark-glowing-rune-carving-cave-wall-fantasy-scene-video170396431) — *Dreamstime / VideoHive (still + footage)*. Runes carved into a cave wall that GLOW when fire light hits them, then fade in the dark. Captures heat/fire revealing carving over time - directly the finale's reveal-as-it-heats beat. Warm flicker, black rock.  
+   ↳ **use for:** carved-Ogham reveal on letters (fire/heat revealing the carving) and channel-wall copy
+34. [Glowing Rune Carving on Cave Wall Fantasy Scene (Pond5)](https://www.pond5.com/stock-footage/item/123503136-glowing-rune-carving-cave-wall-fantasy-scene) — *Pond5*. Stock motion of a carved rune wall glowing in a fantasy cave. Animated emissive-groove reference (how the glow breathes/flickers), warm tone on dark stone.  
+   ↳ **use for:** carved-Ogham reveal on letters (animation of the groove glow)
+35. [Glowing Rune Carving On Cave Wall Fantasy Scene (VideoHive)](https://videohive.net/item/glowing-rune-carving-on-cave-wall-fantasy-scene/25597621) — *VideoHive / Envato*. Another carved-wall glowing-rune fantasy clip. Useful for timing/ease of an ignite-on-reveal and the trail-of-light along a carved line.  
+   ↳ **use for:** carved-Ogham reveal on letters (reveal timing/trail)
+36. [Mystical Glowing Runes (free image)](https://stockcake.com/i/mystical-glowing-runes_365694_68273) — *StockCake*. Free-to-use image of glowing runes on dark stone. Atmospheric, low-key. Easy reference/comp asset for carved-glyph glow.  
+   ↳ **use for:** stone tablets (glowing carved glyphs, free asset)
+37. [Glowing Rune (free AI image set)](https://stockcake.com/s/glowing-rune) — *StockCake*. Free image set of glowing runes - several on cracked dark stone with warm/gold glow. Browse pool of usable comp references in the right palette.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (free comp pool)
+38. [Rune Glow (free image set)](https://stockcake.com/s/rune-glow) — *StockCake*. Free set focused on the glow of runes. Useful for the bloom/halo character around emissive carving. Mixed palettes incl. warm.  
+   ↳ **use for:** carved-Ogham reveal on letters (glow/bloom halo character)
+39. [Obsidian Veins (free image set)](https://stockcake.com/s/obsidian-veins) — *StockCake*. Free set of cracked obsidian with glowing magma veins - black volcanic glass split by molten orange light. Not runes per se, but the exact body material of a cooling GAELWORX letter; pairs with any carved-glyph overlay.  
+   ↳ **use for:** carved-Ogham reveal on letters (obsidian body + molten-vein under-light)
+40. [The Ember Veins of a Restless Earth](https://artisenza.com/product/the-ember-veins-of-a-restless-earth/) — *Artisenza*. Art print: a stone monolith crackling with internal fire, molten fissures etched in bold symbol-like patterns glowing like living embers, dark rock contrasting searing engraving. Palette and 'fire trapped in the carving' both on-brief.  
+   ↳ **use for:** carved-Ogham reveal on letters (ember-fissure glyphs on dark monolith)
+41. [Runic Obsidian Tablet - Magical Stone Aesthetic](https://www.pinterest.com/pin/665266176251120278/) — *Pinterest*. A towering slab of dark rock with intricate etchings and luminous glyphs outlining a circular crest. Obsidian tablet + glowing carved crest = ChannelCopy tablet in the GAELWORX palette. Dark body, luminous lines.  
+   ↳ **use for:** stone tablets beside the channel (obsidian tablet with glowing carved seal)
+42. [Ancient Rune Stone with Glowing Symbols (523473156706332079)](https://www.pinterest.com/pin/ancient-rune-stone-with-glowing-symbols-fantasy-runes-art--523473156706332079/) — *Pinterest*. Upright rune stone etched with glowing symbols, dark rugged stone with natural cracks emphasising age, central complex symbol pulsing. Strong single-monolith reference; recolour glow to ember/gold.  
+   ↳ **use for:** stone tablets (glowing carved monolith)
+43. [Ancient Rune Stone with Glowing Symbols (56154326597998672)](https://www.pinterest.com/pin/ancient-rune-stone-with-glowing-symbols-fantasy-runes-art--56154326597998672/) — *Pinterest*. Variant of the glowing rune monolith; different angle/lighting. Useful for how groove-glow reads at different framings.  
+   ↳ **use for:** stone tablets (framing variations)
+44. [Ancient Rune Stone with Glowing Symbols (434667801558730384)](https://co.pinterest.com/pin/434667801558730384/) — *Pinterest*. Another glowing-symbol rune stone pin. Dark stone, luminous carving. Secondary monolith reference.  
+   ↳ **use for:** stone tablets (glowing carved monolith)
+45. [Ancient Rune Stone with Glowing Symbols (753156737718445478)](https://es.pinterest.com/pin/753156737718445478/) — *Pinterest*. Glowing rune stone pin, fantasy runes art. Moody dark-stone-with-light. Recolourable to brand palette.  
+   ↳ **use for:** stone tablets (glowing carved monolith)
+46. [Central Rune Stone with Floating Runes (golden seal)](https://www.pinterest.com/pin/central-rune-stone-with-floating-runes-magic-runes-fantasy-art--7036943162656356/) — *Pinterest*. Large dark rune stone inscribed with a prominent glowing GOLDEN symbol resembling a knot/ancient seal, rooted in ground. Gold-on-dark carved seal - close to a carved-Ogham/knot reveal in brand gold.  
+   ↳ **use for:** stone tablets (gold carved seal) and carved-Ogham reveal (knot/seal in gold)
+47. [Central Rune Stone with Floating Runes (555139091588334451)](https://www.pinterest.com/pin/central-rune-stone-with-floating-runes-magic-runes-fantasy-art-in-2025--555139091588334451/) — *Pinterest*. Variant of the golden-seal rune stone with floating runes around it. Useful for embers/particles drifting off a glowing carved mark.  
+   ↳ **use for:** stone tablets (glow + drifting embers/particles)
+48. [Arc Spark Obsidian Staff - Ancient Magic Artifact](https://www.pinterest.com/pin/arc-spark-obsidian-staff-ancient-magic-artifact-in-2025--77757531062461566/) — *Pinterest*. Polished obsidian with faint runes glowing along a spiral, molten ribbons of light in fine cracks. Precise material study: black glass + thin molten light in carved/cracked lines.  
+   ↳ **use for:** carved-Ogham reveal on letters (thin molten light in fine carved lines on obsidian)
+49. [Glowing Runes Fantasy Art (Pinterest idea board)](https://www.pinterest.com/ideas/glowing-runes-fantasy-art/940412169693/) — *Pinterest*. Curated board of glowing-rune fantasy art - many carved-stone-with-light examples across palettes. Fast browse pool for the reveal look; pick the ember/gold entries.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (browse pool)
+50. [Rune Stones Fantasy Art (Pinterest idea board)](https://www.pinterest.com/ideas/rune-stones-fantasy-art/961475166597/) — *Pinterest*. Board of rune-stone fantasy art incl. a monolith crackling with internal fire and molten fissures glowing like embers. Multiple on-palette carved-monolith references.  
+   ↳ **use for:** stone tablets (glowing carved monolith) and carved-Ogham reveal
+51. [Fantasy Rune Stone (Pinterest idea board)](https://www.pinterest.com/ideas/fantasy-rune-stone/958688388239/) — *Pinterest*. Board collecting fantasy rune-stone designs - tablets, monoliths, glowing carvings, varied lighting. Broad design sourcebook for ChannelCopy tablets.  
+   ↳ **use for:** stone tablets beside the channel (design pool)
+52. [Rune Stone Art (Pinterest idea board)](https://www.pinterest.com/ideas/rune-stone-art/931512519452/) — *Pinterest*. Idea board of rune-stone art across styles. Mixed real and concept; useful to scan for carved-edge + glow combinations.  
+   ↳ **use for:** stone tablets and carved-Ogham reveal (browse pool)
+53. [Runestone Art (Pinterest idea board)](https://www.pinterest.com/ideas/runestone-art/896408655774/) — *Pinterest*. Board mixing real runestones and stylised carved-stone art. Good bridge reference between authentic carving and fantasy glow.  
+   ↳ **use for:** stone tablets (authentic-to-stylised carving bridge)
+54. [Runes Fantasy Art (Pinterest idea board)](https://www.pinterest.com/ideas/runes-fantasy-art/905962955902/) — *Pinterest*. Broad runes-in-fantasy board: glowing glyphs, carved walls, magic circles. Pull the warm-glow-on-dark-stone entries for brand fit.  
+   ↳ **use for:** carved-Ogham reveal on letters (glyph/glow ideas)
+55. [Rune Magic Art (Pinterest idea board)](https://www.pinterest.com/ideas/rune-magic-art/943512254406/) — *Pinterest*. Board on rune magic incl. carved tablets activating with light. Reference for the moment a carved mark 'ignites.'  
+   ↳ **use for:** carved-Ogham reveal on letters (ignition moment)
+56. [Rune Tablet (Pinterest idea board)](https://www.pinterest.com/ideas/rune-tablet/938025250592/) — *Pinterest*. Board specifically of rune tablets - flat carved slabs with inscriptions, several glowing. Most on-point board for ChannelCopy stone tablets.  
+   ↳ **use for:** stone tablets beside the channel (tablet-specific pool)
+57. [Runes (xavierduckworth, 900+ board)](https://www.pinterest.com/xavierduckworth/runes/) — *Pinterest*. Deep 900+ pin board of runes/fantasy artwork - large reservoir of carved-stone and glowing-glyph references across many artists and palettes.  
+   ↳ **use for:** carved-Ogham reveal on letters and stone tablets (deep browse reservoir)
+58. [Runes (tollmanm / Rock carving, 20 ideas)](https://www.pinterest.com/tollmanm/rock-carving/) — *Pinterest*. Board of rock-carving and rune-stone/standing-stone references - leans toward believable carved-rock detail. Good for grounding the carving in real stone before adding glow.  
+   ↳ **use for:** carved-Ogham reveal on letters (believable carved-rock grounding)
+59. [Ogham Stones (melindasherbrin board)](https://www.pinterest.com/melindasherbrin/ogham-stones/) — *Pinterest*. Pinterest board dedicated to ogham stones - real photos plus some stylised takes of the notched-edge script. Focused ogham-specific browse pool.  
+   ↳ **use for:** carved-Ogham reveal on letters (ogham-specific references)
+60. [Ogham Stones (oghamart board, 130 ideas)](https://www.pinterest.com/oghamart/ogham-stones/) — *Pinterest*. 130-pin ogham-art board mixing authentic stones and ogham-inspired design. Useful for translating real ogham notches into a stylised carved reveal.  
+   ↳ **use for:** carved-Ogham reveal on letters (authentic-to-stylised ogham)
+61. [Dwarven Forge Concept Art (Pinterest idea board)](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Board of dwarven-forge concept art: molten metal as light, carved stone halls, rune detailing, deep warm shadow. Environment moodboard matching the GAELWORX forge world that frames the tablets.  
+   ↳ **use for:** stone tablets beside the channel (forge environment moodboard)
+62. [Dwarven forge (bkirchner777 board)](https://www.pinterest.com/bkirchner777/dwarven-forge/) — *Pinterest*. Curated dwarven-forge board - lava channels, carved stone, ember light. Reinforces molten-channel-with-carved-walls staging for ChannelCopy.  
+   ↳ **use for:** stone tablets beside a molten channel (staging)
+63. [Stone Golem Concept Art (Pinterest idea board)](https://www.pinterest.com/ideas/stone-golem-concept-art/930776344177/) — *Pinterest*. Board of stone-golem concepts - many with runes carved into rock bodies, some lava-veined. Reference for carving-as-emitter on a stone body across many designs.  
+   ↳ **use for:** carved-Ogham reveal on letters (carved-emitter on stone)
+64. [Runes carved on stone (Stable Diffusion prompts/gallery)](https://stablediffusionweb.com/prompts/runes-carved-on-stone) — *Stable Diffusion Online*. Gallery of generated 'runes carved on stone' results - many show deep grooves with faint inner light on grey/black stone. Browse for carving depth + subtle glow combinations; mixed palettes.  
+   ↳ **use for:** carved-Ogham reveal on letters (carving depth + subtle inner glow)
+65. [Runes stone tablet carved ancient tome (Stable Diffusion prompts)](https://stablediffusionweb.com/prompts/runes-stone-tablet-carved-ancient-tome) — *Stable Diffusion Online*. Generated set of carved rune stone tablets / ancient tomes. Tablet-focused; several with glowing inscriptions. ChannelCopy tablet ideation.  
+   ↳ **use for:** stone tablets beside the channel (tablet ideation)
+66. [How to paint magical glowing runes (tutorial)](https://www.creativebloq.com/how-to/how-to-paint-magical-glowing-runes) — *Creative Bloq*. Art tutorial breaking down how glowing runes are painted: base carve, inner emissive, bloom/halo, warm rim. Method reference (not just a picture) for getting the groove-glow + bloom physically convincing.  
+   ↳ **use for:** carved-Ogham reveal on letters (glow construction method)
+67. [Word Walls / Rune Walls (Skyrim) - Fandom](https://elderscrolls.fandom.com/wiki/Word_Walls_(Skyrim)) — *The Elder Scrolls Wiki (Fandom)*. Skyrim's Word Walls: semicircular Nordic walls carved with draconic runes where ONE word glows and tendrils of light reach out as you approach, with rising chant. The canonical games reference for 'carved wall, one glyph ignites on approach' - directly the A/E ignite + channel-wall reveal.  
+   ↳ **use for:** carved-Ogham reveal on letters (single-glyph ignite-on-approach) and channel-wall copy
+68. [Skyrim: Word Wall - UESP](https://en.uesp.net/wiki/Skyrim:Word_Wall) — *UESP (Unofficial Elder Scrolls Pages)*. UESP page with screenshots of Word Walls - grey carved stone, the active word lit in pale blue-white with a light trail. Swap glow to white-gold (#FFF2E0/#FFB24D) and it is the finale reveal. Clear in-game lighting reference.  
+   ↳ **use for:** carved-Ogham reveal on letters (lit-glyph + light-trail, recolour to white-gold)
+69. [God of War 'First Norse Concept' (Jose Cabrera)](https://www.cookandbecker.com/en/artwork/2608/first-norse-concept-god-of-war-sie-santa-monica-studio.html) — *Cook and Becker (SIE Santa Monica Studio)*. Official God of War concept art that set the Norse mood - carved stone, runic motifs, cold light. AAA reference for restrained, weighty carved-rune environments (GoW uses Elder Futhark, often glowing). Authoritative concept-art source.  
+   ↳ **use for:** stone tablets beside the channel (AAA carved-rune environment mood)
+70. [God of War: The Jotunheim Wall of Prophecy](https://jlhilton.com/2019/08/gow-jotunheim/) — *J. L. Hilton (analysis with imagery)*. Breakdown of God of War's giant carved Wall of Prophecy - an entire rock face covered in relief carving and runes telling a story as you pass it. Direct precedent for narrative copy carved along a channel wall (ChannelCopy as story-on-the-wall).  
+   ↳ **use for:** stone tablets / channel-wall copy (narrative carved along a passing wall)
+71. [Elden Ring concept art gallery](https://www.creativeuncut.com/art_elden-ring_a.html) — *CreativeUncut*. Official Elden Ring artwork gallery - includes carved stone monuments and glowing-glyph/message-stone motifs (gold-leaf runes, the Erdtree's gold light). The gold-on-dark glowing-script language is close to the brand gold reveal. AAA source.  
+   ↳ **use for:** carved-Ogham reveal on letters (gold glowing script on dark stone) and stone tablets
+72. [MidJourney fantasy landscape prompts (glowing-rune monoliths, golden light)](https://www.elegantprompt.com/2025/09/25-midjourney-fantasy-landscape-prompts.html) — *Elegant Prompt*. Prompt collection with rendered results of colossal stone monoliths glowing with ancient runes in soft golden light. Useful for monumental scale + warm carved glow, and for the prompt language itself.  
+   ↳ **use for:** stone tablets (monumental gold-lit carved monoliths)
+73. [AI fantasy art prompts (molten gold, glowing runes, throne of light)](https://www.media.io/ai-prompts/ai-fantasy-art-photo-prompts.html) — *Media.io*. Prompt/reference set including rivers of molten gold and glowing runes in underground caverns. Matches the molten-channel + glowing-carving combination; reference imagery and prompt seeds.  
+   ↳ **use for:** stone tablets beside a molten channel (molten-gold + glowing-rune combination)
+
+
+## Columnar Basalt
+
+### Real (46)
+
+1. [Giant's Causeway Hexagonal Basalt Columns (Pexels, Jonathan Borba)](https://www.pexels.com/photo/giant-s-causeway-hexagonal-basalt-columns-33956235/) — *Pexels*. Tightly packed hexagonal basalt column tops, County Antrim Ireland. Cold blue-grey to green-black weathered stone, sharp polygonal geometry, even mid-scale tessellation. Mood: ancient, ordered, monumental.  
+   ↳ **use for:** world stone, plinths
+2. [Volcanic Basalt Columns, Iceland (Pexels)](https://www.pexels.com/photo/volcanic-basalt-columns-iceland-17356259/) — *Pexels*. Vertical Icelandic basalt columns rising in a cliff face. Dark grey-black with greenish lichen tint, strong vertical pillar geometry, dramatic scale. Mood: cathedral-like, vertical.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+3. [Dramatic Seaside Basalt Columns in Jeju (Pexels)](https://www.pexels.com/photo/dramatic-seaside-basalt-columns-in-jeju-28537609/) — *Pexels*. Jusangjeolli-style sea cliff basalt columns, Jeju Korea. Black volcanic rock, slightly weathered ochre edges, tall stacked vertical columns meeting the sea. Mood: brutal, oceanic, sheer.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+4. [Basalt Columns search gallery (Pexels)](https://www.pexels.com/search/basalt%20columns/) — *Pexels*. Curated free-photo gallery of basalt columns worldwide: hexagonal tops, vertical cliffs, black sand beaches. Dark grey-to-green-black stone, varied scale. Mood: geological, raw.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns
+5. [Hexagonal basalt columns with water pools (Unsplash, Adrien Olichon)](https://unsplash.com/photos/hexagonal-basalt-columns-with-water-pools-wxxm78lt_b0) — *Unsplash*. Top-down hexagonal basalt pavement with dark water pooled in joints. Near-black wet stone, crisp polygon cell pattern, reflective void pools. Mood: minimal, dark, geometric.  
+   ↳ **use for:** world stone, plinths
+6. [Close-up of wet, dark basalt rock formations (Unsplash, Wolfgang Hasselmann)](https://unsplash.com/photos/close-up-of-wet-dark-basalt-rock-formations-Ypdnkw_Ds64) — *Unsplash*. Macro of wet basalt rock surface. Deep black-grey with subtle green-blue sheen on the wet stone, fine fracture detail and pore micro-texture. Mood: raw material study, intimate.  
+   ↳ **use for:** world stone (material/texture)
+7. [Tall, dark basalt columns under a cloudy sky (Unsplash)](https://unsplash.com/photos/tall-dark-basalt-columns-under-a-cloudy-sky-LQ2t0h0ZvdQ) — *Unsplash*. Towering vertical basalt columns silhouetted against grey sky. Black-green dark rock, strong vertical pillar lines, imposing scale from below. Mood: looming, austere.  
+   ↳ **use for:** ForgeMouth columns
+8. [Person sits on a basalt rock formation, Vik Iceland (Unsplash)](https://unsplash.com/photos/person-sits-on-a-basalt-rock-formation-mDphxJZEVVE) — *Unsplash*. Stepped basalt columns at Reynisfjara with a person for scale. Black volcanic stone in stair-stacked hexagonal blocks; human gives sense of monumental scale. Mood: epic, grounded.  
+   ↳ **use for:** channel walls, plinths (scale reference)
+9. [Close-up of a textured rock surface with mineral veins (Unsplash)](https://unsplash.com/photos/close-up-of-a-textured-rock-surface-with-mineral-veins-tBfhd0gJ2cc) — *Unsplash*. Macro dark rock face threaded with pale mineral veins. Charcoal-black body, thin lighter veining (good analog for ember/gold veins in dark stone). Mood: material, veined.  
+   ↳ **use for:** world stone (vein material), channel walls
+10. [Basalt free-image search (Unsplash)](https://unsplash.com/s/photos/basalt) — *Unsplash*. 100+ free basalt photos: columns, cliffs, macro textures. Predominantly dark grey-to-black volcanic stone, sharp geometry. Mood: clean, modern, dark.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns, plinths
+11. [Columnar Basalt, Giant's Causeway Northern Ireland (Wikimedia Commons file)](https://commons.wikimedia.org/wiki/File:Columnar_Basalt_Giants_Causeway_Northern_Ireland.jpg) — *Wikimedia Commons*. High-res (4032x3024) hexagonal basalt columns at Giant's Causeway. Grey-green weathered tops, classic 6-sided cells, even daylight. Mood: documentary, iconic.  
+   ↳ **use for:** world stone, plinths
+12. [Basalt Columns at Giant's Causeway (Wikimedia Commons, geograph 5571889)](https://commons.wikimedia.org/wiki/File:Basalt_Columns_at_Giant's_Causeway_in_Northern_Ireland_-_geograph_5571889.jpg) — *Wikimedia Commons*. Stepped basalt column blocks along the causeway. Dark grey-green stone, stacked polygonal steps, coastal light. Mood: rugged, layered.  
+   ↳ **use for:** channel walls, plinths
+13. [Giants Causeway 1b (Wikimedia Commons file)](https://commons.wikimedia.org/wiki/File:Giants_Causeway_1b.JPG) — *Wikimedia Commons*. Causeway basalt columns receding toward the sea. Green-black weathered hexagons, strong perspective of the column field. Mood: vast, geometric.  
+   ↳ **use for:** world stone, channel walls
+14. [Giant's Causeway (14) (Wikimedia Commons file)](https://commons.wikimedia.org/wiki/File:Giant's_Causeway_(14).JPG) — *Wikimedia Commons*. Detailed cluster of basalt column tops at the causeway. Grey-green to near-black wet stone, crisp polygon joints. Mood: tactile, geological.  
+   ↳ **use for:** world stone, plinths
+15. [Giants causeway (Wikimedia Commons file)](https://commons.wikimedia.org/wiki/File:Giants_causeway.jpg) — *Wikimedia Commons*. Wide view of the basalt column field at Giant's Causeway. Dark green-grey columns interlocking to the shoreline. Mood: panoramic, natural-monument.  
+   ↳ **use for:** world stone, channel walls
+16. [Category: Columnar basalts (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Columnar_basalts) — *Wikimedia Commons*. Master category of columnar basalt photos worldwide: hexagonal pavements, vertical cliffs, curved colonnades, macro joints. Dark grey-to-green-black stone, full range of column geometry and scale. Mood: comprehensive geology reference.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns, plinths
+17. [Category: Giant's Causeway (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Giant's_Causeway) — *Wikimedia Commons*. Full image category for Giant's Causeway: column fields, close macro of hexagons, coastal context. Green-black weathered basalt. Mood: iconic Irish columnar basalt.  
+   ↳ **use for:** world stone, channel walls, plinths
+18. [Category: Columnar igneous rocks (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Columnar_igneous_rocks) — *Wikimedia Commons*. Broader category of columnar igneous (incl. basalt) formations globally. Dark volcanic stone, varied polygonal jointing and scale. Mood: scientific, structural.  
+   ↳ **use for:** world stone, ForgeMouth columns
+19. [Columnar Basalt, Devil's Postpile California (Wikimedia Commons, direct image)](https://commons.wikimedia.org/wiki/Category:Devils_Postpile_National_Monument) — *Wikimedia Commons*. Tall tightly-packed columnar basalt at Devils Postpile (up to 18m, ~44% hexagonal). Grey-black weathered rock, long parallel pillars. Mood: towering, symmetrical, monolithic.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+20. [Vertical columns of volcanic rock at Devils Postpile (USGS)](https://www.usgs.gov/volcanoes/long-valley-caldera/science/vertical-columns-volcanic-rock-devils-postpile-national) — *USGS*. USGS science page on Devils Postpile columnar basalt: towering parallel columns and glacier-polished hexagonal tops. Dark grey volcanic rock. Mood: monumental, ordered, scientific.  
+   ↳ **use for:** ForgeMouth columns, plinths
+21. [Columnar Basalt - Punalu'u Black Sand Beach (Flickr, brewbooks, CC)](https://www.flickr.com/photos/brewbooks/2414949759) — *Flickr*. Columnar basalt at a Hawaiian black sand beach. Very dark grey-black basalt with warm brown weathering, blocky columns against black sand. Mood: volcanic, elemental.  
+   ↳ **use for:** world stone, channel walls
+22. [Close up of basalt columns at Reynisfjara black sand beach, Vik (Flickr)](https://www.flickr.com/photos/39908901@N06/53442160046/) — *Flickr*. Close-up of stacked black basalt columns at Reynisfjara. Jet-black to charcoal stone, stair-stepped hexagonal blocks, fine fracture lines. Mood: brutal, dramatic, dark.  
+   ↳ **use for:** channel walls, plinths
+23. [Basalt photos tag (Flickr)](https://www.flickr.com/photos/tags/basalt/) — *Flickr*. Community-tagged basalt photos: columns, cliffs, macro. Mostly dark grey-black volcanic stone, wide range of lighting and scale. Mood: varied, documentary.  
+   ↳ **use for:** world stone, channel walls
+24. [Columnar basalt photos tag (Flickr)](https://www.flickr.com/photos/tags/columnar) — *Flickr*. Tagged columnar formations: hexagonal pavements and vertical colonnades. Dark grey-to-black stone, polygonal joint geometry. Mood: geological, structural.  
+   ↳ **use for:** world stone, ForgeMouth columns
+25. [Basalt cliffs photos tag (Flickr)](https://flickr.com/photos/tags/basalt%20cliffs) — *Flickr*. Tagged basalt cliff photos: sheer dark columnar cliff faces, sea stacks. Black-grey volcanic stone, tall vertical pillars. Mood: imposing, coastal-brutal.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+26. [Hexagonal Basalt Columns at Reynisfjara, South Iceland (Encircle Photos)](https://www.encirclephotos.com/image/hexagonal-basalt-columns-at-reynisfjara-in-south-iceland/) — *Encircle Photos*. Stacked hexagonal basalt at Reynisfjara forming a natural staircase wall. Black-charcoal stone, crisp polygon faces, even grey light. Mood: ordered, monumental, dark.  
+   ↳ **use for:** channel walls, plinths
+27. [Stuðlagil — The Magical Basalt Column Canyon (Iceland Photo Tours)](https://iceland-photo-tours.com/photo-guides/einar-pall-svavarsson/studlagil-the-magical-basalt-column-canyon) — *Iceland Photo Tours*. Iceland's largest basalt-column canyon: sheer vertical colonnade walls flanking a river channel. Grey-green-black columns, strong vertical lines, the river running between the walls. Mood: exactly a molten-channel analog — walls of columns down a gorge.  
+   ↳ **use for:** channel walls (primary)
+28. [Stuðlagil canyon guide (Iceland-Dream)](https://www.iceland-dream.com/guide/east/studlagil) — *Iceland-Dream*. Stuðlagil basalt-column canyon walls above turquoise glacial water. Dark grey columnar walls forming a channel; strong verticality and scale. Mood: gorge, channel, monumental.  
+   ↳ **use for:** channel walls
+29. [Svartifoss — the Black Falls (Iceland Life)](https://www.iceland-life.com/blog/svartifoss-the-black-falls) — *Iceland Life*. Waterfall framed by dark hexagonal basalt columns hanging like organ pipes / a cathedral. Black-grey columns radiating around the drop. Mood: sacred, cathedral, dark-vertical.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+30. [Basalt Columns of Iceland — Hexagonal Rocks of Wonder (Guide to Iceland)](https://guidetoiceland.is/best-of-iceland/basalt-columns-in-iceland) — *Guide to Iceland*. Photo guide to Iceland's basalt columns (Reynisfjara, Studlagil, Svartifoss, Dverghamrar). Dark grey-black columnar basalt, vertical and stepped. Mood: definitive Icelandic columnar-basalt set.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns
+31. [10 most impressive basalt column attractions in Iceland (HiT Iceland)](https://www.hiticeland.com/post/10-most-interesting-impressive-and-fascinating-basalt-column-attractions-in-iceland) — *HiT Iceland*. Roundup of Iceland's best columnar basalt sites with photos. Black-to-grey volcanic columns, vertical/stepped/curved geometry, dramatic scale. Mood: travel-documentary, dark stone.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns
+32. [Black Sand Beach / Reynisfjara — Geology gallery (Geology Science)](https://geologyscience.com/gallery/geological-wonders/black-sand-beach-or-reynisfjara-beach/) — *GeologyScience*. Geology gallery of Reynisfjara basalt columns and black sand. Jet-black volcanic stone, stacked hexagonal column walls, sea-stack context. Mood: elemental, brutal, dark.  
+   ↳ **use for:** channel walls, plinths
+33. [Fingal's Cave geology gallery (Geology Science)](https://geologyscience.com/gallery/geological-wonders/the-fingals-cave-scotland/) — *GeologyScience*. Sea cave of hexagonal basalt columns on Staffa (Scotland's Giant's Causeway). ~20m black-grey columns forming cave walls and a colonnade entrance. Mood: cathedral cave, dark-vertical, awe.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+34. [The Devil's Postpile geology gallery (Geology Science)](https://geologyscience.com/gallery/geological-wonders/the-devils-postpile-california-usa/) — *GeologyScience*. Gallery of Devils Postpile columnar basalt: towering parallel columns and glacier-polished hexagonal tops. Grey-black volcanic rock. Mood: monumental, ordered.  
+   ↳ **use for:** ForgeMouth columns, plinths
+35. [Facts About The Giant's Causeway — Photos (Geology In)](https://www.geologyin.com/2024/02/giants-causeway-facts-and-photos.html) — *Geology In*. Photo-rich article on Giant's Causeway basalt. Green-black weathered hexagonal columns, macro joint detail, coastal context. Mood: educational, iconic.  
+   ↳ **use for:** world stone, plinths
+36. [Basalt Rock — Composition, Textures (Sandatlas)](https://sandatlas.org/basalt/) — *Sandatlas*. Petrology reference with macro photos of basalt: fine-grained dark matrix, vesicular pores, mineral speckle. Near-black to dark grey with greenish olivine tints. Mood: material/texture study.  
+   ↳ **use for:** world stone (material/texture)
+37. [Natural Wonders: Basalt Columns (ExplorersWeb)](https://explorersweb.com/natural-wonders-basalt-columns/) — *ExplorersWeb*. Survey article on the world's basalt-column wonders with photos. Dark grey-black columnar stone across many sites, varied geometry. Mood: global reference.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns
+38. [10 Amazing Basalt Columns of the World (TRVST)](https://www.trvst.world/environment/basalt-columns/) — *TRVST*. Photo list of basalt column formations globally (Giant's Causeway, Fingal's, Devils Postpile, Jeju, Iceland). Black-to-grey columnar basalt. Mood: comparative reference.  
+   ↳ **use for:** world stone, ForgeMouth columns, plinths
+39. [Basalt rock free images (Pixabay search)](https://pixabay.com/images/search/basalt%20rock/) — *Pixabay*. 20,000+ free basalt photos: macro textures, columns, cliffs. Predominantly dark grey-black volcanic stone, varied scale and lighting. Mood: stock-clean, dark.  
+   ↳ **use for:** world stone (material/texture), channel walls
+40. [Columnar basalt free images (Pixabay search)](https://pixabay.com/images/search/columnar%20basalt/) — *Pixabay*. 400+ free columnar-basalt photos: hexagonal tops, vertical colonnades. Dark grey-to-black stone, polygonal joints. Mood: geometric, geological.  
+   ↳ **use for:** world stone, ForgeMouth columns, plinths
+41. [Basalt column free images (Pixabay search)](https://pixabay.com/images/search/basalt%20column/) — *Pixabay*. 4,000+ free basalt-column photos incl. Giants Causeway, black-beach columns, Jeju cliffs. Dark volcanic stone, hexagonal/vertical geometry. Mood: varied, dark.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns
+42. [Volcanic basalt photos (Pixabay search)](https://pixabay.com/photos/search/volcanic%20basalt/) — *Pixabay*. Free photos of volcanic basalt rock and formations. Near-black to dark grey stone, rough vesicular surfaces and columnar forms. Mood: raw volcanic.  
+   ↳ **use for:** world stone (material/texture)
+43. [Daepo Jusangjeolli Cliff (Wikipedia)](https://en.wikipedia.org/wiki/Daepo_Jusangjeolli_Cliff) — *Wikipedia*. Jeju Island sea-cliff columnar joints, 30-40m tall over ~1km. Black volcanic basalt, tightly packed vertical polygonal columns meeting the ocean. Mood: brutal, sheer, dark.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+44. [Fingal's Cave (Wikipedia)](https://en.wikipedia.org/wiki/Fingal's_Cave) — *Wikipedia*. Sea cave of hexagonally jointed basalt, Staffa Scotland. ~20m black-grey columns forming a colonnaded cave mouth. Mood: cathedral cave, dark-vertical, mythic.  
+   ↳ **use for:** ForgeMouth columns
+45. [Giant's Causeway (Wikipedia)](https://en.wikipedia.org/wiki/Giant's_Causeway) — *Wikipedia*. ~40,000 interlocking basalt columns, County Antrim. ~60% hexagonal, 30-150cm diameter, ~6m tall. Green-black weathered stone. Mood: iconic natural monument.  
+   ↳ **use for:** world stone, plinths
+46. [Devils Postpile National Monument (Wikipedia)](https://en.wikipedia.org/wiki/Devils_Postpile_National_Monument) — *Wikipedia*. Columnar basalt up to 18.3m, exceptional symmetry (~44% hexagonal). Grey-black volcanic columns, glacier-polished tops. Mood: towering, ordered.  
+   ↳ **use for:** ForgeMouth columns, plinths
+
+### Fantasy / Concept Art (92)
+
+1. [Basalt Hexagon Formation — Keegan Keene (ArtStation)](https://www.artstation.com/artwork/baX3ek) — *ArtStation*. Procedurally generated hexagonal basalt formation (Substance Designer). Dark grey-green stippled columnar tops, crisp polygon tessellation. Mood: clean material/asset study.  
+   ↳ **use for:** world stone, plinths
+2. [Basalt Reach — Unreal Engine 5 Environment, Jure Marusic (ArtStation)](https://www.artstation.com/artwork/ndwNQX) — *ArtStation*. UE5 coastal environment inspired by Scottish/Irish castles on columnar basalt. Dark green-black basalt sea cliffs and stacked columns under moody sky. Mood: cinematic, brooding, Celtic-coastal.  
+   ↳ **use for:** channel walls, ForgeMouth columns, world stone
+3. [Basalt Cave — Mario Dujardin (ArtStation)](https://www.artstation.com/artwork/VJg6zR) — *ArtStation*. UE5 cave built from Iceland-style basalt shapes, water and foliage. Black-grey columnar basalt cave walls, hexagonal forms, atmospheric light. Mood: dark cavern, geological-fantasy.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+4. [Inua: Basalt Columns and Wall — Amanda Stanley (ArtStation)](https://amandastanley.artstation.com/projects/rxdWG) — *ArtStation*. UE4 modular basalt wall and column game asset set (large/medium/small clusters). Dark grey-green basalt, tiered hexagonal columns built into walls. Mood: production game-art, modular stone.  
+   ↳ **use for:** channel walls, ForgeMouth columns, plinths
+5. [Procedural Iceland Basalt Columns — game assets (ArtStation Marketplace)](https://www.artstation.com/marketplace/p/lM11/procedural-iceland-basalt-columns) — *ArtStation*. Procedural Iceland-style basalt column asset pack. Dark grey-black columns, vertical and clustered, PBR. Mood: realistic dark-stone game asset.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+6. [Stylized Rocks | Basalt & Hexagonal (Fab / Epic)](https://www.fab.com/listings/826d4639-4386-4771-a381-a7f5211f767f) — *Fab*. Stylized hexic basalt rock asset kit (AAA-style, LODs). Dark grey stylized basalt with bold hexagonal facets. Mood: stylized, clean, game-ready dark stone.  
+   ↳ **use for:** world stone, ForgeMouth columns, plinths
+7. [Basalt Columns and Rocks 21 Types — AssetKit PBR (Fab / Unreal)](https://www.unrealengine.com/marketplace/en-US/product/basalt-columns-and-rocks-21-types-and-scene-assetkit-pbr) — *Fab*. 21-type PBR basalt columns/rocks kit plus assembled scene. Dark grey-black weathered basalt, varied column shapes. Mood: realistic dark volcanic stone library.  
+   ↳ **use for:** world stone, channel walls, ForgeMouth columns, plinths
+8. [Basalt Column Formation — Hexagonal Volcanic Rock Terrain (Cults3D, WarForge)](https://cults3d.com/en/3d-model/game/basalt-column-formation-hexagonal-volcanic-rock-terrain-3d-model) — *Cults3D*. 3D-printable hexagonal basalt terrain inspired by Giant's Causeway / Iceland. Dark stylized basalt pillars, sharp hexagonal geometry. Mood: tabletop/game terrain, geometric.  
+   ↳ **use for:** world stone, plinths
+9. [Basalt Columns Rocks Kit — 3D model (TurboSquid 1233488)](https://www.turbosquid.com/3d-models/basalt-columns-rocks-kit-3d-model-1233488) — *TurboSquid*. Modular basalt columns/rocks kit for building full basalt sceneries. Dark grey-black columnar pieces, low-poly game-optimized. Mood: kitbash dark stone.  
+   ↳ **use for:** world stone, ForgeMouth columns, plinths
+10. [3D basalt columns rocks kit — model (TurboSquid 1233484)](https://www.turbosquid.com/3d-models/3d-basalt-columns-rocks-kit-model-1233484) — *TurboSquid*. Companion basalt column/rock kit, alternate set. Dark volcanic stone, hexagonal and broken columns. Mood: modular, dark, game-ready.  
+   ↳ **use for:** world stone, channel walls, plinths
+11. [Stylized Rocks: Hexic Basalt Style (Epic Dev Community / Unreal marketplace)](https://answers.unrealengine.com/marketplace/en-US/product/stylized-rocks-hexic-basalt-style?lang=en-US) — *Unreal / Epic*. Stylized hexic-basalt rock asset listing. Dark stylized basalt with exaggerated hexagonal facets. Mood: stylized dark-stone, game environment.  
+   ↳ **use for:** world stone, ForgeMouth columns
+12. [Basalt Rock Material — game asset (ArtStation Marketplace)](https://www.artstation.com/marketplace/p/e5Gb/basalt-rock-material) — *ArtStation*. Tileable basalt rock PBR material. Dark grey-black volcanic surface, fine fracture and pore detail. Mood: material study, dark stone shading reference.  
+   ↳ **use for:** world stone (material/texture)
+13. [Seamless PBR basalt column rock texture for 3D terrain (AITextured)](https://aitextured.com/textures/stone/stone-seamless-pbr-basalt-column-rock-texture-for-3d-terrain.html) — *AITextured*. Seamless basalt-column PBR texture for terrain. Dark grey-black columnar joint pattern, tileable. Mood: material/texture, dark stone.  
+   ↳ **use for:** world stone (material/texture), channel walls
+14. [Volcanic basalt columns study — DUnSTALKER (DeviantArt)](https://www.deviantart.com/dunstalker/art/Volcanic-basalt-columns-study-285033144) — *DeviantArt*. Painted study of volcanic basalt columns. Dark grey-green-black columnar rock rendered with painterly fracture detail. Mood: concept-art material study.  
+   ↳ **use for:** world stone, channel walls
+15. [Dwarven Forge — Rotann Colyn (ArtStation)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Dwarven forge interior (set dressing, tileable textures) from a Marius Villard concept. Dark stone hall lit by forge-fire glow; carved columns and molten light. Mood: warm-glow-in-dark-stone forge.  
+   ↳ **use for:** ForgeMouth columns, world stone
+16. [Dwarven Forge (ArtStation, qQGN2)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven blacksmith / forge environment in dark stone. Deep shadow with molten-orange firelight as the only source; heavy stone columns. Mood: brutal forge, fire-lit dark.  
+   ↳ **use for:** ForgeMouth columns, world stone
+17. [Dwarven Forge — Louis-Philippe Ross Boivin (ArtStation)](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation*. Dwarven forge concept, heavy dark masonry and molten metal. Black-stone architecture, ember glow, deep void shadows. Mood: industrial-fantasy forge, fire-in-darkness.  
+   ↳ **use for:** ForgeMouth columns, world stone, plinths
+18. [Dwarven Forge Caverns (ArtStation, 143Qy2)](https://www.artstation.com/artwork/143Qy2) — *ArtStation*. Underground dwarven forge cavern with sculpted dark stone. Cavern columns and platforms, lava/forge glow against black rock. Mood: deep, cavernous, molten-lit.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+19. [Dwarven Forge — Anton Meineche Falk, LOTR portfolio (ArtStation)](https://www.artstation.com/artwork/rADxA5) — *ArtStation*. LOTR-style dwarven forge study. Massive dark-stone hall, carved columns, warm forge light pooling in the void. Mood: Erebor-forge, monumental dark masonry.  
+   ↳ **use for:** ForgeMouth columns, world stone
+20. [Dwarven Forge — Underground city, NimoStar (DeviantArt)](https://www.deviantart.com/nimostar/art/Dwarven-Forge-Underground-city-941167080) — *DeviantArt*. Underground dwarven forge city with mechanized mines. Dark cavern stone, glowing molten/forge accents, vertical industrial halls. Mood: dense mechanical, fire-lit dark.  
+   ↳ **use for:** world stone, channel walls
+21. [Erebor — Serena Malyon (ArtStation)](https://www.artstation.com/artwork/ZE2EZ) — *ArtStation*. The Lonely Mountain interior/exterior concept. Vast dark-stone dwarven halls and carved columns, deep shadow with warm accent light. Mood: monumental, carved, awe.  
+   ↳ **use for:** ForgeMouth columns, world stone, plinths
+22. [Erebor (dwarf mountain concept design) — Anmol Chachra (ArtStation)](https://www.artstation.com/artwork/lxGr3J) — *ArtStation*. Dwarf mountain (Erebor) concept with figures for scale. Dark grey carved mountain-stone, towering geometric architecture. Mood: epic, monolithic, mythic.  
+   ↳ **use for:** ForgeMouth columns, world stone
+23. [The Black Gate of Mordor — Michael Gardiner (ArtStation)](https://www.artstation.com/artwork/kNaVln) — *ArtStation*. Establishing shot of Mordor's Black Gate amid volcanic cliffs (terrain + scans). Black-grey volcanic rock walls, ash haze, ominous scale. Mood: dark, volcanic, monumental-brutal.  
+   ↳ **use for:** channel walls, ForgeMouth columns, world stone
+24. [Shadow of Mordor — Concept Design, Weta Workshop Design Studio (ArtStation)](https://www.artstation.com/artwork/21NXe) — *ArtStation*. Weta concept design for Mordor's black volcanic landscape. Dark igneous rock formations, ash and ember palette, brutal architecture. Mood: oppressive, volcanic, dark-fantasy.  
+   ↳ **use for:** world stone, channel walls
+25. [LOTR Fellowship — Conceptual Design, Weta Workshop Design Studio (ArtStation)](https://wetaworkshopdesignstudio.artstation.com/projects/mD2ore) — *ArtStation*. Weta conceptual designs incl. dark stone halls and volcanic/Moria-like spaces. Deep-shadow black stone, carved columns, dramatic light shafts. Mood: cinematic dark-fantasy stone.  
+   ↳ **use for:** ForgeMouth columns, world stone, plinths
+26. [Dark Fantasy environment — Magdalena Świderska (ArtStation)](https://www.artstation.com/artwork/OPxQb) — *ArtStation*. Dark fantasy natural environment, multiple lighting variants. Layered black/charcoal/grey rock, moody atmosphere, sparse warm accents. Mood: heavy, immersive, dark-stone.  
+   ↳ **use for:** world stone, channel walls
+27. [Env. concept art || Dark Fantasy — Arsenii Kolesnikov (ArtStation)](https://www.artstation.com/artwork/6NDGO5) — *ArtStation*. Dark fantasy game location concept. Black-grey rock masses, brooding light, brutal scale. Mood: cinematic, ominous, dark-stone.  
+   ↳ **use for:** world stone, channel walls
+28. [dark fantasy (ArtStation, g89Wde)](https://www.artstation.com/artwork/g89Wde) — *ArtStation*. Dark fantasy environment concept, charcoal palette. Heavy black stone forms, moody atmospheric light. Mood: grim, weighty, dark.  
+   ↳ **use for:** world stone, channel walls
+29. [Dark fantasy concept art (ArtStation, NGvm5q)](https://www.artstation.com/artwork/NGvm5q) — *ArtStation*. Moody dark fantasy environment. Black/charcoal/grey layered stone, intentional dim palette. Mood: heavy, immersive.  
+   ↳ **use for:** world stone, channel walls
+30. [The Black Citadel (ArtStation, ygnGx)](https://www.artstation.com/artwork/ygnGx) — *ArtStation*. Black citadel fortress concept. Dark stone walls and towers, brutal silhouette, moody sky. Mood: imposing, dark-fortress.  
+   ↳ **use for:** ForgeMouth columns, world stone
+31. [Dark Citadel — Maxime Desmettre (ArtStation)](https://www.artstation.com/artwork/aYNBA9) — *ArtStation*. Painterly dark citadel on a mountain. Black-grey stone fortress, dramatic atmospheric depth. Mood: grim, vast, dark-fantasy.  
+   ↳ **use for:** ForgeMouth columns, world stone
+32. [CITADEL concept art — Yury Ostapchuck (ArtStation)](https://www.artstation.com/artwork/rJ09k5) — *ArtStation*. Fantasy citadel mood explorations. Dark stone masses, brutal architectural blocks, moody light. Mood: ominous, monolithic.  
+   ↳ **use for:** ForgeMouth columns, world stone
+33. [citadel (ArtStation, nnmqK)](https://www.artstation.com/artwork/nnmqK) — *ArtStation*. Citadel concept in dark stone. Heavy black-grey walls, towering geometry. Mood: brutal, fortress, dark.  
+   ↳ **use for:** ForgeMouth columns, world stone
+34. [Dark Fantasy Concept Art — Art Bully Productions (ArtStation)](https://www.artstation.com/artwork/04P18w) — *ArtStation*. Dark fantasy environment. Charcoal-black rock and architecture, moody dim grade. Mood: grim, heavy, dark.  
+   ↳ **use for:** world stone, channel walls
+35. [Environmental concept art — Dark temple (ArtStation, kDXNvK)](https://www.artstation.com/artwork/kDXNvK) — *ArtStation*. Dark temple environment concept. Black stone temple architecture, deep shadow, sparse accent light. Mood: sacred-dark, ominous.  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+36. [Darkness Temple Concept Art — Shan Shanmugam (ArtStation)](https://www.artstation.com/artwork/b5ZOOd) — *ArtStation*. Dark temple/world concept. Black-grey stone structures, brooding atmosphere. Mood: dark, mysterious, monumental.  
+   ↳ **use for:** ForgeMouth columns, world stone
+37. [Ruined temple • Fantasy environment concept — Corentin Ligot (ArtStation)](https://www.artstation.com/artwork/ELKLbe) — *ArtStation*. Ruined dark-stone temple ('Fall of Enchantment'). Carved black-grey columns and scattered blocks, mossy ruin, dramatic light. Mood: ancient, ruined, sacred.  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+38. [Ruined temple • Environment concept — Corentin Ligot (ArtStation)](https://www.artstation.com/artwork/lx5YR5) — *ArtStation*. Alternate ruined-temple environment concept. Dark stone architecture and broken columns, atmospheric depth. Mood: ancient ruin, dark.  
+   ↳ **use for:** ForgeMouth columns, plinths
+39. [abandoned temple — Environment Concept Art, Petr Ledecky (ArtStation)](https://www.artstation.com/artwork/o2EY4) — *ArtStation*. Abandoned dark temple environment. Heavy black-grey stone, columns and steps, moody overcast/void light. Mood: desolate, monumental, dark.  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+40. [Aztec Obsidian club & Mystic Basalt club — Stephen Honegger (ArtStation)](https://playdoh.artstation.com/projects/ZZLP1) — *ArtStation*. Museum-style prop renders of obsidian and basalt weapons from a volcanic-island mystic tribe. Glossy black obsidian and matte dark basalt, carved detail. Mood: ritual, dark-stone material study.  
+   ↳ **use for:** world stone (material/texture), plinths
+41. [Fantasy Environment concept art (ArtStation, 6NzDNV)](https://www.artstation.com/artwork/6NzDNV) — *ArtStation*. Fantasy environment concept with dramatic rock geology. Dark stone masses, atmospheric scale. Mood: epic, moody.  
+   ↳ **use for:** world stone, channel walls
+42. [Volcanic Environment (ArtStation, 3oEnqE)](https://www.artstation.com/artwork/3oEnqE) — *ArtStation*. Volcanic environment concept. Dark igneous rock, lava glow, ash haze. Mood: molten, dark, dramatic.  
+   ↳ **use for:** channel walls, world stone
+43. [230 Volcano Environment Concept (ArtStation, kQBm6y)](https://www.artstation.com/artwork/kQBm6y?album_id=9017574) — *ArtStation*. Large volcano-environment concept set. Black volcanic rock, molten channels, ember palette. Mood: fiery dark, varied volcanic scenes.  
+   ↳ **use for:** channel walls, world stone
+44. [Fantasy cliffs concept — Andrew Krivulya (ArtStation)](https://www.artstation.com/artwork/Ya1xq6) — *ArtStation*. Fantasy cliff concept with dramatic rock faces. Dark grey-black stone cliffs, moody light. Mood: vertical, imposing, atmospheric.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+45. [Fantasy landscape — David Edwards (ArtStation)](https://www.artstation.com/artwork/3E2K2) — *ArtStation*. Fantasy landscape with rugged rock formations. Dark stone masses against dramatic sky. Mood: epic, moody, geological.  
+   ↳ **use for:** world stone, channel walls
+46. [Eternal — Fantasy Forest Landscape Concept (ArtStation, Acidify Art)](https://www.artstation.com/artwork/18ZYJe) — *ArtStation*. Fantasy landscape concept with dark rocky terrain. Black-grey stone amid atmospheric depth. Mood: moody, immersive.  
+   ↳ **use for:** world stone, channel walls
+47. [Cave concept art — Pumax001 (DeviantArt)](https://www.deviantart.com/pumax001/art/Cave-concept-art-610987313) — *DeviantArt*. Fantasy cave concept (Flying Wild Hog project). Dark cavern stone, dramatic shadow, sparse light. Mood: deep, dark, atmospheric.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+48. [Cave Concept — Diehlal (DeviantArt)](https://www.deviantart.com/diehlal/art/Cave-Concept-890254933) — *DeviantArt*. Cave environment concept. Dark rock walls, moody interior light. Mood: cavernous, dark.  
+   ↳ **use for:** channel walls
+49. [Fantasy Cave — Cirker (DeviantArt)](https://www.deviantart.com/cirker/art/Fantasy-Cave-158883253) — *DeviantArt*. Modeled/textured fantasy cave (Maya). Dark stone cavern walls, atmospheric lighting. Mood: dark, enclosed, 3D-rendered.  
+   ↳ **use for:** channel walls
+50. [obsidian's cave — greame (DeviantArt)](https://www.deviantart.com/greame/art/obsidian-s-cave-686201461) — *DeviantArt*. Obsidian/black-rock cave concept. Glossy-dark stone walls, moody glow. Mood: dark, glassy-volcanic.  
+   ↳ **use for:** world stone, channel walls
+51. [Volcano — Concept-Art-House (DeviantArt)](https://www.deviantart.com/concept-art-house/art/Volcano-495477624) — *DeviantArt*. Volcano concept with erupting lava and dark rock. Black volcanic stone, molten magma flows, ember glow. Mood: fiery, dark, dramatic.  
+   ↳ **use for:** channel walls, world stone
+52. [Dwarven Mine — Krita Artists (finished artwork)](https://krita-artists.org/t/dwarven-mine/44561) — *Krita Artists*. Painted dwarven mine interior. Dark cavern stone, forge/lava glow, carved structures. Mood: deep, industrial-fantasy, fire-lit.  
+   ↳ **use for:** world stone, channel walls
+53. [Mario Bros: The Lost World, Crystal Cave environment concept — Sylvain Sarrailh (ArtStation)](https://tohad.artstation.com/projects/mario-bros-the-lost-wolrd-crystal-cave-environment-concept) — *ArtStation*. Cave environment with columnar/crystal rock formations. Dark stone walls with luminous accents; strong vertical column geometry. Mood: dramatic cave, geometric, moody.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+54. [Volcanic Environment concept (ArtStation, kQBm6y album)](https://www.artstation.com/artwork/kQBm6y) — *ArtStation*. Volcanic-environment concept artwork from a large pack. Black volcanic rock, ember/lava accents, ash atmosphere. Mood: molten, dark.  
+   ↳ **use for:** channel walls, world stone
+55. [Fiery Volcano Environment Concept Art Gallery (Concept Art Empire)](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Curated gallery of volcano environment concept art. Black volcanic rock, red-hot lava, ash and ember palette across many pieces. Mood: fiery, dark, dramatic reference set.  
+   ↳ **use for:** channel walls, world stone
+56. [Stylized Modular Rocks — 3D assets (ArtStation Marketplace)](https://www.artstation.com/marketplace/p/grd7L/stylized-modular-rocks-3d-assets) — *ArtStation*. Stylized modular rock asset pack with texture variants. Dark stylized stone, can read as volcanic basalt. Mood: stylized, modular, game-ready.  
+   ↳ **use for:** world stone, plinths
+57. [Low-Poly Stylized Rocks (ArtStation Marketplace)](https://www.artstation.com/marketplace/p/1LoNd/low-poly-stylized-rocks) — *ArtStation*. Sculpted low-poly stylized rocks with cracks. Dark grey stylized stone, faceted forms. Mood: timeless stylized, dark.  
+   ↳ **use for:** world stone, plinths
+58. [Rock Pack — Low Poly Stylized, Poly's Asset Store (ArtStation)](https://www.artstation.com/artwork/d8oRdJ) — *ArtStation*. Low-poly stylized rock pack. Dark stylized stone meshes, faceted geometry. Mood: clean stylized, dark, game asset.  
+   ↳ **use for:** world stone, plinths
+59. [Volcanic Environment (ArtStation, James Paick Fantasy Environment Design)](https://www.artstation.com/artwork/nJxgE) — *ArtStation*. Fantasy environment design with bold rock geology. Dark stone forms, cinematic light and scale. Mood: epic, moody, professional concept.  
+   ↳ **use for:** world stone, channel walls
+60. [Fantasy Environment Concept Art — Lynn Gnessin (ArtStation)](https://www.artstation.com/artwork/PXO1D4) — *ArtStation*. Themed fantasy environments (incl. crystallized-sword valley/mountains). Dark rock terrain with luminous accents, dramatic geometry. Mood: imaginative, moody, geological.  
+   ↳ **use for:** world stone, channel walls
+61. [Fantasy environment concept (ArtStation, 1nbDdo)](https://www.artstation.com/artwork/1nbDdo) — *ArtStation*. Fantasy environment concept with rugged rock. Dark stone masses, atmospheric depth. Mood: moody, epic.  
+   ↳ **use for:** world stone, channel walls
+62. [Environment concept art (ArtStation, 4boNZ4)](https://www.artstation.com/artwork/4boNZ4) — *ArtStation*. Environment concept art with dramatic geology. Dark grey-black rock, moody light. Mood: cinematic, atmospheric.  
+   ↳ **use for:** world stone, channel walls
+63. [Fantasy Environment Concepts — Lucy Tyrrell (ArtStation)](https://www.artstation.com/artwork/blr5vr) — *ArtStation*. Traditional pencil/ink fantasy world concepts. Dark hatched rock forms, dramatic landforms. Mood: hand-drawn, moody, geological.  
+   ↳ **use for:** world stone, channel walls
+64. [3D Environment in Unreal Engine — Evozon Game Studio (ArtStation)](https://www.artstation.com/artwork/wv9eX) — *ArtStation*. UE realistic fantasy environment with nature + architecture. Dark stone structures, dramatic light, LOTR-adjacent mood. Mood: cinematic dark-fantasy.  
+   ↳ **use for:** world stone, ForgeMouth columns
+65. [Mysterious medieval-looking 3D environment, ZBrush + UE5 (80.lv)](https://80.lv/articles/mysterious-medieval-looking-3d-environment-made-with-zbrush-ue5) — *80.lv*. Story-rich UE5 medieval/fantasy scene. Dark carved stone architecture, moody atmosphere. Mood: cinematic, brooding, dark-stone.  
+   ↳ **use for:** world stone, ForgeMouth columns
+66. [Extraordinary fantasy castle environment in Unreal Engine 5 (Hitmarker)](https://hitmarker.net/news/extraordinary-fantasy-castle-environment-in-unreal-engine-5-524041) — *Hitmarker*. UE5 fantasy castle on rugged dark rock. Black-grey stone fortress and cliffs, atmospheric light. Mood: epic, dark-fantasy, monumental.  
+   ↳ **use for:** ForgeMouth columns, world stone
+67. [Dark fantasy subterranean cave lit by lava (Arthub.ai)](https://arthub.ai/art/215205) — *Arthub.ai*. Subterranean cave lit only by lava, large metal platform with concentric copper arches over a lava stream. Black cave walls, molten-orange as the only light. Mood: molten-in-darkness, mechanical-fantasy (close to GAELWORX 'metal is the only light').  
+   ↳ **use for:** channel walls, ForgeMouth columns
+68. [Cave concept art — Pumax001 (alt cave) (DeviantArt cavern tag)](https://www.deviantart.com/tag/cavern) — *DeviantArt*. DeviantArt cavern tag: many dark cave/cavern concepts. Black-grey rock walls, columnar and jagged forms, moody light. Mood: dark, enclosed, varied.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+69. [Basalt Column Formation — Hexagonal Volcanic Rock Terrain (MyMiniFactory, WarForge)](https://www.myminifactory.com/object/3d-print-basalt-column-formation-hexagonal-volcanic-rock-terrain-3d-model-649717) — *MyMiniFactory*. 3D-printable hexagonal basalt terrain (Giant's Causeway / Iceland inspired). Dark stylized basalt pillars, sharp hexagonal facets. Mood: tabletop terrain, geometric dark stone.  
+   ↳ **use for:** world stone, plinths
+70. [Giant's Causeway — Houdini procedural sim (Pinterest pin)](https://www.pinterest.com/pin/360569513907244239/) — *Pinterest*. Procedurally generated Giant's-Causeway-style columnar basalt in Houdini. Dark grey-green polygonal columns, accurate jointing. Mood: technical, geometric, geological.  
+   ↳ **use for:** world stone, plinths
+71. [Basalt Architecture (Pinterest idea board)](https://www.pinterest.com/ideas/basalt-architecture/902380432145/) — *Pinterest*. Curated board of basalt-derived architecture: dark columnar facades, hexagonal motifs in built form. Black-grey volcanic stone, brutalist geometry. Mood: architectural, dark, geometric.  
+   ↳ **use for:** ForgeMouth columns, world stone, plinths
+72. [Basalt Landscape (Pinterest idea board)](https://www.pinterest.com/ideas/basalt-landscape/893532721876/) — *Pinterest*. Board of basalt landscapes: columnar cliffs, hexagonal pavements, black-sand coasts. Dark grey-to-black volcanic stone, varied scale. Mood: dramatic natural reference.  
+   ↳ **use for:** world stone, channel walls
+73. [Columnar Basalt (Pinterest idea board)](https://www.pinterest.com/akewtpins/columnar-basalt/) — *Pinterest*. Pinterest board of columnar basalt photos and art: black-beach columns, hexagonal cliffs, macro joints. Dark volcanic stone, polygonal geometry. Mood: curated geology reference.  
+   ↳ **use for:** world stone, channel walls, plinths
+74. [Dark Fortresses and Landscapes (Pinterest board)](https://www.pinterest.com/0a9j9rw4i0ow4vl/dark-fortresses-and-landscapes/) — *Pinterest*. Board of dark fortress + landscape concept art. Black stone keeps, brooding cliffs, moody palettes. Mood: grimdark, monumental, dark-stone.  
+   ↳ **use for:** ForgeMouth columns, world stone
+75. [Dwarven Forge Concept Art (Pinterest idea board)](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Board of dwarven forge concept art: dark stone halls, molten metal, ember-lit carved columns. Black rock + orange forge glow. Mood: industrial-fantasy forge, fire-in-dark.  
+   ↳ **use for:** ForgeMouth columns, world stone
+76. [Dwarven Architecture (Pinterest board)](https://www.pinterest.com/dwarftastic/dwarven-architecture/) — *Pinterest*. Board of dwarven architecture incl. Erebor halls. Massive dark carved stone, geometric columns, deep shadow. Mood: monumental, carved, dark.  
+   ↳ **use for:** ForgeMouth columns, world stone, plinths
+77. [Obsidian Fantasy Art (Pinterest idea board)](https://www.pinterest.com/ideas/obsidian-fantasy-art/894986234213/) — *Pinterest*. Board of obsidian-themed fantasy art: glossy black volcanic glass, dark temples and caves. Black stone with subtle glow. Mood: dark, glassy, mysterious.  
+   ↳ **use for:** world stone, channel walls
+78. [Dark Cave Fantasy Art (Pinterest idea board)](https://www.pinterest.com/ideas/dark-cave-fantasy-art/895446279094/) — *Pinterest*. Board of dark cave fantasy art: black cavern walls, jagged and columnar rock, moody light. Mood: deep, dark, atmospheric.  
+   ↳ **use for:** channel walls, ForgeMouth columns
+79. [Evil Temple Concept Art (Pinterest idea board)](https://www.pinterest.com/ideas/evil-temple-concept-art/903373208607/) — *Pinterest*. Board of dark/evil temple concept art: black stone temples, carved columns, ominous mood. Mood: sacred-dark, brutal.  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+80. [basalt cliffs and mountains, floating islands fantasy (OpenArt)](https://openart.ai/discovery/sd-1007223208526749717) — *OpenArt*. AI concept of basalt cliffs and mountains with floating islands. Dark columnar basalt cliffs, high detail, fantasy scale. Mood: epic, geological, dreamlike.  
+   ↳ **use for:** channel walls, ForgeMouth columns, world stone
+81. [Dwarven Forge in Cave, Dark Fantasy Concept Art (NightCafe)](https://creator.nightcafe.studio/creation/2xSRhiwBmyxXGTBMFKtr) — *NightCafe*. AI dwarven forge deep in a cave, firelight as the only source. Black cavern stone, weapon racks, molten-orange glow. Mood: fire-in-darkness forge.  
+   ↳ **use for:** ForgeMouth columns, world stone
+82. [Obsidian Portal with Gold Runes in Dark Fantasy style (NightCafe)](https://creator.nightcafe.studio/creation/wag0QaPpfMnZH32DctBs) — *NightCafe*. AI obsidian portal carved with glowing gold runes. Black volcanic stone, warm gold/ember rune glow against void. Mood: dark + divine-fire (close to GAELWORX Ogham + A/E glow).  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+83. [The ancient stone fortress guarded by barbarians (NightCafe)](https://creator.nightcafe.studio/creation/bs991aAOuDXeBbCKz0aD) — *NightCafe*. AI ancient dark-stone fortress, dark-fantasy game style. Black-grey stone walls, brutal silhouette, moody atmosphere. Mood: grimdark fortress.  
+   ↳ **use for:** ForgeMouth columns, world stone
+84. [Concept art: ancient temple in dark stone, floating island (Craiyon)](https://www.craiyon.com/en/search/concept-art-of-an-ancient-temple-made-with-dark-stone-in-a-dark-fantasy-world-on-a-floating-island,-ruins,-trees,-moss,-overgrown,-artstation,-concept-art,-unreal-engine-5) — *Craiyon*. AI ancient temple of dark stone, overgrown ruins, floating island. Black-grey carved stone, moss, dramatic light. Mood: ancient ruin, sacred-dark.  
+   ↳ **use for:** ForgeMouth columns, plinths, world stone
+85. [Mysterious Obsidian Sanctum (Craiyon)](https://www.craiyon.com/en/search/mysterious-artwork-of-an-obsidian-sanctum) — *Craiyon*. AI obsidian sanctum interior. Glossy black volcanic-glass walls and columns, moody glow. Mood: dark, sacred, glassy.  
+   ↳ **use for:** world stone, ForgeMouth columns, plinths
+86. [Dwarven mines underground cavern (8k) by Greg Rutkowski style (neural.love)](https://neural.love/ai-art-generator/1ed9a6de-b0ba-6c24-bfcb-bff548490b74/dwarven-mines-underground-cavern-mining-medieval-fantasy-8k-resolution-concept-art-by-greg-rutkowski) — *neural.love*. AI dwarven mine cavern, 8k concept-art style. Dark cavern stone, glowing forge/lava accents, carved structures. Mood: deep, industrial-fantasy, fire-lit dark.  
+   ↳ **use for:** world stone, channel walls
+87. [Dark Fantasy Crystal Cave, glowing obsidian crystals in volcanic rock (Dreamstime)](https://www.dreamstime.com/dark-fantasy-crystal-cave-glowing-obsidian-crystals-volcanic-rock-generative-ai-design-dark-fantasy-crystal-cave-glowing-image357768407) — *Dreamstime*. Dark fantasy cave with glowing crystals in black volcanic rock. Near-black columnar/jagged stone with luminous accents. Mood: dark, glowing, volcanic-fantasy.  
+   ↳ **use for:** channel walls, world stone
+88. [Basalt Rock Texture, smooth dark surface, fine pores (Dreamstime illustration)](https://www.dreamstime.com/basalt-rock-texture-smooth-dark-surface-fine-pores-volcanic-stone-material-background-close-up-characterized-its-image396886463) — *Dreamstime*. Stylized basalt material: smooth dark surface with fine pores. Near-black grey volcanic stone, subtle vesicular texture. Mood: clean material/texture, dark.  
+   ↳ **use for:** world stone (material/texture)
+89. [Black volcanic basalt rock — stock collection (Dreamstime)](https://www.dreamstime.com/photos-images/black-volcanic-basalt-rock.html) — *Dreamstime*. Large collection of black volcanic basalt imagery: macro textures, columns, dark surfaces. Deep black-grey volcanic stone. Mood: stock, dark, material-rich.  
+   ↳ **use for:** world stone (material/texture), channel walls
+90. [Basalt rock texture — stock collection (Dreamstime)](https://www.dreamstime.com/photos-images/basalt-rock-texture.html) — *Dreamstime*. Collection of basalt rock textures: rough/porous dark surfaces and columnar close-ups. Dark grey-black volcanic stone with greenish tints. Mood: material/texture reference.  
+   ↳ **use for:** world stone (material/texture)
+91. [Basalt columns close up — stock collection (Dreamstime)](https://www.dreamstime.com/photos-images/basalt-columns-close-up.html) — *Dreamstime*. Close-up basalt column imagery: hexagonal faces, joint detail, weathered edges. Dark grey-black stone with occasional ochre weathering. Mood: tactile, geometric.  
+   ↳ **use for:** world stone, channel walls, plinths
+92. [Jusangjeolli Cliffs hexagonal basalt columns, Jeju (Dreamstime)](https://www.dreamstime.com/stock-photo-jusangjeolli-cliffs-hexagonal-basalt-columns-jeju-island-korea-south-spectacular-volcanic-rock-formation-image87799571) — *Dreamstime*. Jeju sea-cliff hexagonal basalt columns. Black volcanic stone, tightly packed vertical polygonal columns meeting the sea. Mood: brutal, sheer, dramatic.  
+   ↳ **use for:** ForgeMouth columns, channel walls
+
+
+## Dwarven Forge Halls
+
+### Real (11)
+
+1. [Völklingen Ironworks — Cathedral of Industry (UNESCO World Heritage)](https://whc.unesco.org/en/list/687/) — *UNESCO World Heritage Centre*. Intact 19th/early-20th-c. blast-furnace complex, the canonical 'cathedral of industry': towering blast furnaces as flying buttresses, brick chimneys as spires, a vast cathedral of rust. Scale is colossal and vertical; light is dim, raking, with rusted iron forms emerging from shadow. Palette of oxide red-brown, soot black, cold grey steel — directly aligned to Celtic Blood / Ember / void.  
+   ↳ **use for:** world scale/architecture — proof that real industrial halls read as cathedrals; the ChannelHall's furnace-as-architecture mood and oxide/void palette
+2. [Völklingen Ironworks — blast furnace group (Wikipedia)](https://en.wikipedia.org/wiki/V%C3%B6lklingen_Ironworks) — *Wikipedia*. Reference page documenting the blast furnaces, gas-purification and blowing equipment of the ironworks. Massive vertical iron stacks, gantries, rails for ore/coal carts — the real-world template for a giant-dwarf industrial forge. Dark, monumental, monochrome iron with rust accents.  
+   ↳ **use for:** world scale/architecture — furnace stacks, gantries and ore-rail logic for the giant-dwarf forge; ChannelHall industrial structure
+3. [Cathedrals of Steel — abandoned Bethlehem Steel Mill (opacity.us)](https://opacity.us/gallery218_cathedrals_of_steel.htm) — *opacity.us (industrial photography)*. Photo gallery treating the abandoned Bethlehem Steel works as sacred cathedral architecture — vast nave-like interiors, towering rusted structures, deep shadow with shafts of light. Reverential scale; decayed iron, oxide and black; cold daylight bleeding into industrial gloom.  
+   ↳ **use for:** world scale/architecture — cathedral-of-steel framing for the forge hall; mood of monumental dark iron
+4. [Wieliczka Salt Mine — St. Kinga's Chapel, underground salt cathedral](https://mymodernmet.com/wieliczka-salt-mine/) — *My Modern Met*. Full-scale cathedral carved entirely from rock salt 101m underground (54m long, 17m wide, 12m high). Soaring carved walls, grand altar, salt-crystal chandeliers casting a warm glow in true subterranean dark. Proof a vast worship-scale hall can be hewn from living rock and lit only from within.  
+   ↳ **use for:** world scale/architecture — carved-from-living-rock hall, warm pooled light in pure underground dark; ChannelHall as hewn cathedral
+5. [Basilica Cistern, Istanbul — 336 columns underground (Wikipedia)](https://en.wikipedia.org/wiki/Basilica_Cistern) — *Wikipedia*. 6th-c. Byzantine underground reservoir, 138m x 65m, a forest of 336 marble columns 9m tall under vaulted brick ceilings, reflected in shallow black water. The archetypal vast pillared underground hall: receding columns, low warm uplight, mirror-black floor, hypnotic depth and scale.  
+   ↳ **use for:** world scale/architecture — the many-pillared hall (Dwarrowdelf analogue); receding column rhythm and reflective dark floor for the ChannelHall
+6. [Hang Son Doong — world's largest cave (National Geographic)](https://www.nationalgeographic.com/travel/article/son-doong-cave-vietnam-virtual-reality-culture) — *National Geographic*. Main chamber >5km long, 200m high, 150m wide — a 747 could fly through it; 80m stalagmites; its own clouds/climate. Tiny human figures give incomprehensible scale. Pure-void blackness pierced by single skylight shafts — the natural model for an ominous, oversized underground world.  
+   ↳ **use for:** world scale/architecture — establishing the 'incomprehensibly huge' baseline; single-shaft lighting in void blackness
+7. [Photographing Hang Son Doong, the World's Largest Cave (PetaPixel)](https://petapixel.com/2017/06/26/photographing-hang-son-doong-worlds-largest-cave/) — *PetaPixel*. Photographer's account/gallery of Son Doong: cathedral-scale caverns, porters as specks for scale, beams of daylight through collapses cutting the dark. Green-black wet rock, deep shadow, dramatic single light sources — close to the basalt-and-void brief.  
+   ↳ **use for:** world scale/architecture — figures-for-scale technique; green-black wet rock and shaft lighting in vast dark caverns
+8. [Škocjan Caves — Martel Chamber, vast underground canyon (UNESCO)](https://whc.unesco.org/en/list/390/) — *UNESCO World Heritage Centre*. Martel Chamber exceeds 2 million cubic metres; underground canyon up to ~150m high and >120m wide with a river far below. Sheer vertical drops, bridges over the chasm, monumental dark stone. The real-world Khazad-dûm bridge-and-abyss feeling.  
+   ↳ **use for:** world scale/architecture — bridge-over-chasm and vertical abyss drama; sense of a world carved into the deep
+9. [Dark cathedral interior — free image (Unsplash)](https://unsplash.com/photos/cathedral-interior-0NiF94VL268) — *Unsplash*. Free-license photo of a dark Gothic cathedral interior: tall ribbed vaults, receding pillars, deep shadow with light concentrated near the altar. Cold-to-warm tonal split, sharp vertical lines — a clean stand-in for the sacred-scale brutalist forge nave.  
+   ↳ **use for:** world scale/architecture — vaulted nave proportions and dark-with-pooled-light mood for the ChannelHall
+10. [Historic Pittsburgh — steel mill interior, pouring molten steel](https://historicpittsburgh.org/islandora/object/pitt:84.41.7) — *Historic Pittsburgh*. Archival photograph of a steel-mill interior with molten steel being poured: the metal itself is the brightest thing in a vast dark hall, throwing hot orange light across silhouetted gantries and figures. Exactly the 'molten metal is the only light' law in a real industrial space.  
+   ↳ **use for:** ChannelHall — direct reference for molten pour as the sole light source; ember-orange cast over dark iron structure
+11. [Old industrial plant blast furnaces — interior stock set (iStock)](https://www.istockphoto.com/photos/old-industrial-plant-blast-furnace) — *iStock*. Large collection of blast-furnace interior photos: cavernous machine halls, ducts, ladders and stacks in low industrial light. Useful for grounding the giant-dwarf forge in believable furnace mechanics — pipes, valves, rails, soot and rust.  
+   ↳ **use for:** world scale/architecture — believable furnace plumbing and mechanical density for the forge world / ChannelHall set dressing
+
+### Fantasy / Concept Art (95)
+
+1. [The Rings of Power — Khazad-dûm, Julien Gauthier](https://www.artstation.com/artwork/blKWgn) — *ArtStation*. Official pre-production concept of Khazad-dûm: a colossal subterranean dwarven city, stairways crisscrossing a vast cavern up to a city carved into the walls, ethereal light from crystal lamps, a tiny heroic silhouette for scale. Warm amber light in deep blue-black stone; awe-inducing verticality.  
+   ↳ **use for:** world scale/architecture — the master reference for a giant dwarven hall's scale, crisscrossing stairs and figure-for-scale; ChannelHall depth
+2. [The Rings of Power — Post-Production Concepts (Khazad-dûm), Julien Gauthier](https://renart.artstation.com/projects/kQJmWd) — *ArtStation*. Collection of Gauthier's Rings of Power concept work including Khazad-dûm interiors — monumental dwarven architecture, oversized columns and braziers, warm crystal/forge light against polished black-stone halls.  
+   ↳ **use for:** world scale/architecture — oversized columns and brazier lighting language for the forge halls
+3. [The Lord of the Rings: Return to Moria — art director's vision of Khazad-dûm](https://www.gamedeveloper.com/art/the-lord-of-the-rings-return-to-moria-building-a-vision-of-khazad-d-m-for-the-fourth-age) — *Game Developer*. Art-director feature with in-game/concept imagery of Khazad-dûm: many-pillared halls, black walls polished smooth as glass, vast vertical shafts, the realm 'going outward not upward.' Dark stone, ember and crystal light, brutal dwarven mass.  
+   ↳ **use for:** world scale/architecture — dwarven design philosophy (outward, stout, oversized) and many-pillared hall references for the ChannelHall
+4. [Rings of Power — turning the Mines of Moria into the Halls of Khazad-dûm (IndieWire)](https://www.indiewire.com/features/general/the-lord-of-the-rings-the-rings-of-power-khazad-dum-making-of-1234762555/) — *IndieWire*. Making-of feature with set/concept imagery: Khazad-dûm in its glory, full of light and splendour, oversized columns with big capitals, giant braziers, skylights carved through the mountainside. Warm light flooding monumental black-stone architecture.  
+   ↳ **use for:** world scale/architecture — the 'glory days' bright-forge reading; scale of columns/braziers/skylights
+5. [Mines of Moria — Dwarrowdelf Column, Vladislav Vankman](https://www.artstation.com/artwork/ZGqBvZ) — *ArtStation*. Film-grade study of the Dwarrowdelf hall column from the LOTR motion pictures — a single towering carved pillar implying an infinite forest of them (after Alan Lee's watercolour). Sharp-cut dwarven geometry, torch-flicker warmth on cold black stone, overwhelming verticality.  
+   ↳ **use for:** world scale/architecture — the definitive many-pillared hall; column geometry and torchlit scale for the ChannelHall
+6. [Moria — Dwarrowdelf great hall reference (Movie Moria web archive)](http://users.bestweb.net/~jfgm/MovieMoriaWeb/06Dwarrowdelf.htm) — *bestweb.net (LOTR film reference)*. Reference page on the Dwarrowdelf hall set: massive square columns receding into darkness, flickering torchlight suggesting an infinite cavern, tiny figures at the base. The canonical 'endless pillared hall' image.  
+   ↳ **use for:** world scale/architecture — endless-column corridor reading for the ChannelHall walk
+7. [Khazad-dûm — The One Wiki to Rule Them All](https://lotr.fandom.com/wiki/Khazad-d%C3%BBm) — *LOTR Fandom Wiki*. Lore + film-still hub for Khazad-dûm: arched passages, many-pillared halls, black polished walls, crystal lamps, deep shafts and the Bridge of Khazad-dûm over the abyss. Multiple canonical interior images of the dwarven deep.  
+   ↳ **use for:** world scale/architecture — broad visual canon for dwarven hall structure, bridges, and shafts
+8. [Dwarven Pillar of Moria, Faradon (DeviantArt, via Pinterest)](https://www.pinterest.com/pin/301459768794069998/) — *DeviantArt / Pinterest*. Fan concept of a Khazad-dûm pillar for a mod: heavily carved dwarven column with interlace-like banding and runic detail, dark stone, warm rim light. Useful for surface ornament on giant columns.  
+   ↳ **use for:** world scale/architecture — carved column ornament (Celtic-interlace adjacent) for ChannelHall pillars
+9. [Concept Art of Erebor, the Lonely Mountain (themiddleearthworldoftolkien, Tumblr)](https://www.tumblr.com/themiddleearthworldoftolkien/176981904380/concept-art-of-erebor-the-lonely-mountain) — *Tumblr*. Compiled Weta/film concept art of Erebor's interior: vast dwarven kingdom carved into the mountain, brazier-lit treasure halls, monumental stairs and galleries, gold glinting in deep shadow. Warm fire/gold light against black-and-bronze stone.  
+   ↳ **use for:** world scale/architecture — Erebor's monumental carved-mountain interior; gold-glint-in-darkness mood
+10. [Concept Art of Erebor, the Lonely Mountain (fromthedeskoftheraven, Tumblr)](https://fromthedeskoftheraven.tumblr.com/post/180155810368/concept-art-of-erebor-the-lonely-mountain) — *Tumblr*. Second compilation of Erebor concept art (Alan Lee / John Howe / Weta): impressionistic brazier-lit halls with dark Moria-like splendour, mounds of treasure, towering carved architecture barely discernible in shadow.  
+   ↳ **use for:** world scale/architecture — the dark, fire-lit grandeur of the dwarven treasure hall; light pooling in vast dark
+11. [King Thror reigns from Erebor — The Key to Erebor design notes (Weta Workshop)](https://www.wetanz.com/us/the-key-to-erebor) — *Wētā Workshop*. Weta page describing/depicting Erebor: a carved city where Thror reigns from his throne, treasure halls stacked thousands deep, living stone walls glittering with veins of gold and gems. Warm gold against black volcanic-feeling stone.  
+   ↳ **use for:** world scale/architecture — 'living stone walls veined with precious metal' — direct analogue to fire-opal/metal veins in basalt
+12. [King Thror on Throne (Weta Workshop figure / Erebor throne reference)](https://www.wetanz.com/shop/figures/king-thror-on-throne) — *Wētā Workshop*. Detailed Erebor throne design: dwarven king on a carved stone throne flanked by oversized dwarven architecture and braziers, gold and bronze ornament, deep warm shadow. Captures the scale and ornament of a dwarven seat of power.  
+   ↳ **use for:** world scale/architecture — throne/dais focal-architecture reference for a finale or hub chamber
+13. [Front Gate to Erebor (Weta Workshop)](https://www.wetanz.com/us/front-gate-to-erebor) — *Wētā Workshop*. The colossal carved gate of Erebor — monumental dwarven stonework, giant statues/king-figures flanking the threshold, sharp geometric carving at enormous scale. Cold grey stone, heroic proportions.  
+   ↳ **use for:** world scale/architecture — giant carved gate/threshold language; oversized guardian statuary
+14. [Erebor, Serena Malyon](https://www.artstation.com/artwork/ZE2EZ) — *ArtStation*. Watercolour/gouache rendering of the Lonely Mountain (The Hobbit): atmospheric, painterly take on Erebor's mass and mood. Useful for the painterly, ominous silhouette of the dwarven mountain-hold.  
+   ↳ **use for:** world scale/architecture — painterly mood/silhouette of the giant dwarf-hold exterior-to-interior
+15. [Dark dwarven castle hall interior design, Jessy (ArtStation print)](https://www.artstation.com/prints/canvas/g5a1G/art-image-concept-art-drawing-dark-dwarven-castle-hall-interior-design) — *ArtStation*. Dwarf-Fortress-inspired concept: a cart-track tunnel/hall with heavily decorated stone walls, dark and claustrophobic, warm point lights. Strong for the industrial-rail dwarven corridor look.  
+   ↳ **use for:** ChannelHall — ore-cart rail corridor with carved walls; tight dark dwarven passage
+16. [Dwarven City, David Metzger](https://www.artstation.com/artwork/8bwQmm) — *ArtStation*. Large-scale LOTR-inspired dwarven underground city (Room8 Studio kitbash). Vast cavern packed with carved architecture, bridges, terraces and stairs, warm interior light against cool blue cave dark. Holds enormous scale while staying legible.  
+   ↳ **use for:** world scale/architecture — managing huge legible scale; layered terraces/bridges for the forge city
+17. [Ruined Dwarven City (Mines of Moria-inspired)](https://www.artstation.com/artwork/29LlQB) — *ArtStation*. Underground dwarven ruin inspired by the Mines of Moria — a lone explorer rediscovering ancestral halls. Decayed monumental architecture, shafts of cold light into deep dark, dust and ruin. Melancholic vast scale.  
+   ↳ **use for:** world scale/architecture — ruined-grandeur mood; cold light shafts into a dead dwarven hall
+18. [Dwarven City (ArtStation 6moR5)](https://www.artstation.com/artwork/6moR5) — *ArtStation*. Concept of a dwarven city built into rock — stacked carved dwellings, stairs and galleries climbing a cavern wall, warm windows glowing in the dark. Dense, vertical, lived-in dwarven density.  
+   ↳ **use for:** world scale/architecture — vertical built-into-the-wall city density for the forge world backdrop
+19. [Dwarven City Exploration](https://www.artstation.com/artwork/WZky) — *ArtStation*. Personal exploration of dwarven city design/workflow: large carved halls and structures, atmospheric depth, warm-on-cool lighting. Useful as a composition and mood study for the underground hold.  
+   ↳ **use for:** world scale/architecture — composition/mood study for vast carved dwarven interiors
+20. [Dwarf City (ArtStation J9gvVa)](https://www.artstation.com/artwork/J9gvVa) — *ArtStation*. Concept of a dwarf residency in the busy part of an underground mountain city — packed market/living quarter, carved facades, warm torch and forge light in cavern dark. Conveys a living, working dwarven deep.  
+   ↳ **use for:** world scale/architecture — lived-in dwarven quarter; warm working-forge light density
+21. [Dwarven Cavern City (ArtStation q9d4aD)](https://www.artstation.com/artwork/q9d4aD) — *ArtStation*. Commissioned dwarven city inside a giant cavern: structures clinging to walls, bridges spanning the void, warm interior glow against deep blue-black rock. Strong vast-cavern-with-city composition.  
+   ↳ **use for:** world scale/architecture — city-in-a-cavern with spanning bridges over void
+22. [Dwarven Caverns, Markus Stadlober (lava + dwarf, via Pinterest)](https://www.pinterest.com/pin/834995587155693416/) — *ArtStation / Pinterest*. Contest piece (brief: dwarf, cavern, lava): a vast dwarven cavern with molten lava lighting the architecture from below, glowing orange rivers through dark stone, monumental carved forms. Ember-on-black, the metal/lava as the only light.  
+   ↳ **use for:** ChannelHall — lava-from-below as primary light; molten channels threading dark dwarven stone
+23. [Ashes of Creation — Dwarven Mines, Intrepid Studios](https://www.artstation.com/artwork/Oo4Qg8) — *ArtStation*. Official game concept of dwarven mines: deep carved tunnels and chambers, ore veins, mine infrastructure, atmospheric dust and warm lamplight in the dark. Grounded, industrious dwarven mining scale.  
+   ↳ **use for:** world scale/architecture — mining infrastructure and tunnel scale feeding the forge world
+24. [Dwarf Cave entrance, Edward Tejeiro](https://www.artstation.com/artwork/qA2WJL) — *ArtStation*. Dwarf cave-system environment: a back entrance/tunnel leading toward a temple, carved dwarven thresholds, layered depth, warm light deeper in against cool rock. Good for tunnel-to-hall transitions.  
+   ↳ **use for:** ChannelHall — tunnel-to-grand-hall reveal/transition staging
+25. [Dwarven Discovery — Cavern Entrance, Gavin Manners](https://summary.artstation.com/artwork/48d1k1) — *ArtStation*. Cavern entrance to a dwarven hold: monumental carved doorway/arch dwarfing the figure, dramatic light spill from within, dark surrounding rock. Strong threshold-of-the-deep composition.  
+   ↳ **use for:** world scale/architecture — heroic threshold/arch scale at the mouth of the dwarven deep
+26. [Dwarven Tunnel (ArtStation P6BePr)](https://www.artstation.com/artwork/P6BePr) — *ArtStation*. Carved dwarven tunnel/corridor receding into darkness with structural ribs and supports, warm point lights, cool stone. The connective-tissue corridor between great chambers.  
+   ↳ **use for:** ChannelHall — corridor/channel geometry and lighting cadence between chambers
+27. [Dwarven mine concept art — ArtStation Explore feed](https://www.artstation.com/artwork/dwarven-mine-concept-art) — *ArtStation*. Curated feed of dwarven mine concept art: many variations of deep mines, ore-lit shafts, carved support structures and chambers. Broad inspiration set for the mining/forge underground.  
+   ↳ **use for:** world scale/architecture — broad survey of dwarven mine forms and lighting
+28. [Dwarven Throne Room, Christopher Peterson](https://www.artstation.com/artwork/1836xK) — *ArtStation*. UE4 dwarven throne room (after Alex Stead): monumental carved hall with a raised throne dais, oversized columns, braziers and warm directional light on cold patterned stone. Sharp dwarven geometry, ceremonial scale.  
+   ↳ **use for:** world scale/architecture — ceremonial throne-hall composition and dwarven surface pattern
+29. [Dwarven Throne Room, Christopher Rudolf](https://www.artstation.com/artwork/l9kVG) — *ArtStation*. Dwarven throne-room level: deep carved chamber, torch-lit sides receding into darkness, heavy stone masses. Useful for a focal terminal chamber at the end of a channel.  
+   ↳ **use for:** ChannelHall — terminal focal chamber with torchlit recession
+30. [Dwarven Dungeons Environment — Throne Room, Leartes Studios](https://leartesstudios.artstation.com/projects/xDXE4W) — *ArtStation*. Game-ready dwarven dungeon environment (102 meshes) including a throne room: carved arches, pillars, statues, braziers and rune accents, dark stone with warm fire light. Cohesive dwarven kit at architectural scale.  
+   ↳ **use for:** world scale/architecture — cohesive dwarven architectural kit (arches/pillars/statues) for ChannelHall set dressing
+31. [Dwarven Throne Room (Roll20 Marketplace)](https://marketplace.roll20.net/browse/set/20641/dwarven-throne-room) — *Roll20 Marketplace*. Battlemap art of a chamber carved deep below an undercity — torch-lit sides standing across seemingly endless depths, heavy dwarven stonework. Top-down/iso but strong for depth-over-the-abyss feel.  
+   ↳ **use for:** world scale/architecture — chamber-over-the-abyss depth and torchlit dwarven masonry
+32. [Torstenvall: A Dwarven Graveyard, Bradley Townend (UE4)](https://bradleytownend.artstation.com/projects/L3JERl) — *ArtStation*. Dwarven temple hidden in a mountain pass built in UE4, with custom fog and fire particles: monumental carved tombs/statues, volumetric haze, warm fire glow in cold blue dark. Atmospheric, somber dwarven sacred space.  
+   ↳ **use for:** world scale/architecture — fog + fire-glow atmosphere on monumental dwarven stone; somber sacred mood
+33. [The Great Gates of Nangrim, Thrìr Ironstone (Return to Nangrim)](https://www.artstation.com/artwork/L3GoQw) — *ArtStation*. Trailer art for the dwarven game Return to Nangrim: colossal carved gates with a guardian monument in the back wall, oversized dwarven stonework, dark and ominous with cold light. Giant-scale dwarven threshold.  
+   ↳ **use for:** world scale/architecture — giant gate + carved guardian monument; ominous dwarven threshold scale
+34. [Return to Nangrim — first-person underground dwarf RPG (Steam)](https://store.steampowered.com/app/860210/Return_to_Nangrim/) — *Steam*. Store page with screenshots of an ancient abandoned dwarven mountain city: ominous deep halls, carved stone, mining tunnels, oppressive dark with localized warm light. Dark-fantasy dwarven survival mood at depth.  
+   ↳ **use for:** world scale/architecture — ominous, abandoned dwarven deep; localized warm light in oppressive dark
+35. [Arafinn — Return to Nangrim official site](https://www.return-to-nangrim.com/) — *return-to-nangrim.com*. Official site with atmospheric art/screens of the dwarven hold Nangrim: deep halls, forges, mines and caverns in the once-great Stonebeard capital. Cohesive dark-dwarven art direction.  
+   ↳ **use for:** world scale/architecture — cohesive dark-dwarven hold art direction reference
+36. [God of War Ragnarök — Svartalfheim, The Forge, Norris Lin](https://www.artstation.com/artwork/b56xmm) — *ArtStation*. Concept of the dwarven realm's Forge: an ancient, ornate, magical structure meant to stand out — intricate dwarven metalwork and carving, warm forge glow and runic light against cold Norse-industrial stone and water. Rich material storytelling.  
+   ↳ **use for:** ChannelHall — ornate dwarven forge structure with runic/forge glow; material storytelling at scale
+37. [God of War Ragnarök — Svartalfheim, Erik Jakobsen](https://www.artstation.com/artwork/Vyr4a4) — *ArtStation*. Svartalfheim environment exploration: the dwarven realm's landscapes and structures, mixing crafted dwarven architecture with rugged rock and water, warm practical lights in moody dark. Grounded fantasy-industrial dwarf world.  
+   ↳ **use for:** world scale/architecture — grounded dwarf-realm environment language and lighting
+38. [God of War Ragnarök — Svartalfheim Dwarf House, Ivanna Liittschwager](https://www.artstation.com/artwork/B3x3l4) — *ArtStation*. Dwarven dwelling concept for Svartalfheim: chunky crafted dwarf architecture with forge/metal detailing, warm interior glow, weathered materials. Good for close-range dwarven build detail.  
+   ↳ **use for:** world scale/architecture — close-range dwarven build/material detail for set dressing
+39. [GoW Ragnarök — forging the Dwarven Realm of Svartalfheim (Screen Rant)](https://screenrant.com/god-war-ragnarok-dwarves-svartalfheim-behind-scenes/) — *Screen Rant*. Behind-the-scenes feature with concept-to-model imagery of Svartalfheim, including the Forge designed to look ancient and magical with ornate elements (from a Luke Berliner sketch). Warm forge light, dwarven ornament, dark stone.  
+   ↳ **use for:** ChannelHall — design-process reference for an ancient ornate forge as hero architecture
+40. [God of War: Ragnarök bestiary & environments (Opus Artz studio)](https://opusartz.com/project/gowragnarok/) — *Opus Artz*. Studio showcase of GoW Ragnarök concept work including Svartalfheim dwarf-realm environments: monumental Norse-dwarf architecture, forge and mine spaces, moody warm-in-dark lighting. High-craft fantasy-industrial reference.  
+   ↳ **use for:** world scale/architecture — high-craft Norse-dwarf environment and forge references
+41. [Nidavellir — Marvel Cinematic Universe Wiki (Infinity War dwarf forge)](https://marvelcinematicuniverse.fandom.com/wiki/Nidavellir) — *Marvel Cinematic Universe Wiki*. The dwarven forge-star Nidavellir: a ringed megastructure focusing a neutron star's energy into a forge, where Stormbreaker is cast. White-hot molten metal as overwhelming light, dark iron ring architecture, cosmic scale. The 'metal is the only light' taken to its extreme.  
+   ↳ **use for:** ChannelHall / finale — white-hot molten pour as blinding sole light; casting-the-weapon spectacle and scale
+42. [Marvel's Avengers: Infinity War — Nidavellir forge (Quora visual explainer)](https://www.quora.com/How-does-Nidavellirs-forge-from-the-Avengers-Infinity-War-work) — *Quora*. Thread with film stills/diagrams of the Nidavellir forge: the iris-ring opening to channel the star's light, molten metal poured and quenched, Thor silhouetted against white-hot fire. Extreme-contrast molten-light staging.  
+   ↳ **use for:** ChannelHall / finale — molten pour and quench staging; figure silhouetted against blinding metal-light
+43. [Behind the Kit: Iron Forge (KitBash3D, Tolkien-inspired dwarven forge)](https://kitbash3d.com/a/blog/behind-the-kit-iron-forge) — *KitBash3D*. Article + renders for the Iron Forge kit: fiery chambers of molten metal and brimstone, carved stone molds, furnaces, ore-cart rails, the heating and pouring of metal into molds. Tolkien + Slavic/Byzantine/Nordic dwarven architecture; ember-orange against soot-black iron.  
+   ↳ **use for:** ChannelHall — direct template for a molten-pour foundry hall: furnaces, molds, rails, ember light
+44. [Iron Forge — premium 3D kit (KitBash3D product page)](https://kitbash3d.com/products/iron-forge) — *KitBash3D*. Product renders of the Iron Forge kit (138 models): sprawling dwarven foundry workshops, large-scale furnaces, metalwork, gritty industrial structures and molten-metal scenes. Cohesive dwarven-industrial look at full environment scale.  
+   ↳ **use for:** world scale/architecture — cohesive dwarven-industrial foundry set at environment scale; ChannelHall structure
+45. [Iron Forge (KitBash3D on Fab — gallery)](https://www.fab.com/listings/0db56e11-1afa-4a9a-b663-29ebb952b241) — *Fab (Epic Games)*. Fab listing gallery for Iron Forge: multiple beauty renders of the molten dwarven forge — furnaces glowing, cast channels, carved stone, dark industrial mass with ember light. Strong reference angles.  
+   ↳ **use for:** ChannelHall — additional molten-forge render angles for furnace and cast-channel staging
+46. [Legendary Forge (UE4 modular fantasy-industrial forge)](https://www.artstation.com/artwork/x3y2ym) — *ArtStation*. Modular legendary forge in UE4: fantasy/medieval-industrial hall with lava (edge-detection), dynamic effects, carved stone and metal, glowing molten light. Self-contained molten-forge chamber reference.  
+   ↳ **use for:** ChannelHall — molten-forge chamber lighting and lava-edge glow reference
+47. [Modular Legendary Forge (Fab/Unreal marketplace gallery)](https://unrealengine.com/marketplace/en-US/product/modular-legendary-forge) — *Fab / Unreal Engine Marketplace*. Marketplace gallery (106 meshes) of the Legendary Forge: lava channels with edge detection, master materials, modular medieval-industrial forge architecture lit by molten glow. Clean reference for a buildable forge hall.  
+   ↳ **use for:** ChannelHall — buildable modular forge architecture and lava-channel lighting
+48. [Forge — Environment Concept Art, Matheus Schwartz](https://www.artstation.com/artwork/GvBXld) — *ArtStation*. Atmospheric forge environment concept: a craftsman's forge hall, glowing furnace as the focal light, dust and haze, dark surrounding structure. Intimate-to-monumental forge mood with strong single-source fire light.  
+   ↳ **use for:** ChannelHall — furnace-as-focal-light composition and hazy forge atmosphere
+49. [Lava forge, silentfield](https://silentfield.artstation.com/projects/48NJ8k) — *ArtStation*. Lava forge environment: molten lava pools and channels lighting a dark stone forge from below, glowing orange-on-black, heavy industrial/fantasy structure. Direct molten-as-only-light reference.  
+   ↳ **use for:** ChannelHall — molten lava as the sole light source threading dark stone
+50. [Forge Fantasy, Sergey Mauze](https://www.artstation.com/artwork/1lnB2) — *ArtStation*. Fantasy forge interior: blacksmith hall with glowing forge/furnace, sparks and warm light against dark stone and timber, atmospheric depth. Good mid-scale forge-interior mood.  
+   ↳ **use for:** ChannelHall — mid-scale forge-interior warmth, sparks and glow against dark
+51. [Mechanicus Forge World (Titan Forge), Michael Arenander](https://taumich.artstation.com/projects/8lWJvE) — *ArtStation*. Warhammer 40K Adeptus Mechanicus forge-world animation: aerial view from cathedral height for scale, lava-themed forge city, molten rivers and towering industrial-gothic structures glowing orange in soot-dark. Overwhelming forge-world scale.  
+   ↳ **use for:** world scale/architecture — cathedral-height aerial scale of a forge city; molten rivers through industrial-gothic mass
+52. [Immortals Fenyx Rising — Hall of Gods, Asim A. Steckel](https://www.artstation.com/artwork/3d8woB) — *ArtStation*. Grand 'Hall of Gods' hub: monumental columned interior with glowing focal light, ornate carved architecture, ceremonial scale. Useful for a luminous, awe-scaled pillared hall.  
+   ↳ **use for:** world scale/architecture — luminous ceremonial pillared-hall hub composition
+53. [Underground Hall (ArtStation J9lw3d)](https://www.artstation.com/artwork/J9lw3d) — *ArtStation*. Background environment concept of a vast underground hall: receding pillars/arches into darkness, cool stone with a warm light source deep within, strong atmospheric perspective. Clean 'big dark hall' reference.  
+   ↳ **use for:** ChannelHall — vast dark hall with deep warm light and atmospheric recession
+54. [Underground Cave Concept Art, Brandon Rush](https://www.artstation.com/artwork/6bG33O) — *ArtStation*. Concept of a large underground cave space: organic rock forms, depth and scale, moody lighting with a focal glow. Good for blending natural cavern with built dwarven structure.  
+   ↳ **use for:** world scale/architecture — natural-cavern-into-built-hall blend; rock mass and depth
+55. [Dwarven Forge (ArtStation qQGN2)](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven forge environment concept: carved stone forge hall with glowing furnace/molten elements, anvils and tools, warm fire light in dark dwarven stone. Focused dwarven-forge interior.  
+   ↳ **use for:** ChannelHall — dwarven-forge interior with furnace glow and tool/anvil detail
+56. [Dwarven Forge, Rotann Colyn (after Marius Villard concept)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation*. Set-dressed dwarven forge built from a Marius Villard concept: tileable carved stone, composed forge hall with warm molten/fire light, strong material work. Production-quality dwarven-forge reference.  
+   ↳ **use for:** ChannelHall — production-grade dwarven-forge set dressing and material treatment
+57. [Molten dwarf, DomEddi (DeviantArt)](https://www.deviantart.com/domeddi/art/Molten-dwarf-884633595) — *DeviantArt*. Dwarf-forge themed piece with molten metal/lava imagery: glowing molten elements against dark, fire-lit dwarven mood. Useful for the heat-and-glow character of the forge.  
+   ↳ **use for:** ChannelHall — molten-heat glow and ember mood reference
+58. [Dwarven Forge — Underground city, NimoStar (DeviantArt)](https://www.deviantart.com/nimostar/art/Dwarven-Forge-Underground-city-941167080) — *DeviantArt*. Heroes-of-Might-and-Magic-style dwarven forge town: dwarves as artisans amid forges, golems and automatons, carved underground structures with warm forge light. Industrious dwarven-forge city mood.  
+   ↳ **use for:** world scale/architecture — industrious dwarven-forge city with active forges and automata
+59. [Dwarven Forge, Vestesta (DeviantArt)](https://www.deviantart.com/vestesta/art/Dwarven-Forge-983074562) — *DeviantArt*. Dwarven forge scene evoking 'legends born and hammer strikes echoing through the ages': carved hall, glowing forge, dwarven craft detail in warm light against dark. Romantic, epic forge framing.  
+   ↳ **use for:** ChannelHall — epic/romantic forge framing; hammer-and-fire mood
+60. [Ironforge, Connor Sheehan (World of Warcraft)](https://www.artstation.com/artwork/A9a9Vm) — *ArtStation*. WoW Ironforge interpretation: the great dwarven city built around the central Great Forge, molten lava moat lighting a vast circular hall, warm orange glow on stone and metal. Iconic 'city around a molten core' layout.  
+   ↳ **use for:** world scale/architecture — central-molten-forge-as-heart-of-the-city layout; lava-lit circular hall
+61. [Ironforge — Wowpedia (concept art + lore)](https://wowpedia.fandom.com/wiki/Ironforge) — *Wowpedia*. Hub of Ironforge concept art and in-game imagery: the Great Forge at the center, molten channels, carved dwarven districts ringing the lava, warm light throughout. Canonical lava-hearted dwarven capital.  
+   ↳ **use for:** world scale/architecture — canonical molten-hearted dwarven capital references
+62. [Blackrock Depths — Wowpedia (Dark Iron dwarf undercity)](https://wowpedia.fandom.com/wiki/Blackrock_Depths) — *Wowpedia*. The deepest part of Blackrock Mountain: Dark Iron dwarf city (Shadowforge City), the Black Forge, lava-filled chambers and a giant central molten arena. Black volcanic stone lit by lava and forge-fire — ominous, hellish dwarven deep.  
+   ↳ **use for:** world scale/architecture — ominous lava-lit black-stone dwarven deep; molten arena scale
+63. [The Black Forge — WoWWiki (Blackrock dwarven forge)](https://wowwiki-archive.fandom.com/wiki/The_Black_Forge) — *WoWWiki (Fandom archive)*. The Black Forge in Blackrock Depths: a great dwarven forge fed by lava, molten light pouring across dark volcanic stone and machinery. Direct lava-forge-in-black-rock reference.  
+   ↳ **use for:** ChannelHall — lava-fed forge in black volcanic stone; molten light across machinery
+64. [Blackrock Foundry — Wowpedia (industrial dwarven/orc foundry)](https://wowpedia.fandom.com/wiki/Blackrock_Foundry) — *Wowpedia*. Vast industrial foundry raid environment: enormous furnaces, molten metal channels, cranes and forges at colossal scale, ember-orange light dominating dark iron structure. Heavy-industry fantasy forge at the largest scale.  
+   ↳ **use for:** world scale/architecture — colossal industrial foundry scale; furnaces/channels/cranes in ember light
+65. [Hellforge — Diablo Wiki (molten forge of the deep)](https://diablo.fandom.com/wiki/Hellforge) — *Diablo Wiki (Fandom)*. The Hellforge in the deepest pit: a molten forge of creation/destruction, glowing anvil and lava, dark hellish stone. Single intense molten light source in oppressive dark — strong for a sacred-forge focal moment.  
+   ↳ **use for:** ChannelHall / finale — single intense molten anvil/forge as sacred focal light in dark
+66. [Helliquary Boss — Mulgaist the Molten, Russell Dongjun Lu (Diablo Immortal)](https://www.artstation.com/artwork/4NRl8Y) — *ArtStation*. Concept of a molten/forge-themed colossus: cracked rock skin with glowing lava veins, white-hot fissures, ember and orange light from within darkness. Excellent for the 'living molten metal' material language.  
+   ↳ **use for:** ChannelHall / finale — living-molten material (cracked dark crust + glowing lava veins); white-hot fissure light
+67. [Blizzard — Diablo IV concept art & UI art blast (ArtStation Magazine)](https://magazine.artstation.com/2023/07/blizzard-entertainment-diablo-iv-concept-art-ui-art-blast/) — *ArtStation Magazine*. Large Diablo IV concept dump including dark cathedral/underground and forge-like spaces: monumental gothic stone, hellfire and molten light, oppressive scale and grime. High-craft dark-fantasy environment reference.  
+   ↳ **use for:** world scale/architecture — dark monumental gothic + hellfire light reference set
+68. [Underground Dwarven Temple (CG Cookie project)](https://cgcookie.com/projects/underground-dwarven-temple) — *CG Cookie*. 3D concept of an underground dwarven temple: carved columns and statues, vaulted dwarven architecture, warm focal light in cool cave dark. Clean buildable dwarven-temple scale reference.  
+   ↳ **use for:** world scale/architecture — buildable dwarven-temple columns/statues and lighting
+69. [Ancient Fantasy Temple / Medieval Dwarven Dungeon (Fab/Unreal)](https://www.unrealengine.com/marketplace/en-US/product/ancient-fantasy-temple-medieval-dwarven-dungeon-castle) — *Fab / Unreal Engine Marketplace*. Long-abandoned dwarven cavern asset pack: towering statues, intricate stone carvings, glowing runes and water features, warm rune/torch light in dark stone. Cohesive dwarven-cavern-temple kit.  
+   ↳ **use for:** world scale/architecture — towering statues + glowing runes in a dark dwarven cavern; ChannelHall ornament
+70. [Early Interior & tool concept art for Deep Rock Galactic, Kenneth Faigh](https://www.artstation.com/artwork/QXQQ1E) — *ArtStation*. Concept art for Deep Rock Galactic: industrial dwarf-miner interiors and tools, rugged functional design, warm tech lighting in dark cave settings. Grounded space-dwarf industrial aesthetic.  
+   ↳ **use for:** world scale/architecture — functional dwarf-industrial interiors and lighting
+71. [Deep Rock Galactic — Concept Art category (wiki)](https://deeprockgalactic.fandom.com/wiki/Category:Concept_Art) — *Deep Rock Galactic Wiki*. Gallery of DRG concept art: procedural cave biomes, mining machinery, dwarf gear; dark caverns lit by tools, flares and mineral glow. Useful for varied cave-light color and industrial dwarf kit.  
+   ↳ **use for:** world scale/architecture — varied cave-light color and dwarf mining-machinery set
+72. [Karaz-a-Karak — Warhammer Wiki (largest dwarf hold)](https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak) — *Warhammer Fantasy Wiki (Fandom)*. The greatest Dwarf hold: gates over 400ft tall carved into the mountain; rock-hewn vaults for leagues; 'largest halls resembling colossal forests of carved pillars'; angled shafts admitting soft daylight. Definitive giant-dwarf-hold description with art.  
+   ↳ **use for:** world scale/architecture — 'forest of carved pillars' and 400ft gates; angled-shaft soft lighting for the ChannelHall
+73. [Karaz-a-Karak — Total War: WARHAMMER Wiki](https://totalwarwarhammer.fandom.com/wiki/Karaz-a-Karak) — *Total War Warhammer Wiki (Fandom)*. Game depiction of Everpeak/Karaz-a-Karak: monumental dwarven mountain capital, vast pillared halls, gold and bronze ornament, warm light in deep stone. Cohesive Warhammer-dwarf architectural scale.  
+   ↳ **use for:** world scale/architecture — Warhammer-dwarf monumental capital references
+74. [Dwarf hold — Warhammer: The Old World (Lexicanum)](https://whfb.lexicanum.com/wiki/Dwarf_hold) — *Lexicanum (Warhammer)*. Encyclopedic entry with art on dwarf holds: mountain-carved fortress-cities, great gates, pillared halls, deep mines and forges. Broad Warhammer-dwarf architectural canon.  
+   ↳ **use for:** world scale/architecture — broad dwarf-hold canon (gates/halls/mines/forges)
+75. [Karak Kadrin — Warhammer Wiki (Slayer Keep dwarf hold)](https://warhammerfantasy.fandom.com/wiki/Karak_Kadrin) — *Warhammer Fantasy Wiki (Fandom)*. A major dwarf hold guarding a mountain pass: monumental carved halls, forges and deep vaults in dark stone with warm light. Additional dwarf-hold architecture reference with art.  
+   ↳ **use for:** world scale/architecture — additional dwarf-hold hall/forge architecture
+76. [Mechanicus / forge-world dark underground environment pack (ArtStation marketplace)](https://www.artstation.com/marketplace/p/Jp1Mk/380-fantasy-dark-underground-environment-4k-vol-123) — *ArtStation Marketplace*. Reference pack (+380, 4K) of dark fantasy underground environments: caverns, vaults, ruined halls and forge-like spaces, consistently dark with focal warm/ember light. Broad mood/scale library for the deep.  
+   ↳ **use for:** world scale/architecture — broad dark-underground mood/scale library
+77. [Underground Cavern Environment Concept pack (+340, 4K) (ArtStation marketplace)](https://www.artstation.com/marketplace/p/ajGRM/340-underground-cavern-environment-concept-4k-vol-194) — *ArtStation Marketplace*. Reference pack of +340 underground cavern environment concepts: vast caverns, rock formations, subterranean structures, varied dramatic lighting. Useful for cavern-scale and rock-form variety.  
+   ↳ **use for:** world scale/architecture — cavern-scale and rock-form variety library
+78. [Underground Cathedral (ArtStation marketplace game assets)](https://www.artstation.com/marketplace/p/6mVA/underground-cathedral) — *ArtStation Marketplace*. Asset pack combining gothic stone walls with cave-tunnel parts to build underground cathedral/labyrinth spaces: vaults, arches, pillars in dark stone. Buildable 'cathedral in the rock' kit.  
+   ↳ **use for:** ChannelHall — buildable cathedral-in-the-rock vaults/arches/pillars
+79. [Viking fantasy hall — Concept, Antonio Gonzalez](https://www.artstation.com/artwork/PeE1Oo) — *ArtStation*. Norse/fantasy great hall study: heavy timber-and-stone hall with a central fire, warm firelight against dark, strong perspective. Useful for the warm-hearth focal-fire feeling at hall scale.  
+   ↳ **use for:** ChannelHall — central-fire focal warmth and hall perspective
+80. [Dwarven Architecture ~ Revisited (StarShadow blog compilation)](https://starandshadow.wordpress.com/2024/01/15/dwarven-architecture-revisited/) — *StarShadow (WordPress)*. Essay/compilation on dwarven architecture with many reference images: cathedral-like halls with vaulted ceilings, colossal pillars, carved stone mass, the 'outward not upward' ethos. Good written + visual primer on the style.  
+   ↳ **use for:** world scale/architecture — dwarven-style primer (vaults, colossal pillars, carved mass)
+81. [Dwarven Halls — curated board (Pinterest, karl7911)](https://www.pinterest.com/karl7911/dwarven-halls/) — *Pinterest*. 360-pin board of dwarven hall concept art across many artists: pillared halls, forges, throne rooms, mines, gates — overwhelmingly dark stone with warm fire/forge/crystal light. Dense survey of the subject.  
+   ↳ **use for:** world scale/architecture — broad dwarven-hall survey for ideation
+82. [Dwarven Halls / Fortress / Rooms — curated board (Pinterest, chadkichline)](https://www.pinterest.com/chadkichline/dwarven-halls-fortress-rooms/) — *Pinterest*. 410-pin board of dwarven fortress interiors and rooms: carved chambers, forges, vaults, oversized architecture, warm-in-dark lighting. Deep ideation pool for interior set pieces.  
+   ↳ **use for:** world scale/architecture — dwarven interior set-piece ideation
+83. [Dwarven Architecture — curated board (Pinterest, dwarftastic)](https://www.pinterest.com/dwarftastic/dwarven-architecture/) — *Pinterest*. Board focused on dwarven architecture: gates, halls, columns, carved stone detail and forges; emphasis on monumental, heavily ornamented dark stone. Strong for surface ornament and form language.  
+   ↳ **use for:** world scale/architecture — dwarven form language and carved ornament
+84. [Dwarven City — curated board (Pinterest, wisintel)](https://www.pinterest.com/wisintel/dwarven-city/) — *Pinterest*. 96-pin board of dwarven city concept art: vast underground metropolises, cavern cities, lava-lit halls and bridges. Good for city-scale layout and lava lighting variety.  
+   ↳ **use for:** world scale/architecture — dwarven city-scale layouts and lava lighting
+85. [Underground Dwarven City Fantasy Art — Pinterest idea board](https://www.pinterest.com/ideas/underground-dwarven-city-fantasy-art/953287760435/) — *Pinterest*. Idea feed of underground dwarven cities: vast caverns full of carved structures, bridges over voids, warm light in deep dark. Quick broad survey of the city-in-the-deep look.  
+   ↳ **use for:** world scale/architecture — quick survey of city-in-the-deep compositions
+86. [Dwarven Forge Concept Art — Pinterest idea board](https://www.pinterest.com/ideas/dwarven-forge-concept-art/957171918518/) — *Pinterest*. Idea feed of dwarven forge concept art: molten metal halls, furnaces, anvils and cast channels, ember-orange light on dark dwarven stone. Focused forge-subject survey.  
+   ↳ **use for:** ChannelHall — focused dwarven-forge survey (furnaces, casts, ember light)
+87. [Lava Forge — Pinterest idea board](https://www.pinterest.com/ideas/lava-forge/922828427906/) — *Pinterest*. Idea feed of lava-forge environments: molten rivers and pools lighting forge halls from below, glowing orange-on-black, heavy industrial-fantasy structure. Strong molten-light reference set.  
+   ↳ **use for:** ChannelHall — molten-river lighting and lava-forge structure
+88. [Lava City Fantasy Art — Pinterest idea board](https://www.pinterest.com/ideas/lava-city-fantasy-art/916469320508/) — *Pinterest*. Idea feed of lava cities: vast settlements amid molten rivers and lakes, dark silhouetted architecture against glowing orange, dramatic scale. Useful for lava-lit world backdrops.  
+   ↳ **use for:** world scale/architecture — lava-lit city backdrop scale and silhouette
+89. [Erebor — curated board (Pinterest, gennievanatta)](https://www.pinterest.com/gennievanatta/erebor/) — *Pinterest*. Board of Erebor / Lonely Mountain concept art from The Hobbit: brazier-lit treasure halls, monumental carved galleries, gold in deep shadow. Focused Erebor-interior reference set.  
+   ↳ **use for:** world scale/architecture — Erebor interior galleries and treasure-hall mood
+90. [Cave & Cavern Environments for digital art inspiration (Concept Art Empire)](https://conceptartempire.com/caves-and-caverns/) — *Concept Art Empire*. Curated article of cave/cavern environment concept art: vast subterranean spaces, dramatic scale and lighting, including molten and crystal-lit caverns. Strong cavern-mood reference roundup.  
+   ↳ **use for:** world scale/architecture — cavern-mood and dramatic underground lighting roundup
+91. [Fiery Volcano Environment concept art gallery (Concept Art Empire)](https://conceptartempire.com/volcano-environment-art/) — *Concept Art Empire*. Gallery of fiery/volcanic environment concept art: lava flows, molten caverns, ember-lit rock at large scale. Useful for the molten-light palette and volcanic mass underpinning the forge world.  
+   ↳ **use for:** ChannelHall — molten/volcanic light palette and lava-flow forms
+92. [Under the Mountain: Durazh-Barak, impenetrable D&D dwarven fortress](https://www.enterthearcverse.com/post/under-the-mountain-durazh-barak-impenetrable-dwarven-fortress-untitled) — *Enter the Arcverse*. D&D worldbuilding article with art of a mountain-carved dwarven fortress: great gates, pillared halls, forges and deep vaults, monumental dark stone. Good narrative + visual reference for a dwarven hold's structure.  
+   ↳ **use for:** world scale/architecture — dwarven fortress structure (gates/halls/forges) reference
+93. [Dwarven Mines — Greg-Rutkowski-style underground cavern (neural.love)](https://neural.love/ai-art-generator/1ed9a6de-b0ba-6c24-bfcb-bff548490b74/dwarven-mines-underground-cavern-mining-medieval-fantasy-8k-resolution-concept-art-by-greg-rutkowski) — *neural.love*. AI-generated dwarven-mines piece in a painterly concept-art style: deep cavern with mining structures, atmospheric haze and warm light in dark rock. Mood/composition reference (AI-origin, use for vibe not as authored art).  
+   ↳ **use for:** world scale/architecture — painterly mood/composition reference for dwarven mines (AI-generated)
+94. [Underground Statue Hall in a fantasy setting (Stable Diffusion Online)](https://stablediffusionweb.com/image/4538433-underground-statue-hall-in-fantasy-setting) — *Stable Diffusion Online*. AI-generated vast underground hall lined with colossal statues and pillars, dramatic shaft lighting, dark stone. Useful as a scale/composition reference for a statue-lined channel (AI-origin).  
+   ↳ **use for:** ChannelHall — statue-lined hall scale/composition (AI-generated)
+95. [A Gem Mine Cave / Molten Lava Cave concept art (Adobe Stock)](https://stock.adobe.com/images/a-gem-mine-cave-underground-molten-lava-cave-deep-cavern-big-stalactite-concept-art-scenery-book-illustration-video-game-scene-serious-digital-painting-cg-artwork-background/529542406) — *Adobe Stock*. Concept-art-style digital painting of a deep cavern / molten lava cave with big stalactites and glowing lava, gem-vein detail, dramatic underground scale. Strong molten-cavern backdrop reference.  
+   ↳ **use for:** ChannelHall — molten-cavern backdrop with lava glow, stalactites and gem veins
+
+
+## Embers & Sparks
+
+### Real (35)
+
+1. [A fire is lit in the dark with lots of sparks](https://unsplash.com/photos/a-fire-is-lit-in-the-dark-with-lots-of-sparks-iiagQzSCZrY) — *Unsplash*. Open fire erupting against near-black surroundings, dense field of orange-to-yellow sparks streaking and floating upward. High particle density near the flame core thinning at the edges; warm ember temperature (#E85D04 to gold) reading hot against void. Strong self-illumination, the fire is the only light.  
+   ↳ **use for:** spark bursts / ember atmosphere
+2. [Flames and sparks erupt in the dark night](https://unsplash.com/photos/flames-and-sparks-erupt-in-the-dark-night-KIbCrpduWuM) — *Unsplash*. Slow-shutter capture of flames with sparks drawing curved motion trails into black. Medium-high density, embers cooling from white-hot at the base to deep red as they rise. Trails communicate upward drift velocity and turbulence; pure black negative space.  
+   ↳ **use for:** spark bursts / ember atmosphere
+3. [Sparks and fire dance against a dark background](https://unsplash.com/photos/sparks-and-fire-dance-against-a-dark-background-YPYvLI4CYgQ) — *Unsplash*. Mariola Grobelska. Scattered glowing sparks suspended over a black field, fire base bottom-frame. Moderate density, warm orange-gold points with soft glow halos reading as bokeh. Slow drift, calm mood; clean separation of ember from void.  
+   ↳ **use for:** ember atmosphere / glow
+4. [Macro photography of bonfire](https://unsplash.com/photos/macro-photography-of-bonfire-r1UV-_7f5q4) — *Unsplash*. Patrick Hendry. Tight macro of burning embers and glowing coals, cracked incandescent surfaces. Dense hot core, temperature from white-gold (#FFF2E0) through ember orange to dark crust. The metal-is-only-light feel at coal scale; intimate, intense mood.  
+   ↳ **use for:** glow / ember atmosphere
+5. [Macro photography of orange bonfire](https://unsplash.com/photos/macro-photography-of-orange-bonfire-U6mLK89hKNA) — *Unsplash*. Patrick Hendry. Extreme close-up of orange bonfire embers, glowing fissures across charred fuel. Very warm temperature, high local glow, deep blacks in the cracks. Reference for emissive cracked-surface look of cooling metal.  
+   ↳ **use for:** glow
+6. [Bonfire surrounded by embers](https://unsplash.com/photos/bonfire-surrounded-by-embers-X1zFUnr52yM) — *Unsplash*. Bonfire core with a wide scatter of floating embers around it against dark surroundings. Medium density radiating outward, warm orange points, soft drift. Good reference for an ember halo around a heat source.  
+   ↳ **use for:** ember atmosphere
+7. [Orange fire in black background](https://unsplash.com/photos/orange-fire-in-black-background-IdrTFuebEK4) — *Unsplash*. Megan Lee. Flames burning in the night, isolated orange fire on pure black. Clean fire-on-void composition, warm orange-gold temperature, strong contrast. Ideal overlay reference for additive fire glow on the void palette.  
+   ↳ **use for:** glow / ember atmosphere
+8. [A bunch of fire burning in the dark](https://unsplash.com/photos/a-bunch-of-fire-burning-in-the-dark-2dbzrD1aH0Y) — *Unsplash*. Cluster of flames against darkness with embers lifting off the tips. Medium density, warm ember-to-gold gradient, upward motion. Black surroundings, dramatic mood.  
+   ↳ **use for:** ember atmosphere / glow
+9. [A close up of a fire in the dark](https://unsplash.com/photos/a-close-up-of-a-fire-in-the-dark-enaUHv2k144) — *Unsplash*. Close fire detail on black, glowing tongues and small floating sparks. Hot core temperature, soft glow falloff into void. Reference for the near-field glow where the metal/flame meets blackness.  
+   ↳ **use for:** glow
+10. [Photo of fire during dark](https://unsplash.com/photos/photo-of-fire-during-dark--lknpmFKnkA) — *Unsplash*. Isolated flame against dark background, sparse rising sparks. Warm orange temperature, calm slow drift, simple fire-on-void mood. Clean minimal reference.  
+   ↳ **use for:** ember atmosphere
+11. [Glowing embers from a dying campfire](https://unsplash.com/photos/glowing-embers-from-a-dying-campfire-N9PrR_sflLw) — *Unsplash*. Bed of dying campfire coals, deep-red and orange glow within dark ash and charcoal. Low flame, high emissive coals; temperature skewed to cooler red-orange. Reference for forged-iron cooling state where only fissures still glow.  
+   ↳ **use for:** glow / ember atmosphere
+12. [Campfire glowing brightly at night between trees](https://unsplash.com/photos/campfire-glowing-brightly-at-night-between-trees-2jWS3uJ6OO4) — *Unsplash*. Night campfire with bright core and sparks rising into surrounding blackness. Medium spark density, warm gold-orange embers drifting up, dark forest void. Atmospheric, cinematic mood.  
+   ↳ **use for:** ember atmosphere
+13. [Sparks flying from a campfire in the dark](https://unsplash.com/photos/sparks-flying-from-a-campfire-in-the-dark-zWKf4Q9gJ80) — *Unsplash*. Wind-driven sparks streaking off a campfire across a black night. High density burst, embers smeared into motion trails, warm orange-gold. Strong sense of velocity and direction; dramatic.  
+   ↳ **use for:** spark bursts / ember atmosphere
+14. [Bonfire in black background](https://unsplash.com/photos/bonfire-in-black-background-AUuvyTkkod4) — *Unsplash*. Bonfire isolated on pure black with embers lifting from the flame. Warm fire core, scattered floating sparks, clean void separation. Good plate-style reference for compositing fire over the #0B0C10 void.  
+   ↳ **use for:** ember atmosphere / glow
+15. [Welder is working, creating sparks in the dark](https://unsplash.com/photos/welder-is-working-creating-sparks-in-the-dark-ymJNSGAQ0rw) — *Unsplash*. Ben Spray. Welder mid-task, dense fan of bright white-hot sparks spraying from the weld point in a dark workshop. Very high density jet, white-to-gold temperature, hard radial motion. Reference for an aggressive struck/welded spark burst.  
+   ↳ **use for:** spark bursts
+16. [Grinding metal sparks fly from machine](https://unsplash.com/photos/grinding-metal-sparks-fly-from-machine-7pu-lD_35ZE) — *Unsplash*. Angle-grinder throwing a wide arcing shower of sparks off metal in a dim setting. Extremely high density, long bright trails forking at the tips, white-gold to orange. Classic grinding spark-fountain motion; energetic, industrial mood.  
+   ↳ **use for:** spark bursts
+17. [A welder works, sparks fly against the sunset](https://unsplash.com/photos/a-welder-works-sparks-fly-against-the-sunset-jcm9Qo8O7kw) — *Unsplash*. Welder with sparks streaming against a dark warm backdrop. Dense spark spray with long trails, gold-orange temperature. Strong directional motion; reference for sparks reading against a dim warm field.  
+   ↳ **use for:** spark bursts
+18. [A machine cutting a piece of metal with sparks](https://unsplash.com/photos/una-maquina-que-corta-una-pieza-de-metal-con-chispas-thdb7o0nLyc) — *Unsplash*. Metal cutting operation throwing a concentrated jet of sparks. High density narrow cone, white-hot core cooling to orange at trail ends, dark machinery. Reference for a focused directional spark stream.  
+   ↳ **use for:** spark bursts
+19. [A man is welding in a dark room](https://unsplash.com/photos/a-man-is-welding-in-a-dark-room-d9Xff2E37ak) — *Unsplash*. Welding in a fully dark room, the arc and spark spray the only light source. Bright white-blue core with warm spark fallout, deep black surroundings. Strong metal-is-only-light reference, high contrast.  
+   ↳ **use for:** spark bursts / glow
+20. [Welder bonding metal with welding device, lots of sparks](https://unsplash.com/photos/welder-bonding-metal-with-welding-device-in-workshop-lots-of-sparks-to-be-seen-he-wears-welding-goggles-hR7Dgk60Qks) — *Unsplash*. Close workshop welding with a heavy spray of sparks cascading downward. High density, white-hot to gold particles bouncing and scattering, dim background. Reference for spark scatter and secondary bounce off a surface.  
+   ↳ **use for:** spark bursts
+21. [Macro photo of sparkler](https://unsplash.com/photos/_Ch_onWf38o) — *Unsplash*. Jez Timms. Macro of a sparkler, bright white-hot points radiating tiny forking sparks against dark. Dense radial burst, near-white temperature, crisp small particles. Reference for fine sparkle detail and the divine-fire white-gold accent.  
+   ↳ **use for:** spark bursts / glow
+22. [A lit sparkler creates sparks in the dark](https://unsplash.com/photos/a-lit-sparkler-creates-sparks-in-the-dark-vWDaDqRws9s) — *Unsplash*. Mariola Grobelska. Sparkler firing a dense corona of white-gold sparks into black. Very high density radial spray, hot white core, fine particle trails. Reference for a tight celebratory/struck spark burst against void.  
+   ↳ **use for:** spark bursts
+23. [Time-lapse photography of sparkler at night](https://unsplash.com/photos/time-lapse-photography-of-sparkler-at-night-time-XKCo9N6gyS4) — *Unsplash*. Long-exposure sparkler drawing continuous glowing light trails on black. Smooth bright gold streaks, motion-blur trails, no discrete particles. Reference for spark motion-path / trail aesthetic.  
+   ↳ **use for:** spark bursts
+24. [Dramatic Blacksmith Forging Metal at Night](https://www.pexels.com/photo/dramatic-blacksmith-forging-metal-at-night-29442939/) — *Pexels*. Quang Vuong. Blacksmith striking glowing metal, sparks bursting from the anvil at night. Bright hot workpiece, radial spark burst on strike, dark surroundings. Direct reference for the on-strike spark burst beat.  
+   ↳ **use for:** spark bursts / glow
+25. [Blacksmith Working with Sparks in Workshop](https://www.pexels.com/photo/blacksmith-working-with-sparks-in-workshop-30666639/) — *Pexels*. Blacksmith hammering with sparks scattering across a dim workshop. Medium-high density, warm gold-orange particles, glowing workpiece as light source. Reference for ambient forge sparks and warm key light.  
+   ↳ **use for:** spark bursts / glow
+26. [Blacksmith Hammering Glowing Hot Iron on Anvil](https://www.pexels.com/photo/blacksmith-hammering-glowing-hot-iron-on-anvil-31004832/) — *Pexels*. Glowing orange iron on the anvil, small sparks lifting off as the hammer falls. Intense local glow on the metal (the only light), dark background, sparse hot sparks. Core reference for metal-is-only-light plus strike sparks.  
+   ↳ **use for:** glow / spark bursts
+27. [Industrial Worker Grinding Metal with Sparks Flying](https://www.pexels.com/photo/industrial-worker-grinding-metal-with-sparks-flying-29385994/) — *Pexels*. Grinder throwing a broad fountain of sparks off steel. Very high density, long forking white-gold trails, dim industrial setting. Reference for the widest spark-shower silhouette and falloff.  
+   ↳ **use for:** spark bursts
+28. [Industrial Metal Cutting with Sparks Flying](https://www.pexels.com/photo/industrial-metal-cutting-with-sparks-flying-29386087/) — *Pexels*. Cutting tool spraying a dense directional jet of sparks. Hot white core cooling to orange along trails, dark backdrop. Reference for a concentrated, high-energy spark stream with clear direction.  
+   ↳ **use for:** spark bursts
+29. [Close-up of Worker Welding Metal with Sparks](https://www.pexels.com/photo/close-up-of-worker-welding-metal-with-sparks-29385961/) — *Pexels*. Tight close-up of welding sparks cascading off the joint. High density near source, white-hot to gold, particles bouncing and scattering. Reference for near-field spark detail and secondary scatter.  
+   ↳ **use for:** spark bursts
+30. [Close-Up Photo of Flashing Sparks on Black Background](https://www.pexels.com/photo/close-up-photo-of-flashing-sparks-on-black-background-9665358/) — *Pexels*. cottonbro studio. Bright sparks flying against a clean black background. Discrete glowing points with motion streaks, white-gold temperature, pure black field. Excellent isolated reference for compositing sparks onto the void.  
+   ↳ **use for:** spark bursts
+31. [Close-up of a Sparkler and Blurry Sparks against Dark Background](https://www.pexels.com/photo/close-up-of-a-sparkler-and-blurry-sparks-flying-against-dark-background-17600955/) — *Pexels*. Onur Nisantas. Sparkler with sharp foreground sparks and blurred background sparks giving ember bokeh. Warm gold points, soft out-of-focus glow halos, dark field. Direct reference for ember-bokeh depth layering.  
+   ↳ **use for:** glow / ember atmosphere
+32. [Red Metal on Anvil](https://www.pexels.com/photo/red-metal-on-anvil-20796310/) — *Pexels*. Red-hot metal resting on an anvil, glowing from within against a dark forge. Deep red-orange emissive temperature, minimal sparks, strong local glow. Reference for the cooling-metal red-glow state and forged-iron transition.  
+   ↳ **use for:** glow
+33. [Fire, Sparks, Flame, Koster, Burn](https://pixabay.com/photos/fire-sparks-flame-koster-burn-1705401/) — *Pixabay*. Bonfire with abundant sparks rising into night. Medium-high density of warm orange-gold embers drifting upward, dark surroundings. Reference for organic rising-ember distribution and drift.  
+   ↳ **use for:** ember atmosphere
+34. [Bonfire night fire burning sparks (selective focus)](https://pexels.com/photo/night-fire-burning-sparks-110867) — *Pexels*. Orange flame with selective-focus sparks against night. Sharp near sparks, soft far sparks, warm temperature, black background. Reference for focal-plane ember separation and bokeh falloff.  
+   ↳ **use for:** ember atmosphere / glow
+35. [Close up of Forging Metal](https://www.pexels.com/photo/close-up-of-forging-metal-16456724/) — *Pexels*. Macro of glowing forged metal with sparks at the strike point. Hot orange-gold workpiece dominating as the light, sparse bright sparks, dark surround. Reference for intimate forge glow and strike detail.  
+   ↳ **use for:** glow / spark bursts
+
+### Fantasy / Concept Art (82)
+
+1. [Ember's Blaze: Igniting the Void](https://jadegretz.artstation.com/projects/dKk1Kw) — *ArtStation (Jade Gretz)*. Forge as a vast cavern bathed in flickering orange glow of molten metal. Hot molten light against deep dark rock, atmospheric embers, dramatic firelit mood. Strong reference for molten-channel lighting and ember atmosphere in a dark forge.  
+   ↳ **use for:** ember atmosphere / glow
+2. [Forge - Environment Concept Art (Ember IP)](https://www.artstation.com/artwork/GvBXld) — *ArtStation (Matheus Schwartz)*. Atmospheric forge environment from the personal IP 'Ember'. Warm forge glow, drifting embers, moody dark-to-amber gradient. Reference for forge stage lighting and ambient ember particles.  
+   ↳ **use for:** ember atmosphere / glow
+3. [Forge - Character Concept Art (Ember IP)](https://www.artstation.com/artwork/WXe2oD) — *ArtStation (Matheus Schwartz)*. Character lit by forge fire, embers and warm rim light against dark. Hot key light, floating sparks, dramatic mood. Reference for how embers read around a figure and for warm-on-void grading.  
+   ↳ **use for:** ember atmosphere / glow
+4. [Fire elementals - concept art](https://www.artstation.com/artwork/emna6) — *ArtStation (Thiago Almeida)*. Fire elemental studies, bodies made of flame and embers. Glowing cores, white-hot to ember-orange falloff, scattering sparks against dark. Reference for emissive particle clustering and ember-to-spark gradient.  
+   ↳ **use for:** ember atmosphere / spark bursts
+5. [Fantasy Blacksmith Forge Original](https://www.artstation.com/artwork/0nnVRy) — *ArtStation (Diego Herrera Sosa)*. 3DS Max forge scene, procedural textures, Corona render. Warm forge-fire glow, sparks and embers in a dark stone interior. Reference for a believable dark-forge stage with localized fire light.  
+   ↳ **use for:** ember atmosphere / glow
+6. [Lava forge](https://silentfield.artstation.com/projects/48NJ8k) — *ArtStation (silentfield)*. Lava-lit forge environment, molten channels glowing in darkness. Hot orange emissive lava as the only light, rising heat embers, deep shadows. Strong reference for the molten-channel ride and ember haze.  
+   ↳ **use for:** glow / ember atmosphere
+7. [The Lava Forge](https://www.artstation.com/artwork/1OErG) — *ArtStation (Jeong Chan Wuk)*. Dramatic lava forge with glowing molten flows. Intense orange-gold emissive light, dark rock silhouettes, atmospheric ember mist. Reference for high-contrast molten light and ember atmosphere.  
+   ↳ **use for:** glow / ember atmosphere
+8. [The Knight Witch Environment Art: The Forge](https://www.artstation.com/artwork/6Nn0wV) — *ArtStation (Mar Hernandez)*. Stylized game forge environment with glowing fire and embers. Warm saturated forge light, floating sparks, dark surrounds. Reference for stylized ember atmosphere and readable fire glow in-game.  
+   ↳ **use for:** ember atmosphere / glow
+9. [Molten Lava in Substance Designer](https://www.artstation.com/artwork/d0nyxw) — *ArtStation (Kyle Horwood)*. Procedural molten lava material with emissive cracks. Black crust fissured by hot orange-gold glow, controllable emission. Direct reference for the cooling-metal shader (forged iron with glowing fissures) and emissive map approach.  
+   ↳ **use for:** glow
+10. [FORGE CONCEPT ART](https://www.artstation.com/artwork/qe53Ln) — *ArtStation*. Forge interior concept with fire and ember atmosphere. Warm glow pools, drifting sparks, dark architecture. Reference for forge-stage composition and ember placement.  
+   ↳ **use for:** ember atmosphere / glow
+11. [Dwarven Forge](https://www.artstation.com/artwork/qQGN2) — *ArtStation*. Dwarven forge environment, molten metal and fire in dark stone halls. Hot emissive channels, embers in the air, deep shadow. Reference for the giant-dwarf-forge vibe and ember haze in a cavernous space.  
+   ↳ **use for:** ember atmosphere / glow
+12. [Enviroment lava concept art](https://www.artstation.com/artwork/brzed) — *ArtStation (Pablo Deiver)*. Lava environment concept, glowing molten flows against dark terrain. Orange-gold emissive light, rising embers, smoky atmosphere. Reference for molten-flow light and ambient ember particles.  
+   ↳ **use for:** glow / ember atmosphere
+13. [Atlundia: Volcano forge](https://www.artstation.com/artwork/XBr2Rn) — *ArtStation (Attila Gerenyi)*. Volcano forge where molten lava is cast in molds at the foot of a volcano. Pouring molten metal, intense glow, sparks and embers. Reference for the pour beat and spark fallout when metal is cast.  
+   ↳ **use for:** spark bursts / glow
+14. [Forging Fantasy](https://www.artstation.com/artwork/klNKal) — *ArtStation (Conrad Justin)*. Fantasy forge beneath open sky, hand-painted in Blender. Warm forge glow with embers rising into darker air. Reference for ember drift against a dark gradient and painterly fire light.  
+   ↳ **use for:** ember atmosphere / glow
+15. [Dwarven Forge (Marius Villard concept study)](https://www.artstation.com/artwork/K3z2A9) — *ArtStation (Rotann Colyn)*. Set-dressed dwarven forge, molten metal and fire focus. Warm emissive light, floating embers, dark stone. Reference for forge composition and ember scatter.  
+   ↳ **use for:** ember atmosphere / glow
+16. [Dwarven Forge (UE5 Nanite/Lumen, LOTR-inspired)](https://www.artstation.com/artwork/dKv2Zw) — *ArtStation (Louis-Philippe Ross Boivin)*. Dwarven blacksmith shop rendered in Unreal Engine 5 with Lumen GI. Realistic forge fire glow, embers and dust motes catching light, dark interior. Strong reference for real-time forge lighting and ember particle integration.  
+   ↳ **use for:** ember atmosphere / glow
+17. [LOTR portfolio project - Dwarven forge](https://www.artstation.com/artwork/rADxA5) — *ArtStation (Anton Meineche Falk)*. LOTR-style dwarven forge environment, warm fire light in dark halls. Glowing forge, embers in air, atmospheric haze. Reference for Middle-Earth-meets-Gaelic forge mood and ember atmosphere.  
+   ↳ **use for:** ember atmosphere / glow
+18. [Dwarven Forge (low poly fantasy environment)](https://sunnyshung.artstation.com/projects/1P3oo) — *ArtStation (Sunny Shung)*. Stylized low-poly dwarven forge with fire and ember effects. Warm emissive forge light, simple ember particles, dark surroundings. Reference for an economical real-time ember-particle treatment.  
+   ↳ **use for:** ember atmosphere
+19. [Dwarven Forge](https://www.artstation.com/artwork/8w4DDm) — *ArtStation*. Dwarven forge environment with molten metal and fire. Hot emissive light, embers and sparks, dark stone interior. Reference for forge ambiance and ember/spark balance.  
+   ↳ **use for:** ember atmosphere / spark bursts
+20. [Forge of Hephaestus (Archvillain Games)](https://www.artstation.com/artwork/RKPDmA) — *ArtStation (Eryk Szczygiel)*. Illustrated Forge of Hephaestus for Prometheus's Guide to Olympus. Molten metal, fire and embers, dramatic warm-on-dark lighting. Reference for mythic forge atmosphere and ember haze.  
+   ↳ **use for:** ember atmosphere / glow
+21. [Hephaestus Forge](https://gilbryn.artstation.com/projects/lVzg55) — *ArtStation (Gilbryn)*. Hephaestus forge environment, glowing molten metal and fire. Hot emissive pools, sparks, dark cavernous space. Reference for forge stage glow and ember placement.  
+   ↳ **use for:** ember atmosphere / glow
+22. [GOD of WAR III Hephaestus Forge](https://www.artstation.com/artwork/knNE0) — *ArtStation (Lewis Walden)*. God of War III Hephaestus forge: geometry, textures, lava animations and lighting. Animated molten lava glow, embers, sparks in a dark mythic forge. Reference for AAA molten-light treatment and ember motion.  
+   ↳ **use for:** glow / ember atmosphere
+23. [Exillium: The Fallen Gods - The Forge of Hephaestus](https://www.artstation.com/artwork/lDBemz) — *ArtStation (Thomas Bulteau)*. Fighting-game forge stage with surrounding lava and continuously animated machines. Beautiful lava lighting, drifting embers, living fire atmosphere. Reference for a 'living' molten environment with ambient ember motion.  
+   ↳ **use for:** ember atmosphere / glow
+24. [Project Hephaestus (Mount Etna forge)](https://alessandro-paviolo.artstation.com/projects/4b84l1) — *ArtStation (Alessandro Paviolo)*. Personal project exploring Etna to find Hephaestus's forge. Volcanic molten glow, smoke and embers, dark rock. Reference for volcanic ember atmosphere and warm emissive light.  
+   ↳ **use for:** ember atmosphere / glow
+25. [Hammer and Anvil of Hephaestus](https://www.artstation.com/artwork/RYGGkD) — *ArtStation (Jonathan Williams)*. Hammer and anvil with molten material running through them. Glowing molten veins on dark metal, ember glow. Reference for the forged-iron-with-glowing-veins material and divine-fire accent.  
+   ↳ **use for:** glow
+26. [God of War Ragnarok - The Forge](https://www.artstation.com/artwork/ZeLZDx) — *ArtStation (Nick Comeau)*. The Forge at the top of a mountain in Svartalfheim (GoW Ragnarok). Cinematic forge fire glow, embers in the air, dark dwarven architecture. Strong AAA reference for dwarven-forge ember atmosphere.  
+   ↳ **use for:** ember atmosphere / glow
+27. [Lava Level Concept Art](https://www.artstation.com/artwork/ZP55R) — *ArtStation*. Lava-level environment concept, glowing molten rivers in darkness. Hot orange-gold emissive flows, rising embers, smoky haze. Reference for molten-channel lighting and ember mist along the flow.  
+   ↳ **use for:** glow / ember atmosphere
+28. [Lava field concept art](https://www.artstation.com/artwork/aGOoWq) — *ArtStation*. Lava field with cracked glowing crust and something sealed beneath. Black crust laced with hot orange fissures, ember glow. Reference for the cracked-emissive surface look of cooling metal/lava.  
+   ↳ **use for:** glow
+29. [Volcanic Environment](https://www.artstation.com/artwork/3oEnqE) — *ArtStation*. Volcanic environment with molten glow and embers. Warm emissive lava, drifting sparks, dark volcanic rock. Reference for volcanic ember atmosphere and warm-on-dark grade.  
+   ↳ **use for:** ember atmosphere / glow
+30. [230 Volcano Environment Concept references](https://www.artstation.com/artwork/kQBm6y) — *ArtStation*. Large reference set of volcano environments. Many molten-glow, ember-laden, dark-rock variations; range of fire-light treatments. Reference library for ember atmosphere and molten lighting variety.  
+   ↳ **use for:** ember atmosphere / glow
+31. [Glowing cave](https://www.artstation.com/artwork/xXGmr) — *ArtStation*. Dark cave lit only by internal glow, floating glowing particles. Cool-to-warm emissive points reading as bokeh in blackness. Reference for floating-particle atmosphere and points-of-light in a void (adapt warm).  
+   ↳ **use for:** ember atmosphere / glow
+32. [Luminous Cave](https://aurelienthuillier.artstation.com/projects/nQ31oe) — *ArtStation (Aurelien Thuillier)*. Megascan cave inspired by John Sweeney, glowing particles drifting in darkness. Soft floating points of light, atmospheric haze, deep blacks. Reference for drifting-particle bokeh and glow-in-void mood.  
+   ↳ **use for:** ember atmosphere / glow
+33. [Fiery Elemental Spirit Artwork](https://www.artstation.com/artwork/DLEG0R) — *ArtStation*. Fusion of fire and nature with glowing embers and branching flames over ash textures. Hot ember points, white-gold cores, dark ash background. Reference for ember-on-ash glow and emissive particle clustering.  
+   ↳ **use for:** ember atmosphere / glow
+34. [Elemental Studies - Fire](https://www.artstation.com/artwork/QX4Ym3) — *ArtStation*. Fire-element character study from smoldering embers to blazing infernos. Range of fire temperatures, ember scatter, dark backgrounds. Reference for ember-to-flame temperature gradient and particle density variation.  
+   ↳ **use for:** ember atmosphere / spark bursts
+35. [Fire Elemental](https://www.artstation.com/artwork/eRB24b) — *ArtStation*. Fire elemental creature, body of flame shedding embers. Glowing core, sparks lifting off, dark surround. Reference for an emissive figure trailing ember particles.  
+   ↳ **use for:** ember atmosphere / spark bursts
+36. [Fire Elemental concept](https://www.artstation.com/artwork/6zodN) — *ArtStation (Geoffry Mellon)*. Fire elemental concept with ember-laden form. Warm glowing mass, scattering sparks, dark backdrop. Reference for ember distribution around a heat-emitting body.  
+   ↳ **use for:** ember atmosphere / spark bursts
+37. [Fantasy Flame Spirit](https://www.artstation.com/artwork/1494mo) — *ArtStation*. Flame spirit made for The Dungeon Coach community. Glowing flame body, rising embers, dark background. Reference for stylized ember trails and warm core glow.  
+   ↳ **use for:** ember atmosphere
+38. [Ember Gaze: The Fiery Spirit 10](https://www.artstation.com/marketplace/p/epzPb/ember-gaze-the-fiery-spirit-10) — *ArtStation*. Figure surrounded by swirling embers and flames, hair intertwined with smoke and sparks against dark leather. Glowing ember focal point, warm sparks drifting, dark frame. Reference for swirling-ember motion around a subject.  
+   ↳ **use for:** ember atmosphere / spark bursts
+39. [Dying Embers](https://www.artstation.com/artwork/XBva8a) — *ArtStation*. Mood piece of dying embers fading in darkness. Sparse deep-red and orange glowing points, slow drift, near-black field. Reference for low-density cooling-ember atmosphere and the fade-to-iron mood.  
+   ↳ **use for:** ember atmosphere
+40. [Stylized Fire VFX with Breakdown [UE4 Niagara]](https://www.artstation.com/artwork/D5oPoA) — *ArtStation (Sheila Stipnieks)*. Stylized fire VFX with full breakdown (textures inspired by Mario Odyssey / WoW). Hand-stylized flames plus ember sub-emitter, warm palette on dark. Reference for building a real-time fire + drifting-ember particle system.  
+   ↳ **use for:** ember atmosphere / spark bursts
+41. [Summon Magic in Real-Time | UE5 Niagara Fire FX](https://www.artstation.com/artwork/qJY0Ye) — *ArtStation (Sunnala Abhishek)*. Cinematic fire summoning VFX in UE5 Niagara, modular and optimized for real-time. Bright fire core with sparks and embers spiraling out, dark stage. Reference for real-time spark-burst choreography on a 'strike'.  
+   ↳ **use for:** spark bursts / ember atmosphere
+42. [UE5 Niagara Practice - Fire/Smoke/Embers](https://www.artstation.com/artwork/6NZ1DN) — *ArtStation (Shane Simmons)*. Niagara study layering fire, smoke and a small glowing-ember emitter floating upward. Warm embers drifting over dark, clear emitter separation. Direct reference for an Embers.jsx-style ambient ember emitter.  
+   ↳ **use for:** ember atmosphere
+43. [VFX Firepit - Real-Time VFX in Unreal Engine 5](https://www.artstation.com/artwork/Za8z68) — *ArtStation (Annie Xiong)*. Firepit effect using Niagara for smoke, drifting embers and ambient particles. Warm ember particles rising and fading, dark scene. Reference for ambient ember drift and fade-out timing.  
+   ↳ **use for:** ember atmosphere
+44. [Unreal Engine 5 Niagara Loot VFX - Fire Elements](https://www.artstation.com/artwork/142xZ2) — *ArtStation (Abdullah Saglam)*. Niagara fire-element loot VFX, glowing particles and sparks. Bright warm particles bursting and settling, dark background. Reference for a contained spark-burst pop on an event.  
+   ↳ **use for:** spark bursts
+45. [Unreal Engine 4 Fire Material & Effects](https://mmmatt.artstation.com/projects/dOrrmA) — *ArtStation (Matt Schaffter)*. Realistic UE4 fire material with seamless flame texture and per-particle distortion, blending photoreal flame with particle color. Warm fire with ember fallout on dark. Reference for blending real fire look with emissive ember particles.  
+   ↳ **use for:** ember atmosphere / glow
+46. [Embergen Fire tests](https://www.artstation.com/artwork/oOD2nz) — *ArtStation (Realtime VFX)*. EmberGen fluid-sim fire tests with embers and smoke. Volumetric fire detail, glowing embers carried by turbulence, dark backdrop. Reference for realistic ember motion driven by turbulent flow.  
+   ↳ **use for:** ember atmosphere
+47. [Explosion with Embergen and UE4](https://dome1812.artstation.com/projects/zDKqEq) — *ArtStation (Dominic Maibaum)*. EmberGen + UE4 explosion with sprite anims, Niagara and shading. Bright burst core throwing sparks and embers outward, dark frame. Reference for an impactful spark/ember burst on a 'strike' impact.  
+   ↳ **use for:** spark bursts
+48. [VFX Stylized Fire (no flipbooks)](https://www.artstation.com/artwork/Qr542E) — *ArtStation (Pawel Margacz)*. Stylized fire built from a texture run through noise (no flipbooks). Clean warm flame with ember accents on dark. Reference for noise-driven fire/ember shader approach matching the single-noise-basis rule.  
+   ↳ **use for:** ember atmosphere / glow
+49. [Stylized VFX Practice in Embergen](https://www.artstation.com/artwork/6N6EG5) — *ArtStation (Christopher Haibel)*. Stylized fire flipbooks in EmberGen, smoke+emissive+depth packed into one flipbook. Warm emissive fire and embers on dark. Reference for packing emissive ember detail efficiently for real-time.  
+   ↳ **use for:** ember atmosphere / glow
+50. [Stylized Fire Explosion VFX](https://www.artstation.com/artwork/BXxJNA) — *ArtStation (Katie Stine)*. Hand-painted stylized AOE fire explosion in Unreal. Bright burst with ember scatter, warm palette on dark. Reference for a stylized spark/ember burst silhouette and timing.  
+   ↳ **use for:** spark bursts
+51. [Stylized Fire Effect (Unity Shuriken)](https://nil96.artstation.com/projects/oOEB3z) — *ArtStation (Nil Mullol)*. Stylized fire effect made with Unity's Shuriken particle system. Warm flame with rising ember particles, dark background. Reference for particle-system ember drift parameters.  
+   ↳ **use for:** ember atmosphere
+52. [Stylized Fire VFX (Niagara, Substance Designer)](https://www.artstation.com/artwork/Gedqba) — *ArtStation (Ivan Bodiroga)*. Real-time fire VFX in UE5 Niagara, flipbook + Substance Designer texture. Warm flame core shedding embers, dark stage. Reference for real-time fire-plus-ember integration and texture sourcing.  
+   ↳ **use for:** ember atmosphere / spark bursts
+53. ["FIRE, SMOKE, SPARKS" 2D VFX Animation](https://www.artstation.com/artwork/g2mLRE) — *ArtStation (Ivan Boyko)*. Hand-animated 2D fire, smoke and sparks. Stylized spark bursts and ember puffs, warm palette on dark. Reference for the timing/spacing of stylized spark animation frames.  
+   ↳ **use for:** spark bursts
+54. ["Ember Game" VFX](https://tesla_glass.artstation.com/projects/DxNP3R) — *ArtStation (Christian Turner)*. VFX for a game titled 'Ember', glowing particle effects. Warm ember particles and sparks against dark game scenes. Reference for in-game ember atmosphere and spark feedback.  
+   ↳ **use for:** ember atmosphere / spark bursts
+55. [Fire particles embers sparks (overlay resource preview)](https://www.artstation.com/marketplace/p/ApL8X/fire-particles-embers-sparks) — *ArtStation (Marketplace)*. Fire particles, embers and sparks isolated on a black background (video overlay pack preview). Discrete warm glowing particles with motion, pure black field. Reference for ember-on-void compositing density and look.  
+   ↳ **use for:** ember atmosphere / spark bursts
+56. [Battle Arena Environment](https://www.artstation.com/artwork/rl1Wo2) — *ArtStation*. Otherworldly combat arena, haunting atmosphere with embers and fire light. Warm glow pools, drifting embers, monumental dark architecture. Reference for ember atmosphere at large architectural scale.  
+   ↳ **use for:** ember atmosphere / glow
+57. [Forge Fantasy (weapon-forging concept)](https://www.artstation.com/artwork/1lnB2) — *ArtStation (Sergey Mauze)*. Game concept where you forge weapons by mixing materials. Glowing molten metal, sparks on combine, warm forge light in dark. Reference for the spark feedback when metal is worked/cast.  
+   ↳ **use for:** spark bursts / glow
+58. [Forge](https://www.artstation.com/artwork/l6JzV) — *ArtStation*. Forge environment with fire and ember atmosphere. Warm emissive light, floating sparks, dark stone. Reference for general forge-stage glow and ember placement.  
+   ↳ **use for:** ember atmosphere / glow
+59. [Campfire at Night - Low Poly](https://www.artstation.com/artwork/OyXzvk) — *ArtStation*. Low-poly snow scene with a campfire at night (3DS Max / Arnold). Warm fire core, sparse rising embers, dark blue-black surroundings. Reference for minimal ember count and warm key against a cold dark field.  
+   ↳ **use for:** ember atmosphere
+60. [Dark Souls Bonfire (Blender)](https://www.artstation.com/artwork/6bE3DV) — *ArtStation (Deus Vulture)*. Dark Souls bonfire render in Blender with fire effects. Warm bonfire glow, rising embers, deep black background. Reference for an iconic ember-shedding fire focal point on void.  
+   ↳ **use for:** ember atmosphere / glow
+61. [Dark Souls III Bonfire Fanart](https://forlornviking.artstation.com/projects/ogyrJ) — *ArtStation (Marcus Schmidt)*. Dark Souls III bonfire fanart, glowing coals and rising sparks. Hot ember bed, warm sparks lifting, dark surround. Reference for the coal-glow base plus ember drift combination.  
+   ↳ **use for:** ember atmosphere / glow
+62. [Dark Fantasy environment](https://www.artstation.com/artwork/OPxQb) — *ArtStation (Magdalena Swiderska)*. Dark fantasy environment with atmospheric warm light and embers. Moody dark palette punctuated by glowing particles. Reference for ember atmosphere supporting a dark, brutalist-leaning mood.  
+   ↳ **use for:** ember atmosphere
+63. [Dark Souls Environment Concept Art](https://www.artstation.com/artwork/q9nDlN) — *ArtStation (Astraw)*. Dark Souls-style environment concept, dark atmosphere with fire/ember accents. Deep shadow, warm glowing points, brooding mood. Reference for embers as sparse warmth in a near-black scene.  
+   ↳ **use for:** ember atmosphere
+64. [World of Warcraft - Revendreth - Ember Ward Environment Art](https://kukoowl.artstation.com/projects/OodyY8) — *ArtStation (Kuko Cai)*. WoW Revendreth Ember Ward environment, specialized lighting with ember accents. Warm glowing particles, dramatic dark gothic setting. Reference for ember atmosphere in a stylized dark fantasy world.  
+   ↳ **use for:** ember atmosphere / glow
+65. [Forge of Hephaestus (Exillium master's project alt view)](https://www.artstation.com/artwork/y99EQ) — *ArtStation (MOOD Visuals)*. God of War environment design study with molten/forge lighting. Warm emissive light, embers, dark mythic architecture. Reference for cinematic forge lighting and ember atmosphere.  
+   ↳ **use for:** ember atmosphere / glow
+66. [Blazing Fire Monk - Embers of Power](https://www.deviantart.com/floxyart/art/Blazing-Fire-Monk-Embers-of-Power-1135095932) — *DeviantArt (FloxyArt)*. Warrior radiating flames with molten embers crackling across his arms, illuminating dark ruins. Hot white-gold cores, ember-orange falloff, dark scene lit by the figure. Reference for embers as the only light around a subject.  
+   ↳ **use for:** ember atmosphere / glow
+67. [The Fire Fades, And Only Embers Remain](https://www.deviantart.com/nocluse/art/The-Fire-Fades-And-Only-Embers-Remain-613216560) — *DeviantArt (Nocluse)*. Dark Souls bonfire scene, undead warrior at a fading bonfire. Sparse dying embers, deep red-orange glow, near-black field. Reference for low-density cooling-ember mood and warm-on-void.  
+   ↳ **use for:** ember atmosphere
+68. [The Burning Prince](https://www.deviantart.com/darksilvania/art/The-Burning-Prince-663051192) — *DeviantArt (Darksilvania)*. Character on a throne of ember and brimstone. Glowing ember bed, rising sparks, dark dramatic surroundings. Reference for an ember-bed glow and upward spark drift around a figure.  
+   ↳ **use for:** ember atmosphere / glow
+69. [Fire and Fury](https://www.deviantart.com/eneakelo/art/Fire-and-Fury-1234092515) — *DeviantArt (eneakelo)*. Colossal dragon over a battlefield engulfed in flames, embers filling the air. High-density airborne embers, warm orange-gold, smoky dark sky. Reference for dense atmospheric ember fields at epic scale.  
+   ↳ **use for:** ember atmosphere
+70. [Fire Golem Made Of Cracked Wood Embers](https://www.deviantart.com/nopasaran-tsin/art/Fire-Golem-Made-Of-Cracked-Wood-Embers-Whose-Piece-1090745497) — *DeviantArt (Nopasaran-Tsin)*. Golem of cracked embered wood held by magical energy, lava and smoke. Glowing fissures across dark mass, ember sparks, lava glow. Reference for the cracked-emissive surface and ember shedding (cooling-metal analog).  
+   ↳ **use for:** glow / ember atmosphere
+71. [Dark Souls: Enchanted Ember](https://www.deviantart.com/marknoyart/art/Dark-Souls-Enchanted-Ember-642271321) — *DeviantArt (MarkNoyArt)*. Dark Souls-themed scene with ember/fire accents in a dark forest. Sparse warm glowing points, moody dark palette. Reference for embers as atmospheric warmth in a dark environment.  
+   ↳ **use for:** ember atmosphere
+72. [Ember in the Dark](https://www.deviantart.com/pavelkunc/art/Ember-in-the-Dark-884158002) — *DeviantArt (PavelKunc)*. Character art lit in darkness with ember/fire accents. Warm glowing highlights against deep shadow. Reference for ember-lit rim light and warm-on-black framing.  
+   ↳ **use for:** ember atmosphere / glow
+73. [Dark Ember](https://www.deviantart.com/regend-alue/art/Dark-Ember-870704546) — *DeviantArt (Regend-Alue)*. Dark ember-themed digital piece, glowing embers in a shadowed scene. Warm points of light, dark dominant field. Reference for sparse ember glow and mood.  
+   ↳ **use for:** ember atmosphere
+74. [Dark Fantasy: Fire City](http://cglas.deviantart.com/art/Dark-Fantasy-Fire-City-674391281) — *DeviantArt (CGlas)*. Dark fantasy burning city, embers and smoke filling the air. Medium-high airborne ember density, warm orange glow, smoky dark backdrop. Reference for an ember-laden atmospheric haze over an environment.  
+   ↳ **use for:** ember atmosphere
+75. [Fire Ember (30min spitpaint)](https://www.deviantart.com/cobaltplasma/art/Fire-Ember-30min-spitpaint-849861148) — *DeviantArt (cobaltplasma)*. Quick paint of fire and ember effects. Loose warm ember points and flame, dark background. Reference for gestural ember shapes and warm-on-dark value structure.  
+   ↳ **use for:** ember atmosphere
+76. [Burning Embers Texture](https://www.deviantart.com/contenthydra/art/Burning-Embers-Texture-532715783) — *DeviantArt (ContentHydra)*. Abstract burning-embers texture. Field of warm glowing ember points and cracks, dark base. Reference for an ember/cracked-coal texture usable as an emissive or overlay.  
+   ↳ **use for:** ember atmosphere / glow
+77. [Scattered Embers](https://www.deviantart.com/cloudymayday/art/Scattered-Embers-183966594) — *DeviantArt (CloudyMayDay)*. Scattered glowing embers across a dark field. Low-to-medium density of warm points, soft glow, drifting feel. Reference for ember scatter distribution against void.  
+   ↳ **use for:** ember atmosphere
+78. [Fantasy within the Burning Embers](https://www.pinterest.com/pin/fantasy-within-the-burning-embers--210613720046108418/) — *Pinterest*. Fantasy scene set within burning embers. Warm ember glow, airborne sparks, dark dramatic mood. Reference for embedding a scene inside an ember-filled atmosphere.  
+   ↳ **use for:** ember atmosphere
+79. [Burning Hot Bonfire Fire Sparks On A Dark Background (3D render)](https://www.pinterest.com/pin/art-design-illustration-artworks-in-2022--943293084423951585/) — *Pinterest*. 3D-rendered flying embers from a bonfire on a dark background. Discrete warm glowing sparks with soft halos, pure dark field. Reference for clean CG ember-on-void distribution and glow.  
+   ↳ **use for:** ember atmosphere / spark bursts
+80. [Burning Fire Embers Against Black Background, Minimal Sparks](https://www.pinterest.com/pin/burning-fire-embers-against-black-background-minimal-sparks-in-2023--1035335401819862948/) — *Pinterest*. Minimal sparks/embers against pure black. Low density, warm orange-gold points with subtle glow, lots of negative space. Reference for a restrained, brutalist ember count over the #0B0C10 void.  
+   ↳ **use for:** ember atmosphere
+81. [Embers PNG overlay effects](https://uk.pinterest.com/pin/embers-transparent-png-overlay-effects--34269647160299135/) — *Pinterest*. Transparent ember overlay assets on dark. Warm glowing ember particles isolated for compositing, varied sizes. Reference for ember-overlay sizing/spacing and additive glow look.  
+   ↳ **use for:** ember atmosphere / spark bursts
+82. [Sorcerer summons colossal fire tornado (fire magic spell art)](https://www.pinterest.com/pin/sorcerer-summons-colossal-fire-tornado-fire-magic-spell-art--5066618329679629/) — *Pinterest*. Lone sorcerer channeling a massive firestorm, embers and sparks flying. High-density swirling embers, warm orange-gold, dark dramatic environment. Reference for embers caught in a vortex / energetic spark motion.  
+   ↳ **use for:** spark bursts / ember atmosphere
+
+
+## Fire Opal & Gems
+
+### Real (25)
+
+1. [Fire Opal — Pictures and Definition (geology.com)](https://geology.com/gemstones/opal/fire-opal.shtml) — *geology.com*. Reference page of polished Mexican fire opal: transparent-to-translucent warm body color from bright yellow through orange to vivid cherry-red, lit from within. Occasional green play-of-color flashes. Pure warm ember tones — directly on the GAELWORX ember/gold/Celtic-Blood axis.  
+   ↳ **use for:** prismatic material / Web fork (warm fire-opal body color reference)
+2. [Pictures of Opal — Black, Fire, Boulder, Blue and Pink (geology.com)](https://geology.com/gemstones/opal/) — *geology.com*. Gallery survey of opal varieties with specimen photos. Best for contrasting fiery warm fire-opal against dark-bodied black opal where the play-of-color reads as sharp spectral flashes on near-void black — the 'metal is the only light' read.  
+   ↳ **use for:** JewelChamber (play-of-color on dark body)
+3. [Fire Opal — What Is It, How Is It Formed (Geology Page)](https://www.geologypage.com/2019/11/fire-opal.html) — *geologypage.com*. Macro fire-opal imagery; warm transparent orange-red body with internal glow, some specimens showing play-of-color. Saturated ember hue against neutral grounds.  
+   ↳ **use for:** prismatic material (fire-opal body color)
+4. [Fire Opal with play-of-colour (Emil Weis Opals encyclopedia)](https://www.emilweis.com/en/opal-encyclopedia/fire-opal-with-play-of-color) — *emilweis.com*. Specialist dealer macro shots of the rare fire opal that ALSO shows play-of-color: warm cherry/orange body with iridescent green-blue fire dancing inside. Exactly the 'warm body + iridescent play-of-color' brief.  
+   ↳ **use for:** Web fork / prismatic material (fire-opal + iridescence)
+5. [Opal iridescence — play-of-colour science (Opal Diamond Factory)](https://opaldiamondfactory.com.au/opal/science/iridescence/) — *opaldiamondfactory.com.au*. Close-up opal iridescence: shifting rainbow play-of-color from silica-sphere diffraction. Thin-film interference, spectral colors over a dark body. Useful for the prismatic/dispersion read of the gem material.  
+   ↳ **use for:** prismatic material (iridescence / thin-film color)
+6. [Play of Color — the fiery flash of precious opals (Opal Auctions)](https://www.opalauctions.com/learn/technical-opal-information/play-of-color) — *opalauctions.com*. Macro precious-opal play-of-color examples — bursts of colored light converting to white, harlequin patches and rolling fire. Reference for how prismatic flashes move across a stone as the angle changes.  
+   ↳ **use for:** JewelChamber (animated play-of-color)
+7. [Fire Opal Gallery — specimen photos (mindat.org gm/6725)](https://www.mindat.org/gm/6725) — *mindat.org*. Mineralogy specimen gallery: many macro photos of fire opal, warm orange-red translucent bodies, some in rhyolite matrix. Authoritative real specimens, varied lighting — strongest single source for true fire-opal color.  
+   ↳ **use for:** prismatic material / JewelChamber (fire-opal body color)
+8. [Precious Fire Opal Gallery — specimen photos (mindat.org gm/9815)](https://www.mindat.org/gm/9815) — *mindat.org*. Gallery of the rare precious fire opal: warm fiery body WITH play-of-color. Green/blue spectral fire inside an orange-red stone. The literal warm-body + iridescence target for the Web fork material.  
+   ↳ **use for:** Web fork / prismatic material (fire-opal + play-of-color)
+9. [Mexican Fire Opal — mineral data & localities (mindat.org min-9797)](https://www.mindat.org/min-9797.html) — *mindat.org*. Species page with embedded specimen photos of Mexican (Querétaro) fire opal — nodules in rhyolite, vivid warm bodies, some with green play. Good for natural rough-vs-cut color reference.  
+   ↳ **use for:** JewelChamber (fire-opal specimens)
+10. [Precious Fire Opal — mineral data (mindat.org min-9815)](https://www.mindat.org/min-9815.html) — *mindat.org*. Species page for precious fire opal with specimen photos showing warm body color plus iridescent fire. Mineralogical, color-accurate.  
+   ↳ **use for:** prismatic material (fire-opal + iridescence)
+11. [Opal from Queretaro, Mexico — locality specimen (mindat.org locentry-988543)](https://www.mindat.org/locentry-988543.html) — *mindat.org*. Single high-quality Querétaro fire-opal specimen photo — translucent ember-orange body, internal glow, raw matrix context. The classic Mexican fire opal look.  
+   ↳ **use for:** JewelChamber (hero fire-opal specimen)
+12. [Carbonera Mine, Queretaro — fire opal locality gallery (mindat.org loc-9604, ~113 photos)](https://www.mindat.org/loc-9604.html) — *mindat.org*. Deep locality gallery (~113 photos) of fire opal from a single famous Mexican mine — rough nodules in rhyolite, polished faces, warm bodies, occasional play. Large set, consistent ember palette.  
+   ↳ **use for:** JewelChamber / prismatic material (volume of fire-opal references)
+13. [Opal (Var: Precious Opal) specimen photo (mindat.org photo-756683)](https://www.mindat.org/photo-756683.html) — *mindat.org*. Single precious-opal specimen photo: strong harlequin play-of-color, spectral patches over a dark body. Crisp macro — ideal for the prismatic flash look.  
+   ↳ **use for:** prismatic material (play-of-color patches)
+14. [Precious Opal + Precious Fire Opal specimen photo (mindat.org photo-402904)](https://www.mindat.org/photo-402904.html) — *mindat.org*. Specimen combining precious opal with precious fire opal — warm fiery body and iridescent play in one stone. Directly on-brief for warm-body + play-of-color.  
+   ↳ **use for:** Web fork / prismatic material
+15. [Opal Gallery — all opal varieties (mindat.org gm/3004)](https://www.mindat.org/gm/3004) — *mindat.org*. Master opal gallery: black, crystal, boulder, fire, precious. Broad reference for how play-of-color reads on dark vs light bodies and how warm fire opal differs from spectral precious opal.  
+   ↳ **use for:** JewelChamber (opal variety survey)
+16. [Welo Ethiopia Opal — article with macro specimens (mindat.org article 1121)](https://www.mindat.org/article.php/1121/Welo+Ethiopia+Opal+) — *mindat.org*. Jon Young article on Welo opal with macro photos: high-transparency crystal opal with vivid rolling rainbow play-of-color and harlequin patterning. Bright spectral fire in a clear body.  
+   ↳ **use for:** prismatic material (transparent body + play-of-color)
+17. [Welo Ethiopian Opal — macro photograph (Macroville Photography)](https://macrovillephotography.com/products/welo-ethiopian-opal.html) — *macrovillephotography.com*. Fine-art macro of Welo opal: extreme close-up where play-of-color fills the frame as a field of shifting spectral cells. Abstract, jewel-bright — great texture/material reference.  
+   ↳ **use for:** prismatic material (close-up iridescent field)
+18. [Ruby Gallery — mineral specimen photos (mindat.org gm/3473)](https://www.mindat.org/gm/3473) — *mindat.org*. Specimen gallery of natural ruby crystals: deep Celtic-Blood-to-crimson red, hexagonal crystals, some fluorescing, some faceted. Core 'Celtic Blood' #C1292E gem reference for the chamber.  
+   ↳ **use for:** JewelChamber (red gem / Celtic Blood)
+19. [Citrine — yellow-to-orange gem (geology.com)](https://geology.com/gemstones/citrine/) — *geology.com*. Faceted citrine macro: transparent yellow → honey → reddish Madeira orange quartz, bright internal brilliance and clean facet reflections. Warm gold/amber tone matching #FFB24D.  
+   ↳ **use for:** prismatic material / JewelChamber (gold-amber gem)
+20. [Ruby — Gemstone Gallery (mindat.org gm/3473 via Ruby Gallery)](https://www.mindat.org/gl/210604) — *mindat.org*. Mindat gallery page surfacing precious/fire opal specimens with play-of-color in varied lighting — additional spectral-flash references over dark bodies.  
+   ↳ **use for:** JewelChamber (play-of-color references)
+21. [Welo opal gallery (mindat.org gl/210582)](https://www.mindat.org/gl/210582) — *mindat.org*. Mindat gallery of Ethiopian Welo opal specimens — transparent crystal opal with rolling multicolor play-of-color. Bright, jewel-clear, prismatic.  
+   ↳ **use for:** prismatic material (transparent play-of-color)
+22. [Red gem on dark pebbles — faceted ruby/garnet macro (Vecteezy)](https://www.vecteezy.com/photo/60000166-red-gem-on-dark-pebbles-faceted-ruby-or-garnet-stone-sparkling-jewel-sitting-on-a-pile-of-rocks-focus-on-crystal-elegant-treasure) — *vecteezy.com*. Faceted red ruby/garnet sparkling on dark rock, focus on the crystal — sharp facet highlights and deep red body against near-black ground. Pure JewelChamber composition: a single jewel as the only light.  
+   ↳ **use for:** JewelChamber (red gem on void)
+23. [A Dazzling Macro Project — light reflected in opals (PetaPixel / Stangl + Cooper)](https://petapixel.com/2022/03/24/a-dazzling-macro-project-featuring-the-dancing-light-reflected-in-opals/) — *petapixel.com*. Christian Stangl x Max Cooper macro film stills: opal play-of-color shot like 'looking into another universe' — abstract fields of moving spectral light. Cinematic reference for animating the gem material.  
+   ↳ **use for:** Web fork (cinematic play-of-color motion)
+24. [Types of Opal With Photos (Geology In)](https://www.geologyin.com/2016/06/types-of-opal-with-photos.html) — *geologyin.com*. Photo survey of opal types incl. fire and black opal; warm fire-opal bodies and high-contrast play-of-color on dark stones. Good comparison reference.  
+   ↳ **use for:** JewelChamber (opal type comparison)
+25. [Glowing Crystals — stock photo set (iStock)](https://www.istockphoto.com/photos/glowing-crystals) — *istockphoto.com*. Large set of glowing crystal photos/renders on dark backgrounds: faceted gems with emissive cores, fluorite/benitoite-style glow, rainbow holographic spheres. Mood board for 'crystal as the only light.'  
+   ↳ **use for:** JewelChamber (glowing crystal mood)
+
+### Fantasy / Concept Art (79)
+
+1. [Magic Crystals — fantasy UI gems (Aleksandra Zabielska, ArtStation)](https://www.artstation.com/artwork/mqvZ2e) — *ArtStation*. Set of faceted magic-gem icons in many colors, glowing inner light, clean facets on dark ground. Includes warm red/orange/amber variants matching the forge palette. Game-UI polish.  
+   ↳ **use for:** JewelChamber (faceted glowing gem language)
+2. [Magic Crystals (ArtStation artwork RYX13E)](https://www.artstation.com/artwork/RYX13E) — *ArtStation*. Cluster of faceted magic crystals with internal emissive glow and rim light, prismatic facets. Strong reference for stylized gem facet shading and inner-fire emission.  
+   ↳ **use for:** prismatic material (stylized facet + emission)
+3. [Crystal Artifact (ArtStation artwork BOJ2m)](https://www.artstation.com/artwork/BOJ2m) — *ArtStation*. Crystal embedded in a forged artifact — gem core glowing within metal housing. Directly evokes 'metal + divine fire gem' (the A/E exception). Useful for the gem-in-iron read.  
+   ↳ **use for:** Web fork (gem-in-metal artifact)
+4. [VFX — Crystal (Mikael Martinez DEWOOD, ArtStation 49Jw02)](https://www.artstation.com/artwork/49Jw02) — *ArtStation*. Real-time VFX deep magic crystal: refractive faceted shell with a pulsing glowing interior, energy wisps, caustic-like light. Excellent for the live, animated prismatic material in WebGL.  
+   ↳ **use for:** prismatic material (real-time refraction + glow VFX)
+5. [Magic Crystal with mage (ArtStation Z5e2xx)](https://www.artstation.com/artwork/Z5e2xx) — *ArtStation*. Towering magic crystal as a light source in a dark scene, casting colored light on a figure. Scale + 'crystal is the only light' staging for the JewelChamber.  
+   ↳ **use for:** JewelChamber (giant crystal as light source)
+6. [The Magic Crystal: Summer Project (Emmett Ford, ArtStation projects/Q120r)](https://emmettford.artstation.com/projects/Q120r) — *ArtStation*. Concept sheet exploring a magic-crystal artifact: color/shape experiments and how a crystal integrates into a built object. Great process reference for crystal facet + housing design.  
+   ↳ **use for:** Web fork (crystal artifact concepting)
+7. [Stylized Magic Crystal — Substance Designer material (Laura Espinosa Ospina)](https://missflox.artstation.com/projects/DAAVOE) — *ArtStation*. Procedural stylized crystal material with exposed color params, scratches, highlights; rendered in Blender Cycles. A tileable prismatic gem look — recolor to ember/Celtic-Blood for the Web fork.  
+   ↳ **use for:** prismatic material (procedural gem texture)
+8. [Stylized Crystal — Substance Designer (3dExtrude, ArtStation gJ9ym8)](https://www.artstation.com/artwork/gJ9ym8) — *ArtStation*. Procedural faceted crystal material, shape-modifier facets and tessellated 3D crystal effect. Clean stylized gem faceting reference for shader work.  
+   ↳ **use for:** prismatic material (faceting / tessellation)
+9. [Stylized Crystals — Substance Designer (3dExtrude, ArtStation L2Or9A)](https://www.artstation.com/artwork/L2Or9A) — *ArtStation*. Cluster of stylized crystals, varied color params, translucent body with highlight play. Reference for crystal-cluster geometry and color variation across a gem field.  
+   ↳ **use for:** JewelChamber (crystal cluster variation)
+10. [Stylized Crystals — Substance Designer (Bryce Wallace, ArtStation aRKbdJ)](https://www.artstation.com/artwork/aRKbdJ) — *ArtStation*. Procedural stylized crystals rendered in Marmoset — refractive faceted shards with inner light. Material breakdown useful for prismatic transmission settings.  
+   ↳ **use for:** prismatic material (transmission + refraction)
+11. [Crystal Fantasy Weapons Concept Art (Mauricio Carrasco, ArtStation zDwr1Q)](https://www.artstation.com/artwork/zDwr1Q) — *ArtStation*. Weapons whose blades/cores are glowing crystal — faceted gem fused to forged forms with emissive energy. The 'metal + gem fire' marriage, on-theme for GAELWORX.  
+   ↳ **use for:** Web fork (gem-and-metal artifact design)
+12. [Game VFX Concept — Fantasy Magical Orb (ArtStation 9mJVON)](https://www.artstation.com/artwork/9mJVON) — *ArtStation*. Spherical magic gem/orb VFX: layered refraction, plasma core, swirling energy and caustic glow. Reference for a rounded prismatic 'cabochon' gem rather than faceted — soft fire-opal read.  
+   ↳ **use for:** prismatic material (orb / cabochon glow)
+13. [Stylized Energy Crystal Tutorial (Javad Rajabzade, ArtStation 8wD0BE)](https://www.artstation.com/artwork/8wD0BE) — *ArtStation*. Energy crystal with heat-map emissive driving an inner glow and translucent body; Substance Painter + Marmoset. Direct technique reference for the glowing-core prismatic shader.  
+   ↳ **use for:** prismatic material (emissive core technique)
+14. [Stylized Crystals in Marmoset TB3 — tutorial (Dylan Mellott, ArtStation q4eZD)](https://www.artstation.com/artwork/q4eZD) — *ArtStation*. Gem creation breakdown: high/low poly, emissive interior + heat-map glow, ray-traced refraction/transmission. The exact material recipe for a glowing prismatic gem — recolor warm.  
+   ↳ **use for:** prismatic material (full gem material recipe)
+15. [Magic Crystals (Aleksandra Zabielska — fantasy gem set, Pinterest ideas: fantasy gemstone)](https://www.pinterest.com/ideas/fantasy-gemstone/911944865077/) — *Pinterest*. Curated board of fantasy gemstones: faceted glowing gems in every hue incl. warm reds/oranges, set in metal, with inner fire. Broad style survey for the JewelChamber gem language.  
+   ↳ **use for:** JewelChamber (fantasy gem mood board)
+16. [Fantasy Crystal — curated concept board (Pinterest ideas)](https://www.pinterest.com/ideas/fantasy-crystal/956900755569/) — *Pinterest*. Board of fantasy crystals/shards: emissive cores, prismatic facets, dark dramatic grounds. Good range of crystal silhouettes and glow treatments.  
+   ↳ **use for:** JewelChamber (crystal silhouette + glow)
+17. [Glowing Crystal — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/glowing-crystal/903671359007/) — *Pinterest*. Glowing crystals across art and photo: inner light, rim glow, caustic spill on dark surfaces. The 'crystal is the only light' mood at volume.  
+   ↳ **use for:** JewelChamber (glow mood)
+18. [Crystal Gem Character Design — board (Pinterest ideas)](https://www.pinterest.com/ideas/crystal-gem-character-design/941035766999/) — *Pinterest*. Stylized faceted-gem designs and gem-bodied characters — strong faceting, saturated translucent color, emissive highlights. Reference for crisp stylized gem geometry.  
+   ↳ **use for:** prismatic material (stylized faceted gem)
+19. [Magic Stone — fantasy gems & crystals board (Pinterest, cattydot)](https://www.pinterest.com/cattydot/magic-stone/) — *Pinterest*. Large board of fantasy gem icons and magic stones: glowing cores, cut and raw forms, many warm fire-toned. Practical icon-level references for gem rendering.  
+   ↳ **use for:** JewelChamber (gem icon language)
+20. [Magical Stones — dnd magic ring & mineral art board (Pinterest, fmkzfm)](https://www.pinterest.com/fmkzfm/magical-stones/) — *Pinterest*. Board mixing real minerals with fantasy gem art — magic rings, glowing set stones, mineral macro. Bridges the real-specimen and fantasy-gem looks.  
+   ↳ **use for:** JewelChamber (real-to-fantasy gem bridge)
+21. [Fantasy — Gems and Jewelry board (Pinterest, mortious)](https://www.pinterest.com/mortious/fantasy-gems-and-jewelry/) — *Pinterest*. Curated fantasy gems and jewelry: faceted stones in ornate metal settings, glowing centers, treasure context. Useful for gem-in-setting and treasure staging.  
+   ↳ **use for:** JewelChamber (gem settings / treasure)
+22. [Fire Crystal — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/fire-crystal/905888200047/) — *Pinterest*. Fire crystals: rough volcanic-black exteriors with fiery red-orange glowing cores, molten centers, jagged forms. Almost a literal forge-gem — black iron shell + ember fire inside.  
+   ↳ **use for:** Web fork (forge fire-crystal — ember core in dark shell)
+23. [Lava Crystals — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/lava-crystals/920507780447/) — *Pinterest*. Crystals fused with lava/molten rock: glowing magma veins through dark crystalline forms. Direct match to GAELWORX 'molten metal is the only light' over a void-black body.  
+   ↳ **use for:** Web fork / prismatic material (molten-veined crystal)
+24. [Magic Crystal Concept Art (Danycapo, DeviantArt 849414311)](https://www.deviantart.com/danycapo/art/Magic-Crystal-Concept-Art-849414311) — *DeviantArt*. Faceted magic crystal concept with luminous interior and rim light on a dark ground. Clean single-gem hero study — composition for a focal JewelChamber stone.  
+   ↳ **use for:** JewelChamber (hero gem composition)
+25. [Glowing Ornate Fantasy Ring (a4mbs, DeviantArt 992825984)](https://www.deviantart.com/a4mbs/art/Glowing-Ornate-Fantasy-Ring-992825984) — *DeviantArt*. Ring whose gem glows with a fiery orange heart, 'a light both mesmerizing and ominous,' set in ornate metal. Warm fire-opal-like core in forged setting — perfectly on the ember palette.  
+   ↳ **use for:** Web fork (ember gem in ornate metal)
+26. [Glowing Crystal Cave, Fantasy Art (Dreamstime illustration 357779036)](https://www.dreamstime.com/glowing-crystal-gem-dark-cave-fantasy-art-good-resolution-stock-photo-glowing-crystal-gem-dark-cave-fantasy-art-generative-image357779036) — *Dreamstime*. Single large glowing gem in a pitch-dark cave, light radiating onto rock. Textbook 'gem is the only light in the void' staging for the JewelChamber.  
+   ↳ **use for:** JewelChamber (gem-as-only-light cave)
+27. [300 Crystal Cave with Glowing Crystals (ArtStation bgO5wG)](https://www.artstation.com/artwork/bgO5wG?album_id=8869509) — *ArtStation*. Crystal cave environment lit entirely by glowing crystals — colored light spill, faceted formations, deep shadow. Environment-scale reference for the chamber.  
+   ↳ **use for:** JewelChamber (crystal cave environment)
+28. [Glowing Crystal Cave (Kendra Gruis, ArtStation 48qnbq)](https://www.artstation.com/artwork/48qnbq) — *ArtStation*. Painterly glowing-object-in-cave study with custom stalagmite/crystal brushwork; single luminous crystal driving the lighting. Strong atmosphere reference.  
+   ↳ **use for:** JewelChamber (atmosphere / single light)
+29. [Crystal Cave (ArtStation 48zKqY)](https://www.artstation.com/artwork/48zKqY) — *ArtStation*. Crystal cave concept: clustered translucent crystals catching light, layered depth, jewel-bright accents in darkness. Good for prismatic environment palette.  
+   ↳ **use for:** JewelChamber (prismatic environment)
+30. [The Glowing Caverns — art direction (Conor Vernon, ArtStation projects/VyeW6g)](https://conorvernon.artstation.com/projects/VyeW6g) — *ArtStation*. Art-directed glowing cavern level: bioluminescent crystal formations, controlled colored lighting, dramatic dark. Useful for chamber lighting design and palette discipline.  
+   ↳ **use for:** JewelChamber (lighting / art direction)
+31. [Crystal Cave environment concept (Sylvain Sarrailh, ArtStation tohad)](https://tohad.artstation.com/projects/mario-bros-the-lost-wolrd-crystal-cave-environment-concept) — *ArtStation*. Stylized crystal cave by a master environment artist — large glowing crystals, rich color bounce, cinematic staging. High-craft reference for the jewel-bright fork mood.  
+   ↳ **use for:** JewelChamber (cinematic crystal environment)
+32. [Crystal Cave — stylized Unreal env (Neil Ciccio Campbell, ArtStation 8lAxbx)](https://www.artstation.com/artwork/8lAxbx) — *ArtStation*. Real-time stylized crystal cave (Dark Crystal / Trollhunters inspired): emissive crystals, refraction, fantasy-miniature palette. Directly transferable to a WebGL chamber.  
+   ↳ **use for:** JewelChamber (real-time crystal env reference)
+33. [The Crystal Forest and Crystal Cave Concept Art (XDArtwork, DeviantArt 854831589)](https://www.deviantart.com/xdartwork/art/The-Crystal-Forest-and-Crystal-Cave-Concept-Art-854831589) — *DeviantArt*. Prismatic crystal forest/cave: forests of glowing faceted crystals, layered translucency, colored light shafts. Strong for a 'forest of gems' chamber variant.  
+   ↳ **use for:** JewelChamber (forest-of-crystals)
+34. [Concept Art: the Crystal Caves (Urar Studio)](https://urarstudio.com/concept-art-the-crystal-caves/) — *urarstudio.com*. Studio concept set of crystal caves — glowing crystal architecture, ambient colored fog, gem light sources. Multiple angles/variations of the jewel-bright environment.  
+   ↳ **use for:** JewelChamber (environment variations)
+35. [Crystal Cave Concept Art — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/crystal-cave-concept-art/905650884077/) — *Pinterest*. Board of crystal-cave concepts: bioluminescent crystals, underground rivers, jewel-toned light. Broad environmental survey for the chamber.  
+   ↳ **use for:** JewelChamber (environment mood board)
+36. [Giant Crystal Fantasy Art — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/giant-crystal-fantasy-art/894116484681/) — *Pinterest*. Board of monumental crystals: towering glowing shards dwarfing figures, dramatic scale and light. Reference for the awe/scale of a single hero gem in the fork.  
+   ↳ **use for:** JewelChamber (monumental crystal scale)
+37. [97 Best Crystal Cave ideas (Pinterest, honeybeeing)](https://www.pinterest.com/honeybeeing/crystal-cave/) — *Pinterest*. Deep board of crystal-cave references across art and photo — glow, prismatic color, dark grounds. Volume reference for the jewel-bright environment.  
+   ↳ **use for:** JewelChamber (environment references at volume)
+38. [Add Crystal Cave Dungeon to Stylized Unreal Scenes (80.lv)](https://80.lv/articles/add-crystal-cave-dungeon-to-your-stylized-unreal-engine-environments) — *80.lv*. Breakdown + renders of a stylized crystal-cave dungeon: emissive crystals, treasure-room staging, atmospheric dungeon lighting. Practical 3D reference for the chamber.  
+   ↳ **use for:** JewelChamber (3D crystal-cave breakdown)
+39. [Making a Beautiful Crystal in ZBrush/Substance/Marmoset (80.lv)](https://80.lv/articles/making-a-beautiful-crystal-in-zbrush-substance-3d-painter-marmoset-toolbag) — *80.lv*. Full crystal asset breakdown with hero renders: sculpted facets, emissive interior, ray-traced refraction. Reference renders + technique for a single prismatic gem.  
+   ↳ **use for:** prismatic material (hero gem render + technique)
+40. [Breakdown: Magical Crystal Stone House (80.lv)](https://80.lv/articles/breakdown-magical-crystal-stone-house) — *80.lv*. Environment where glowing crystals are the architecture and the light. Colored emissive crystal integrated into stone — reference for crystal-as-structure in the chamber.  
+   ↳ **use for:** JewelChamber (crystal architecture)
+41. [Fantasy Trapped Vault — interior environment (Render-State)](https://render-state.to/post/fantasy-trapped-vault/) — *render-state.to*. Fantasy vault interior with treasure and traps — gold and gem glints in dramatic low light, stone architecture. Reference for a treasure-vault staging of the gem fork.  
+   ↳ **use for:** JewelChamber (treasure vault interior)
+42. [Treasure Hoard (Niklavs Kalnins, ArtStation Ooe2lg)](https://www.artstation.com/artwork/Ooe2lg) — *ArtStation*. Dungeon-crawl treasure hoard: piles of gold and gems catching warm light in darkness. Reference for a glittering gem-and-gold field as the chamber floor.  
+   ↳ **use for:** JewelChamber (gem + gold hoard)
+43. [The treasure concept art (ArtStation Le1aK5)](https://www.artstation.com/artwork/Le1aK5) — *ArtStation*. Treasure concept: jewels, coins and artifacts lit by warm glow against shadow. Composition and material reference for a jewel-strewn scene.  
+   ↳ **use for:** JewelChamber (treasure composition)
+44. [Fantastical Treasure Hoard in Opulent Colors (NightCafe)](https://creator.nightcafe.studio/creation/0d9YdigDxaBShqHro9I3) — *creator.nightcafe.studio*. AI-art treasure hoard in saturated jewel colors — dense gems and gold, dramatic light. Color/density reference for an opulent gem field (use as mood, not final).  
+   ↳ **use for:** JewelChamber (opulent color mood)
+45. [Treasure Room — curated board (Pinterest, steven_t_will)](https://www.pinterest.com/steven_t_will/treasure-room/) — *Pinterest*. Board of treasure-room concepts: vaults of gems and gold, glints in darkness, varied architecture. Broad staging reference for a treasure-chamber fork.  
+   ↳ **use for:** JewelChamber (treasure-room staging)
+46. [Treasure Vault Fantasy Art — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/treasure-vault-fantasy-art/926306659986/) — *Pinterest*. Board of treasure-vault art: glowing gem piles, gilded interiors, dramatic chiaroscuro. Mood and lighting for the jewel chamber.  
+   ↳ **use for:** JewelChamber (vault lighting mood)
+47. [Dragon's Hoard map (Czepeku Maps)](https://www.czepeku.com/fantasy/maps/dragons-hoard) — *czepeku.com*. Top-down dragon hoard: vast field of gold and glittering gems, warm internal glow. Reference for a sea-of-treasure floor and warm-glint palette.  
+   ↳ **use for:** JewelChamber (hoard floor / warm glints)
+48. [Dragon Hoards and Other Treasure — board (Pinterest, bdodrill58)](https://www.pinterest.com/bdodrill58/dragon-hoards-and-other-treasure/) — *Pinterest*. Large board of dragon hoards: glowing gem-and-gold piles in cavern darkness. Volume reference for treasure density and warm jewel light.  
+   ↳ **use for:** JewelChamber (treasure density)
+49. [Magical Orb Concept Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/magical-orb-concept-art/897308644420/) — *Pinterest*. Board of glowing magic orbs/spheres: layered refraction, plasma cores, caustic glow. Reference for rounded cabochon-style prismatic gems (soft fire-opal read).  
+   ↳ **use for:** prismatic material (orb / cabochon glow)
+50. [Magic Crystal Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/magic-crystal-art/959217761317/) — *Pinterest*. Board of magic crystal art: raw volcanic-black crystals with fiery glowing cores, jagged molten forms. Strong forge-gem references (black shell + ember fire).  
+   ↳ **use for:** Web fork (forge fire-crystal mood)
+51. [Fantasy Gemstone — concept board (Pinterest, nanaggstickle)](https://www.pinterest.com/nanaggstickle/fantasy-gems/) — *Pinterest*. Personal board of fantasy gems: faceted glowing stones, set jewels, varied palettes incl. warm tones. Practical gem-rendering survey.  
+   ↳ **use for:** JewelChamber (gem rendering survey)
+52. [Magical Stones Fantasy Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/magical-stones-fantasy-art/921806064324/) — *Pinterest*. Board of magical stones: glowing set gems, rune-etched crystals, inner fire on dark grounds. Bridges gem + carved-stone (Ogham-adjacent) language.  
+   ↳ **use for:** JewelChamber (gem + carved-stone)
+53. [Magic Stones Fantasy Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/magic-stones-fantasy-art/920621318375/) — *Pinterest*. Board of magic stones with glowing cores and faceted bodies, many warm-hued. Reference for consistent gem glow + facet treatment.  
+   ↳ **use for:** prismatic material (glow + facet)
+54. [Crystal Artifact Ideas — board (Pinterest, gossinabox)](https://www.pinterest.com/gossinabox/crystal-artifact-ideas/) — *Pinterest*. Board of crystal artifacts: glowing crystal cores in built/ornate housings, fantasy landscapes. Reference for gem-in-artifact and crystal-as-power-object.  
+   ↳ **use for:** Web fork (crystal artifact ideas)
+55. [Fire Elemental / Fire Crystal MTG — board (Pinterest ideas)](https://www.pinterest.com/ideas/fire-elemental-mtg/917463973907/) — *Pinterest*. Board of fiery elemental and fire-crystal art: molten cores, ember light, warm-on-black drama. Aligns the gem fork with the forge's fire palette.  
+   ↳ **use for:** Web fork (fire palette crossover)
+56. [Lava City Fantasy Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/lava-city-fantasy-art/916469320508/) — *Pinterest*. Molten/lava environment art: glowing magma as the only light, black rock, ember rivers. Environmental crossover with the forge's molten-channel staging.  
+   ↳ **use for:** Web fork (molten environment crossover)
+57. [Gem Mine Cave / Molten Lava Cave concept (Adobe Stock 529542406)](https://stock.adobe.com/images/a-gem-mine-cave-underground-molten-lava-cave-deep-cavern-big-stalactite-concept-art-scenery-book-illustration-video-game-scene-serious-digital-painting-cg-artwork-background/529542406) — *stock.adobe.com*. Underground gem mine with molten lava: deep cavern, stalactites, glowing magma + embedded gems. Near-literal GAELWORX gem-fork-meets-forge scene.  
+   ↳ **use for:** JewelChamber / Web fork (gem mine + molten light)
+58. [Fantasy fire magic glowing orb/stone with lava flame effect (Freepik 359327233)](https://www.freepik.com/premium-ai-image/fantasy-fire-magic-glowing-orb-stone-with-lava-flame-effect-video-game-asset-2d-art_359327233.htm) — *freepik.com*. Game-asset fire gem: rounded stone with lava-flame surface and ember glow. Reference for a warm molten cabochon gem (use as mood; AI-generated).  
+   ↳ **use for:** prismatic material (molten ember cabochon)
+59. [Enchanted Crystal Sword with mystical glow (Freepik 200705030)](https://www.freepik.com/premium-ai-image/enchanted-crystal-sword-with-mystical-glow-fantasy-art-magical-artifact-glowing-purple-blue-gem_200705030.htm) — *freepik.com*. Crystal-bladed sword with a glowing set gem — 'Point the Sword' meets gem fire. Recolor cool gem to ember/Celtic-Blood; reference for gem-and-weapon integration (AI-generated).  
+   ↳ **use for:** Web fork (gem + sword integration)
+60. [30 Best Fantasy Items Concept Art Ideas (Kreafolk)](https://kreafolk.com/blogs/inspirations/fantasy-items-concept-art) — *kreafolk.com*. Curated set of fantasy item concepts incl. glowing gem artifacts, enchanted stones, crystal cores. Range reference for treating a gem as a hero 'item' in the fork.  
+   ↳ **use for:** Web fork (gem-as-item concepts)
+61. [Final Fantasy Crystal Chronicles — concept art (Neoseeker)](https://www.neoseeker.com/final-fantasy-crystal-chronicles-2020/concept_art/) — *neoseeker.com*. Official game concept art centered on glowing crystals — luminous crystal as sacred light source and world motif. High-craft reference for crystal-as-divine-light.  
+   ↳ **use for:** JewelChamber (crystal as sacred light)
+62. [Crystal Weapon — trope gallery (TV Tropes)](https://tvtropes.org/pmwiki/pmwiki.php/Main/CrystalWeapon) — *tvtropes.org*. Reference gallery of crystal weapons/objects across media — many examples of translucent glowing crystal forms. Useful breadth of crystal-as-object treatments.  
+   ↳ **use for:** Web fork (crystal-object survey)
+63. [Power Stone Collection — concept art (Creative Uncut)](https://www.creativeuncut.com/art_power-stone-collection_a.html) — *creativeuncut.com*. Game concept art featuring glowing power stones — faceted gems radiating energy as the core mechanic. Reference for a gem as an active, glowing power object.  
+   ↳ **use for:** Web fork (power-stone / active gem)
+64. [Fantasy Cathedral Concept Art — board (Pinterest ideas)](https://www.pinterest.com/ideas/fantasy-cathedral-concept-art/916472375710/) — *Pinterest*. Board of fantasy cathedral interiors — soaring sacred architecture, light shafts. Pair with crystal/geode refs for a 'gem cathedral' chamber (sacred + prismatic).  
+   ↳ **use for:** JewelChamber (gem-cathedral architecture)
+65. [Amethyst Cathedral — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/amethyst-cathedral/961922970979/) — *Pinterest*. Board of amethyst-cathedral imagery: vast geode interiors of clustered crystals as architecture. Reference for a crystal-lined chamber the camera moves through.  
+   ↳ **use for:** JewelChamber (geode-cathedral interior)
+66. [Giant Amethyst Geode — curated board (Pinterest ideas)](https://www.pinterest.com/ideas/giant-amethyst-geode/898748875823/) — *Pinterest*. Board of giant geodes: dense crystal-lined cavities, sparkling facets, deep interior shadow. Reference for the inner texture of a hollow gem chamber.  
+   ↳ **use for:** JewelChamber (geode interior texture)
+67. [Shining a light on Caustics with Shaders and React Three Fiber (Maxime Heckel)](https://blog.maximeheckel.com/posts/caustics-in-webgl/) — *blog.maximeheckel.com*. Technical article + live demos of gem/water caustics in WebGL via react-three-fiber. Directly actionable for the prismatic material's refraction/caustic light in the actual GAELWORX stack.  
+   ↳ **use for:** prismatic material (R3F caustics implementation)
+68. [Toolbag 3 Refraction Shader Tutorial (ArtStation ADmrW)](https://www.artstation.com/artwork/ADmrW) — *ArtStation*. Refraction shader breakdown for gems/glass with example renders — index of refraction, transmission, internal color. Reference for tuning the prismatic gem's refraction look.  
+   ↳ **use for:** prismatic material (refraction shader)
+69. [Fantasy Cave Environment Set — renders (Unreal Marketplace)](https://www.unrealengine.com/marketplace/en-US/product/fantasy-cave-environment-set) — *unrealengine.com*. Marketplace renders of a fantasy cave with PBR crystals and rock — glowing crystal formations in dark caverns. Real-time environment reference for the chamber.  
+   ↳ **use for:** JewelChamber (real-time cave environment)
+70. [Stylized Crystal Smart Material — community asset (Adobe Substance 3D)](https://substance3d.adobe.com/community-assets/assets/426930f47a99f60feeb7e728a9e6fa1c7fc5732e) — *substance3d.adobe.com*. Smart material preview of a stylized crystal — facet color, highlights, translucency on a sample mesh. Reference for the stylized gem surface look in 3D.  
+   ↳ **use for:** prismatic material (stylized gem surface)
+71. [Loot Gem Quest And Plant Icons (ArtStation Marketplace dzg)](https://www.artstation.com/marketplace/p/dzg/loot-gem-quest-and-plant-icons) — *ArtStation*. 120 realistic loot/gem icons incl. glowing variants on transparent backgrounds — faceted gems, clean inner light, many colors. Icon-grade gem rendering reference.  
+   ↳ **use for:** JewelChamber (faceted gem icon rendering)
+72. [1600+ Fantasy RPG icons — incl. gems (ArtStation Marketplace oBR8l)](https://www.artstation.com/marketplace/p/oBR8l/1600-fantasy-rpg-icons) — *ArtStation*. Large hand-painted RPG icon pack including many gem/crystal icons — facet styles, glow, color range. Broad reference for stylized gem painting.  
+   ↳ **use for:** prismatic material (painted gem styles)
+73. [8000+ Raven Fantasy Icons — gems & crystals (itch.io, Clockwork Raven)](https://clockworkraven.itch.io/raven-fantasy-icons) — *itch.io*. Massive icon set including gems, crystals and treasures — pixel/painted facets and glow. Reference for compact, readable gem rendering at small scale.  
+   ↳ **use for:** JewelChamber (small-scale gem rendering)
+74. [Top game assets tagged 'gem' (itch.io)](https://itch.io/game-assets/tag-gem) — *itch.io*. Browse of gem game-assets: faceted glowing gems, crystal sprites, treasure tiles in many styles. Wide survey of how games render prismatic gems.  
+   ↳ **use for:** prismatic material (game gem survey)
+75. [Set of crystal gems / druse — magical glowing minerals (Vecteezy 23847950)](https://www.vecteezy.com/vector-art/23847950-set-of-crystal-gems-druse-of-gemstones-magical-glowing-inside-minerals-fantasy-mystical-concept-colors-of-ruby-sapphire-emerald-topaz-amethyst-gems-illustrations-in-vintage-style) — *vecteezy.com*. Vector set of crystal gems/druses glowing from within — ruby/sapphire/emerald/topaz/amethyst, vintage mystical style. Clean shape + glow language for stylized gems.  
+   ↳ **use for:** JewelChamber (stylized gem shapes + glow)
+76. [Cartoon/stylized glowing gem illustrations (Dreamstime)](https://www.dreamstime.com/illustration/cartoon-glowing-gem.html) — *Dreamstime*. Set of stylized glowing gem illustrations — faceted cuts, emissive cores, including hot fiery-orange cube/crystal gems. Reference for warm stylized gem rendering.  
+   ↳ **use for:** prismatic material (warm stylized gem)
+77. [Mystical Glowing Artifact illustrations (Dreamstime)](https://www.dreamstime.com/illustration/generated-mystical-glowing-artifact.html) — *Dreamstime*. Set of glowing artifact illustrations — dark forms with fiery glowing cores and runes. Reference for the dark-shell + ember-core 'divine fire' artifact read.  
+   ↳ **use for:** Web fork (dark artifact + ember core)
+78. [Fantasy Glowing Crystals — stock illustrations set (Dreamstime)](https://www.dreamstime.com/photos-images/fantasy-glowing-crystals.html) — *Dreamstime*. Large set of fantasy glowing crystals: emissive faceted formations on dark grounds, varied hues incl. warm. Volume reference for crystal glow + facet variety.  
+   ↳ **use for:** JewelChamber (crystal glow variety)
+79. [Floating Crystal Gem — stock set (Dreamstime)](https://www.dreamstime.com/photos-images/floating-crystal-gem.html) — *Dreamstime*. Faceted gems floating against dark/space backgrounds — rim light, inner glow, prismatic facets isolated on void. Matches 'gem suspended in pure blackness' staging.  
+   ↳ **use for:** JewelChamber (floating gem on void)
+
