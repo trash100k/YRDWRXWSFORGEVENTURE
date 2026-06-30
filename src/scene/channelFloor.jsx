@@ -94,8 +94,9 @@ const frag = /* glsl */ `
     float molten = smoothstep(halfW, halfW - 0.10, overD);
     float lip = smoothstep(halfW + groove, halfW, wallD) * (1.0 - molten);
 
-    // the metal is the ONLY light: stone reveals only where the channel's glow reaches it
-    float lightFall = exp(-max(wallD - halfW, 0.0) * 0.5);
+    // the metal is the ONLY light: the glow pools TIGHT around the channel; everything beyond it
+    // falls to void (vastness implied by the dark the light can't reach)
+    float lightFall = exp(-max(wallD - halfW, 0.0) * 0.95);
     float vig = smoothstep(uRadius, uRadius * 0.35, length(p - uCenter));
 
     // ── basalt honeycomb pavement — Giant's Causeway, top-down ──
@@ -107,7 +108,7 @@ const frag = /* glsl */ `
     vec3 stoneGreen = vec3(0.022, 0.041, 0.034);          // Connemara green, only under light
     vec3 basalt = mix(stoneDark, stoneGreen, 0.25 + cell * 0.6);
     basalt *= (1.0 - joint * 0.85);
-    basalt *= mix(0.10, 1.0, lightFall) * vig;
+    basalt *= mix(0.035, 1.0, lightFall) * vig;            // far stone is near-black void
     basalt += gw_tempColor(0.5) * lightFall * (1.0 - joint) * 0.10 * (0.4 + 0.6 * cell);
 
     // ── groove wall: warm crusted levee at the inner edge (the Kilauea crust) ──
@@ -124,8 +125,9 @@ const frag = /* glsl */ `
     // crust crackle at the cooler edge: bright veins inside a darker setting skin
     float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the levee edge
     float vein = smoothstep(0.5, 0.62, fbm(vec2(overAlong * 4.0, overD * 4.0) + uTime * 0.08));
-    float tf = 0.46 + core * 0.46 + skin * 0.08 + actLit * 0.10 + uTemp * 0.04;
-    tf -= edgeMask * 0.20 * (1.0 - vein);                       // crust sets darker; cracks stay hot
+    // a crimson coal, white-hot only at the very core — not a wall of bright orange
+    float tf = 0.40 + core * 0.44 + skin * 0.07 + actLit * 0.09 + uTemp * 0.03;
+    tf -= edgeMask * 0.24 * (1.0 - vein);                       // crust sets to deep red; cracks stay hot
     tf = clamp(tf, 0.0, 1.0);
     vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.3, actLit);
 

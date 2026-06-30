@@ -67,8 +67,8 @@ function buildShots() {
     const T = CENTER.getTangentAt(tab.t).normalize()
     const N = sideN(T, tab.side < 0 ? -1 : 1)
     shots.push({
-      pos: P.clone().addScaledVector(up, 8.6).addScaledVector(N, 2.6).addScaledVector(T, -1.4),
-      target: P.clone().addScaledVector(N, 1.4),
+      pos: P.clone().addScaledVector(up, 9.8).addScaledVector(N, 3.4).addScaledVector(T, -1.6),
+      target: P.clone().addScaledVector(N, 1.6),
       strand: -1,
     })
   }
@@ -79,7 +79,7 @@ function buildShots() {
     const T = c.getTangentAt(sv.t).normalize()
     const N = sideN(T, sv.side < 0 ? -1 : 1)
     shots.push({
-      pos: P.clone().addScaledVector(up, 6.2).addScaledVector(N, 2.2).addScaledVector(T, -0.9),
+      pos: P.clone().addScaledVector(up, 7.4).addScaledVector(N, 2.6).addScaledVector(T, -1.1),
       target: P.clone().addScaledVector(N, 0.8),
       strand: sv.k,
     })
@@ -111,10 +111,10 @@ function JourneyCamera({ onStrand }) {
     look.lerp(shot.target, 0.16)
     // Atmospheric Drift — a slow living sway so a held shot never sits dead
     const t = forge.reduced ? 0 : state.clock.elapsedTime
-    camera.position.x += Math.sin(t * 0.23) * 0.20 + Math.sin(t * 0.41) * 0.09
-    camera.position.y += Math.sin(t * 0.31) * 0.12
-    camera.position.z += Math.cos(t * 0.19) * 0.18
-    camera.lookAt(look.x + Math.sin(t * 0.27) * 0.10, look.y, look.z + Math.cos(t * 0.22) * 0.10)
+    camera.position.x += Math.sin(t * 0.13) * 0.26 + Math.sin(t * 0.22) * 0.10
+    camera.position.y += Math.sin(t * 0.17) * 0.14
+    camera.position.z += Math.cos(t * 0.11) * 0.22
+    camera.lookAt(look.x + Math.sin(t * 0.15) * 0.12, look.y, look.z + Math.cos(t * 0.12) * 0.12)
   })
   return null
 }

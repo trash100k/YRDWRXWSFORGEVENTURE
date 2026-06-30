@@ -209,7 +209,7 @@ export default function ForgeCanvas({ route }) {
         {/* a whisper of lens dispersion at the edges — film, not gimmick */}
         <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.0006, 0.0006]} radialModulation modulationOffset={0.45} />
         <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
-        <Vignette offset={0.26} darkness={0.72} />
+        <Vignette offset={0.22} darkness={0.85} />
         {/* fine film grain so the blacks read as photographed, not dead digital void */}
         <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.055} />
       </EffectComposer>
