@@ -11,6 +11,8 @@ export const forge = {
   pointer: { x: 0, y: 0 }, // -1..1 ndc-ish
   strikeAt: -10,     // seconds; a strike surges heat
   reduced: false,    // prefers-reduced-motion
+  routeTemp: 0,      // per-route base temperature bias (the chamber)
+  still: false,      // calmer chambers (scrying pool, ledger, altar) slow the boil
 }
 
 export const strike = () => { forge.strikeAt = performance.now() / 1000 }

@@ -76,6 +76,7 @@ export default function Home() {
         <button className="finale-mark" onClick={toTop} aria-label="Back to top">
           <Ignite text={finale.mark} />
         </button>
+        <p className="finale-ae"><Ignite text="Automatic Execution" /></p>
         <p className="finale-closer">{finale.closer}</p>
         <Link className="cta cta--solid" to="/contact"><span>{finale.cta}</span></Link>
         <span className="avail">{finale.avail}</span>

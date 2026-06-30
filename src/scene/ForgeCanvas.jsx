@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { EffectComposer, Bloom, Vignette, ToneMapping } from '@react-three/postprocessing'
+import { ToneMappingMode } from 'postprocessing'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
@@ -47,7 +49,7 @@ const frag = /* glsl */ `
     c = mix(c, ${v3(PAL.hot)},     smoothstep(0.82, 1.00, t));
     return c;
   }
-  float gw_tempEmissive(float t){ t = clamp(t, 0.0, 1.0); return pow(t, 3.0) * 1.7 + t * 0.1; }
+  float gw_tempEmissive(float t){ t = clamp(t, 0.0, 1.0); return pow(t, 3.0) * 2.6 + t * 0.12; }
   vec3 gw_forge(float t){ return gw_tempColor(t) * gw_tempEmissive(t); }
 
   void main(){
@@ -95,10 +97,14 @@ function Slab() {
     []
   )
 
+  const tAcc = useRef(0)
+
   useFrame((state, dt) => {
     const u = uniforms
     const d = Math.min(1, dt || 0.016)
-    if (!forge.reduced) u.uTime.value = state.clock.elapsedTime
+    // boil in place; calmer chambers slow the clock, reduced-motion freezes it
+    if (!forge.reduced) tAcc.current += d * (forge.still ? 0.32 : 1.0)
+    u.uTime.value = tAcc.current
 
     // strike pulse → transient heat
     const since = performance.now() / 1000 - forge.strikeAt
@@ -135,8 +141,8 @@ export default function ForgeCanvas() {
     const onScroll = () => {
       const max = document.documentElement.scrollHeight - window.innerHeight
       forge.scroll = max > 0 ? Math.min(window.scrollY / max, 1) : 0
-      // the descent heats the forge
-      forge.temperature = 0.14 + forge.scroll * 0.72
+      // the descent heats the forge, on top of the chamber's base temperature
+      forge.temperature = 0.14 + (forge.routeTemp || 0) + forge.scroll * 0.6
     }
     const onPointer = (e) => {
       forge.pointer.x = (e.clientX / window.innerWidth) * 2 - 1
@@ -154,12 +160,19 @@ export default function ForgeCanvas() {
   return (
     <Canvas
       dpr={dpr.current}
-      gl={{ antialias: false, alpha: false, powerPreference: 'high-performance' }}
+      gl={{ antialias: false, alpha: false, powerPreference: 'high-performance', toneMapping: THREE.NoToneMapping }}
       camera={{ position: [0, 0, 1] }}
       frameloop={forge.reduced ? 'demand' : 'always'}
     >
       <color attach="background" args={[PAL.void]} />
       <Slab />
+      {/* HDR pipeline: scene (linear, >1 hot band) → bloom → ACES → vignette.
+          Only the accent band exceeds 1.0, so threshold bloom IS selective bloom. */}
+      <EffectComposer frameBufferType={THREE.HalfFloatType}>
+        <Bloom mipmapBlur luminanceThreshold={0.62} luminanceSmoothing={0.22} intensity={0.85} radius={0.72} />
+        <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
+        <Vignette offset={0.3} darkness={0.62} />
+      </EffectComposer>
     </Canvas>
   )
 }

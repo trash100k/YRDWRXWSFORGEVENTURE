@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0B0C10"/>
+  <path d="M16 4 L20.5 16 L16 28 L11.5 16 Z" fill="url(#ember)"/>
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E85D04"/>
+      <stop offset="0.55" stop-color="#C1292E"/>
+      <stop offset="1" stop-color="#7A1418"/>
+    </linearGradient>
+  </defs>
+</svg>

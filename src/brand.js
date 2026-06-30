@@ -101,3 +101,71 @@ export const COPY = {
     tag: 'You run the business. We build the systems that run it for you.',
   },
 }
+
+// Inner-page copy deck (the chambers). Pricing NUMBERS live only on /pricing.
+export const PAGES = {
+  '/voice': {
+    kicker: 'GW–01 · Voice',
+    title: 'Maeve',
+    lede: 'Every missed call is a job booked by someone else. Maeve works the phones — inbound and outbound — qualifies the lead, books the job, chases the no-show, in a voice no caller clocks as AI.',
+    cta: 'Deploy Maeve',
+    sections: [
+      { h: 'She never clocks out.', b: 'An in-house rep costs $50,000+ a year and dials eighty times a day. Maeve dials a thousand, answers every inbound call, and works the night shift you can’t. She runs our own front desk — put her on yours and the phone stops going to voicemail.' },
+      { h: 'What she does.', b: 'Answers every call, qualifies the lead, books straight into your calendar, and chases the no-show. Inbound reception and outbound sales — one agent, one voice, no caller the wiser.' },
+      { h: 'Built on enterprise ground.', b: 'Maeve runs on Claude, Gemini, and the same rails that move bank transactions — not last quarter’s frontier model and a crossed-fingers prompt. Proven ground, predictable behavior, nothing held together with hope.' },
+    ],
+  },
+  '/software': {
+    kicker: 'GW–02 · Software',
+    title: 'Custom Software',
+    lede: 'You don’t own your stack. Someone else’s roadmap runs your business. We build the platform that runs it your way — and hand you the keys.',
+    cta: 'Start the Forge',
+    sections: [
+      { h: 'You own the code, not a license.', b: 'Internal tools and proprietary platforms — custom-built, documented, and open-sourced to you. No lock-in, no black box, no rented roadmap. The same system that runs YardWorx, built for how you actually work.' },
+      { h: 'It ships in stages you can see.', b: 'No year of silence, no pilot that rots in phase two. Fixed scope, fixed price, milestones you watch land. We don’t bill the balance until it executes.' },
+    ],
+  },
+  '/automations': {
+    kicker: 'GW–03 · Automations',
+    title: 'Automations',
+    lede: 'You’re doing by hand what should run itself. Quoting, follow-up, invoicing, reviews — we put the rote work on autopilot and hand your data back to you to own.',
+    cta: 'Start the Forge',
+    sections: [
+      { h: 'The busywork runs itself.', b: 'Quoting, follow-up, invoicing, and review collection — running on their own, never dropping the ball. The same automations that run our own shops.' },
+      { h: 'You own the data.', b: 'No black box. No hostage tool. Everything we automate hands your data back to you — to leverage like no one else can.' },
+    ],
+  },
+  '/web': {
+    kicker: 'GW–04 · Web',
+    title: 'Cinematic Web',
+    lede: 'Your site looks good. It books nothing. We build cinematic, avatar-level sites that route every lead straight to your phone and book the truck.',
+    cta: 'Book the Build',
+    sections: [
+      { h: 'Built to book, not just look.', b: 'Every site routes every lead straight to your phone and is built to convert — studio-grade craft at a front-door price, to the standard of the page you’re reading.' },
+      { h: 'Shipped in seven days.', b: 'Fixed scope, fixed price, live in a week. Premium studios charge $50k+ and take months. The forge runs lean.' },
+    ],
+  },
+  '/about': {
+    kicker: 'The Clan',
+    title: 'One Forge. Four Branches.',
+    lede: 'GAELWORX is an engineering forge, not an agency. We run our own platforms on this exact system — YardWorx, RepairWorx, SalesWorx, AgentWorx — and build the same caliber for you.',
+    cta: 'Start the Forge',
+    sections: [
+      { h: 'We build what we run.', b: 'Every build starts from years on the floor. We worked the bottlenecks we automate, so you never pay us to learn your business on your dime.' },
+      { h: 'We carry the risk.', b: 'Fixed scope. Fixed price. Working on day one. We don’t get paid to experiment on your business — we get paid when it executes. The risk is ours. That’s the point.' },
+      { h: 'You talk to the forge.', b: 'No account managers. No ticket queue. You talk to the people who write the code — direct, the whole way through.' },
+    ],
+  },
+  '/work': {
+    kicker: 'The Work',
+    title: 'Forged Here.',
+    lede: 'We run our own platforms on the exact system we sell. These are the casts that came out of the forge.',
+    cta: 'Start the Forge',
+    sections: [
+      { h: 'YardWorx', b: 'The platform that runs the yard — scheduling, dispatch, billing, all owned. The first system we built for ourselves, now the proof we build what we run.' },
+      { h: 'RepairWorx', b: 'Repair operations end to end — intake, quoting, parts, follow-up — automated and unified.' },
+      { h: 'SalesWorx', b: 'The outbound engine: Maeve on the phones, the pipeline on autopilot, the data yours.' },
+      { h: 'AgentWorx', b: 'The newest cast, still glowing — agentic automation pointed at the rote work, showing its reasoning, handing the call back to you.' },
+    ],
+  },
+}
