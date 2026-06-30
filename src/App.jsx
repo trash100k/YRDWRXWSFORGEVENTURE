@@ -12,29 +12,29 @@ import { sceneFor } from './scene/scenes.js'
 // fixed behind all content (the single renderer), and never tears down on navigation.
 const ForgeCanvas = lazy(() => import('./scene/ForgeCanvas.jsx'))
 
-// Re-tempers the shared forge per chamber + resets scroll on navigation.
-function RouteScene() {
+function Shell() {
   const { pathname } = useLocation()
   useEffect(() => {
     const s = sceneFor(pathname)
     forge.routeTemp = s.tempBias
     forge.still = !!s.still
+    forge.route = pathname
     window.scrollTo(0, 0)
   }, [pathname])
-  return null
-}
 
-export default function App() {
+  // /concept renders the bare posed scene (no nav/content) for art-direction screenshots
+  const bare = pathname === '/concept'
+
   return (
     <>
       <div className="forge-bg" aria-hidden="true">
         <Suspense fallback={null}>
-          <ForgeCanvas />
+          <ForgeCanvas route={pathname} />
         </Suspense>
       </div>
+      {!bare && (
       <div className="app-content">
         <Nav />
-        <RouteScene />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/voice" element={<ChamberPage />} />
@@ -48,6 +48,11 @@ export default function App() {
           <Route path="*" element={<Home />} />
         </Routes>
       </div>
+      )}
     </>
   )
+}
+
+export default function App() {
+  return <Shell />
 }

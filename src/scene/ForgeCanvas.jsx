@@ -6,6 +6,8 @@ import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
 import Embers from './Embers.jsx'
+import ForgeJourney from './ForgeJourney.jsx'
+import ForgeConcept from './ForgeConcept.jsx'
 
 /**
  * The ONE renderer. A full-screen forge surface — void-black obsidian with living
@@ -148,7 +150,7 @@ function Slab() {
   )
 }
 
-export default function ForgeCanvas() {
+export default function ForgeCanvas({ route }) {
   const dpr = useRef(Math.min(typeof window !== 'undefined' ? window.devicePixelRatio : 1, 1.5))
 
   useEffect(() => {
@@ -181,8 +183,18 @@ export default function ForgeCanvas() {
       frameloop={forge.reduced ? 'demand' : 'always'}
     >
       <color attach="background" args={[PAL.void]} />
-      <Slab />
-      {!forge.reduced && <Embers />}
+      {/* /concept = posed art-direction renders · / = the molten channel journey ·
+          other routes = the forge backdrop */}
+      {route === '/concept' ? (
+        <ForgeConcept />
+      ) : route === '/' ? (
+        <ForgeJourney />
+      ) : (
+        <>
+          <Slab />
+          {!forge.reduced && <Embers />}
+        </>
+      )}
       {/* HDR pipeline: scene (linear, >1 hot band) → bloom → ACES → vignette.
           Only the accent band exceeds 1.0, so threshold bloom IS selective bloom. */}
       <EffectComposer frameBufferType={THREE.HalfFloatType}>

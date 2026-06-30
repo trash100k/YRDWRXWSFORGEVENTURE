@@ -48,3 +48,20 @@ only light · the **A and E** are the eternal divine-fire exception. Build the s
 
 - Tokens + CSS: `src/index.css`. Fonts + entry: `src/main.jsx`. Copy: `src/brand.js`.
 - Commands: `npm run dev`, `npm run build`.
+
+## The home journey (the spine — build to THIS, not a backdrop)
+The home page is **not** copy floating over a forge image. It is a **camera ride down a molten
+channel** — you follow the metal being poured and cast into the word GAELWORX. Scroll drives the camera.
+1. **Open in the forge** — living molten metal + the tagline rising from the melt. The metal is the only light.
+2. **The pour** — the metal releases into a channel; the camera **rides down with it** as you scroll.
+3. **Story on the channel** — the copy lives **on the channel walls / stone tablets at the sides**; you read it as you pass.
+4. **The Celtic split → FOUR channels, one per service** (Voice · Software · Automations · Web). The
+   **camera rides and angles THROUGH each channel in turn as that service's copy is told** — a distinct
+   camera beat per channel, each fork with its own character (Voice wave-soft · Software circuitry · Automations
+   dense/mechanical · Web jewel-bright). Camera moves land with **Brutalist Snap** (impact, deliberate). Then the four **rejoin**.
+5. **The cast (finale)** — the metal pours into the 3D **GAELWORX** letterforms; all cool to forged iron
+   **except the A and E**, which hold eternal white-gold **divine fire** and radiate, revealing carved Ogham.
+   *Automatic Execution* crystallizes beneath, its A the same fire.
+
+Ruling principle: **environment = stage · message = star · delivery = the trick.** Copy stays short Clan-Voice;
+the mind-bending part is how the words live in / react with the forge. Awe serves the message.

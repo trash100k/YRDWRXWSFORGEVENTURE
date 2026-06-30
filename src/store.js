@@ -13,6 +13,7 @@ export const forge = {
   reduced: false,    // prefers-reduced-motion
   routeTemp: 0,      // per-route base temperature bias (the chamber)
   still: false,      // calmer chambers (scrying pool, ledger, altar) slow the boil
+  route: '/',        // current path — '/' rides the channel journey, others use the backdrop
 }
 
 export const strike = () => { forge.strikeAt = performance.now() / 1000 }

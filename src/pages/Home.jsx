@@ -21,8 +21,8 @@ export default function Home() {
         <span className="scrollcue" aria-hidden="true">Descend</span>
       </section>
 
-      {/* the descent — content rides over the dimmed living forge */}
-      <div className="below">
+      {/* the descent — you ride the molten channel; copy lives on tablets at its sides */}
+      <div className="below journey-deck">
 
       {/* 01 — name the enemy */}
       <section className="section section--enemy">
