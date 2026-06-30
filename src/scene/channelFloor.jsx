@@ -36,6 +36,9 @@ const frag = /* glsl */ `
   uniform vec2 uPath[${MAXP}];
   uniform float uCum[${MAXP}];
   uniform float uBreak[${MAXP}]; // 1 = this point starts a new path (don't connect across)
+  uniform float uDepth[${MAXP}]; // over/under weave height per point (higher = on top)
+  uniform float uStrand[${MAXP}]; // strand id per point
+  uniform float uActiveStrand;   // strand to burn hotter (-1 = none)
 
   vec3 gw_tempColor(float t){
     t = clamp(t, 0.0, 1.0);
@@ -68,56 +71,56 @@ const frag = /* glsl */ `
   void main(){
     vec2 p = vWorld;
 
-    // distance to the carved channel path (+ along-length for the flow)
-    float bestD = 1e9, along = 0.0;
+    // Celtic OVER-UNDER: among the strands covering this point, the one with the greatest weave
+    // height shows its molten — the others pass beneath it. wallD = nearest strand (basalt + walls).
+    float wallD = 1e9;
+    float overD = 1e9, overAlong = 0.0, overDepth = -2.0, overStrand = -1.0;
     for (int i = 0; i < ${MAXP - 1}; i++) {
       if (i >= uCount - 1) break;
-      if (uBreak[i + 1] > 0.5) continue; // skip the gap between two separate paths
-      vec2 a = uPath[i], b = uPath[i+1];
+      if (uBreak[i + 1] > 0.5) continue; // skip the gap between two separate strands
+      vec2 a = uPath[i], b = uPath[i + 1];
       vec2 ba = b - a, pa = p - a;
       float h = clamp(dot(pa, ba) / max(dot(ba, ba), 1e-4), 0.0, 1.0);
       float dd = length(pa - ba * h);
-      if (dd < bestD) { bestD = dd; along = mix(uCum[i], uCum[i+1], h); }
+      wallD = min(wallD, dd);
+      if (dd < uHalf + 0.06) {
+        float dpt = mix(uDepth[i], uDepth[i + 1], h);
+        if (dpt > overDepth) { overDepth = dpt; overD = dd; overAlong = mix(uCum[i], uCum[i + 1], h); overStrand = uStrand[i]; }
+      }
     }
 
     float halfW = uHalf;
     float groove = 0.42;
-    float molten = smoothstep(halfW, halfW - 0.10, bestD);
-    float lip = smoothstep(halfW + groove, halfW, bestD) * (1.0 - molten);
+    float molten = smoothstep(halfW, halfW - 0.10, overD);
+    float lip = smoothstep(halfW + groove, halfW, wallD) * (1.0 - molten);
 
-    // the metal is the ONLY light: stone only reveals where the channel's glow reaches it
-    float lightFall = exp(-max(bestD - halfW, 0.0) * 0.5);
+    // the metal is the ONLY light: stone reveals only where the channel's glow reaches it
+    float lightFall = exp(-max(wallD - halfW, 0.0) * 0.5);
     float vig = smoothstep(uRadius, uRadius * 0.35, length(p - uCenter));
 
     // ── basalt honeycomb pavement — Giant's Causeway, top-down ──
     vec4 hx = getHex(p * 1.3);
     float edge = hexEdge(hx.xy);
-    float joint = smoothstep(0.44, 0.5, edge);            // dark joints between columns
-    float cell = hash21(hx.zw);                            // per-column variation
+    float joint = smoothstep(0.44, 0.5, edge);
+    float cell = hash21(hx.zw);
     vec3 stoneDark  = vec3(0.009, 0.013, 0.015);
     vec3 stoneGreen = vec3(0.022, 0.041, 0.034);          // Connemara green, only under light
     vec3 basalt = mix(stoneDark, stoneGreen, 0.25 + cell * 0.6);
-    basalt *= (1.0 - joint * 0.85);                        // cut the joints dark
-    basalt *= mix(0.10, 1.0, lightFall) * vig;             // reveal near the metal, else void
+    basalt *= (1.0 - joint * 0.85);
+    basalt *= mix(0.10, 1.0, lightFall) * vig;
     basalt += gw_tempColor(0.5) * lightFall * (1.0 - joint) * 0.10 * (0.4 + 0.6 * cell);
 
-    // ── carved interlace accent hugging the levee (high-cross knotwork, raking light) ──
-    float bandZone = smoothstep(halfW + groove * 2.4, halfW + groove * 0.7, bestD) * (1.0 - lip) * (1.0 - molten);
-    float w1 = sin(along * 5.5 + bestD * 6.0);
-    float w2 = sin(along * 5.5 - bestD * 6.0);
-    float weave = smoothstep(0.55, 0.95, max(w1, w2) * 0.5 + 0.5); // over/under bands
-    basalt += gw_tempColor(0.55) * bandZone * weave * lightFall * 0.30;
-
     // ── groove wall: warm crusted levee at the inner edge (the Kilauea crust) ──
-    float innerWarm = smoothstep(halfW + groove, halfW, bestD);
+    float innerWarm = smoothstep(halfW + groove, halfW, wallD);
     vec3 wall = basalt * 0.5 + gw_tempColor(0.4) * pow(innerWarm, 2.0) * 0.7 * vig;
 
-    // ── the molten river: a continuous flowing skin, not blobs ──
-    float core = clamp(1.0 - bestD / halfW, 0.0, 1.0);
-    float skin  = fbm(vec2(along * 3.0, bestD * 5.0) + vec2(uTime * 0.7, 0.0));
-    float pulse = sin(along * 2.2 - uTime * 1.7) * 0.5 + 0.5;
-    float tf = (0.66 + skin * 0.16 + pulse * 0.07 + uTemp * 0.05) * (0.55 + core * 0.55);
-    vec3 moltenCol = gw_tempColor(tf) * gw_em(tf);
+    // ── the molten river (the OVER strand); the told strand burns hotter ──
+    float actLit = abs(overStrand - uActiveStrand) < 0.5 ? 1.0 : 0.0;
+    float core = clamp(1.0 - overD / halfW, 0.0, 1.0);
+    float skin  = fbm(vec2(overAlong * 3.0, overD * 5.0) + vec2(uTime * 0.7, 0.0));
+    float pulse = sin(overAlong * 2.2 - uTime * 1.7) * 0.5 + 0.5;
+    float tf = (0.62 + skin * 0.16 + pulse * 0.07 + uTemp * 0.05 + actLit * 0.12) * (0.55 + core * 0.55);
+    vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.4, actLit);
 
     vec3 col = basalt;
     col = mix(col, wall, lip);
@@ -126,31 +129,42 @@ const frag = /* glsl */ `
   }
 `
 
-export default function ChannelFloor({ curve, curves, floorY = 0, half = 0.55, margin = 5, samples }) {
+export default function ChannelFloor({ curve, curves, strands, activeStrand = -1, floorY = 0, half = 0.55, margin = 5, samples }) {
   const matRef = useRef()
+  const activeRef = useRef(activeStrand)
+  activeRef.current = activeStrand
 
   const { geo, position, uniforms } = useMemo(() => {
-    const paths = curves && curves.length ? curves : curve ? [curve] : []
-    const nPaths = Math.max(1, paths.length)
+    // a strand = { curve, depth?(t)->[-1..1] }. Plain curves/curve become flat strands (depth 0).
+    const list = strands && strands.length
+      ? strands
+      : curves && curves.length
+        ? curves.map((c) => ({ curve: c }))
+        : curve ? [{ curve }] : []
+    const nPaths = Math.max(1, list.length)
     const perPath = samples || Math.max(6, Math.floor(MAXP / nPaths))
-    const upath = [], ucum = [], ubreak = []
+    const upath = [], ucum = [], ubreak = [], udepth = [], ustrand = []
     let minX = Infinity, maxX = -Infinity, minZ = Infinity, maxZ = -Infinity
-    for (const c of paths) {
+    for (let s = 0; s < list.length; s++) {
+      const c = list[s].curve
+      const depthFn = list[s].depth
       const k = Math.min(perPath, MAXP - upath.length)
       if (k < 2) break
       let len = 0, prev = null
       for (let i = 0; i < k; i++) {
-        const P = c.getPointAt(i / (k - 1))
+        const t = i / (k - 1)
+        const P = c.getPointAt(t)
         const v = new THREE.Vector2(P.x, P.z)
         if (prev) len += v.distanceTo(prev)
         upath.push(v); ucum.push(len); ubreak.push(i === 0 ? 1 : 0)
+        udepth.push(depthFn ? depthFn(t) : 0.0); ustrand.push(s)
         prev = v
         minX = Math.min(minX, v.x); maxX = Math.max(maxX, v.x)
         minZ = Math.min(minZ, v.y); maxZ = Math.max(maxZ, v.y)
       }
     }
     const count = upath.length
-    while (upath.length < MAXP) { upath.push(new THREE.Vector2(0, 0)); ucum.push(0); ubreak.push(1) }
+    while (upath.length < MAXP) { upath.push(new THREE.Vector2(0, 0)); ucum.push(0); ubreak.push(1); udepth.push(-2); ustrand.push(-1) }
 
     const cx = (minX + maxX) / 2
     const cz = (minZ + maxZ) / 2
@@ -168,14 +182,18 @@ export default function ChannelFloor({ curve, curves, floorY = 0, half = 0.55, m
       uPath: { value: upath },
       uCum: { value: ucum },
       uBreak: { value: ubreak },
+      uDepth: { value: udepth },
+      uStrand: { value: ustrand },
+      uActiveStrand: { value: -1 },
     }
     return { geo: g, position: [cx, floorY, cz], uniforms: u }
-  }, [curve, curves, floorY, half, margin, samples])
+  }, [curve, curves, strands, floorY, half, margin, samples])
 
   useFrame((state, dt) => {
     const u = uniforms
     if (!forge.reduced) u.uTime.value = state.clock.elapsedTime
     u.uTemp.value += (forge.temperature - u.uTemp.value) * Math.min(1, (dt || 0.016) * 2)
+    u.uActiveStrand.value = activeRef.current
   })
 
   // lie flat (XZ), normal up
