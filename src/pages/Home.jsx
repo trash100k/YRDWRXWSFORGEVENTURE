@@ -21,6 +21,9 @@ export default function Home() {
         <span className="scrollcue" aria-hidden="true">Descend</span>
       </section>
 
+      {/* the descent — content rides over the dimmed living forge */}
+      <div className="below">
+
       {/* 01 — name the enemy */}
       <section className="section section--enemy">
         <p className="enemy-line"><BrandText text={enemy} /></p>
@@ -88,6 +91,8 @@ export default function Home() {
         <span className="footer-mark"><Ignite text="GAELWORX" /> · One Forge</span>
         <span className="footer-tag">{footer.tag}</span>
       </footer>
+
+      </div>{/* /below */}
     </main>
   )
 }
