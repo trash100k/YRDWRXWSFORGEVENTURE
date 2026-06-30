@@ -56,15 +56,13 @@ const frag = /* glsl */ `
   }
   float fbm(vec2 p){ float v=0.0,a=0.5; for(int i=0;i<4;i++){ v+=a*vnoise(p); p*=2.03; a*=0.5; } return v; }
 
-  // faint carved knotwork: a woven diagonal lattice (reads as Gaelic stonework, not a clean grid)
-  float knot(vec2 p){
-    float s = 0.85;
-    float a = abs(fract((p.x + p.y) * s) - 0.5);
-    float b = abs(fract((p.x - p.y) * s) - 0.5);
-    float la = smoothstep(0.05, 0.0, a);
-    float lb = smoothstep(0.05, 0.0, b);
-    return max(la, lb);
+  // honeycomb — Giant's Causeway basalt pavement, read top-down (Shane's hex tiling)
+  vec4 getHex(vec2 p){
+    vec4 hC = floor(vec4(p, p - vec2(0.5, 1.0)) / vec4(1.0, 1.7320508, 1.0, 1.7320508).xyxy) + 0.5;
+    vec4 h = vec4(p - hC.xy * vec2(1.0, 1.7320508), p - (hC.zw + 0.5) * vec2(1.0, 1.7320508));
+    return dot(h.xy, h.xy) < dot(h.zw, h.zw) ? vec4(h.xy, hC.xy) : vec4(h.zw, hC.zw + 0.5);
   }
+  float hexEdge(vec2 p){ p = abs(p); return max(dot(p, normalize(vec2(1.0, 1.7320508))), p.x); }
 
   void main(){
     vec2 p = vWorld;
@@ -81,27 +79,42 @@ const frag = /* glsl */ `
     }
 
     float halfW = uHalf;
-    float groove = 0.42;                                  // bevel-wall band outside the molten
+    float groove = 0.42;
     float molten = smoothstep(halfW, halfW - 0.10, bestD);
     float lip = smoothstep(halfW + groove, halfW, bestD) * (1.0 - molten);
 
-    // ── basalt floor: near-black green, fine grain, faint knotwork, vignette to void ──
-    float grain = fbm(p * 1.5);
-    vec3 basalt = mix(vec3(0.010, 0.016, 0.018), vec3(0.020, 0.032, 0.029), grain);
-    basalt += vec3(0.05, 0.026, 0.012) * knot(p) * 0.35;  // carved lines, ember-tinted
+    // the metal is the ONLY light: stone only reveals where the channel's glow reaches it
+    float lightFall = exp(-max(bestD - halfW, 0.0) * 0.5);
     float vig = smoothstep(uRadius, uRadius * 0.35, length(p - uCenter));
-    basalt *= vig;
 
-    // ── groove wall (bevel): darker stone, warming toward the molten at the inner edge ──
+    // ── basalt honeycomb pavement — Giant's Causeway, top-down ──
+    vec4 hx = getHex(p * 1.3);
+    float edge = hexEdge(hx.xy);
+    float joint = smoothstep(0.44, 0.5, edge);            // dark joints between columns
+    float cell = hash21(hx.zw);                            // per-column variation
+    vec3 stoneDark  = vec3(0.009, 0.013, 0.015);
+    vec3 stoneGreen = vec3(0.022, 0.041, 0.034);          // Connemara green, only under light
+    vec3 basalt = mix(stoneDark, stoneGreen, 0.25 + cell * 0.6);
+    basalt *= (1.0 - joint * 0.85);                        // cut the joints dark
+    basalt *= mix(0.10, 1.0, lightFall) * vig;             // reveal near the metal, else void
+    basalt += gw_tempColor(0.5) * lightFall * (1.0 - joint) * 0.10 * (0.4 + 0.6 * cell);
+
+    // ── carved interlace accent hugging the levee (high-cross knotwork, raking light) ──
+    float bandZone = smoothstep(halfW + groove * 2.4, halfW + groove * 0.7, bestD) * (1.0 - lip) * (1.0 - molten);
+    float w1 = sin(along * 5.5 + bestD * 6.0);
+    float w2 = sin(along * 5.5 - bestD * 6.0);
+    float weave = smoothstep(0.55, 0.95, max(w1, w2) * 0.5 + 0.5); // over/under bands
+    basalt += gw_tempColor(0.55) * bandZone * weave * lightFall * 0.30;
+
+    // ── groove wall: warm crusted levee at the inner edge (the Kilauea crust) ──
     float innerWarm = smoothstep(halfW + groove, halfW, bestD);
-    vec3 wall = basalt * 0.45 + gw_tempColor(0.42) * pow(innerWarm, 2.2) * 0.6 * vig;
+    vec3 wall = basalt * 0.5 + gw_tempColor(0.4) * pow(innerWarm, 2.0) * 0.7 * vig;
 
-    // ── the molten river in the groove bottom ──
+    // ── the molten river: a continuous flowing skin, not blobs ──
     float core = clamp(1.0 - bestD / halfW, 0.0, 1.0);
-    float flow  = sin(along * 4.2 - uTime * 2.2) * 0.5 + 0.5;
-    float flow2 = sin(along * 1.7 - uTime * 1.3 + 1.6) * 0.5 + 0.5;
-    float skin  = sin(along * 9.0 + bestD * 8.0 - uTime * 3.0) * 0.5 + 0.5;
-    float tf = (0.60 + flow * 0.22 + flow2 * 0.12 + skin * 0.05 + uTemp * 0.06) * (0.5 + core * 0.6);
+    float skin  = fbm(vec2(along * 3.0, bestD * 5.0) + vec2(uTime * 0.7, 0.0));
+    float pulse = sin(along * 2.2 - uTime * 1.7) * 0.5 + 0.5;
+    float tf = (0.66 + skin * 0.16 + pulse * 0.07 + uTemp * 0.05) * (0.55 + core * 0.55);
     vec3 moltenCol = gw_tempColor(tf) * gw_em(tf);
 
     vec3 col = basalt;

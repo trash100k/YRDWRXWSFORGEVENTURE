@@ -33,7 +33,7 @@ function makeCurve() {
     const t = i / N
     pts.push(
       new THREE.Vector3(
-        Math.sin(t * Math.PI * 3.0) * 4.2, // meander across the floor, recentred at the end
+        Math.sin(t * Math.PI * 3.0) * 3.6 + Math.sin(t * Math.PI * 6.0) * 0.9, // woven serpentine
         0.0, // flat — this is the forge FLOOR, read top-down (the channel is carved into it)
         -t * 19.0 // travel forward into the dark
       )
