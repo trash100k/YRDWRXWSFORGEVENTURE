@@ -22,8 +22,8 @@ function Shell() {
     window.scrollTo(0, 0)
   }, [pathname])
 
-  // /concept renders the bare posed scene (no nav/content) for art-direction screenshots
-  const bare = pathname === '/concept'
+  // /concept + /lab render bare scenes (no nav/content) for art-direction + QA screenshots
+  const bare = pathname === '/concept' || pathname === '/lab'
 
   return (
     <>

@@ -8,6 +8,7 @@ import { forge } from '../store.js'
 import Embers from './Embers.jsx'
 import ForgeJourney from './ForgeJourney.jsx'
 import ForgeConcept from './ForgeConcept.jsx'
+import LabScene from './LabScene.jsx'
 
 /**
  * The ONE renderer. A full-screen forge surface — void-black obsidian with living
@@ -185,7 +186,9 @@ export default function ForgeCanvas({ route }) {
       <color attach="background" args={[PAL.void]} />
       {/* /concept = posed art-direction renders · / = the molten channel journey ·
           other routes = the forge backdrop */}
-      {route === '/concept' ? (
+      {route === '/lab' ? (
+        <LabScene />
+      ) : route === '/concept' ? (
         <ForgeConcept />
       ) : route === '/' ? (
         <ForgeJourney />
