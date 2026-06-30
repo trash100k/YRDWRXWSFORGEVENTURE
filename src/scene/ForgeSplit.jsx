@@ -3,6 +3,7 @@ import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
+import { buildChannelGeometry, channelVert, channelFrag, makeChannelUniforms } from './channel.js'
 
 /**
  * ForgeSplit — THE FOUR-CHANNEL CELTIC SPLIT.
@@ -255,6 +256,34 @@ function Channel({ curve, style, radius, segments, radial, getActive, getIntensi
   )
 }
 
+/** A fork rendered as an OPEN molten trough (matching the main channel), styled per service. */
+function ForkChannel({ curve, style, getActive, getIntensity }) {
+  const geo = useMemo(
+    () => buildChannelGeometry(curve, 96, { width: 1.0, floorFrac: 0.5, wallH: 0.3 }),
+    [curve]
+  )
+  const uniforms = useMemo(() => makeChannelUniforms({ style, active: 0, intensity: 1 }), [style])
+
+  useFrame((state, dt) => {
+    const d = Math.min(1, (dt || 0.016) * 2)
+    if (!forge.reduced) uniforms.uTime.value = state.clock.elapsedTime
+    uniforms.uTemp.value += (forge.temperature - uniforms.uTemp.value) * d
+    uniforms.uActive.value += (getActive() - uniforms.uActive.value) * d
+    uniforms.uIntensity.value += (getIntensity() - uniforms.uIntensity.value) * d
+  })
+
+  return (
+    <mesh geometry={geo} frustumCulled={false}>
+      <shaderMaterial
+        vertexShader={channelVert}
+        fragmentShader={channelFrag}
+        uniforms={uniforms}
+        side={THREE.DoubleSide}
+      />
+    </mesh>
+  )
+}
+
 export default function ForgeSplit({
   active = -1,
   intensity = 1,
@@ -288,17 +317,15 @@ export default function ForgeSplit({
         getIntensity={fullIntensity}
       />
 
-      {/* the four woven forks */}
+      {/* the four woven forks — open troughs, one per service. The told fork burns full; the
+          others drop right back so each split beat isolates its own channel + copy. */}
       {CHANNELS.map((curve, i) => (
-        <Channel
+        <ForkChannel
           key={i}
           curve={curve}
           style={i}
-          radius={radius}
-          segments={segForks}
-          radial={radial}
           getActive={() => (activeRef.current === i ? 1 : 0)}
-          getIntensity={fullIntensity}
+          getIntensity={() => intensityRef.current * (activeRef.current < 0 || activeRef.current === i ? 1 : 0.18)}
         />
       ))}
 

@@ -85,7 +85,7 @@ function segmentHead(text) {
  * face the camera. A basalt backing slab + carved head/kicker/body. Per-frame it fades
  * by camera proximity and keeps facing the rider.
  */
-function Tablet({ curve, item, offset, width }) {
+function Tablet({ curve, item, offset, width, active }) {
   const { camera } = useThree()
   const group = useRef()
   const slabRef = useRef()
@@ -107,37 +107,29 @@ function Tablet({ curve, item, offset, width }) {
 
   const segs = useMemo(() => segmentHead((item.head || '').toUpperCase()), [item.head])
 
-  // scratch
-  const FACE = useMemo(() => new THREE.Vector3(), [])
-  const Q = useMemo(() => new THREE.Quaternion(), [])
-  const M = useMemo(() => new THREE.Matrix4(), [])
-  const UP = useMemo(() => new THREE.Vector3(0, 1, 0), [])
+  // scratch — the tablet's true world position (it may live inside an offset group, e.g. the split)
+  const WPOS = useMemo(() => new THREE.Vector3(), [])
 
   useFrame((_, dt) => {
     const g = group.current
     if (!g) return
     const d = Math.min(1, dt || 0.016)
 
-    // Face the rider: yaw the tablet toward the camera (kept upright, no roll/pitch
-    // so the carving stays level like real wall-mounted stone).
-    FACE.copy(camera.position).sub(anchor)
-    FACE.y = 0
-    if (FACE.lengthSq() < 1e-5) FACE.copy(normal)
-    FACE.normalize()
-    // troika text faces its local +Z; Matrix4.lookAt sets +Z = normalize(eye - target), so to
-    // point +Z AT the camera we look toward (anchor - FACE), not (anchor + FACE) — otherwise we
-    // read the glyphs from behind (mirrored).
-    M.lookAt(g.position, g.position.clone().sub(FACE), UP)
-    Q.setFromRotationMatrix(M)
-    if (forge.reduced) g.quaternion.copy(Q)
-    else g.quaternion.slerp(Q, 1 - Math.pow(0.001, d)) // dt-damped settle
+    // Full billboard — face the camera flat-on so the carved copy reads from ANY switched
+    // angle, including the top-down shots. The camera snaps between framings; the copy turns to
+    // meet it, so a new block "comes up" square-on each time the angle changes.
+    if (forge.reduced) g.quaternion.copy(camera.quaternion)
+    else g.quaternion.slerp(camera.quaternion, 1 - Math.pow(0.0012, d))
 
-    // Proximity reveal: brightest when the camera is near this tablet's t.
-    // Use camera distance to the anchor as the cheap, robust signal.
-    const dist = camera.position.distanceTo(anchor)
-    const near = THREE.MathUtils.clamp(1.0 - (dist - 2.0) / 8.0, 0.0, 1.0)
+    // Proximity reveal: brightest when the camera is near this tablet. Measure from the tablet's
+    // WORLD position so it works inside an offset parent group (the split forks sit under splitPos).
+    g.getWorldPosition(WPOS)
+    const dist = camera.position.distanceTo(WPOS)
+    const near = THREE.MathUtils.clamp(1.0 - (dist - 2.5) / 12.0, 0.0, 1.0)
     const reveal = near * near * (3.0 - 2.0 * near) // smoothstep
-    const target = forge.reduced ? 1.0 : reveal
+    // `active` gates a beat on/off: clustered tablets (the four forks) must not all reveal at
+    // once just because the camera is near the cluster — only the told one shows.
+    const target = (forge.reduced ? 1.0 : reveal) * (active ? 1 : 0)
     // hard-hide far/edge-on tablets so their backing slabs never read as stray bars in the void
     g.visible = target > 0.03
 
@@ -284,14 +276,14 @@ function HeadRow({ segs, x, y, z, max, common, register }) {
 
 const DEFAULT_ITEMS = []
 
-export default function ChannelCopy({ curve, items = DEFAULT_ITEMS, offset = 1.55, width = 2.6 }) {
+export default function ChannelCopy({ curve, items = DEFAULT_ITEMS, offset = 1.55, width = 2.6, active = true }) {
   // Guard: nothing to mount without a curve.
   const list = useMemo(() => (curve ? items : []), [curve, items])
   if (!curve) return null
   return (
     <group>
       {list.map((item, i) => (
-        <Tablet key={i} curve={curve} item={item} offset={offset} width={width} />
+        <Tablet key={i} curve={curve} item={item} offset={offset} width={width} active={active} />
       ))}
     </group>
   )

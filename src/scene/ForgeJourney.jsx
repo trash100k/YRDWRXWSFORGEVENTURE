@@ -3,10 +3,10 @@ import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { forge } from '../store.js'
 import { COPY } from '../brand.js'
-import { buildChannelGeometry, channelVert, channelFrag } from './channel.js'
+import { buildChannelGeometry, channelVert, channelFrag, makeChannelUniforms } from './channel.js'
 import ChannelCopy from './ChannelCopy.jsx'
 import LetterCast from './LetterCast.jsx'
-import ForgeSplit, { CHANNELS, getChannelPose } from './ForgeSplit.jsx'
+import ForgeSplit, { CHANNELS } from './ForgeSplit.jsx'
 
 /**
  * ForgeJourney — the home experience as one scroll-driven descent through the forge:
@@ -19,10 +19,6 @@ import ForgeSplit, { CHANNELS, getChannelPose } from './ForgeSplit.jsx'
  * The channel runs at a shallow grade (a real launder holds its metal), meandering across
  * the dark floor and descending gently, then pours into the splitting chamber below.
  */
-
-// ── journey timeline (fractions of total scroll) ──
-const RIDE_END = 0.46
-const SPLIT_END = 0.86
 
 // acts stacked so the pour is continuous: the river ends at ~(0,-4.6,-19); the split hangs
 // its feeder trunk (local +6) there; the cast sits below the split's rejoin trunk.
@@ -63,53 +59,64 @@ const FORK_TABLETS = [
   [{ t: 0.34, side: 1, kicker: 'GW–04 · Web', head: 'BUILT TO BOOK', body: B[3].line }],
 ]
 
-// ── the one camera, across the three acts ──
+// ── the camera: discrete top-down SHOTS that SNAP from one to the next ──
+// Each copy beat gets its own high, top-down framing of the channel. Scroll selects the shot;
+// the camera snaps to it (a fast move that lands and holds — Brutalist Snap, no glide) and the
+// beat's copy turns to face it. The angle CHANGES to bring the next block up.
+function buildShots(curve) {
+  const up = new THREE.Vector3(0, 1, 0)
+  const sideN = (T, sign) => new THREE.Vector3(-T.z, 0, T.x).normalize().multiplyScalar(sign)
+  const shots = []
+
+  // ride beats — a high top-down 3/4 over each bank tablet
+  for (const tab of TABLETS) {
+    const P = curve.getPointAt(tab.t)
+    const T = curve.getTangentAt(tab.t).normalize()
+    const N = sideN(T, tab.side < 0 ? -1 : 1)
+    shots.push({
+      pos: P.clone().addScaledVector(up, 5.2).addScaledVector(N, 2.7).addScaledVector(T, -0.6),
+      target: P.clone().addScaledVector(N, 0.8),
+      fork: -1,
+    })
+  }
+  // split beats — a top-down over each fork's widest, most readable point
+  for (let i = 0; i < 4; i++) {
+    const P = CHANNELS[i].getPointAt(0.34).clone().add(SPLIT_POS)
+    const T = CHANNELS[i].getTangentAt(0.34).clone().normalize()
+    const N = sideN(T, i < 2 ? -1 : 1)
+    shots.push({
+      pos: P.clone().addScaledVector(up, 5.8).addScaledVector(N, 2.2).addScaledVector(T, -0.9),
+      target: P.clone().addScaledVector(N, 0.95).addScaledVector(up, 0.2),
+      fork: i,
+    })
+  }
+  // the cast — the one head-on beat
+  shots.push({
+    pos: new THREE.Vector3(FINALE_POS[0], FINALE_POS[1] + 1.6, FINALE_POS[2] + 7.0),
+    target: new THREE.Vector3(FINALE_POS[0], FINALE_POS[1], FINALE_POS[2]),
+    fork: -1,
+  })
+  return shots
+}
+
 function JourneyCamera({ curve, onFork }) {
   const { camera } = useThree()
-  const up = useMemo(() => new THREE.Vector3(0, 1, 0), [])
-  const P = useMemo(() => new THREE.Vector3(), [])
-  const TAN = useMemo(() => new THREE.Vector3(), [])
-  const LOOK = useMemo(() => new THREE.Vector3(), [])
-  const DES = useMemo(() => new THREE.Vector3(), [])
+  const shots = useMemo(() => buildShots(curve), [curve])
+  const look = useMemo(() => new THREE.Vector3(), [])
   const forkRef = useRef(-2)
+  const initRef = useRef(false)
 
   useFrame(() => {
-    const s = THREE.MathUtils.clamp(forge.scroll, 0, 0.999)
-
-    if (s < RIDE_END) {
-      // BEAT 1-3 — ride above the trough, looking down INTO the river, reading the banks
-      if (forkRef.current !== -1) { forkRef.current = -1; onFork(-1) }
-      const t = THREE.MathUtils.clamp((s / RIDE_END) * 0.95, 0.001, 0.95)
-      curve.getPointAt(t, P)
-      curve.getTangentAt(t, TAN).normalize()
-      // ride well above and behind, looking ahead and gently down so the river reads inside
-      // its banks (not nose-diving into the near wall as the channel meanders)
-      DES.copy(P).addScaledVector(TAN, -4.3).addScaledVector(up, 3.1)
-      camera.position.lerp(DES, 0.1)
-      LOOK.copy(P).addScaledVector(TAN, 4.2).addScaledVector(up, -0.7)
-      camera.lookAt(LOOK)
-    } else if (s < SPLIT_END) {
-      // BEAT 4 — angle THROUGH each fork in turn as its tablet is told
-      const f = (s - RIDE_END) / (SPLIT_END - RIDE_END)
-      const ff = f * 4
-      const fork = THREE.MathUtils.clamp(Math.floor(ff), 0, 3)
-      if (forkRef.current !== fork) { forkRef.current = fork; onFork(fork) }
-      const pose = getChannelPose(fork)
-      DES.set(pose.position[0], pose.position[1], pose.position[2]).add(SPLIT_POS)
-      LOOK.set(pose.lookAt[0], pose.lookAt[1], pose.lookAt[2]).add(SPLIT_POS)
-      // Brutalist Snap: arrive fast at each new fork, then settle to dwell on it
-      const local = ff - fork
-      const k = local < 0.22 ? 0.2 : 0.07
-      camera.position.lerp(DES, k)
-      camera.lookAt(LOOK)
-    } else {
-      // BEAT 5 — the cast: hold on the GAELWORX letterforms
-      if (forkRef.current !== -3) { forkRef.current = -3; onFork(-1) }
-      DES.set(FINALE_POS[0], FINALE_POS[1] + 0.3, FINALE_POS[2] + 7.5)
-      camera.position.lerp(DES, 0.08)
-      LOOK.set(FINALE_POS[0], FINALE_POS[1], FINALE_POS[2])
-      camera.lookAt(LOOK)
-    }
+    const s = THREE.MathUtils.clamp(forge.scroll, 0, 0.9999)
+    const idx = THREE.MathUtils.clamp(Math.floor(s * shots.length), 0, shots.length - 1)
+    const shot = shots[idx]
+    if (forkRef.current !== shot.fork) { forkRef.current = shot.fork; onFork(shot.fork) }
+    if (!initRef.current) { camera.position.copy(shot.pos); look.copy(shot.target); initRef.current = true }
+    // fast lerp = snap-and-hold: the target is constant within a beat, so the camera lands on
+    // the new framing and sits still until scroll crosses into the next shot
+    camera.position.lerp(shot.pos, 0.16)
+    look.lerp(shot.target, 0.16)
+    camera.lookAt(look)
   })
   return null
 }
@@ -120,7 +127,7 @@ export default function ForgeJourney() {
     () => buildChannelGeometry(curve, 320, { width: 2.0, floorFrac: 0.5, wallH: 0.55 }),
     [curve]
   )
-  const uniforms = useMemo(() => ({ uTime: { value: 0 }, uTemp: { value: 0.5 } }), [])
+  const uniforms = useMemo(() => makeChannelUniforms({ style: 4, active: 1, intensity: 1 }), [])
   const [activeFork, setActiveFork] = useState(-1)
   const splitPos = useMemo(() => SPLIT_POS.toArray(), [])
 
@@ -148,7 +155,7 @@ export default function ForgeJourney() {
       <group position={splitPos}>
         <ForgeSplit active={activeFork} intensity={1} />
         {FORK_TABLETS.map((items, i) => (
-          <ChannelCopy key={i} curve={CHANNELS[i]} items={items} offset={1.05} width={2.1} />
+          <ChannelCopy key={i} curve={CHANNELS[i]} items={items} offset={1.05} width={2.1} active={activeFork === i} />
         ))}
       </group>
 

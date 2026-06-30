@@ -97,6 +97,9 @@ export const channelFrag = /* glsl */ `
   varying vec2 vUv;     // x along flow, y across profile (0..1)
   varying float vDepth;
   uniform float uTime, uTemp;
+  uniform float uStyle;     // floor character: 0 Voice·1 Software·2 Automations·3 Web·4 plain
+  uniform float uActive;    // 0..1 — the currently-told fork runs hotter/brighter
+  uniform float uIntensity; // 0..1.5 — parent fade
 
   vec3 gw_tempColor(float t){
     t = clamp(t, 0.0, 1.0);
@@ -114,14 +117,37 @@ export const channelFrag = /* glsl */ `
     float acr = vUv.y;
     float onFloor = step(0.33, acr) * step(acr, 0.66);
 
-    // ── the molten floor (the river) ──
+    // ── the molten floor (the river) — per-service character ──
     float across = clamp((acr - 0.33) / 0.33, 0.0, 1.0);
     float core = clamp(1.0 - abs(across - 0.5) * 1.6, 0.0, 1.0);
-    float flow  = sin(along * 120.0 - uTime * 2.2) * 0.5 + 0.5;
-    float flow2 = sin(along * 47.0 - uTime * 1.4 + 1.6) * 0.5 + 0.5;
-    float skin  = sin(along * 260.0 + across * 6.0 - uTime * 3.0) * 0.5 + 0.5; // fine molten skin
-    float tf = (0.56 + flow * 0.24 + flow2 * 0.14 + skin * 0.06 + uTemp * 0.08) * (0.42 + core * 0.72);
-    vec3 floorCol = gw_tempColor(tf) * gw_em(tf);
+    float tf;
+    if (uStyle < 0.5) {
+      // Voice — soft, wavy, breathing
+      float wave = sin(along * 40.0 - uTime * 1.3) * 0.5 + 0.5;
+      float breath = sin(uTime * 0.8 + along * 9.0) * 0.5 + 0.5;
+      tf = 0.50 + wave * 0.26 + breath * 0.10;
+    } else if (uStyle < 1.5) {
+      // Software — quantised circuit cells marching down
+      float gate = step(0.55, fract(along * 26.0 - uTime * 0.9));
+      tf = 0.46 + gate * 0.30;
+    } else if (uStyle < 2.5) {
+      // Automations — dense fast banding + rivet ticks
+      float band = sin(along * 180.0 - uTime * 3.6) * 0.5 + 0.5;
+      float ticks = step(0.7, fract(along * 60.0 - uTime * 1.8));
+      tf = 0.46 + band * 0.20 + ticks * 0.20;
+    } else if (uStyle < 3.5) {
+      // Web — prismatic jewel shimmer, runs hottest
+      float facet = sin(along * 60.0 - uTime * 1.6) * sin(across * 18.0 + uTime * 0.7);
+      tf = 0.60 + pow(facet * 0.5 + 0.5, 1.6) * 0.30;
+    } else {
+      // plain trunk / main channel — broad flowing bands + fine skin
+      float flow  = sin(along * 120.0 - uTime * 2.2) * 0.5 + 0.5;
+      float flow2 = sin(along * 47.0 - uTime * 1.4 + 1.6) * 0.5 + 0.5;
+      float skin  = sin(along * 260.0 + across * 6.0 - uTime * 3.0) * 0.5 + 0.5;
+      tf = 0.56 + flow * 0.24 + flow2 * 0.14 + skin * 0.06;
+    }
+    tf = (tf + uTemp * 0.06 + uActive * 0.14) * (0.42 + core * 0.72);
+    vec3 floorCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.5, uActive);
 
     // ── the basalt banks, lit only by the river at their foot ──
     float hgt = acr < 0.5 ? (0.33 - acr) / 0.33 : (acr - 0.66) / 0.34; // 0 at floor, 1 at lip
@@ -129,10 +155,21 @@ export const channelFrag = /* glsl */ `
     float glow = pow(1.0 - hgt, 2.4);                       // firelight falls off up the bank
     float lick = 0.72 + 0.28 * (sin(along * 60.0 - uTime * 2.0) * 0.5 + 0.5);
     vec3 basalt = vec3(0.018, 0.026, 0.028);                // dark green-black Irish basalt
-    vec3 wallCol = basalt + gw_tempColor(0.6) * glow * lick * 0.95;
+    vec3 wallCol = basalt + gw_tempColor(0.6) * glow * lick * (0.95 + uActive * 0.6);
 
-    vec3 col = mix(wallCol, floorCol, onFloor);
+    vec3 col = mix(wallCol, floorCol, onFloor) * uIntensity;
     col *= smoothstep(30.0, 1.5, vDepth);                   // emerge from the dark ahead
     gl_FragColor = vec4(col, 1.0);
   }
 `
+
+// Build the uniform set a channel material needs (stable references for per-frame writes).
+export function makeChannelUniforms({ style = 4, active = 0, intensity = 1 } = {}) {
+  return {
+    uTime: { value: 0 },
+    uTemp: { value: 0.5 },
+    uStyle: { value: style },
+    uActive: { value: active },
+    uIntensity: { value: intensity },
+  }
+}
