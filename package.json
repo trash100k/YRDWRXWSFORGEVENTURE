@@ -1,0 +1,30 @@
+{
+  "name": "gaelworx",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GAELWORX — the new avatar-level forge-world site. Automatic Execution. Clan Protected.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
+    "@fontsource/cinzel-decorative": "^5.1.0",
+    "@fontsource/hanken-grotesk": "^5.1.0",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "lenis": "^1.1.14",
+    "postprocessing": "^6.36.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}

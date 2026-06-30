@@ -1,0 +1,113 @@
+/* GAELWORX — design tokens + base + the A+E ignite. Neo-Gaelic Brutalist:
+   0px corners, hard borders, void-black, forge-fire accents. */
+
+:root {
+  /* Industrial Metallurgy palette */
+  --gw-forge: #C1292E;   /* Celtic Blood */
+  --gw-ember: #E85D04;   /* Ember Glow */
+  --gw-void: #0B0C10;    /* Forged Iron — background */
+  --gw-iron: #1F2833;    /* Cold Steel — surface */
+  --gw-bone: #F1F2F6;    /* Fog White — text */
+  --gw-steel: #8D99AE;   /* Ash — muted */
+
+  /* type */
+  --gw-display: 'Cinzel Decorative', 'Trajan Pro', 'Times New Roman', serif;
+  --gw-headline: 'Bricolage Grotesque Variable', system-ui, -apple-system, sans-serif;
+  --gw-sans: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --gw-ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--gw-void);
+  color: var(--gw-bone);
+  font-family: var(--gw-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+::selection { background: var(--gw-forge); color: var(--gw-bone); }
+
+/* ── A+E ignite — the fire of the forge ─────────────────────────────── */
+.forge-letter {
+  font-family: var(--gw-display);
+  font-weight: 900;
+  background: linear-gradient(to bottom, #E85D04, #C1292E, #E34A27, #C0392B);
+  background-size: 100% 220%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0 0 14px rgba(232, 93, 4, 0.42));
+  animation: lavaFlow 4.5s ease-in-out infinite;
+}
+@keyframes lavaFlow {
+  0%, 100% { background-position: 50% 0%; }
+  50% { background-position: 50% 100%; }
+}
+.brand-term { font-weight: 700; color: var(--gw-bone); letter-spacing: 0.01em; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .forge-letter { animation: none; }
+}
+
+/* ── hero ───────────────────────────────────────────────────────────── */
+.hero {
+  min-height: 100svh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+  padding: clamp(24px, 6vw, 80px);
+  position: relative; overflow: hidden;
+}
+.eyebrow {
+  font-size: clamp(10px, 1.1vw, 12.5px); letter-spacing: 0.46em;
+  font-weight: 700; text-transform: uppercase; color: var(--gw-ember);
+  margin-bottom: clamp(18px, 3vw, 30px);
+}
+.hero-pre {
+  font-family: var(--gw-headline); font-weight: 700; color: var(--gw-bone);
+  font-size: clamp(1.05rem, 2.6vw, 1.9rem); line-height: 1.16; letter-spacing: -0.01em;
+  max-width: 22ch; margin: 0 0 clamp(12px, 1.6vw, 22px); text-wrap: balance;
+}
+.headline {
+  margin: 0; font-family: var(--gw-display); text-transform: uppercase; font-weight: 900;
+  font-size: clamp(2.4rem, 9vw, 6.4rem); line-height: 1.0; letter-spacing: 0.01em;
+  color: var(--gw-bone);
+}
+.hero-sub {
+  margin: clamp(22px, 2.6vw, 32px) 0 0; max-width: 36ch; color: var(--gw-steel);
+  font-size: clamp(1.02rem, 1.9vw, 1.4rem); line-height: 1.4;
+}
+
+/* ── CTA — Point the Sword: sharp, hard shadow, immediate feedback ───── */
+.cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: clamp(28px, 3.6vw, 46px);
+  padding: 16px 32px; border: 1px solid var(--gw-ember); border-radius: 0;
+  background: transparent; color: var(--gw-bone);
+  font-family: var(--gw-headline); font-weight: 700; font-size: 14px;
+  letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;
+  box-shadow: 6px 6px 0 #000;
+  transition: transform .16s var(--gw-ease), background .16s var(--gw-ease), box-shadow .16s var(--gw-ease);
+}
+.cta:hover { background: rgba(232, 93, 4, 0.12); transform: translate(-2px, -2px); box-shadow: 8px 8px 0 #000; }
+.cta:active { transform: translate(0, 0); box-shadow: 4px 4px 0 #000; }
+.cta--solid { background: var(--gw-forge); border-color: var(--gw-forge); }
+.cta--solid:hover { background: var(--gw-ember); border-color: var(--gw-ember); }
+
+.scrollcue {
+  position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%);
+  font-size: 10px; letter-spacing: 0.34em; text-transform: uppercase; color: var(--gw-steel);
+}
