@@ -100,7 +100,7 @@ function JourneyCamera({ onStrand }) {
   const sRef = useRef(-2)
   const initRef = useRef(false)
 
-  useFrame(() => {
+  useFrame((state) => {
     const s = THREE.MathUtils.clamp(forge.scroll, 0, 0.9999)
     const idx = THREE.MathUtils.clamp(Math.floor(s * shots.length), 0, shots.length - 1)
     const shot = shots[idx]
@@ -109,7 +109,12 @@ function JourneyCamera({ onStrand }) {
     // fast lerp = snap-and-hold (Brutalist Snap)
     camera.position.lerp(shot.pos, 0.16)
     look.lerp(shot.target, 0.16)
-    camera.lookAt(look)
+    // Atmospheric Drift — a slow living sway so a held shot never sits dead
+    const t = forge.reduced ? 0 : state.clock.elapsedTime
+    camera.position.x += Math.sin(t * 0.23) * 0.20 + Math.sin(t * 0.41) * 0.09
+    camera.position.y += Math.sin(t * 0.31) * 0.12
+    camera.position.z += Math.cos(t * 0.19) * 0.18
+    camera.lookAt(look.x + Math.sin(t * 0.27) * 0.10, look.y, look.z + Math.cos(t * 0.22) * 0.10)
   })
   return null
 }
