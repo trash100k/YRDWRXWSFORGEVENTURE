@@ -16,7 +16,7 @@ import { forge } from '../store.js'
  * from `curve`, passed as a uniform), so the groove follows any meandering/interlacing path.
  */
 
-const MAXP = 32 // uniform path capacity
+const MAXP = 64 // uniform path-point capacity (shared across all carved paths)
 
 const vert = /* glsl */ `
   varying vec2 vWorld;
@@ -35,6 +35,7 @@ const frag = /* glsl */ `
   uniform int uCount;
   uniform vec2 uPath[${MAXP}];
   uniform float uCum[${MAXP}];
+  uniform float uBreak[${MAXP}]; // 1 = this point starts a new path (don't connect across)
 
   vec3 gw_tempColor(float t){
     t = clamp(t, 0.0, 1.0);
@@ -71,6 +72,7 @@ const frag = /* glsl */ `
     float bestD = 1e9, along = 0.0;
     for (int i = 0; i < ${MAXP - 1}; i++) {
       if (i >= uCount - 1) break;
+      if (uBreak[i + 1] > 0.5) continue; // skip the gap between two separate paths
       vec2 a = uPath[i], b = uPath[i+1];
       vec2 ba = b - a, pa = p - a;
       float h = clamp(dot(pa, ba) / max(dot(ba, ba), 1e-4), 0.0, 1.0);
@@ -124,30 +126,31 @@ const frag = /* glsl */ `
   }
 `
 
-export default function ChannelFloor({ curve, floorY = 0, half = 0.55, margin = 5, samples = 28 }) {
+export default function ChannelFloor({ curve, curves, floorY = 0, half = 0.55, margin = 5, samples }) {
   const matRef = useRef()
 
   const { geo, position, uniforms } = useMemo(() => {
-    const n = Math.min(samples, MAXP)
-    const pts = []
-    const cum = []
-    let len = 0
-    let prev = null
+    const paths = curves && curves.length ? curves : curve ? [curve] : []
+    const nPaths = Math.max(1, paths.length)
+    const perPath = samples || Math.max(6, Math.floor(MAXP / nPaths))
+    const upath = [], ucum = [], ubreak = []
     let minX = Infinity, maxX = -Infinity, minZ = Infinity, maxZ = -Infinity
-    for (let i = 0; i < n; i++) {
-      const P = curve.getPointAt(i / (n - 1))
-      const v = new THREE.Vector2(P.x, P.z)
-      if (prev) len += v.distanceTo(prev)
-      cum.push(len)
-      pts.push(v)
-      prev = v
-      minX = Math.min(minX, v.x); maxX = Math.max(maxX, v.x)
-      minZ = Math.min(minZ, v.y); maxZ = Math.max(maxZ, v.y)
+    for (const c of paths) {
+      const k = Math.min(perPath, MAXP - upath.length)
+      if (k < 2) break
+      let len = 0, prev = null
+      for (let i = 0; i < k; i++) {
+        const P = c.getPointAt(i / (k - 1))
+        const v = new THREE.Vector2(P.x, P.z)
+        if (prev) len += v.distanceTo(prev)
+        upath.push(v); ucum.push(len); ubreak.push(i === 0 ? 1 : 0)
+        prev = v
+        minX = Math.min(minX, v.x); maxX = Math.max(maxX, v.x)
+        minZ = Math.min(minZ, v.y); maxZ = Math.max(maxZ, v.y)
+      }
     }
-    // pad the uniform arrays to MAXP
-    const upath = pts.slice()
-    const ucum = cum.slice()
-    while (upath.length < MAXP) { upath.push(new THREE.Vector2(0, 0)); ucum.push(cum[cum.length - 1] || 0) }
+    const count = upath.length
+    while (upath.length < MAXP) { upath.push(new THREE.Vector2(0, 0)); ucum.push(0); ubreak.push(1) }
 
     const cx = (minX + maxX) / 2
     const cz = (minZ + maxZ) / 2
@@ -161,12 +164,13 @@ export default function ChannelFloor({ curve, floorY = 0, half = 0.55, margin = 
       uHalf: { value: half },
       uRadius: { value: Math.max(w, l) * 0.62 },
       uCenter: { value: new THREE.Vector2(cx, cz) },
-      uCount: { value: n },
+      uCount: { value: count },
       uPath: { value: upath },
       uCum: { value: ucum },
+      uBreak: { value: ubreak },
     }
     return { geo: g, position: [cx, floorY, cz], uniforms: u }
-  }, [curve, floorY, half, margin, samples])
+  }, [curve, curves, floorY, half, margin, samples])
 
   useFrame((state, dt) => {
     const u = uniforms

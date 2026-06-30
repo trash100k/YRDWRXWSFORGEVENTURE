@@ -6,7 +6,6 @@ import { COPY } from '../brand.js'
 import ChannelFloor from './channelFloor.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
 import LetterCast from './LetterCast.jsx'
-import ForgeSplit, { CHANNELS } from './ForgeSplit.jsx'
 
 /**
  * ForgeJourney — the home experience as one scroll-driven descent through the forge:
@@ -20,10 +19,30 @@ import ForgeSplit, { CHANNELS } from './ForgeSplit.jsx'
  * the dark floor and descending gently, then pours into the splitting chamber below.
  */
 
-// acts stacked so the pour is continuous: the river ends at ~(0,-4.6,-19); the split hangs
-// its feeder trunk (local +6) there; the cast sits below the split's rejoin trunk.
-const SPLIT_POS = new THREE.Vector3(0, -10.6, -19)
-const FINALE_POS = [0, -28, -19]
+// The whole channel network lives on ONE flat basalt floor, read top-down: the ride channel
+// winds in, FORKS into four braided forks that rejoin; the cast stands just beyond.
+const SPLIT_Z0 = -19 // where the channel forks
+const SPLIT_Z1 = -30 // where the forks rejoin
+const FINALE_POS = [0, 0.7, -33]
+
+// four molten forks that bow out of the channel, weave past each other, and rejoin (Kilauea braid)
+function makeForkFlat(lane, weave) {
+  const zm = (SPLIT_Z0 + SPLIT_Z1) / 2
+  return new THREE.CatmullRomCurve3(
+    [
+      new THREE.Vector3(0, 0, SPLIT_Z0),
+      new THREE.Vector3(lane * 0.45, 0, SPLIT_Z0 - 2.4),
+      new THREE.Vector3(lane, 0, zm - 1.4 + weave * 0.6),
+      new THREE.Vector3(lane - weave * 0.8, 0, zm + 1.4),
+      new THREE.Vector3(lane * 0.45, 0, SPLIT_Z1 + 2.4),
+      new THREE.Vector3(0, 0, SPLIT_Z1),
+    ],
+    false,
+    'catmullrom',
+    0.5
+  )
+}
+const SPLIT_FORKS = [makeForkFlat(-3.6, 1), makeForkFlat(-1.3, -1), makeForkFlat(1.3, 1), makeForkFlat(3.6, -1)]
 
 // ── the channel path — a gentle meander across the floor, descending just enough to flow ──
 function makeCurve() {
@@ -53,10 +72,10 @@ const TABLETS = [
 // Beat 4 — one tablet per fork, the branch's pain line, mounted outboard on that fork.
 const B = COPY.arsenal.branches
 const FORK_TABLETS = [
-  [{ t: 0.34, side: -1, kicker: 'GW–01 · Voice', head: 'EVERY CALL ANSWERED', body: B[0].line }],
-  [{ t: 0.34, side: -1, kicker: 'GW–02 · Software', head: 'YOU OWN THE CODE', body: B[1].line }],
-  [{ t: 0.34, side: 1, kicker: 'GW–03 · Automations', head: 'IT RUNS ITSELF', body: B[2].line }],
-  [{ t: 0.34, side: 1, kicker: 'GW–04 · Web', head: 'BUILT TO BOOK', body: B[3].line }],
+  [{ t: 0.32, side: -1, kicker: 'GW–01 · Voice', head: 'EVERY CALL ANSWERED', body: B[0].line }],
+  [{ t: 0.32, side: -1, kicker: 'GW–02 · Software', head: 'YOU OWN THE CODE', body: B[1].line }],
+  [{ t: 0.32, side: 1, kicker: 'GW–03 · Automations', head: 'IT RUNS ITSELF', body: B[2].line }],
+  [{ t: 0.32, side: 1, kicker: 'GW–04 · Web', head: 'BUILT TO BOOK', body: B[3].line }],
 ]
 
 // ── the camera: discrete top-down SHOTS that SNAP from one to the next ──
@@ -81,12 +100,12 @@ function buildShots(curve) {
   }
   // split beats — a top-down over each fork's widest, most readable point
   for (let i = 0; i < 4; i++) {
-    const P = CHANNELS[i].getPointAt(0.34).clone().add(SPLIT_POS)
-    const T = CHANNELS[i].getTangentAt(0.34).clone().normalize()
+    const P = SPLIT_FORKS[i].getPointAt(0.32) // where the fork has bowed out and reads alone
+    const T = SPLIT_FORKS[i].getTangentAt(0.32).normalize()
     const N = sideN(T, i < 2 ? -1 : 1)
     shots.push({
-      pos: P.clone().addScaledVector(up, 5.8).addScaledVector(N, 2.2).addScaledVector(T, -0.9),
-      target: P.clone().addScaledVector(N, 0.95).addScaledVector(up, 0.2),
+      pos: P.clone().addScaledVector(up, 6.6).addScaledVector(N, 2.6).addScaledVector(T, -1.0),
+      target: P.clone().addScaledVector(N, 0.9),
       fork: i,
     })
   }
@@ -123,24 +142,24 @@ function JourneyCamera({ curve, onFork }) {
 
 export default function ForgeJourney() {
   const curve = useMemo(() => makeCurve(), [])
+  const allPaths = useMemo(() => [curve, ...SPLIT_FORKS], [curve])
   const [activeFork, setActiveFork] = useState(-1)
-  const splitPos = useMemo(() => SPLIT_POS.toArray(), [])
 
   return (
     <>
       <JourneyCamera curve={curve} onFork={setActiveFork} />
 
-      {/* beats 1-3: the molten channel CARVED into the basalt forge floor, read top-down */}
-      <ChannelFloor curve={curve} half={0.6} />
-      <ChannelCopy curve={curve} items={TABLETS} offset={1.55} width={2.4} />
+      {/* the whole channel network — the ride channel + the four braided forks — carved into
+          ONE basalt forge floor, read top-down (the metal is the only light) */}
+      <ChannelFloor curves={allPaths} half={0.52} margin={4.5} />
 
-      {/* beat 4: the four-fork Celtic split + one branch tablet per fork */}
-      <group position={splitPos}>
-        <ForgeSplit active={activeFork} intensity={1} />
-        {FORK_TABLETS.map((items, i) => (
-          <ChannelCopy key={i} curve={CHANNELS[i]} items={items} offset={1.05} width={2.1} active={activeFork === i} />
-        ))}
-      </group>
+      {/* beats 1-3: the story carved on the banks */}
+      <ChannelCopy curve={curve} items={TABLETS} offset={1.4} width={2.4} />
+
+      {/* beat 4: one branch tablet per fork, gated to the told fork */}
+      {FORK_TABLETS.map((items, i) => (
+        <ChannelCopy key={i} curve={SPLIT_FORKS[i]} items={items} offset={0.85} width={2.0} active={activeFork === i} />
+      ))}
 
       {/* beat 5: the cast — GAELWORX, the A and E eternal */}
       <LetterCast progress={1} position={FINALE_POS} size={1.0} />

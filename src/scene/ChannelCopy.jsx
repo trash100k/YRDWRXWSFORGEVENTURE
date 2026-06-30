@@ -143,6 +143,12 @@ function Tablet({ curve, item, offset, width, active }) {
   const COMMON = {
     font: FONT_BODY, // bundled Hanken (local asset) — never fetches Roboto over the network
     anchorX: 'left',
+    // a soft dark halo (NOT a container) so the floating copy stays legible over bright molten —
+    // the brief's rule: if a visual makes the message harder to read, it loses
+    outlineWidth: '5%',
+    outlineBlur: '22%',
+    outlineColor: '#08090C',
+    outlineOpacity: 0.9,
     'material-toneMapped': false,
     'material-transparent': true,
     'material-depthWrite': false,
