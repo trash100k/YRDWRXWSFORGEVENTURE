@@ -133,11 +133,8 @@ function Tablet({ curve, item, offset, width, active }) {
     // hard-hide far/edge-on tablets so their backing slabs never read as stray bars in the void
     g.visible = target > 0.03
 
-    // damp opacities toward target (text materials are transparent)
+    // damp the text-material opacities toward target (no backing panel — the copy floats)
     const k = forge.reduced ? 1 : 1 - Math.pow(0.0015, d)
-    if (slabRef.current) {
-      slabRef.current.opacity += (target * 0.82 - slabRef.current.opacity) * k
-    }
     for (const mat of matRefs.current) {
       if (mat) mat.opacity += (target - mat.opacity) * k
     }
@@ -157,23 +154,7 @@ function Tablet({ curve, item, offset, width, active }) {
 
   return (
     <group ref={group} position={anchor}>
-      {/* Basalt backing slab — dark, sharp-cornered (Neo-Gaelic Brutalism), 1px-ash
-          rim faked by a slightly larger steel plate behind. Sits just behind the text. */}
-      <mesh position={[0, 0, -0.04]} renderOrder={-1}>
-        <planeGeometry args={[slabW + 0.06, slabH + 0.06]} />
-        <meshBasicMaterial color={ASH} transparent opacity={0.18} depthWrite={false} toneMapped={false} />
-      </mesh>
-      <mesh position={[0, 0, -0.02]} renderOrder={0}>
-        <planeGeometry args={[slabW, slabH]} />
-        <meshBasicMaterial
-          ref={slabRef}
-          color={PAL.void}
-          transparent
-          opacity={0.0}
-          depthWrite={false}
-          toneMapped={false}
-        />
-      </mesh>
+      {/* no backing panel — the carved copy floats in the dark, lit only by its own glow */}
 
       {/* KICKER — ember overline, glows (>1.0 emissive via color scale) */}
       {item.kicker ? (

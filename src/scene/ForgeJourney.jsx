@@ -3,7 +3,7 @@ import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { forge } from '../store.js'
 import { COPY } from '../brand.js'
-import { buildChannelGeometry, channelVert, channelFrag, makeChannelUniforms } from './channel.js'
+import ChannelFloor from './channelFloor.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
 import LetterCast from './LetterCast.jsx'
 import ForgeSplit, { CHANNELS } from './ForgeSplit.jsx'
@@ -34,7 +34,7 @@ function makeCurve() {
     pts.push(
       new THREE.Vector3(
         Math.sin(t * Math.PI * 3.0) * 4.2, // meander across the floor, recentred at the end
-        1.6 - t * 6.2, // shallow descent — a grade that holds the metal
+        0.0, // flat — this is the forge FLOOR, read top-down (the channel is carved into it)
         -t * 19.0 // travel forward into the dark
       )
     )
@@ -123,32 +123,15 @@ function JourneyCamera({ curve, onFork }) {
 
 export default function ForgeJourney() {
   const curve = useMemo(() => makeCurve(), [])
-  const geo = useMemo(
-    () => buildChannelGeometry(curve, 320, { width: 2.0, floorFrac: 0.5, wallH: 0.55 }),
-    [curve]
-  )
-  const uniforms = useMemo(() => makeChannelUniforms({ style: 4, active: 1, intensity: 1 }), [])
   const [activeFork, setActiveFork] = useState(-1)
   const splitPos = useMemo(() => SPLIT_POS.toArray(), [])
-
-  useFrame((state, dt) => {
-    uniforms.uTime.value = state.clock.elapsedTime
-    uniforms.uTemp.value += (forge.temperature - uniforms.uTemp.value) * Math.min(1, (dt || 0.016) * 2)
-  })
 
   return (
     <>
       <JourneyCamera curve={curve} onFork={setActiveFork} />
 
-      {/* beats 1-3: the open molten trough + carved bank tablets */}
-      <mesh geometry={geo}>
-        <shaderMaterial
-          vertexShader={channelVert}
-          fragmentShader={channelFrag}
-          uniforms={uniforms}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
+      {/* beats 1-3: the molten channel CARVED into the basalt forge floor, read top-down */}
+      <ChannelFloor curve={curve} half={0.6} />
       <ChannelCopy curve={curve} items={TABLETS} offset={1.55} width={2.4} />
 
       {/* beat 4: the four-fork Celtic split + one branch tablet per fork */}
