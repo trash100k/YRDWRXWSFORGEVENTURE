@@ -203,6 +203,7 @@ function CastLetter({ char, x, size, isDivine, localFill, cooled }) {
 
 export default function LetterCast({
   progress = 0,
+  liveProgress = null, // optional () => number, read every frame (scroll-driven cast, no re-render)
   text = 'GAELWORX',
   position = [0, 0, 0],
   size = 1.2,
@@ -229,7 +230,7 @@ export default function LetterCast({
   const cools = useRef(layout.map(() => ({ current: 0 })))
 
   useFrame(() => {
-    const p = THREE.MathUtils.clamp(progress, 0, 1)
+    const p = THREE.MathUtils.clamp(liveProgress ? liveProgress() : progress, 0, 1)
     // Two phases over the scroll: the molten POUR fills the word L→R (front-loaded), then the
     // metal SETS, cooling L→R. They overlap, but by p=1 everything has cast AND cooled — the
     // settled finale: forged iron everywhere, the divine A/E the only things still alight.

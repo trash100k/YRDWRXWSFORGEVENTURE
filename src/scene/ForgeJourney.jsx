@@ -39,7 +39,13 @@ const CENTER = new THREE.CatmullRomCurve3(
   [new THREE.Vector3(0, 0, 0), new THREE.Vector3(0, 0, Z1 * 0.5), new THREE.Vector3(0, 0, Z1)],
   false, 'catmullrom', 0.5
 )
-const FINALE_POS = [0, 0.7, Z1 - 3]
+const FINALE_POS = [0, 1.5, Z1 - 1] // the cast stands above where the four cords gather and pour up
+// the cast camera DESCENDS from a high overhead read to eye-level as the letters fill
+const FINALE_CAM = {
+  highPos: new THREE.Vector3(FINALE_POS[0], 8.0, FINALE_POS[2] + 4.4),
+  eyePos: new THREE.Vector3(FINALE_POS[0], 1.7, FINALE_POS[2] + 7.8),
+  look: new THREE.Vector3(FINALE_POS[0], 1.05, FINALE_POS[2]),
+}
 
 // ── the copy ── story beats float beside the plait; service beats sit on their strand
 const TABLETS = [
@@ -97,18 +103,35 @@ function JourneyCamera({ onStrand }) {
   const { camera } = useThree()
   const shots = useMemo(() => buildShots(), [])
   const look = useMemo(() => new THREE.Vector3(), [])
+  const desPos = useMemo(() => new THREE.Vector3(), [])
   const sRef = useRef(-2)
   const initRef = useRef(false)
 
   useFrame((state) => {
     const s = THREE.MathUtils.clamp(forge.scroll, 0, 0.9999)
-    const idx = THREE.MathUtils.clamp(Math.floor(s * shots.length), 0, shots.length - 1)
+    const n = shots.length
+    const idx = THREE.MathUtils.clamp(Math.floor(s * n), 0, n - 1)
     const shot = shots[idx]
     if (sRef.current !== shot.strand) { sRef.current = shot.strand; onStrand(shot.strand) }
     if (!initRef.current) { camera.position.copy(shot.pos); look.copy(shot.target); initRef.current = true }
+
+    let tgtPos = shot.pos
+    let tgtLook = shot.target
+    if (idx === n - 1) {
+      // THE CAST — fill the GAELWORX letters and DESCEND from overhead to eye-level (the
+      // brief's "camera decides" reveal: flat overhead read -> the letters gain depth).
+      const fp = THREE.MathUtils.clamp(s * n - (n - 1), 0, 1)
+      const e = fp * fp * (3.0 - 2.0 * fp)
+      forge.finaleProgress = e
+      desPos.lerpVectors(FINALE_CAM.highPos, FINALE_CAM.eyePos, e)
+      tgtPos = desPos
+      tgtLook = FINALE_CAM.look
+    } else {
+      forge.finaleProgress = 0
+    }
     // fast lerp = snap-and-hold (Brutalist Snap)
-    camera.position.lerp(shot.pos, 0.16)
-    look.lerp(shot.target, 0.16)
+    camera.position.lerp(tgtPos, 0.16)
+    look.lerp(tgtLook, 0.16)
     // Atmospheric Drift — a slow living sway so a held shot never sits dead
     const t = forge.reduced ? 0 : state.clock.elapsedTime
     camera.position.x += Math.sin(t * 0.13) * 0.26 + Math.sin(t * 0.22) * 0.10
@@ -148,8 +171,15 @@ export default function ForgeJourney() {
         />
       ))}
 
-      {/* the cast — GAELWORX, the A and E eternal */}
-      <LetterCast progress={1} position={FINALE_POS} size={1.0} />
+      {/* the cast — GAELWORX fills as the camera descends; the A and E hold the divine fire */}
+      <LetterCast liveProgress={() => forge.finaleProgress} position={FINALE_POS} size={1.0} />
+      {/* Automatic Execution crystallizes beneath, its A the same white-gold fire */}
+      <LetterCast
+        text="AUTOMATIC EXECUTION"
+        liveProgress={() => THREE.MathUtils.clamp((forge.finaleProgress - 0.5) / 0.5, 0, 1)}
+        position={[FINALE_POS[0], 0.62, FINALE_POS[2]]}
+        size={0.3}
+      />
     </>
   )
 }
