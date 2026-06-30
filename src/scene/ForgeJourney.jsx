@@ -3,6 +3,16 @@ import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
+import ChannelCopy from './ChannelCopy.jsx'
+
+// Beat 3 — the story carved on the channel walls. Short Clan-Voice tablets you read as you
+// ride the pour down. (The four-branch copy belongs to the 4-way split; the finale to the cast.)
+const TABLETS = [
+  { t: 0.15, side: -1, kicker: 'The Reframe', head: 'AUTOMATIC EXECUTION', body: 'You don’t need artificial intelligence. You need the work to run itself.' },
+  { t: 0.31, side: 1, kicker: 'The Enemy', head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
+  { t: 0.47, side: -1, kicker: '01 · The Clan', head: 'FOR OPERATORS', body: 'GAELWORX runs this exact system on our own shops. We built it for us. Now it’s yours.' },
+  { t: 0.62, side: 1, kicker: 'The Proof', head: 'IT SHIPS THEN EARNS', body: 'No pilots that rot in phase two. It goes live, runs the work, pays for itself.' },
+]
 
 /**
  * ForgeJourney — the home experience, for real this time. A molten channel winds DOWN
@@ -18,11 +28,12 @@ function makeCurve() {
   const N = 11
   for (let i = 0; i <= N; i++) {
     const t = i / N
+    // gentle descending S — calm enough to read the wall copy as you ride past it
     pts.push(
       new THREE.Vector3(
-        Math.sin(t * Math.PI * 2.4) * 2.3,
-        2.0 - t * 22.0,
-        Math.cos(t * Math.PI * 1.6) * 1.7
+        Math.sin(t * Math.PI * 1.7) * 1.45,
+        2.0 - t * 24.0,
+        Math.cos(t * Math.PI * 1.15) * 1.05
       )
     )
   }
@@ -85,10 +96,11 @@ function CameraDolly({ curve }) {
     const t = THREE.MathUtils.clamp(forge.scroll, 0.001, 0.93)
     curve.getPointAt(t, P)
     curve.getTangentAt(t, TAN)
-    // ride behind + above the current point, looking ahead down the flow
-    DES.copy(P).addScaledVector(TAN, -2.7).addScaledVector(up, 1.15)
+    // ride further behind + above the flow, looking ahead and DOWN it — the channel reads as a
+    // river you follow, the wall tablets as the thing you've come to read
+    DES.copy(P).addScaledVector(TAN, -3.4).addScaledVector(up, 1.7)
     camera.position.lerp(DES, 0.1)
-    LOOK.copy(P).addScaledVector(TAN, 3.0)
+    LOOK.copy(P).addScaledVector(TAN, 3.6)
     camera.lookAt(LOOK)
   })
   return null
@@ -96,7 +108,7 @@ function CameraDolly({ curve }) {
 
 export default function ForgeJourney() {
   const curve = useMemo(() => makeCurve(), [])
-  const geo = useMemo(() => new THREE.TubeGeometry(curve, 320, 0.32, 14, false), [curve])
+  const geo = useMemo(() => new THREE.TubeGeometry(curve, 320, 0.27, 14, false), [curve])
   const uniforms = useMemo(() => ({ uTime: { value: 0 }, uTemp: { value: 0.5 } }), [])
 
   useFrame((state, dt) => {
@@ -110,6 +122,7 @@ export default function ForgeJourney() {
       <mesh geometry={geo}>
         <shaderMaterial vertexShader={moltenVert} fragmentShader={moltenFrag} uniforms={uniforms} />
       </mesh>
+      <ChannelCopy curve={curve} items={TABLETS} offset={1.25} width={2.4} />
     </>
   )
 }

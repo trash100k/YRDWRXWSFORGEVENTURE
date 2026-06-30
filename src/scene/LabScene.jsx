@@ -1,6 +1,8 @@
 import { Component, useEffect } from 'react'
-import { useThree } from '@react-three/fiber'
+import { useThree, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
+import { forge } from '../store.js'
+import ForgeJourney from './ForgeJourney.jsx'
 import LetterCast from './LetterCast.jsx'
 import ForgeSplit from './ForgeSplit.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
@@ -49,6 +51,7 @@ const REG = {
       { t: 0.7, side: 1, kicker: '02 · The Arsenal', head: 'Automatic Execution', body: 'It books the jobs.' },
     ]} />
   ),
+  Journey: () => <ForgeJourney />,
   ScryingPool: () => <ScryingPool />,
   JewelChamber: () => <JewelChamber />,
   CastingRoom: () => <CastingRoom />,
@@ -71,15 +74,26 @@ function LabCamera() {
   return null
 }
 
+// drive the journey's scroll signal to a fixed value so any beat can be screenshot in isolation
+function ForceScroll({ v }) {
+  useFrame(() => {
+    forge.scroll = v
+    forge.temperature = 0.18 + v * 0.5
+  })
+  return null
+}
+
 export default function LabScene() {
   const m = str('m', 'LetterCast')
   const make = REG[m]
+  const isJourney = m === 'Journey'
   return (
     <>
-      <LabCamera />
-      {/* modest lab fill so PBR modules are visible (emissive modules self-light) */}
-      <ambientLight intensity={0.12} color="#384455" />
-      <pointLight position={[4, 5, 6]} intensity={30} distance={40} decay={2} color="#cfe0ff" />
+      {/* the journey drives its own camera (CameraDolly) off forge.scroll; everything else
+          uses the static LabCamera + a modest fill light for the PBR modules */}
+      {isJourney ? <ForceScroll v={num('s', 0.2)} /> : <LabCamera />}
+      {!isJourney && <ambientLight intensity={0.12} color="#384455" />}
+      {!isJourney && <pointLight position={[4, 5, 6]} intensity={30} distance={40} decay={2} color="#cfe0ff" />}
       <Boundary>{make ? make() : null}</Boundary>
     </>
   )

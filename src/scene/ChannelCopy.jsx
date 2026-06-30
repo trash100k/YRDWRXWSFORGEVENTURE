@@ -138,6 +138,8 @@ function Tablet({ curve, item, offset, width }) {
     const near = THREE.MathUtils.clamp(1.0 - (dist - 2.0) / 8.0, 0.0, 1.0)
     const reveal = near * near * (3.0 - 2.0 * near) // smoothstep
     const target = forge.reduced ? 1.0 : reveal
+    // hard-hide far/edge-on tablets so their backing slabs never read as stray bars in the void
+    g.visible = target > 0.03
 
     // damp opacities toward target (text materials are transparent)
     const k = forge.reduced ? 1 : 1 - Math.pow(0.0015, d)
