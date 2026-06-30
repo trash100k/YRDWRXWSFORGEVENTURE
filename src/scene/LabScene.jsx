@@ -41,7 +41,7 @@ const testCurve = new THREE.CatmullRomCurve3([
 ])
 
 const REG = {
-  LetterCast: () => <LetterCast progress={1} position={[0, 0, 0]} size={1.4} />,
+  LetterCast: () => <LetterCast progress={num('p', 1)} position={[0, 0, 0]} size={1.2} />,
   ForgeSplit: () => <ForgeSplit active={0} position={[0, 4, 0]} />,
   ChannelCopy: () => (
     <ChannelCopy curve={testCurve} items={[

@@ -105,8 +105,14 @@ function makeCastMaterial(uniforms) {
     color: new THREE.Color(PAL.steel).multiplyScalar(0.35),
     metalness: 0.92,
     roughness: 0.52,
-    emissive: new THREE.Color(PAL.ember),
+    // near-black base emissive: the BODY is dark forged iron — only the injected circuit traces
+    // (and a faint still-warm afterglow) glow. A full-ember base made the whole cast read as a
+    // solid orange ball instead of iron veined with fire.
+    emissive: new THREE.Color(PAL.crimsonDeep).multiplyScalar(0.18),
     emissiveIntensity: 1.0,
+    // Force the uv plumbing on: this material carries no map, so three.js would NOT declare the
+    // `uv` attribute, and our onBeforeCompile reads `uv` in the vertex stage -> compile failure.
+    defines: { USE_UV: '' },
   })
 
   mat.onBeforeCompile = (shader) => {
@@ -166,9 +172,11 @@ function makeCastMaterial(uniforms) {
          float baseT = 0.20 + uTemp * 0.30 + uHeat * 0.22;
          float traceT = clamp(baseT + 0.45 + cur * 0.35, 0.0, 1.0);
          vec3 traceCol = gw_tempColor(traceT);
-         // radiance >1.0 on the live traces so the shared bloom blooms them
-         float radiance = (1.4 + cur * 2.6 + uHeat * 1.2) * lines;
-         totalEmissiveRadiance += traceCol * radiance;
+         // radiance >1.0 on the live traces so the shared bloom blooms them.
+         // NB: name must not be 'radiance' — MeshStandardMaterial declares its own vec3 radiance
+         // in lights_fragment_begin (same main() scope) and this would redefine it.
+         float gwTraceRad = (1.4 + cur * 2.6 + uHeat * 1.2) * lines;
+         totalEmissiveRadiance += traceCol * gwTraceRad;
          // a faint overall warm afterglow on the body (still-warm casting)
          totalEmissiveRadiance += gw_tempColor(baseT) * (0.10 + uHeat * 0.12);`
       )
@@ -291,7 +299,8 @@ export default function CastingRoom({
 
     // the inner forge light breathes with the heat — the metal is the only light
     if (lightRef.current) {
-      lightRef.current.intensity = 2.4 + uniforms.uHeat.value * 4.0 + uniforms.uTemp.value * 2.0
+      // keep the inner light modest so the dark iron stays dark and the emissive traces lead
+      lightRef.current.intensity = 1.1 + uniforms.uHeat.value * 3.0 + uniforms.uTemp.value * 1.2
     }
   })
 

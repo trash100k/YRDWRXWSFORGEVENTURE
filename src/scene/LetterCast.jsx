@@ -82,9 +82,10 @@ const letterFrag = /* glsl */ `
   float hash(vec2 p){ return fract(sin(dot(p, vec2(41.3, 289.1))) * 43758.5453); }
 
   void main(){
-    // vertical pour: molten enters from the top of the glyph and settles downward.
-    // uFill drives a soft wet front across the letter's local height (vUv.y: 0 bottom..1 top)
-    float front = smoothstep(uFill - 0.16, uFill + 0.04, 1.0 - vUv.y);
+    // bottom-up molten fill: the metal pools and RISES. A point on the glyph (vUv.y: 0 bottom
+    // ..1 top) lights once the rising fill level uFill passes its height. uFill=0 -> empty,
+    // uFill=1 -> the whole glyph is filled. Soft 0.14-wide wet meniscus at the rising line.
+    float front = smoothstep(vUv.y - 0.12, vUv.y + 0.02, uFill);
     // grainy molten texture so the metal reads as liquid, not a flat gradient
     float grain = hash(floor(vUv * 28.0) + floor(vec2(uTime * 6.0, 0.0)));
     grain = mix(grain, hash(vUv * 12.0), 0.5);
@@ -107,9 +108,11 @@ const letterFrag = /* glsl */ `
     // ignites with the front, then holds forever at >1 radiance
     float ignite = front;                                  // lights as the cast reaches it
     float divHeat = 1.0 + flick;                           // already past white-hot
-    vec3 divCol = mix(${v3(PAL.gold)}, ${v3(PAL.divine)}, 0.65);
+    // white-GOLD, not just white: a molten-gold body so the eternal letters read distinctly
+    // warmer than any freshly-cast white-hot iron around them.
+    vec3 divCol = mix(${v3(PAL.gold)}, ${v3(PAL.divine)}, 0.45);
     // emissive radiance pushed hard past 1.0 so the shared bloom blooms it
-    divCol *= (3.4 + flick * 1.6) * mix(0.12, 1.0, ignite);
+    divCol *= (3.6 + flick * 1.6) * mix(0.12, 1.0, ignite);
     // a hotter white-gold core down the spine of the glyph
     float spine = smoothstep(0.42, 0.0, abs(vUv.x - 0.5));
     divCol += ${v3(PAL.divine)} * spine * 1.3 * ignite;
@@ -227,17 +230,20 @@ export default function LetterCast({
 
   useFrame(() => {
     const p = THREE.MathUtils.clamp(progress, 0, 1)
+    // Two phases over the scroll: the molten POUR fills the word L→R (front-loaded), then the
+    // metal SETS, cooling L→R. They overlap, but by p=1 everything has cast AND cooled — the
+    // settled finale: forged iron everywhere, the divine A/E the only things still alight.
+    const pf = THREE.MathUtils.clamp(p / 0.55, 0, 1) // fill phase (first ~55% of the descent)
+    const pc = THREE.MathUtils.clamp((p - 0.32) / 0.68, 0, 1) // cool phase, trailing
     const n = layout.length
     for (let i = 0; i < n; i++) {
       const u = layout[i].u
-      // the molten front is a soft band ~0.18 wide sweeping L→R; a letter floods as it passes.
-      const localFill = THREE.MathUtils.clamp((p - u + 0.09) / 0.18, 0, 1)
-      fills.current[i].current = localFill
-      // cooling trails the fill: the divine letters NEVER cool (held at 0).
-      const cool = layout[i].isDivine
+      // molten front sweeps L→R; the ×1.2 + bias guarantees the last glyph fills exactly at pf=1
+      fills.current[i].current = THREE.MathUtils.clamp((pf * 1.2 - u + 0.06) / 0.16, 0, 1)
+      // cooling trails the fill, also L→R; the divine A/E NEVER cool; all others fully set by p=1
+      cools.current[i].current = layout[i].isDivine
         ? 0
-        : THREE.MathUtils.clamp((p - u - 0.12) / 0.5, 0, 1)
-      cools.current[i].current = cool
+        : THREE.MathUtils.clamp((pc * 1.25 - u) / 0.22, 0, 1)
     }
   })
 

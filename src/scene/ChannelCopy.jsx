@@ -124,7 +124,10 @@ function Tablet({ curve, item, offset, width }) {
     FACE.y = 0
     if (FACE.lengthSq() < 1e-5) FACE.copy(normal)
     FACE.normalize()
-    M.lookAt(g.position, g.position.clone().add(FACE), UP)
+    // troika text faces its local +Z; Matrix4.lookAt sets +Z = normalize(eye - target), so to
+    // point +Z AT the camera we look toward (anchor - FACE), not (anchor + FACE) — otherwise we
+    // read the glyphs from behind (mirrored).
+    M.lookAt(g.position, g.position.clone().sub(FACE), UP)
     Q.setFromRotationMatrix(M)
     if (forge.reduced) g.quaternion.copy(Q)
     else g.quaternion.slerp(Q, 1 - Math.pow(0.001, d)) // dt-damped settle
