@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { EffectComposer, Bloom, Vignette, ToneMapping } from '@react-three/postprocessing'
-import { ToneMappingMode } from 'postprocessing'
+import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration } from '@react-three/postprocessing'
+import { ToneMappingMode, BlendFunction } from 'postprocessing'
+import HeatHaze from './HeatHaze.jsx'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
@@ -201,9 +202,16 @@ export default function ForgeCanvas({ route }) {
       {/* HDR pipeline: scene (linear, >1 hot band) → bloom → ACES → vignette.
           Only the accent band exceeds 1.0, so threshold bloom IS selective bloom. */}
       <EffectComposer frameBufferType={THREE.HalfFloatType}>
-        <Bloom mipmapBlur luminanceThreshold={0.62} luminanceSmoothing={0.22} intensity={0.85} radius={0.72} />
+        {/* the forge glow — the molten's hot band (>1) blooms; cinematic, not washed */}
+        <Bloom mipmapBlur luminanceThreshold={0.5} luminanceSmoothing={0.25} intensity={1.05} radius={0.85} />
+        {/* heat shimmer over the molten only (masked to the hot band); the void stays sharp */}
+        <HeatHaze strength={0.0055} scale={3.4} speed={0.5} rise={1.0} threshold={0.2} smoothing={0.5} />
+        {/* a whisper of lens dispersion at the edges — film, not gimmick */}
+        <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.0006, 0.0006]} radialModulation modulationOffset={0.45} />
         <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
-        <Vignette offset={0.3} darkness={0.62} />
+        <Vignette offset={0.26} darkness={0.72} />
+        {/* fine film grain so the blacks read as photographed, not dead digital void */}
+        <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.055} />
       </EffectComposer>
     </Canvas>
   )

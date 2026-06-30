@@ -114,13 +114,20 @@ const frag = /* glsl */ `
     float innerWarm = smoothstep(halfW + groove, halfW, wallD);
     vec3 wall = basalt * 0.5 + gw_tempColor(0.4) * pow(innerWarm, 2.0) * 0.7 * vig;
 
-    // ── the molten river (the OVER strand); the told strand burns hotter ──
+    // ── the molten river (the OVER strand) — white-hot core cooling to a crusted edge ──
     float actLit = abs(overStrand - uActiveStrand) < 0.5 ? 1.0 : 0.0;
-    float core = clamp(1.0 - overD / halfW, 0.0, 1.0);
-    float skin  = fbm(vec2(overAlong * 3.0, overD * 5.0) + vec2(uTime * 0.7, 0.0));
-    float pulse = sin(overAlong * 2.2 - uTime * 1.7) * 0.5 + 0.5;
-    float tf = (0.62 + skin * 0.16 + pulse * 0.07 + uTemp * 0.05 + actLit * 0.12) * (0.55 + core * 0.55);
-    vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.4, actLit);
+    float core = clamp(1.0 - overD / halfW, 0.0, 1.0);          // 1 at the channel centre
+    // viscous flowing skin (two scales, slow drift — heavy molten metal, not water)
+    float skin1 = fbm(vec2(overAlong * 2.0, overD * 7.0) + vec2(uTime * 0.45, 0.0));
+    float skin2 = fbm(vec2(overAlong * 6.5, overD * 12.0) - vec2(uTime * 0.8, 0.0));
+    float skin = skin1 * 0.65 + skin2 * 0.35;
+    // crust crackle at the cooler edge: bright veins inside a darker setting skin
+    float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the levee edge
+    float vein = smoothstep(0.5, 0.62, fbm(vec2(overAlong * 4.0, overD * 4.0) + uTime * 0.08));
+    float tf = 0.46 + core * 0.46 + skin * 0.08 + actLit * 0.10 + uTemp * 0.04;
+    tf -= edgeMask * 0.20 * (1.0 - vein);                       // crust sets darker; cracks stay hot
+    tf = clamp(tf, 0.0, 1.0);
+    vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.3, actLit);
 
     vec3 col = basalt;
     col = mix(col, wall, lip);

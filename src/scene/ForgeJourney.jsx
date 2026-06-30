@@ -5,6 +5,7 @@ import { forge } from '../store.js'
 import { COPY } from '../brand.js'
 import ChannelFloor from './channelFloor.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
+import ForgeAtmosphere from './ForgeAtmosphere.jsx'
 import LetterCast from './LetterCast.jsx'
 
 /**
@@ -122,7 +123,10 @@ export default function ForgeJourney() {
 
       {/* the four-cord Celtic plait of molten metal, woven over-under, carved into the basalt
           forge floor and read top-down (the metal is the only light) */}
-      <ChannelFloor strands={STRANDS} activeStrand={activeStrand} half={0.5} margin={4.5} />
+      <ChannelFloor strands={STRANDS} activeStrand={activeStrand} half={0.4} margin={4.5} />
+
+      {/* living embers + sparks rising off the molten, drawn by the heat */}
+      {!forge.reduced && <ForgeAtmosphere />}
 
       {/* story copy floats beside the plait (Reframe · Enemy · Clan · Proof) */}
       <ChannelCopy curve={CENTER} items={TABLETS} offset={3.4} width={2.4} />
