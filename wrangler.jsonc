@@ -1,0 +1,12 @@
+{
+  // GAELWORX — Cloudflare Workers static-assets deploy (assets-only Worker).
+  // Serves the built dist/ as a single-page app. There is NO Worker script and NO
+  // @cloudflare/vite-plugin, so `wrangler deploy` just uploads the static assets and
+  // works on Vite 5 (the plugin integration path is what requires Vite 6+).
+  "name": "forge1",
+  "compatibility_date": "2025-04-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
