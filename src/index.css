@@ -112,6 +112,27 @@ a { color: inherit; text-decoration: none; }
   font-size: 10px; letter-spacing: 0.34em; text-transform: uppercase; color: var(--gw-steel);
 }
 
+/* ── home journey: the DOM is a transparent scroll-driver over the 3D forge ──
+   The forge tells the story (the camera ride + the carved tablets); these are the bookends. */
+.home-journey { position: relative; }
+.home-hero {
+  min-height: 100svh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: clamp(24px, 6vw, 80px);
+  position: relative; overflow: hidden;
+}
+.home-track { height: 460vh; pointer-events: none; } /* the scroll runway that drives the beats */
+.home-finale {
+  min-height: 100svh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; gap: 8px; padding: clamp(24px, 6vw, 80px);
+  position: relative;
+}
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
 /* ── nav ─────────────────────────────────────────────────────────────── */
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;

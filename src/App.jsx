@@ -1,5 +1,6 @@
-import { lazy, Suspense, useEffect } from 'react'
+import { lazy, Suspense, useEffect, useRef } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
+import Lenis from 'lenis'
 import Nav from './ui/Nav.jsx'
 import Home from './pages/Home.jsx'
 import ChamberPage from './pages/ChamberPage.jsx'
@@ -14,12 +15,36 @@ const ForgeCanvas = lazy(() => import('./scene/ForgeCanvas.jsx'))
 
 function Shell() {
   const { pathname } = useLocation()
+  const lenisRef = useRef(null)
+
+  // Lenis momentum scroll — glides the page (and through it forge.scroll) with forge weight
+  useEffect(() => {
+    const lenis = new Lenis({ duration: 1.15, smoothWheel: true })
+    lenisRef.current = lenis
+    if (typeof window !== 'undefined') { window.__lenis = lenis; window.__forge = forge } // QA hooks
+    // drive the forge straight off Lenis (exact scroll + limit) — robust vs the window 'scroll'
+    // event, which Lenis doesn't always fire on an immediate jump
+    lenis.on('scroll', (e) => {
+      const max = e.limit || 0
+      forge.scroll = max > 0 ? Math.min(e.scroll / max, 1) : 0
+      forge.temperature = 0.14 + (forge.routeTemp || 0) + forge.scroll * 0.6
+    })
+    let raf
+    const loop = (t) => { lenis.raf(t); raf = requestAnimationFrame(loop) }
+    raf = requestAnimationFrame(loop)
+    return () => {
+      cancelAnimationFrame(raf); lenis.destroy(); lenisRef.current = null
+      if (typeof window !== 'undefined') window.__lenis = null
+    }
+  }, [])
+
   useEffect(() => {
     const s = sceneFor(pathname)
     forge.routeTemp = s.tempBias
     forge.still = !!s.still
     forge.route = pathname
-    window.scrollTo(0, 0)
+    if (lenisRef.current) lenisRef.current.scrollTo(0, { immediate: true })
+    else window.scrollTo(0, 0)
   }, [pathname])
 
   // /concept + /lab render bare scenes (no nav/content) for art-direction + QA screenshots

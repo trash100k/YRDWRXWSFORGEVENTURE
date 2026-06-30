@@ -182,7 +182,7 @@ export default function ForgeCanvas({ route }) {
       dpr={dpr.current}
       gl={{ antialias: false, alpha: false, powerPreference: 'high-performance', toneMapping: THREE.NoToneMapping }}
       camera={{ position: [0, 0, 5], fov: 50 }}
-      frameloop={forge.reduced ? 'demand' : 'always'}
+      frameloop="always"
     >
       <color attach="background" args={[PAL.void]} />
       {/* /concept = posed art-direction renders · / = the molten channel journey ·

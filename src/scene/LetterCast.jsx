@@ -31,6 +31,14 @@ import { forge } from '../store.js'
  * @param {LetterCastProps} props
  */
 
+// Approximate cap advances for Cinzel Decorative (fraction of cap height), tuned so the wordmark
+// kerns instead of gapping. Wide M/W, narrow I/J; a space carries word air for the subline.
+const CAPW = {
+  A: 0.86, B: 0.74, C: 0.78, D: 0.82, E: 0.70, F: 0.68, G: 0.84, H: 0.84, I: 0.44,
+  J: 0.54, K: 0.80, L: 0.68, M: 1.06, N: 0.86, O: 0.88, P: 0.72, Q: 0.90, R: 0.80,
+  S: 0.70, T: 0.74, U: 0.84, V: 0.82, W: 1.16, X: 0.82, Y: 0.80, Z: 0.76, ' ': 0.42,
+}
+
 // ── the divine-fire law: within the word, the FIRST 'A' and FIRST 'E' are eternal.
 // Returns a Set of letter indices that must never cool (the white-gold exception).
 function divineIndices(text) {
@@ -92,13 +100,17 @@ const letterFrag = /* glsl */ `
 
     // ── COOLING letter (forged iron) ──
     // freshly cast: white-hot core; then cools toward dull iron as uCool -> 1.
-    float castHeat = mix(0.96, 0.30, uCool);              // white-hot -> dull red glow
+    float castHeat = mix(0.96, 0.32, uCool);              // white-hot -> dull red glow
     castHeat = mix(0.10, castHeat, front);                // unfilled = cold iron
     castHeat += (grain - 0.5) * 0.10 * front * (1.0 - uCool); // molten shimmer while hot
     float ironT = clamp(castHeat + uTemp * 0.05, 0.0, 1.0);
     vec3 ironCol = gw_tempColor(ironT) * gw_em(ironT);
-    // forged-iron body that survives the cool (cold steel, faintly catching forge light)
-    vec3 ironBody = ${v3(PAL.steel)} * (0.18 + 0.20 * (1.0 - uCool));
+    // forged-iron body that survives the cool: a brushed cold-steel letterform that still catches
+    // the forge light, so GAELWORX stays LEGIBLE as dark metal — the A/E are the stars, but the
+    // word must read. A faint ember rake down the cast face keeps it from going flat-black.
+    float rake = 0.5 + 0.5 * smoothstep(0.0, 0.5, vUv.y);
+    vec3 ironBody = ${v3(PAL.steel)} * (0.34 + 0.16 * (1.0 - uCool)) * rake;
+    ironBody += ${v3(PAL.ember)} * 0.05 * (1.0 - uCool);
     ironCol = max(ironCol, ironBody);
 
     // ── DIVINE letter (eternal white-gold, never cools) ──
@@ -211,18 +223,27 @@ export default function LetterCast({
   const chars = useMemo(() => text.toUpperCase().split(''), [text])
   const divine = useMemo(() => divineIndices(text), [text])
 
-  // lay the word out centered on origin; advance ~ cap width per glyph.
+  // lay the word out centered on origin with PROPORTIONAL advances — Cinzel Decorative is a wide
+  // ornamented serif, so a fixed monospace cell gaps the narrow glyphs and collides the wide ones
+  // (M/W). Per-letter meshes need their own x, so we kern from an approximate cap-width table.
   const layout = useMemo(() => {
-    const adv = size * 0.78 // monospace-ish advance; troika centers each glyph in its cell
-    const total = (chars.length - 1) * adv
-    return chars.map((char, i) => ({
-      char,
-      i,
-      x: i * adv - total / 2,
-      isDivine: divine.has(i),
-      // 0..1 position of this letter's center along the word (for the L→R front)
-      u: chars.length > 1 ? i / (chars.length - 1) : 0,
-    }))
+    const track = size * 0.07 // breathing room between glyphs (the display likes air)
+    const advOf = (c) => (CAPW[c] != null ? CAPW[c] : 0.80) * size + track
+    const advs = chars.map(advOf)
+    const total = advs.reduce((a, b) => a + b, 0)
+    let cur = -total / 2
+    return chars.map((char, i) => {
+      const x = cur + advs[i] / 2
+      cur += advs[i]
+      return {
+        char,
+        i,
+        x,
+        isDivine: divine.has(i),
+        // 0..1 position of this letter's center along the word (for the L→R front)
+        u: chars.length > 1 ? i / (chars.length - 1) : 0,
+      }
+    })
   }, [chars, divine, size])
 
   // per-letter damped targets, mutated each frame from `progress` (no React churn mid-sweep)

@@ -89,53 +89,63 @@ const frag = /* glsl */ `
       }
     }
 
-    float halfW = uHalf;
-    float groove = 0.42;
-    float molten = smoothstep(halfW, halfW - 0.10, overD);
-    float lip = smoothstep(halfW + groove, halfW, wallD) * (1.0 - molten);
-
-    // the metal is the ONLY light: the glow pools TIGHT around the channel; everything beyond it
-    // falls to void (vastness implied by the dark the light can't reach)
-    float lightFall = exp(-max(wallD - halfW, 0.0) * 0.95);
+    // ── carved-groove cross-section ──────────────────────────────────────────────────────────
+    // The channel is CUT INTO the stone: a NARROW molten river sits at the bottom of a recess,
+    // flanked by dark occluded walls that fall into shadow toward the rim. The dark walls are the
+    // depth cue — a tube glows OUTWARD onto the surface; a groove goes DARK before it meets the
+    // stone. That shadow band is what reads as "carved," and it kills the floating-tube look.
+    float halfW = uHalf;                          // groove half-width (rim → rim = 2*halfW)
+    float riverHalf = halfW * 0.40;               // the molten river is thin — the trough bottom
     float vig = smoothstep(uRadius, uRadius * 0.35, length(p - uCenter));
+
+    // the OVER strand's molten river (narrow), and the carved groove it (or an UNDER strand) cuts
+    float actLit = abs(overStrand - uActiveStrand) < 0.5 ? 1.0 : 0.0;
+    float river = smoothstep(riverHalf, riverHalf * 0.62, overD);   // lit-metal mask (thin)
+    float core  = clamp(1.0 - overD / riverHalf, 0.0, 1.0);          // 1 at the river centre
+    float inGroove = step(wallD, halfW);                            // inside the carved recess
+    float warm = smoothstep(halfW, riverHalf, wallD);              // 0 at the rim → 1 at the lip
+    float wallBand = inGroove * (1.0 - river);                      // the recess wall (no metal)
+
+    // the metal is the ONLY light: the flat stone beyond the rim barely catches it (TIGHT halo)
+    float halo = exp(-max(wallD - halfW, 0.0) * 2.4);
 
     // ── basalt honeycomb pavement — Giant's Causeway, top-down ──
     vec4 hx = getHex(p * 1.3);
     float edge = hexEdge(hx.xy);
-    float joint = smoothstep(0.44, 0.5, edge);
+    float joint = smoothstep(0.42, 0.5, edge);
     float cell = hash21(hx.zw);
     vec3 stoneDark  = vec3(0.009, 0.013, 0.015);
     vec3 stoneGreen = vec3(0.022, 0.041, 0.034);          // Connemara green, only under light
     vec3 basalt = mix(stoneDark, stoneGreen, 0.25 + cell * 0.6);
-    basalt *= (1.0 - joint * 0.85);
-    basalt *= mix(0.035, 1.0, lightFall) * vig;            // far stone is near-black void
-    basalt += gw_tempColor(0.5) * lightFall * (1.0 - joint) * 0.10 * (0.4 + 0.6 * cell);
+    basalt *= (1.0 - joint * 0.9);                        // deep-cut column joints
+    basalt *= vig;
 
-    // ── groove wall: warm crusted levee at the inner edge (the Kilauea crust) ──
-    float innerWarm = smoothstep(halfW + groove, halfW, wallD);
-    vec3 wall = basalt * 0.5 + gw_tempColor(0.4) * pow(innerWarm, 2.0) * 0.7 * vig;
+    // flat stone surface — dim ambient + a faint warm catch only right at the rim
+    vec3 stone = basalt * 0.5;
+    stone += gw_tempColor(0.55) * halo * 0.05 * (0.5 + 0.5 * cell);
 
-    // ── the molten river (the OVER strand) — white-hot core cooling to a crusted edge ──
-    float actLit = abs(overStrand - uActiveStrand) < 0.5 ? 1.0 : 0.0;
-    float core = clamp(1.0 - overD / halfW, 0.0, 1.0);          // 1 at the channel centre
-    // viscous flowing skin (two scales, slow drift — heavy molten metal, not water)
+    // groove wall — DARKER than the flat stone (an occluded recess), warmed from the river below:
+    // the lower wall (near the metal) catches a hot rim of light; the upper wall falls to shadow.
+    vec3 wallCol = basalt * mix(0.10, 0.40, warm);                 // ambient occlusion in the cut
+    wallCol += gw_tempColor(0.42) * pow(warm, 1.7) * 0.40;         // warm spill up the lower wall
+    wallCol += gw_tempColor(0.58) * pow(warm, 6.0) * 0.38;         // the hot crusted lip at the metal
+
+    // ── the molten river — white-hot core cooling to a crusted edge, flowing along the channel ──
     float skin1 = fbm(vec2(overAlong * 2.0, overD * 7.0) + vec2(uTime * 0.45, 0.0));
     float skin2 = fbm(vec2(overAlong * 6.5, overD * 12.0) - vec2(uTime * 0.8, 0.0));
     float skin = skin1 * 0.65 + skin2 * 0.35;
-    // crust crackle at the cooler edge: bright veins inside a darker setting skin
-    float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the levee edge
+    float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the river edge (cooling crust)
     float vein = smoothstep(0.5, 0.62, fbm(vec2(overAlong * 4.0, overD * 4.0) + uTime * 0.08));
-    // bright streaks travelling ALONG the channel — the metal is being poured, it flows
     float flow = pow(sin(overAlong * 5.0 - uTime * 4.2) * 0.5 + 0.5, 2.0);
-    // a crimson coal, white-hot only at the very core — not a wall of bright orange
-    float tf = 0.40 + core * 0.44 + skin * 0.07 + flow * core * 0.07 + actLit * 0.09 + uTemp * 0.03;
-    tf -= edgeMask * 0.24 * (1.0 - vein);                       // crust sets to deep red; cracks stay hot
+    float tf = 0.42 + core * 0.46 + skin * 0.07 + flow * core * 0.07 + actLit * 0.10 + uTemp * 0.03;
+    tf -= edgeMask * 0.26 * (1.0 - vein);                       // crust sets to deep red; cracks stay hot
     tf = clamp(tf, 0.0, 1.0);
     vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.3, actLit);
 
-    vec3 col = basalt;
-    col = mix(col, wall, lip);
-    col = mix(col, moltenCol, molten);
+    // composite: dark stone pavement → shadowed recess wall → thin molten river
+    vec3 col = stone;
+    col = mix(col, wallCol, wallBand);
+    col = mix(col, moltenCol, river);
     gl_FragColor = vec4(col, 1.0);
   }
 `

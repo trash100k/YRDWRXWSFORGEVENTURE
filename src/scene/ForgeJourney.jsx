@@ -47,11 +47,11 @@ const FINALE_CAM = {
   look: new THREE.Vector3(FINALE_POS[0], 1.05, FINALE_POS[2]),
 }
 
-// ── the copy ── story beats float beside the plait; service beats sit on their strand
+// ── the copy ── story beats float beside the plait (the DOM hero carries the Reframe; here the
+// forge tells Enemy · Clan · Proof). Service beats sit on their own strand.
 const TABLETS = [
-  { t: 0.10, side: -1, kicker: 'The Reframe', head: 'AUTOMATIC EXECUTION', body: 'You don’t need artificial intelligence. You need the work to run itself.' },
-  { t: 0.24, side: 1, kicker: 'The Enemy', head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
-  { t: 0.36, side: -1, kicker: '01 · The Clan', head: 'FOR OPERATORS', body: 'GAELWORX runs this exact system on our own shops. We built it for us. Now it’s yours.' },
+  { t: 0.16, side: 1, kicker: 'The Enemy', head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
+  { t: 0.32, side: -1, kicker: '01 · The Clan', head: 'FOR OPERATORS', body: 'GAELWORX runs this exact system on our own shops. We built it for us. Now it’s yours.' },
   { t: 0.48, side: 1, kicker: 'The Proof', head: 'IT SHIPS THEN EARNS', body: 'No pilots that rot in phase two. It goes live, runs the work, pays for itself.' },
 ]
 const B = COPY.arsenal.branches
@@ -67,6 +67,14 @@ function buildShots() {
   const up = new THREE.Vector3(0, 1, 0)
   const sideN = (T, sign) => new THREE.Vector3(-T.z, 0, T.x).normalize().multiplyScalar(sign)
   const shots = []
+  // OPENING — beat 1. A calm, high read over the molten mouth where the four cords are gathered,
+  // about to pour. No tablet here: this is the establishing shot the DOM hero (the tagline rising
+  // from the melt) sits over, so the hero never collides with a carved story block.
+  shots.push({
+    pos: new THREE.Vector3(0, 11.0, 7.0),
+    target: new THREE.Vector3(0, 0, -5.0),
+    strand: -1,
+  })
   // story beats — a high top-down over the whole plait, copy floating to one side
   for (const tab of TABLETS) {
     const P = CENTER.getPointAt(tab.t)
