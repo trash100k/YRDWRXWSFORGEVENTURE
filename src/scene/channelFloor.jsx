@@ -173,12 +173,32 @@ const frag = /* glsl */ `
   }
 `
 
+// the RAISED body — the channel is an elevated basalt causeway, NOT the ground: a dark mass whose
+// top edge catches the molten's warm light and falls to black as it descends into the void below.
+const baseVert = /* glsl */ `
+  varying float vY;
+  void main(){ vec4 wp = modelMatrix * vec4(position, 1.0); vY = wp.y; gl_Position = projectionMatrix * viewMatrix * wp; }
+`
+const baseFrag = /* glsl */ `
+  precision highp float;
+  varying float vY;
+  uniform float uTop;
+  void main(){
+    float d = clamp((uTop - vY) / 3.5, 0.0, 1.0);            // 0 at the lit top rim → 1 deep below
+    vec3 stone = vec3(0.014, 0.019, 0.022);
+    vec3 warm  = ${v3(PAL.ember)} * 0.16;
+    vec3 col = mix(mix(stone, warm, 0.6), vec3(0.0), d);
+    col *= (1.0 - d) * (1.0 - d);                            // fall fast to black into the void
+    gl_FragColor = vec4(col, 1.0);
+  }
+`
+
 export default function ChannelFloor({ curve, curves, strands, activeStrand = -1, floorY = 0, half = 0.55, margin = 5, samples }) {
   const matRef = useRef()
   const activeRef = useRef(activeStrand)
   activeRef.current = activeStrand
 
-  const { geo, position, uniforms } = useMemo(() => {
+  const { geo, position, uniforms, w, l } = useMemo(() => {
     // a strand = { curve, depth?(t)->[-1..1] }. Plain curves/curve become flat strands (depth 0).
     const list = strands && strands.length
       ? strands
@@ -233,7 +253,7 @@ export default function ChannelFloor({ curve, curves, strands, activeStrand = -1
       uStrand: { value: ustrand },
       uActiveStrand: { value: -1 },
     }
-    return { geo: g, position: [cx, floorY, cz], uniforms: u }
+    return { geo: g, position: [cx, floorY, cz], uniforms: u, w, l }
   }, [curve, curves, strands, floorY, half, margin, samples])
 
   useFrame((state, dt) => {
@@ -243,10 +263,19 @@ export default function ChannelFloor({ curve, curves, strands, activeStrand = -1
     u.uActiveStrand.value = activeRef.current
   })
 
-  // lie flat (XZ), normal up
+  // lie flat (XZ), normal up — the channel TOP; a raised basalt body descends beneath it into the void
+  const baseH = 10
+  const baseU = useMemo(() => ({ uTop: { value: floorY } }), [floorY])
   return (
-    <mesh geometry={geo} position={position} rotation={[-Math.PI / 2, 0, 0]}>
-      <shaderMaterial ref={matRef} vertexShader={vert} fragmentShader={frag} uniforms={uniforms} />
-    </mesh>
+    <group>
+      <mesh geometry={geo} position={position} rotation={[-Math.PI / 2, 0, 0]}>
+        <shaderMaterial ref={matRef} vertexShader={vert} fragmentShader={frag} uniforms={uniforms} />
+      </mesh>
+      {/* the raised causeway body — mass dropping into the void, so the channel reads as elevated */}
+      <mesh position={[position[0], floorY - baseH / 2 - 0.05, position[2]]}>
+        <boxGeometry args={[w * 0.98, baseH, l * 0.98]} />
+        <shaderMaterial vertexShader={baseVert} fragmentShader={baseFrag} uniforms={baseU} />
+      </mesh>
+    </group>
   )
 }

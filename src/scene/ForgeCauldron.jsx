@@ -26,7 +26,7 @@ const poolFrag = /* glsl */ `
 
   float hash21(vec2 p){ p = fract(p*vec2(123.34,456.21)); p += dot(p,p+45.32); return fract(p.x*p.y); }
   float vnoise(vec2 p){ vec2 i=floor(p),f=fract(p); float a=hash21(i),b=hash21(i+vec2(1,0)),c=hash21(i+vec2(0,1)),d=hash21(i+vec2(1,1)); vec2 u=f*f*(3.0-2.0*f); return mix(mix(a,b,u.x),mix(c,d,u.x),u.y); }
-  float fbm(vec2 p){ float v=0.0,a=0.5; for(int i=0;i<4;i++){ v+=a*vnoise(p); p*=2.03; a*=0.5; } return v; }
+  float fbm(vec2 p){ float v=0.0,a=0.5; for(int i=0;i<6;i++){ v+=a*vnoise(p); p*=2.03; a*=0.5; } return v; }
 
   vec3 tempColor(float t){
     t = clamp(t, 0.0, 1.0);
@@ -42,15 +42,20 @@ const poolFrag = /* glsl */ `
   void main(){
     vec2 p = vUv - 0.5;
     float r = length(p) * 2.0;                 // 0 centre → 1 rim
-    float ang = atan(p.y, p.x);
-    // swirl the sampling frame — a vortex draining toward the centre
-    float sw = ang + uTime * 0.5 - r * 3.2;
-    vec2 q = vec2(cos(sw), sin(sw)) * r;
-    float n = fbm(q * 2.2 + uTime * 0.15);
-    float t = clamp(1.0 - r * 0.72 + n * 0.28, 0.0, 1.0);   // white-hot core → ember crust at the rim
-    t -= smoothstep(0.55, 0.47, fbm(q * 5.0 - uTime * 0.3)) * 0.36;  // dark ore chunks floating on top
-    vec3 col = tempColor(t) * em(t);
-    float disc = smoothstep(1.0, 0.9, r);      // clip to the round basin, soft edge
+    vec2 uv = p * 5.2;
+    float t = uTime * 0.16;
+    // domain-warp fbm — the metal BOILS in place (convection churn, no sliding coord)
+    vec2 q = vec2(fbm(uv + vec2(0.0, t)), fbm(uv + vec2(5.2, 1.3) - t));
+    vec2 rr = vec2(fbm(uv + 2.2 * q + vec2(1.7, 9.2)), fbm(uv + 2.2 * q + vec2(8.3, 2.8)));
+    float f = fbm(uv + 2.0 * rr);
+    // ridged hot cracks between cooled crust plates — the molten seam network
+    float vein = clamp(pow(1.0 - abs(f - 0.5) * 2.0, 3.0), 0.0, 1.0);
+    float crust = smoothstep(0.18, 0.78, f);   // large hot/cool convection variation
+    // bubbles — sparse swelling bright blisters that rise and pop
+    float bub = smoothstep(0.74, 0.97, fbm(uv * 1.3 - t * 1.6 + 3.0));
+    float tt = clamp(0.28 + vein * 0.55 + crust * 0.16 + bub * 0.42, 0.0, 1.0);
+    vec3 col = tempColor(tt) * em(tt);
+    float disc = smoothstep(1.0, 0.94, r);     // clip to the round basin, soft edge
     gl_FragColor = vec4(col, disc);
   }
 `
