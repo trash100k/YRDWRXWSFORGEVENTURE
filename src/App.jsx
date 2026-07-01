@@ -47,8 +47,21 @@ function Shell() {
     else window.scrollTo(0, 0)
   }, [pathname])
 
-  // /concept + /lab render bare scenes (no nav/content) for art-direction + QA screenshots
-  const bare = pathname === '/concept' || pathname === '/lab'
+  // dev beat-viewer: /?beat=0.3 pins the journey's scroll to a value (hero hidden) so any beat can
+  // be screenshot on the REAL, working home render. The /lab harness loop is dead; this replaces it.
+  const beat = typeof window !== 'undefined' && window.location.search.match(/[?&]beat=([0-9.]+)/)
+  useEffect(() => {
+    if (!beat) return
+    const v = parseFloat(beat[1])
+    let raf
+    const loop = () => { forge.scroll = v; forge.temperature = 0.14 + (forge.routeTemp || 0) + v * 0.6; raf = requestAnimationFrame(loop) }
+    raf = requestAnimationFrame(loop)
+    return () => cancelAnimationFrame(raf)
+  }, [])
+
+  // /concept + /lab render bare scenes (no nav/content) for art-direction + QA screenshots;
+  // /?beat= also hides the DOM so the forge reads alone
+  const bare = pathname === '/concept' || pathname === '/lab' || !!beat
 
   return (
     <>

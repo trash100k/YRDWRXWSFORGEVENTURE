@@ -149,6 +149,7 @@ function JourneyCamera({ onStrand }) {
     camera.position.y += Math.sin(t * 0.17) * 0.14
     camera.position.z += Math.cos(t * 0.11) * 0.22
     camera.lookAt(look.x + Math.sin(t * 0.15) * 0.12, look.y, look.z + Math.cos(t * 0.12) * 0.12)
+    if (typeof window !== 'undefined') { window.__camPos = [camera.position.x, camera.position.y, camera.position.z]; window.__camShot = idx } // QA
   })
   return null
 }
