@@ -118,9 +118,15 @@ async function main() {
         for (const beat of beats) {
           const url = base + route + (beat != null ? `?beat=${beat}` : '')
           const page = await ctx.newPage()
+          const errs = []
+          page.on('pageerror', (e) => errs.push(String(e.message).split('\n')[0]))
+          page.on('console', (m) => { if (m.type() === 'error') errs.push(m.text().split('\n')[0]) })
           try {
-            await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 })
+            // 'domcontentloaded' not 'networkidle': troika's font worker keeps the network busy,
+            // so networkidle never fires. We gate on the canvas being ready via waitForForge.
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 })
             await waitForForge(page, beat)
+            if (errs.length) console.warn(`    ! console: ${[...new Set(errs)].slice(0, 3).join(' | ')}`)
             const name = `${vp.name}__${slug(route)}__beat-${beat != null ? beat.toFixed(2) : 'na'}.png`
             await page.screenshot({ path: path.join(OUT, name) })
             shots++

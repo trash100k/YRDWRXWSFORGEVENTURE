@@ -4,6 +4,7 @@ import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
 import Embers from './Embers.jsx'
+import LetterCast from './LetterCast.jsx'
 
 /**
  * RaisedChannel — ONE straight, RAISED molten channel (the reference frame 004). A white-hot river
@@ -173,15 +174,43 @@ function ChannelEmbers() {
   )
 }
 
-// a forward camera that RIDES down the channel as forge.scroll goes 0..1 (the pour adventure)
+// where the GAELWORX cast stands — just past the channel's end, so the molten pours into the word
+const CASTZ = -LEN - 1 // -43
+
+// a forward camera that RIDES down the channel (scroll 0..0.8), then ARRIVES at the cast and
+// descends overhead → eye-level as the letters fill (scroll 0.8..1.0). The pour adventure + finale.
 function RideCam() {
   const { camera } = useThree()
-  useFrame(() => {
+  useFrame((state) => {
     const s = THREE.MathUtils.clamp(forge.scroll, 0, 1)
-    const zc = THREE.MathUtils.lerp(3.5, -LEN + 9, s)
-    camera.position.set(0, 2.1, zc)
-    camera.lookAt(0, -0.4, zc - 13)
-    if (typeof window !== 'undefined') { window.__camPos = [0, 2.1, Math.round(zc * 10) / 10]; window.__camShot = 'ride' } // QA
+    const rideEnd = -LEN + 9 // -33
+    let px = 0, py = 2.1, pz, lx = 0, ly = -0.4, lz
+    if (s < 0.8) {
+      const rs = s / 0.8
+      pz = THREE.MathUtils.lerp(3.5, rideEnd, rs)
+      lz = pz - 13
+      forge.finaleProgress = 0
+    } else {
+      // THE CAST — fill GAELWORX and descend from the ride height to a head-on eye-level read.
+      // The camera distance ADAPTS to the viewport aspect so the wide wordmark fits on any screen
+      // (portrait iPhone can't show it up-close, so we pull back until GAELWORX clears the frame).
+      const fs = THREE.MathUtils.smoothstep(s, 0.8, 1.0)
+      forge.finaleProgress = fs
+      const aspect = camera.aspect || 1.6
+      const halfW = 3.9 // half the wordmark's world width (+ safety margin for narrow screens)
+      const fitD = THREE.MathUtils.clamp(halfW / (Math.tan(THREE.MathUtils.degToRad(camera.fov * 0.5)) * aspect), 5.2, 17)
+      pz = THREE.MathUtils.lerp(rideEnd, CASTZ + fitD, fs)
+      py = THREE.MathUtils.lerp(2.1, 1.5, fs)
+      lz = THREE.MathUtils.lerp(rideEnd - 13, CASTZ, fs)
+      ly = THREE.MathUtils.lerp(-0.4, 0.72, fs)
+    }
+    // Atmospheric Drift — a slow living sway so a held shot never sits dead
+    const t = forge.reduced ? 0 : state.clock.elapsedTime
+    px += Math.sin(t * 0.13) * 0.12 + Math.sin(t * 0.23) * 0.05
+    py += Math.sin(t * 0.17) * 0.07
+    camera.position.set(px, py, pz)
+    camera.lookAt(lx, ly, lz)
+    if (typeof window !== 'undefined') { window.__camPos = [Math.round(px * 10) / 10, Math.round(py * 10) / 10, Math.round(pz * 10) / 10]; window.__camShot = s < 0.8 ? 'ride' : 'cast' } // QA
   })
   return null
 }
@@ -208,6 +237,17 @@ export default function RaisedChannel() {
           <shaderMaterial vertexShader={vert} fragmentShader={wallFrag} uniforms={wallU} />
         </mesh>
       ))}
+
+      {/* THE CAST (finale) — the channel's metal pours into GAELWORX at the end of the ride; all
+          cools to forged iron except the A and E, which hold eternal white-gold divine fire. */}
+      <LetterCast liveProgress={() => forge.finaleProgress} position={[0, 0.78, CASTZ]} size={0.92} />
+      {/* AUTOMATIC EXECUTION crystallizes beneath, its A the same fire (trails the main fill) */}
+      <LetterCast
+        text="AUTOMATIC EXECUTION"
+        liveProgress={() => THREE.MathUtils.clamp((forge.finaleProgress - 0.45) / 0.55, 0, 1)}
+        position={[0, -0.34, CASTZ]}
+        size={0.2}
+      />
     </>
   )
 }
