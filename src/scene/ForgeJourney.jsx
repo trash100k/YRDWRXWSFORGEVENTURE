@@ -6,6 +6,7 @@ import { COPY } from '../brand.js'
 import ChannelFloor from './channelFloor.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
 import ForgeAtmosphere from './ForgeAtmosphere.jsx'
+import ForgeCauldron from './ForgeCauldron.jsx'
 import LetterCast from './LetterCast.jsx'
 
 /**
@@ -81,7 +82,7 @@ function buildShots() {
   const shots = []
   // BEAT 1 — TOP-DOWN over the molten mouth: the four cords gathered, about to pour. The DOM
   // hero (the tagline rising from the melt) sits over this establishing read.
-  shots.push({ pos: new THREE.Vector3(0, 12.6, 7.6), target: new THREE.Vector3(0, 0, -5.0), strand: -1 })
+  shots.push({ pos: new THREE.Vector3(0, 10.5, 6.0), target: new THREE.Vector3(0, 0, 0.6), strand: -1 })
   // BEAT 2 — FORWARD: drop to the mouth and ride behind the metal as it ENTERS the channel,
   // looking down the descent. The "watch the liquid enter the channel" shot.
   shots.push({ pos: new THREE.Vector3(0, 2.4, 5.4), target: new THREE.Vector3(0, -0.2, -9.0), strand: -1 })
@@ -162,6 +163,9 @@ export default function ForgeJourney() {
       {/* the four-cord Celtic plait of molten metal, woven over-under, carved into the basalt
           forge floor and read top-down (the metal is the only light) */}
       <ChannelFloor strands={STRANDS} activeStrand={activeStrand} half={0.4} margin={4.5} />
+
+      {/* THE SOURCE — the forge cauldron at the mouth: a white-hot vortex the four cords are born from */}
+      <ForgeCauldron position={[0, 0.05, 0.6]} radius={2.1} />
 
       {/* living embers + sparks rising off the molten, drawn by the heat */}
       {!forge.reduced && <ForgeAtmosphere />}
