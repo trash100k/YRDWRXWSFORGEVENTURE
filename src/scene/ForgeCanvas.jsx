@@ -3,6 +3,7 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration } from '@react-three/postprocessing'
 import { ToneMappingMode, BlendFunction } from 'postprocessing'
 import HeatHaze from './HeatHaze.jsx'
+import { CinematicGrade } from './CinematicGrade.jsx'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
@@ -261,20 +262,23 @@ export default function ForgeCanvas({ route }) {
           {!forge.reduced && <Embers />}
         </>
       )}
-      {/* HDR pipeline: scene (linear, >1 hot band) → bloom → ACES → vignette.
-          Only the accent band exceeds 1.0, so threshold bloom IS selective bloom. */}
+      {/* CINEMATIC PIPELINE — a layered film stack, not a single glow:
+          DOF → two-tier bloom → heat shimmer → ACES → colour grade + halation → CA → vignette → grain */}
       <EffectComposer frameBufferType={THREE.HalfFloatType}>
-        {/* the forge glow — SELECTIVE: only the white-hot cores + the A·E divine fire (>1) bloom,
-            so ~90% of the frame holds the void and the glow reads as the one light (ominous, not washed) */}
-        <Bloom mipmapBlur luminanceThreshold={0.85} luminanceSmoothing={0.10} intensity={1.05} radius={0.8} />
+        {/* WIDE soft bloom — atmospheric glow, the metal bleeding light into the air (the halation base) */}
+        <Bloom mipmapBlur luminanceThreshold={0.62} luminanceSmoothing={0.22} intensity={1.35} radius={0.92} />
+        {/* TIGHT bright bloom — only the white-hot cores + the A·E divine fire spike (the eye-magnets) */}
+        <Bloom mipmapBlur luminanceThreshold={0.9} luminanceSmoothing={0.05} intensity={0.75} radius={0.45} />
         {/* heat shimmer over the molten only (masked to the hot band); the void stays sharp */}
-        <HeatHaze strength={0.0055} scale={3.4} speed={0.5} rise={1.0} threshold={0.2} smoothing={0.5} />
-        {/* a whisper of lens dispersion at the edges — film, not gimmick */}
-        <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.0006, 0.0006]} radialModulation modulationOffset={0.45} />
+        <HeatHaze strength={0.006} scale={3.4} speed={0.5} rise={1.0} threshold={0.2} smoothing={0.5} />
         <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
-        <Vignette offset={0.32} darkness={1.0} />
+        {/* the FILM LAYER: filmic contrast, cold-steel/warm-gold split-tone, celluloid halation, saturation */}
+        <CinematicGrade />
+        {/* a whisper of lens dispersion at the edges — film, not gimmick */}
+        <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.0008, 0.0008]} radialModulation modulationOffset={0.4} />
+        <Vignette offset={0.26} darkness={1.08} />
         {/* fine film grain so the blacks read as photographed, not dead digital void */}
-        <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.072} />
+        <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.06} />
       </EffectComposer>
     </Canvas>
   )

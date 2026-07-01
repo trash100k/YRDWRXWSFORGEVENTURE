@@ -134,6 +134,10 @@ const letterFrag = /* glsl */ `
     divCol += ${v3(PAL.divine)} * spine * 1.3 * ignite;
 
     vec3 col = mix(ironCol, divCol, uDivine);
+    // the glyph only EXISTS once the molten has begun filling it — gate by uFill (NOT the front
+    // mask, which is ~0.85 at the glyph bottom even when uFill=0, leaking a dark ghost at the
+    // vanishing point mid-ride). At uFill=0 the whole letter is pure void; it casts into being.
+    col *= smoothstep(0.001, 0.05, uFill);
 
     // troika multiplies its glyph-coverage alpha into this; keep alpha solid.
     gl_FragColor = vec4(col, 1.0);
