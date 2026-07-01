@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration } from '@react-three/postprocessing'
 import { ToneMappingMode, BlendFunction } from 'postprocessing'
 import HeatHaze from './HeatHaze.jsx'
@@ -11,6 +11,13 @@ import ForgeJourney from './ForgeJourney.jsx'
 import RaisedChannel from './RaisedChannel.jsx'
 import ForgeConcept from './ForgeConcept.jsx'
 import LabScene from './LabScene.jsx'
+import ScryingPool from './ScryingPool.jsx'
+import CastingRoom from './CastingRoom.jsx'
+import ChannelHall from './ChannelHall.jsx'
+import JewelChamber from './JewelChamber.jsx'
+import ForgeAltar from './ForgeAltar.jsx'
+import Plinths from './Plinths.jsx'
+import ForgeMouth from './ForgeMouth.jsx'
 
 /**
  * The ONE renderer. A full-screen forge surface — void-black obsidian with living
@@ -153,6 +160,55 @@ function Slab() {
   )
 }
 
+// routes that render a bespoke chamber scene (the rest fall back to the Slab backdrop)
+const CHAMBER_ROUTES = new Set(['/voice', '/software', '/automations', '/web', '/about', '/work', '/contact'])
+
+// A shared chamber camera: frames a chamber from `pos` looking at `target`, with a slow orbital
+// sway (`orbit`, radians) + atmospheric drift so a held chamber never sits dead. Reduced-motion
+// freezes it at the base vantage. Used for the chambers that don't drive their own camera.
+function ChamberCam({ pos, target, orbit = 0.0 }) {
+  const { camera } = useThree()
+  const look = useMemo(() => new THREE.Vector3(target[0], target[1], target[2]), [target])
+  useFrame((state) => {
+    const t = forge.reduced ? 0 : state.clock.elapsedTime
+    const a = Math.sin(t * 0.11) * orbit
+    const ca = Math.cos(a), sa = Math.sin(a)
+    const x = pos[0] * ca - pos[2] * sa
+    const z = pos[0] * sa + pos[2] * ca
+    camera.position.set(
+      x + Math.sin(t * 0.15) * 0.08,
+      pos[1] + Math.sin(t * 0.19) * 0.05,
+      z + Math.cos(t * 0.13) * 0.08
+    )
+    camera.lookAt(look)
+    if (typeof window !== 'undefined') { window.__camPos = [camera.position.x, camera.position.y, camera.position.z]; window.__camShot = 'chamber' }
+  })
+  return null
+}
+
+// route → bespoke chamber scene. Each is its own room in the ONE forge (metal is the only light).
+// CastingRoom + Plinths drive their own camera; the rest get a framed ChamberCam.
+function Chamber({ route }) {
+  switch (route) {
+    case '/voice':
+      return (<><ChamberCam pos={[0, 2.7, 4.6]} target={[0, 0.1, 0]} orbit={0.10} /><ScryingPool /></>)
+    case '/software':
+      return <CastingRoom /> // self-orbiting camera
+    case '/automations':
+      return (<><ChamberCam pos={[0, 3.4, 6.2]} target={[0, 0.1, -1.5]} orbit={0.06} /><ChannelHall /></>)
+    case '/web':
+      return (<><ChamberCam pos={[0, 0.7, 4.6]} target={[0, 0.5, 0]} orbit={0.16} /><JewelChamber /></>)
+    case '/about':
+      return (<><ChamberCam pos={[0, 1.3, 6.4]} target={[0, 1.7, 0]} orbit={0.05} /><ForgeAltar /></>)
+    case '/work':
+      return <Plinths /> // self-panning camera along the arc
+    case '/contact':
+      return (<><ChamberCam pos={[0, 1.5, 6.8]} target={[0, 1.4, -1]} orbit={0.05} /><ForgeMouth /></>)
+    default:
+      return null
+  }
+}
+
 export default function ForgeCanvas({ route }) {
   const dpr = useRef(Math.min(typeof window !== 'undefined' ? window.devicePixelRatio : 1, 1.5))
 
@@ -194,6 +250,11 @@ export default function ForgeCanvas({ route }) {
         <ForgeConcept />
       ) : route === '/' ? (
         <RaisedChannel />
+      ) : CHAMBER_ROUTES.has(route) ? (
+        <>
+          <Chamber route={route} />
+          {!forge.reduced && <Embers />}
+        </>
       ) : (
         <>
           <Slab />
