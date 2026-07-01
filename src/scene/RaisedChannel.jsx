@@ -6,6 +6,7 @@ import { forge } from '../store.js'
 import Embers from './Embers.jsx'
 import LetterCast from './LetterCast.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
+import ForgeHaze from './ForgeHaze.jsx'
 import { COPY } from '../brand.js'
 
 /**
@@ -245,6 +246,7 @@ export default function RaisedChannel() {
   return (
     <>
       <RideCam />
+      {!forge.reduced && <ForgeHaze layers={14} spacing={2.1} width={10} height={6.5} opacity={0.4} />}
       {!forge.reduced && <ChannelEmbers />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}

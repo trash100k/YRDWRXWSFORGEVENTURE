@@ -136,11 +136,12 @@ const letterFrag = /* glsl */ `
     vec3 col = mix(ironCol, divCol, uDivine);
     // the glyph only EXISTS once the molten has begun filling it — gate by uFill (NOT the front
     // mask, which is ~0.85 at the glyph bottom even when uFill=0, leaking a dark ghost at the
-    // vanishing point mid-ride). At uFill=0 the whole letter is pure void; it casts into being.
-    col *= smoothstep(0.001, 0.05, uFill);
-
-    // troika multiplies its glyph-coverage alpha into this; keep alpha solid.
-    gl_FragColor = vec4(col, 1.0);
+    // vanishing point mid-ride). At uFill=0 the letter is fully TRANSPARENT so it doesn't cut a
+    // black silhouette into the haze behind it; it casts into being as the molten fills it.
+    float exists = smoothstep(0.001, 0.05, uFill);
+    col *= exists;
+    // troika multiplies its glyph-coverage alpha into this; gate alpha so unfilled = invisible.
+    gl_FragColor = vec4(col, exists);
   }
 `
 
@@ -170,6 +171,7 @@ function CastLetter({ char, x, size, isDivine, localFill, cooled }) {
         uniforms,
         transparent: true,
         toneMapped: false, // keep >1 radiance intact for the HDR bloom contract
+        depthWrite: false, // unfilled letters are transparent — don't write depth / cut the haze
       }),
     [uniforms]
   )
