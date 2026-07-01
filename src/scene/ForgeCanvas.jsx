@@ -8,6 +8,7 @@ import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
 import Embers from './Embers.jsx'
 import ForgeJourney from './ForgeJourney.jsx'
+import RaisedChannel from './RaisedChannel.jsx'
 import ForgeConcept from './ForgeConcept.jsx'
 import LabScene from './LabScene.jsx'
 
@@ -192,7 +193,7 @@ export default function ForgeCanvas({ route }) {
       ) : route === '/concept' ? (
         <ForgeConcept />
       ) : route === '/' ? (
-        <ForgeJourney />
+        <RaisedChannel />
       ) : (
         <>
           <Slab />
