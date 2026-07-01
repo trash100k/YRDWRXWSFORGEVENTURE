@@ -30,7 +30,7 @@ const vert = /* glsl */ `
 const frag = /* glsl */ `
   precision highp float;
   varying vec2 vWorld;
-  uniform float uTime, uTemp, uHalf, uRadius;
+  uniform float uTime, uTemp, uHalf, uRadius, uAlongMax;
   uniform vec2 uCenter;
   uniform int uCount;
   uniform vec2 uPath[${MAXP}];
@@ -68,6 +68,14 @@ const frag = /* glsl */ `
   }
   float hexEdge(vec2 p){ p = abs(p); return max(dot(p, normalize(vec2(1.0, 1.7320508))), p.x); }
 
+  // Truchet quarter-arc interlace — each cell flips a pair of arcs so they connect across cells into
+  // continuous winding curves ≈ Celtic knotwork. Returns distance to the nearest knot ribbon.
+  float truchet(vec2 p){
+    vec2 c = floor(p), f = fract(p);
+    if (hash21(c) > 0.5) f.x = 1.0 - f.x;
+    return min(abs(length(f) - 0.5), abs(length(f - 1.0) - 0.5));
+  }
+
   void main(){
     vec2 p = vWorld;
 
@@ -95,7 +103,7 @@ const frag = /* glsl */ `
     // depth cue — a tube glows OUTWARD onto the surface; a groove goes DARK before it meets the
     // stone. That shadow band is what reads as "carved," and it kills the floating-tube look.
     float halfW = uHalf;                          // groove half-width (rim → rim = 2*halfW)
-    float riverHalf = halfW * 0.40;               // the molten river is thin — the trough bottom
+    float riverHalf = halfW * 0.52;               // a proper white-hot flow, not a thread (frame 004)
     float vig = smoothstep(uRadius, uRadius * 0.35, length(p - uCenter));
 
     // the OVER strand's molten river (narrow), and the carved groove it (or an UNDER strand) cuts
@@ -109,20 +117,30 @@ const frag = /* glsl */ `
     // the metal is the ONLY light: the flat stone beyond the rim barely catches it (TIGHT halo)
     float halo = exp(-max(wallD - halfW, 0.0) * 2.4);
 
-    // ── basalt honeycomb pavement — Giant's Causeway, top-down ──
-    vec4 hx = getHex(p * 1.3);
-    float edge = hexEdge(hx.xy);
-    float joint = smoothstep(0.42, 0.5, edge);
-    float cell = hash21(hx.zw);
+    // ── carved basalt SLABS with glowing Celtic knotwork (the reference's signature — frame 004) ──
+    // rectangular slabs + deep joint grooves; a Truchet-arc interlace is carved into each slab and
+    // lights GOLD only where the molten's glow rakes across it. The metal is the only light, so the
+    // knotwork emerges from black near the channel and dies into darkness away from it.
+    vec2 slab = p * 0.72;
+    vec2 sc = floor(slab), sf = fract(slab);
+    float cell = hash21(sc);
+    vec2 jd = min(sf, 1.0 - sf);
+    float joint = smoothstep(0.055, 0.015, min(jd.x, jd.y));   // 1 inside the mortar groove
+    float knotD = truchet(slab * 2.0);                          // distance to the interlace ribbon
+    float ribbon = smoothstep(0.085, 0.028, knotD);             // the raised knot band
+    float shoulder = smoothstep(0.15, 0.05, knotD);             // its soft carved shoulder
     vec3 stoneDark  = vec3(0.009, 0.013, 0.015);
-    vec3 stoneGreen = vec3(0.022, 0.041, 0.034);          // Connemara green, only under light
+    vec3 stoneGreen = vec3(0.022, 0.041, 0.034);                // Connemara green, only under light
     vec3 basalt = mix(stoneDark, stoneGreen, 0.25 + cell * 0.6);
-    basalt *= (1.0 - joint * 0.9);                        // deep-cut column joints
+    basalt *= (1.0 - joint * 0.92);                            // grooves cut near-black
     basalt *= vig;
 
-    // flat stone surface — dim ambient + a faint warm catch only right at the rim
+    // the metal's reach across the stone — wide enough for the knotwork to read down the slabs
+    float glowWide = exp(-max(wallD - halfW, 0.0) * 0.7);
     vec3 stone = basalt * 0.5;
-    stone += gw_tempColor(0.55) * halo * 0.05 * (0.5 + 0.5 * cell);
+    stone += gw_tempColor(0.78) * glowWide * ribbon * 0.85;    // GOLD interlace, rim-lit by the metal
+    stone += gw_tempColor(0.5)  * glowWide * shoulder * 0.10;  // warm shoulder of the carving
+    stone += gw_tempColor(0.55) * halo * 0.05;                 // faint warm catch at the rim
 
     // groove wall — DARKER than the flat stone (an occluded recess), warmed from the river below:
     // the lower wall (near the metal) catches a hot rim of light; the upper wall falls to shadow.
@@ -137,8 +155,13 @@ const frag = /* glsl */ `
     float edgeMask = smoothstep(0.62, 0.06, core);              // 1 at the river edge (cooling crust)
     float vein = smoothstep(0.5, 0.62, fbm(vec2(overAlong * 4.0, overD * 4.0) + uTime * 0.08));
     float flow = pow(sin(overAlong * 5.0 - uTime * 4.2) * 0.5 + 0.5, 2.0);
-    float tf = 0.42 + core * 0.46 + skin * 0.07 + flow * core * 0.07 + actLit * 0.10 + uTemp * 0.03;
+    // COOLING GRADIENT — the pour is white-hot at the mouth and cools to dark iron down the descent
+    // (overAlong = arc-distance from the source). The eternal fire lives in the cast's A/E, not here.
+    float coolAlong = clamp(overAlong / max(uAlongMax, 0.001), 0.0, 1.0);
+    float baseT = mix(0.9, 0.18, coolAlong);                    // white-hot source -> near-void iron
+    float tf = baseT + core * 0.30 + skin * 0.07 + flow * core * 0.06 + actLit * 0.12 + uTemp * 0.03;
     tf -= edgeMask * 0.26 * (1.0 - vein);                       // crust sets to deep red; cracks stay hot
+    tf -= smoothstep(0.60, 0.52, fbm(vec2(overAlong * 3.0, overD * 5.0) - uTime * 0.3)) * 0.30 * core; // dark ore riding the melt
     tf = clamp(tf, 0.0, 1.0);
     vec3 moltenCol = gw_tempColor(tf) * gw_em(tf) * mix(1.0, 1.3, actLit);
 
@@ -166,6 +189,7 @@ export default function ChannelFloor({ curve, curves, strands, activeStrand = -1
     const perPath = samples || Math.max(6, Math.floor(MAXP / nPaths))
     const upath = [], ucum = [], ubreak = [], udepth = [], ustrand = []
     let minX = Infinity, maxX = -Infinity, minZ = Infinity, maxZ = -Infinity
+    let maxAlong = 0 // longest strand arc-length — normalises the cool-along-the-channel gradient
     for (let s = 0; s < list.length; s++) {
       const c = list[s].curve
       const depthFn = list[s].depth
@@ -183,6 +207,7 @@ export default function ChannelFloor({ curve, curves, strands, activeStrand = -1
         minX = Math.min(minX, v.x); maxX = Math.max(maxX, v.x)
         minZ = Math.min(minZ, v.y); maxZ = Math.max(maxZ, v.y)
       }
+      maxAlong = Math.max(maxAlong, len)
     }
     const count = upath.length
     while (upath.length < MAXP) { upath.push(new THREE.Vector2(0, 0)); ucum.push(0); ubreak.push(1); udepth.push(-2); ustrand.push(-1) }
@@ -198,6 +223,7 @@ export default function ChannelFloor({ curve, curves, strands, activeStrand = -1
       uTemp: { value: 0.5 },
       uHalf: { value: half },
       uRadius: { value: Math.max(w, l) * 0.62 },
+      uAlongMax: { value: maxAlong || 1 },
       uCenter: { value: new THREE.Vector2(cx, cz) },
       uCount: { value: count },
       uPath: { value: upath },
