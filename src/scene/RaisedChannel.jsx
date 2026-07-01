@@ -5,6 +5,8 @@ import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
 import Embers from './Embers.jsx'
 import LetterCast from './LetterCast.jsx'
+import ChannelCopy from './ChannelCopy.jsx'
+import { COPY } from '../brand.js'
 
 /**
  * RaisedChannel — ONE straight, RAISED molten channel (the reference frame 004). A white-hot river
@@ -177,6 +179,25 @@ function ChannelEmbers() {
 // where the GAELWORX cast stands — just past the channel's end, so the molten pours into the word
 const CASTZ = -LEN - 1 // -43
 
+// ── the story, carved on stone tablets beside the channel (typography carries the beats) ──
+// A straight center line the copy mounts to; ChannelCopy places each tablet at curve(t), pushes it
+// out to the wall on `side`, billboards it to the rider, and reveals it by proximity as you pass.
+// t maps 0..1 → z 0..-LEN; the ride passes t≈0.05..0.75 over scroll 0..0.8 (before the cast).
+const STORY_CURVE = new THREE.CatmullRomCurve3(
+  [new THREE.Vector3(0, 0.82, 0), new THREE.Vector3(0, 0.82, -LEN * 0.5), new THREE.Vector3(0, 0.82, -LEN)],
+  false, 'catmullrom', 0.5
+)
+const B = COPY.arsenal.branches
+const STORY = [
+  { t: 0.05, side: -1, kicker: 'The Enemy',          head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
+  { t: 0.16, side: 1,  kicker: '01 · The Clan',       head: 'FOR OPERATORS',        body: 'We run this exact system on our own shops. Built for us. Now it’s yours.' },
+  { t: 0.27, side: -1, kicker: 'The Proof',           head: 'IT SHIPS THEN EARNS',  body: 'No pilots that rot in phase two. It goes live, runs the work, pays for itself.' },
+  { t: 0.40, side: 1,  kicker: 'GW–01 · Voice',       head: 'EVERY CALL ANSWERED',  body: B[0].line },
+  { t: 0.51, side: -1, kicker: 'GW–02 · Software',    head: 'YOU OWN THE CODE',      body: B[1].line },
+  { t: 0.62, side: 1,  kicker: 'GW–03 · Automations', head: 'IT RUNS ITSELF',        body: B[2].line },
+  { t: 0.73, side: -1, kicker: 'GW–04 · Web',         head: 'BUILT TO BOOK',         body: B[3].line },
+]
+
 // a forward camera that RIDES down the channel (scroll 0..0.8), then ARRIVES at the cast and
 // descends overhead → eye-level as the letters fill (scroll 0.8..1.0). The pour adventure + finale.
 function RideCam() {
@@ -225,6 +246,9 @@ export default function RaisedChannel() {
     <>
       <RideCam />
       {!forge.reduced && <ChannelEmbers />}
+      {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
+          reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
+      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={2.8} width={2.5} reveal={6.5} />
       {/* the molten river, lying flat in the trough */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, -LEN / 2]}>
         <planeGeometry args={[HALFW * 2, LEN]} />

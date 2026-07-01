@@ -85,7 +85,7 @@ function segmentHead(text) {
  * face the camera. A basalt backing slab + carved head/kicker/body. Per-frame it fades
  * by camera proximity and keeps facing the rider.
  */
-function Tablet({ curve, item, offset, width, active }) {
+function Tablet({ curve, item, offset, width, active, reveal }) {
   const { camera } = useThree()
   const group = useRef()
   const slabRef = useRef()
@@ -134,17 +134,19 @@ function Tablet({ curve, item, offset, width, active }) {
     // WORLD position so it works inside an offset parent group (the split forks sit under splitPos).
     g.getWorldPosition(WPOS)
     const dist = camera.position.distanceTo(WPOS)
-    const near = THREE.MathUtils.clamp(1.0 - (dist - 2.5) / 12.0, 0.0, 1.0)
-    const reveal = near * near * (3.0 - 2.0 * near) // smoothstep
+    // `reveal` = the distance window over which a tablet fades up; tighter → only the tablet you're
+    // passing reads (a continuous ride needs this so distant tablets don't cluster at frame-centre).
+    const near = THREE.MathUtils.clamp(1.0 - (dist - 2.5) / reveal, 0.0, 1.0)
+    const revealAmt = near * near * (3.0 - 2.0 * near) // smoothstep
     // `active` gates a beat on/off: clustered tablets (the four forks) must not all reveal at
     // once just because the camera is near the cluster — only the told one shows.
-    const target = (forge.reduced ? 1.0 : reveal) * (active ? 1 : 0)
+    const target = (forge.reduced ? 1.0 : revealAmt) * (active ? 1 : 0)
     // hard-hide far/edge-on tablets so their backing slabs never read as stray bars in the void
     g.visible = target > 0.03
 
     // slide the block in from its screen edge: offset along the camera frame, decaying to 0 as it
     // reveals. Reduced-motion lands it straight at anchor (no travel).
-    const slide = forge.reduced ? 0 : (1 - reveal) * 2.6
+    const slide = forge.reduced ? 0 : (1 - revealAmt) * 2.6
     OFF.copy(ENTRY).applyQuaternion(camera.quaternion).multiplyScalar(slide)
     g.position.copy(anchor).add(OFF)
 
@@ -278,14 +280,14 @@ function HeadRow({ segs, x, y, z, max, common, register }) {
 
 const DEFAULT_ITEMS = []
 
-export default function ChannelCopy({ curve, items = DEFAULT_ITEMS, offset = 1.55, width = 2.6, active = true }) {
+export default function ChannelCopy({ curve, items = DEFAULT_ITEMS, offset = 1.55, width = 2.6, active = true, reveal = 12.0 }) {
   // Guard: nothing to mount without a curve.
   const list = useMemo(() => (curve ? items : []), [curve, items])
   if (!curve) return null
   return (
     <group>
       {list.map((item, i) => (
-        <Tablet key={i} curve={curve} item={item} offset={offset} width={width} active={active} />
+        <Tablet key={i} curve={curve} item={item} offset={offset} width={width} active={active} reveal={reveal} />
       ))}
     </group>
   )

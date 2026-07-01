@@ -112,6 +112,9 @@ const letterFrag = /* glsl */ `
     vec3 ironBody = ${v3(PAL.steel)} * (0.34 + 0.16 * (1.0 - uCool)) * rake;
     ironBody += ${v3(PAL.ember)} * 0.05 * (1.0 - uCool);
     ironCol = max(ironCol, ironBody);
+    // unfilled iron is VOID: the letterform only exists where the molten has reached it, so the
+    // word MATERIALIZES as it casts (and never sits as a dark ghost at the vanishing point mid-ride).
+    ironCol *= front;
 
     // ── DIVINE letter (eternal white-gold, never cools) ──
     float flick = uReduced > 0.5 ? 0.0
@@ -123,8 +126,9 @@ const letterFrag = /* glsl */ `
     // white-GOLD, not just white: a molten-gold body so the eternal letters read distinctly
     // warmer than any freshly-cast white-hot iron around them.
     vec3 divCol = mix(${v3(PAL.gold)}, ${v3(PAL.divine)}, 0.45);
-    // emissive radiance pushed hard past 1.0 so the shared bloom blooms it
-    divCol *= (3.6 + flick * 1.6) * mix(0.12, 1.0, ignite);
+    // emissive radiance pushed hard past 1.0 so the shared bloom blooms it. NO pre-glow floor:
+    // dark until the fill front reaches the glyph, so the cast never spoils itself from afar.
+    divCol *= (3.6 + flick * 1.6) * ignite;
     // a hotter white-gold core down the spine of the glyph
     float spine = smoothstep(0.42, 0.0, abs(vUv.x - 0.5));
     divCol += ${v3(PAL.divine)} * spine * 1.3 * ignite;
@@ -260,8 +264,9 @@ export default function LetterCast({
     const n = layout.length
     for (let i = 0; i < n; i++) {
       const u = layout[i].u
-      // molten front sweeps L→R; the ×1.2 + bias guarantees the last glyph fills exactly at pf=1
-      fills.current[i].current = THREE.MathUtils.clamp((pf * 1.2 - u + 0.06) / 0.16, 0, 1)
+      // molten front sweeps L→R; ×1.2 guarantees the last glyph fills exactly at pf=1. NO + bias:
+      // a bias leaks fill into the first glyphs at pf=0, pre-lighting the cast from afar mid-ride.
+      fills.current[i].current = THREE.MathUtils.clamp((pf * 1.2 - u) / 0.16, 0, 1)
       // cooling trails the fill, also L→R; the divine A/E NEVER cool; all others fully set by p=1
       cools.current[i].current = layout[i].isDivine
         ? 0
