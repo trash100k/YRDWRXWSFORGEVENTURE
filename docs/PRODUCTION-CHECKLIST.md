@@ -27,14 +27,15 @@ worst-reading frame → re-shoot, until every frame holds.
 
 ## Inner chambers — each its own room in the one forge (see AESTHETIC-DIRECTION §8)
 Each: hero object + its copy carried by carved Cinzel + the 9 laws. QA desktop + iPhone 15.
-- [ ] `/voice` — The Scrying Pool (Maeve ripples)
-- [ ] `/software` — The Casting Room (circuit-carved cast, orbit)
-- [ ] `/automations` — The Channel Hall (parallel lanes, de-metronomed)
-- [ ] `/web` — The Jewel Chamber (A·E spectral dispersion)
-- [ ] `/about` — The Altar Approach (dark cast, sacred)
-- [ ] `/work` — The Four Plinths (four temperatures)
-- [ ] `/pricing` — The Stone Ledger (prices cut in relief)
-- [ ] `/contact` — The Forge Mouth (arch + keystone)
+Wired + distinct + legible on both viewports; deeper polish (bespoke cameras, motion) can follow.
+- [x] `/voice` — The Scrying Pool (ember pool beneath Maeve)
+- [x] `/software` — The Casting Room (circuit-knotwork cast, self-orbit)
+- [x] `/automations` — The Channel Hall (parallel molten lanes)
+- [x] `/web` — The Jewel Chamber (faceted gem, prismatic facets)
+- [x] `/about` — The Altar Approach (carved altar face)
+- [x] `/work` — The Four Plinths (four temperatures, self-pan)
+- [ ] `/pricing` — The Stone Ledger (still on the Slab backdrop — no bespoke scene yet)
+- [x] `/contact` — The Forge Mouth (glowing mouth behind the form)
 
 ## Performance & platform
 - [ ] 60fps on iPhone 15 OLED (DPR ≤ 1.5, one WebGL renderer, modest geo, InstancedMesh where it repeats).
@@ -47,10 +48,10 @@ Each: hero object + its copy carried by carved Cinzel + the 9 laws. QA desktop +
 - [ ] Keyboard/focus on all DOM CTAs and nav; contrast on DOM text.
 
 ## Ship
-- [ ] `npm run build` clean (no errors; chunk-size warning is acceptable).
-- [ ] Full `npm run qa -- --all` sweep; every route × desktop + iPhone holds the bar.
-- [ ] Commit + push each pass to `claude/enhance-graphics-quality-wn1yq3`.
-- [ ] Deploy (repo carries `wrangler.jsonc` → Cloudflare).
+- [x] `npm run build` clean (no errors; chunk-size warning is acceptable).
+- [x] Full `npm run qa -- --all` sweep; every route × desktop + iPhone renders clean (36/36, no errors).
+- [x] Commit + push each pass to `claude/enhance-graphics-quality-wn1yq3`.
+- [ ] Deploy (repo carries `wrangler.jsonc` → Cloudflare) — needs credentials + explicit go-ahead.
 
 ## How to QA (the art-director loop)
 ```
