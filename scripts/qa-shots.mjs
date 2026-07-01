@@ -74,17 +74,14 @@ async function waitForForge(page, beat) {
     const c = document.querySelector('canvas')
     return c && c.width > 0 && c.height > 0 && window.__forge
   }, { timeout: 20000 })
-  // freeze the boil so frames are reproducible; pin the beat if one was requested
+  // pin the beat if one was requested (App.jsx's rAF re-pins scroll every frame on /?beat=).
+  // NOTE: we deliberately leave forge.reduced = false so motion elements (embers, camera drift)
+  // render — these are representative cinematic frames for art-direction, not pixel-diff baselines.
   await page.evaluate((b) => {
-    window.__forge.reduced = true
     if (b != null) { window.__forge.scroll = b; window.__forge.temperature = 0.14 + (window.__forge.routeTemp || 0) + b * 0.6 }
   }, beat ?? null)
-  if (beat != null) {
-    // App.jsx's rAF re-pins scroll every frame on /?beat= — give it a beat to settle the camera lerp
-    await page.waitForTimeout(700)
-  } else {
-    await page.waitForTimeout(500)
-  }
+  // let the camera lerp + boil settle to a representative frame
+  await page.waitForTimeout(beat != null ? 1100 : 700)
 }
 
 async function main() {

@@ -1,8 +1,9 @@
-import { useMemo } from 'react'
+import { useMemo, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
+import Embers from './Embers.jsx'
 
 /**
  * RaisedChannel — ONE straight, RAISED molten channel (the reference frame 004). A white-hot river
@@ -41,7 +42,8 @@ const vert = /* glsl */ `
   void main(){ vec4 wp = modelMatrix * vec4(position, 1.0); vW = wp.xyz; gl_Position = projectionMatrix * viewMatrix * wp; }
 `
 
-// the molten river — boiling, flowing away, cooling down its length, meniscus lip at the walls
+// the molten river — flowing metal with a cooled dark crust that cracks to reveal the hot vein
+// beneath; boils, drifts down-channel, cools down its length, bright meniscus lip at the walls
 const moltenFrag = /* glsl */ `
   precision highp float;
   varying vec3 vW;
@@ -50,14 +52,20 @@ const moltenFrag = /* glsl */ `
   void main(){
     float along  = clamp(-vW.z / uLen, 0.0, 1.0);      // 0 at source → 1 far
     float across = clamp(vW.x / uHalfW, -1.0, 1.0);
-    vec2 q = vec2(across * 2.6, along * 5.5 - uTime * 0.6);   // flow drifts down the channel
+    // flow drifts down-channel; a transverse sway keeps it from streaking as a straight plume
+    vec2 q = vec2(across * 2.6 + sin(along * 7.0 - uTime * 0.7) * 0.4, along * 5.5 - uTime * 0.6);
     vec2 w = vec2(fbm(q), fbm(q + 3.1));
     float boil = fbm(q + 1.5 * w);
     float vein = clamp(pow(1.0 - abs(boil - 0.5) * 2.0, 3.0), 0.0, 1.0);
-    float ore  = smoothstep(0.55, 0.46, fbm(q * 2.4 - uTime * 0.5));   // dark ore breaks up the white
-    float baseT = mix(0.86, 0.20, along);              // COOLING: white-hot source → dark iron
-    float lip = smoothstep(0.74, 1.0, abs(across));    // meniscus where metal meets the wall
-    float tt = clamp(baseT + vein * 0.18 + lip * 0.16 - ore * 0.34, 0.0, 1.0);
+    // cooled CRUST: large dark skin islands drifting on the surface (breaks the white plume),
+    // fractured by a finer crack mask that lets the hot metal show through the seams
+    float crustBig = smoothstep(0.60, 0.44, fbm(q * 1.6 - uTime * 0.25));       // big cooled plates
+    float crackle  = smoothstep(0.46, 0.54, fbm(q * 5.0 + w * 2.0 + uTime * 0.15)); // hot cracks
+    float crust = clamp(crustBig - crackle * 0.8, 0.0, 1.0);
+    float ore  = smoothstep(0.55, 0.46, fbm(q * 2.4 - uTime * 0.5));   // fine dark ore flecks
+    float baseT = mix(0.84, 0.18, along);              // COOLING: white-hot source → dark iron
+    float lip = smoothstep(0.72, 1.0, abs(across));    // meniscus where metal meets the wall
+    float tt = clamp(baseT + vein * 0.16 + lip * 0.20 - crust * 0.42 - ore * 0.20, 0.0, 1.0);
     gl_FragColor = vec4(tempColor(tt) * em(tt), 1.0);
   }
 `
@@ -149,6 +157,22 @@ const wallFrag = /* glsl */ `
   }
 `
 
+// embers that RIDE with the camera, drifting up off the molten so the ride always has living
+// sparks in frame (the only motion during a held beat). Recycled around the current camera z.
+function ChannelEmbers() {
+  const g = useRef()
+  useFrame(() => {
+    if (!g.current) return
+    const s = THREE.MathUtils.clamp(forge.scroll, 0, 1)
+    g.current.position.z = THREE.MathUtils.lerp(3.5, -LEN + 9, s) - 5
+  })
+  return (
+    <group ref={g}>
+      <Embers />
+    </group>
+  )
+}
+
 // a forward camera that RIDES down the channel as forge.scroll goes 0..1 (the pour adventure)
 function RideCam() {
   const { camera } = useThree()
@@ -171,6 +195,7 @@ export default function RaisedChannel() {
   return (
     <>
       <RideCam />
+      {!forge.reduced && <ChannelEmbers />}
       {/* the molten river, lying flat in the trough */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, -LEN / 2]}>
         <planeGeometry args={[HALFW * 2, LEN]} />
