@@ -62,27 +62,89 @@ const moltenFrag = /* glsl */ `
   }
 `
 
-// the raised walls — REAL knotwork relief sampled by world position; gold recesses glow, rim-lit
-// near the top + the hot source, falling to black as it descends into the void and cools down-length
+// the raised walls — PROCEDURAL columnar Irish basalt (Giant's Causeway): vertical prisms march
+// down-channel with per-block width/shade jitter (rhythm, NO repeat), ashlar courses in running
+// bond, deep mortar joints + a median V-groove, carved knot interlace that glows gold ONLY where
+// the river rakes it. The metal is the only light: brightest at the FOOT (the river), dying up the
+// face and down the length as it cools. A hot meniscus lip sits where stone meets molten.
 const wallFrag = /* glsl */ `
   precision highp float;
   varying vec3 vW;
   uniform float uTime, uLen;
-  uniform sampler2D uTex;
   ${COMMON}
+
+  // 4-way Truchet knot distance — quarter-arcs connect across cells into continuous interlace
+  float gw_knotDist(vec2 p){
+    vec2 c = floor(p), f = fract(p);
+    float h = hash21(c);
+    if      (h > 0.75) f = vec2(f.y, 1.0 - f.x);
+    else if (h > 0.50) f = 1.0 - f;
+    else if (h > 0.25) f = vec2(1.0 - f.y, f.x);
+    return min(abs(length(f) - 0.5), abs(length(f - 1.0) - 0.5));
+  }
+
   void main(){
-    float along = clamp(-vW.z / uLen, 0.0, 1.0);
-    float down  = clamp((0.42 - vW.y) / 3.4, 0.0, 1.0);        // 0 at top rim → 1 down into void
-    vec2 uv = vec2(vW.z / 6.5, (0.42 - vW.y) / 3.4);           // map the relief by WORLD pos (~6.5u panels)
-    vec3 t = texture2D(uTex, uv).rgb;
-    float lum = dot(t, vec3(0.299, 0.587, 0.114));
-    float gold = clamp((t.r - t.b) * 2.0, 0.0, 1.0) * smoothstep(0.12, 0.45, t.r);  // molten in the recesses
-    float warm = (1.0 - down) * mix(1.0, 0.14, along);        // lit near the top + the hot source
-    vec3 stone = vec3(0.02, 0.024, 0.028) * (0.25 + lum) * (0.25 + warm);
-    vec3 col = stone;
-    col += tempColor(0.82) * gold * warm * 1.7;               // GLOWING gold interlace in the carving
-    col += tempColor(0.5) * warm * 0.05;
-    col *= (1.0 - down) * (1.0 - down) + 0.02;                // fall to black into the void
+    float along = clamp(-vW.z / uLen, 0.0, 1.0);              // 0 source → 1 far (cools down-length)
+    float y = vW.y;                                            // 0.42 rim → drops into the void
+    float coolAlong = mix(1.0, 0.16, along);                  // white-hot mouth → cold far
+    // the river (y≈0) is the light: glow concentrated at the foot, fading up the face
+    float foot  = smoothstep(0.55, -0.15, y);                 // 0 at rim → 1 at/below the molten
+    float lit   = pow(foot, 1.4) * coolAlong;
+
+    // ── columnar basalt: VERTICAL prisms dominate (Giant's Causeway), irregular courses secondary ──
+    // Columns are the star: they converge to the vanishing point and read as carved rhythm without
+    // repeat. Courses are few and irregular so the wall never reads as a regular staircase.
+    float uu      = 0.60 - y;                                  // height coord (0 at ~rim, grows down)
+    // irregular course heights: walk a jittered ladder so no two bands are the same height
+    float cAcc = 0.0, courseH = 1.4, course = 0.0;
+    for (int i = 0; i < 6; i++){                               // resolve which course this y falls in
+      float ch = mix(1.1, 2.4, hash21(vec2(course, 12.3)));    // this course's height
+      if (uu < cAcc + ch) { courseH = ch; break; }
+      cAcc += ch; course += 1.0;
+    }
+    float rowJit  = hash21(vec2(course, 7.0));
+    float colW    = mix(0.42, 0.82, hash21(vec2(course, 3.1)));// narrower → MORE vertical prisms
+    float zc      = vW.z + rowJit * colW * 2.3;                // running-bond stagger per course
+    float colId   = floor(zc / colW);
+    float colSeed = hash21(vec2(colId, course));               // unique seed per stone block
+    float colShade = 0.62 + colSeed * 0.7;                     // per-column lit variation (reads columns)
+
+    vec2 blk = vec2(fract(zc / colW), (uu - cAcc) / courseH);
+    vec2 jdst = min(blk, 1.0 - blk);
+    float vJoint = smoothstep(0.070, 0.012, jdst.x);           // deep vertical mortar (dominant)
+    float hJoint = smoothstep(0.045, 0.010, jdst.y);           // subtle horizontal mortar
+    float joint  = max(vJoint * 1.0, hJoint * 0.7);
+    float vgroove = smoothstep(0.14, 0.0, abs(blk.x - 0.5));   // median V-groove down each prism
+
+    // ── carved knot interlace — kept subtle so it doesn't band at the grazing angle ──
+    vec2 kp = vec2(zc * 1.15, uu * 1.15) + colSeed * 9.0;
+    float kd = gw_knotDist(kp);
+    float ribbon   = smoothstep(0.075, 0.028, kd);
+
+    // ── grain + low-freq erosion so faces read as rough stone, not plastic ──
+    float grain   = fbm(vec2(zc * 5.5, uu * 5.5));
+    float erosion = fbm(vec2(zc * 0.35, uu * 0.5) + 3.7);
+
+    // dark green-black serpentine basalt; per-block value jitter; joints cut near-black
+    vec3 stoneDark  = vec3(0.010, 0.014, 0.016);
+    vec3 stoneGreen = vec3(0.020, 0.038, 0.032);
+    vec3 basalt = mix(stoneDark, stoneGreen, 0.2 + colSeed * 0.6);
+    basalt *= (0.72 + grain * 0.5);
+    basalt *= (0.82 + erosion * 0.42);
+    basalt *= (1.0 - joint * 0.92);
+
+    // compose — the metal is the only light; per-column shade makes the prisms read as columns
+    vec3 col = basalt * (0.18 + lit * 1.05 * colShade);
+    col += tempColor(0.45) * vgroove * lit * 0.16;            // V-groove down each prism (vertical read)
+    col += tempColor(0.78) * ribbon  * lit * colShade * 0.45; // faint gold knot, varied per block
+
+    // meniscus — the hot bright lip where basalt meets the molten (highest-contrast form)
+    float men = smoothstep(0.12, 0.0, abs(y - 0.02)) * coolAlong;
+    col += tempColor(0.92) * em(0.6) * men * 0.9;
+
+    // fall to black into the void beneath the river and up the cooling face
+    float voidFall = smoothstep(-3.2, 0.05, y);
+    col *= voidFall;
     gl_FragColor = vec4(col, 1.0);
   }
 `
@@ -103,14 +165,7 @@ function RideCam() {
 export default function RaisedChannel() {
   const uTime = useMemo(() => ({ value: 0 }), [])
   const moltenU = useMemo(() => ({ uTime, uLen: { value: LEN }, uHalfW: { value: HALFW } }), [uTime])
-  const tex = useMemo(() => {
-    const t = new THREE.TextureLoader().load('/textures/knotwork-relief.jpg')
-    t.wrapS = t.wrapT = THREE.RepeatWrapping
-    t.colorSpace = THREE.SRGBColorSpace
-    t.anisotropy = 8
-    return t
-  }, [])
-  const wallU = useMemo(() => ({ uTime, uLen: { value: LEN }, uTex: { value: tex } }), [uTime, tex])
+  const wallU = useMemo(() => ({ uTime, uLen: { value: LEN } }), [uTime])
   useFrame((state) => { if (!forge.reduced) uTime.value = state.clock.elapsedTime })
 
   return (
