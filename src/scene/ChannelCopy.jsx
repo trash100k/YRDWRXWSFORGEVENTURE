@@ -110,6 +110,15 @@ function Tablet({ curve, item, offset, width, active }) {
   // scratch — the tablet's true world position (it may live inside an offset group, e.g. the split)
   const WPOS = useMemo(() => new THREE.Vector3(), [])
 
+  // entry vector in SCREEN space — each block slides in from a different edge as the camera snaps
+  // to it (the "text comes in from different directions" beat). Deterministic, varied per tablet.
+  const ENTRY = useMemo(() => {
+    const dirs = [[-1, 0, 0], [1, 0, 0], [0, 1, 0], [0, -1, 0], [-1, 0.8, 0], [1, -0.8, 0]]
+    const h = (Math.round(Math.abs(item.t || 0) * 97) + (item.side < 0 ? 3 : 0)) % dirs.length
+    return new THREE.Vector3(...dirs[h])
+  }, [item.t, item.side])
+  const OFF = useMemo(() => new THREE.Vector3(), [])
+
   useFrame((_, dt) => {
     const g = group.current
     if (!g) return
@@ -132,6 +141,12 @@ function Tablet({ curve, item, offset, width, active }) {
     const target = (forge.reduced ? 1.0 : reveal) * (active ? 1 : 0)
     // hard-hide far/edge-on tablets so their backing slabs never read as stray bars in the void
     g.visible = target > 0.03
+
+    // slide the block in from its screen edge: offset along the camera frame, decaying to 0 as it
+    // reveals. Reduced-motion lands it straight at anchor (no travel).
+    const slide = forge.reduced ? 0 : (1 - reveal) * 2.6
+    OFF.copy(ENTRY).applyQuaternion(camera.quaternion).multiplyScalar(slide)
+    g.position.copy(anchor).add(OFF)
 
     // damp the text-material opacities toward target (no backing panel — the copy floats)
     const k = forge.reduced ? 1 : 1 - Math.pow(0.0015, d)

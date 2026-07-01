@@ -17,7 +17,7 @@ import LetterCast from './LetterCast.jsx'
  */
 
 // ── the plait geometry — a real four-cord Celtic braid (over-under via the cos-phase height) ──
-const Z1 = -32 // the plait runs from z=0 (the mouth) to z=Z1 (the cast)
+const Z1 = -44 // the plait runs from z=0 (the mouth) to z=Z1 (the cast) — longer, more epic descent
 const A = 3.1 // weave amplitude
 const W = (2 * Math.PI) / 9.0 // one weave cycle per ~9 units of travel
 const smooth = (e0, e1, x) => { const t = Math.max(0, Math.min(1, (x - e0) / (e1 - e0))); return t * t * (3 - 2 * t) }
@@ -62,43 +62,45 @@ const SERVICES = [
   { k: 3, t: 0.84, side: 1, kicker: 'GW–04 · Web', head: 'BUILT TO BOOK', body: B[3].line },
 ]
 
-// ── the camera: discrete top-down SHOTS that SNAP from beat to beat ──
+// ── the camera: discrete SHOTS that SNAP from beat to beat. Opens TOP-DOWN over the forge,
+// drops to a FORWARD ride as the metal ENTERS the channel, then alternates TOP / SIDE framings
+// down the plait so each block arrives on a fresh angle (the copy turns to meet each snap). ──
 function buildShots() {
   const up = new THREE.Vector3(0, 1, 0)
   const sideN = (T, sign) => new THREE.Vector3(-T.z, 0, T.x).normalize().multiplyScalar(sign)
-  const shots = []
-  // OPENING — beat 1. A calm, high read over the molten mouth where the four cords are gathered,
-  // about to pour. No tablet here: this is the establishing shot the DOM hero (the tagline rising
-  // from the melt) sits over, so the hero never collides with a carved story block.
-  shots.push({
-    pos: new THREE.Vector3(0, 11.0, 7.0),
-    target: new THREE.Vector3(0, 0, -5.0),
-    strand: -1,
+  // TOP: high, angled down over the plait, copy to one side. SIDE: low, out past the wall,
+  // raking across the molten so the pour reads edge-on and the carved copy catches the light.
+  const frameTop = (P, T, N) => ({
+    pos: P.clone().addScaledVector(up, 10.5).addScaledVector(N, 3.2).addScaledVector(T, -1.6),
+    target: P.clone().addScaledVector(N, 1.4),
   })
-  // story beats — a high top-down over the whole plait, copy floating to one side
-  for (const tab of TABLETS) {
+  const frameSide = (P, T, N) => ({
+    pos: P.clone().addScaledVector(up, 1.9).addScaledVector(N, 6.4).addScaledVector(T, -2.4),
+    target: P.clone().addScaledVector(up, 0.5),
+  })
+  const shots = []
+  // BEAT 1 — TOP-DOWN over the molten mouth: the four cords gathered, about to pour. The DOM
+  // hero (the tagline rising from the melt) sits over this establishing read.
+  shots.push({ pos: new THREE.Vector3(0, 12.6, 7.6), target: new THREE.Vector3(0, 0, -5.0), strand: -1 })
+  // BEAT 2 — FORWARD: drop to the mouth and ride behind the metal as it ENTERS the channel,
+  // looking down the descent. The "watch the liquid enter the channel" shot.
+  shots.push({ pos: new THREE.Vector3(0, 2.4, 5.4), target: new THREE.Vector3(0, -0.2, -9.0), strand: -1 })
+  // STORY beats — alternate TOP / SIDE so the read never sits on one angle.
+  TABLETS.forEach((tab, i) => {
     const P = CENTER.getPointAt(tab.t)
     const T = CENTER.getTangentAt(tab.t).normalize()
     const N = sideN(T, tab.side < 0 ? -1 : 1)
-    shots.push({
-      pos: P.clone().addScaledVector(up, 9.8).addScaledVector(N, 3.4).addScaledVector(T, -1.6),
-      target: P.clone().addScaledVector(N, 1.6),
-      strand: -1,
-    })
-  }
-  // service beats — a top-down on one strand at its outer excursion; that strand lights
-  for (const sv of SERVICES) {
+    shots.push({ ...(i % 2 === 0 ? frameTop : frameSide)(P, T, N), strand: -1 })
+  })
+  // SERVICE beats — alternate SIDE / TOP (offset from the story cadence); that strand lights.
+  SERVICES.forEach((sv, i) => {
     const c = STRAND_CURVES[sv.k]
     const P = c.getPointAt(sv.t)
     const T = c.getTangentAt(sv.t).normalize()
     const N = sideN(T, sv.side < 0 ? -1 : 1)
-    shots.push({
-      pos: P.clone().addScaledVector(up, 7.4).addScaledVector(N, 2.6).addScaledVector(T, -1.1),
-      target: P.clone().addScaledVector(N, 0.8),
-      strand: sv.k,
-    })
-  }
-  // the cast — the one head-on, eye-level beat (the brief's overhead -> eye-level reveal)
+    shots.push({ ...(i % 2 === 0 ? frameSide : frameTop)(P, T, N), strand: sv.k })
+  })
+  // THE CAST — the one head-on, eye-level beat (overhead -> eye-level reveal).
   shots.push({
     pos: new THREE.Vector3(FINALE_POS[0], FINALE_POS[1] + 1.6, FINALE_POS[2] + 7.0),
     target: new THREE.Vector3(FINALE_POS[0], FINALE_POS[1], FINALE_POS[2]),

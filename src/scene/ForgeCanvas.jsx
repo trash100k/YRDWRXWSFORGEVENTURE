@@ -202,16 +202,17 @@ export default function ForgeCanvas({ route }) {
       {/* HDR pipeline: scene (linear, >1 hot band) → bloom → ACES → vignette.
           Only the accent band exceeds 1.0, so threshold bloom IS selective bloom. */}
       <EffectComposer frameBufferType={THREE.HalfFloatType}>
-        {/* the forge glow — the molten's hot band (>1) blooms; cinematic, not washed */}
-        <Bloom mipmapBlur luminanceThreshold={0.5} luminanceSmoothing={0.25} intensity={1.05} radius={0.85} />
+        {/* the forge glow — SELECTIVE: only the white-hot cores + the A·E divine fire (>1) bloom,
+            so ~90% of the frame holds the void and the glow reads as the one light (ominous, not washed) */}
+        <Bloom mipmapBlur luminanceThreshold={0.85} luminanceSmoothing={0.10} intensity={1.05} radius={0.8} />
         {/* heat shimmer over the molten only (masked to the hot band); the void stays sharp */}
         <HeatHaze strength={0.0055} scale={3.4} speed={0.5} rise={1.0} threshold={0.2} smoothing={0.5} />
         {/* a whisper of lens dispersion at the edges — film, not gimmick */}
         <ChromaticAberration blendFunction={BlendFunction.NORMAL} offset={[0.0006, 0.0006]} radialModulation modulationOffset={0.45} />
         <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
-        <Vignette offset={0.22} darkness={0.85} />
+        <Vignette offset={0.32} darkness={1.0} />
         {/* fine film grain so the blacks read as photographed, not dead digital void */}
-        <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.055} />
+        <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.072} />
       </EffectComposer>
     </Canvas>
   )

@@ -19,8 +19,8 @@ import { PAL, v3 } from './palette.js'
  */
 export function buildChannelGeometry(curve, segments, opts = {}) {
   const W = (opts.width ?? 2.0) * 0.5 // outer half-width (lip to centre)
-  const baseHalf = W * (opts.floorFrac ?? 0.5) // half-width of the flat molten floor
-  const H = opts.wallH ?? 0.55 // bank height above the floor
+  const baseHalf = W * (opts.floorFrac ?? 0.42) // half-width of the flat molten floor (narrower river)
+  const H = opts.wallH ?? 0.85 // bank height above the floor (deeper carved banks)
 
   // profile points in the cross-section plane: [acrossX, upY]
   const prof = [

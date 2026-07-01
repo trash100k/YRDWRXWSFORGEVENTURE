@@ -9,8 +9,8 @@ import * as THREE from 'three'
  * lands, push them >1 so only the accent band blooms (see the cohesion map).
  */
 export const PAL = {
-  void: '#0B0C10',        // 0.00  cold iron / void
-  crimsonDeep: '#7A1418', // 0.22  first dull red
+  void: '#060709',        // 0.00  cold iron / void (deeper, near-black)
+  crimsonDeep: '#5C1014', // 0.22  first dull red (darker, more ominous)
   crimson: '#C1292E',     // 0.45  Celtic Blood
   ember: '#E85D04',       // 0.66  Ember Glow
   gold: '#FFB24D',        // 0.85  hot shoulder

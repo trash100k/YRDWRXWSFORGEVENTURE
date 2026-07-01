@@ -122,14 +122,14 @@ export function registerBasaltTick(dt) {
  */
 export function makeBasaltMaterial(opts = {}) {
   const {
-    grain = 1.0,
+    grain = 1.25,
     grainScale = 42.0,
-    serpentine = 0.9,
-    roughness = 0.92,
+    serpentine = 0.62,
+    roughness = 0.96,
     darkness = 1.0,
     base = PAL.void,
-    green = '#10241B', // serpentine green-black (Irish basalt under the lamp)
-    shimmer = 0.06,
+    green = '#0A1712', // serpentine green-black (Irish basalt under the lamp) — darker
+    shimmer = 0.03,
   } = opts
 
   const mat = new THREE.MeshStandardMaterial({
