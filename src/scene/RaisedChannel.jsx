@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
@@ -7,15 +7,19 @@ import Embers from './Embers.jsx'
 import LetterCast from './LetterCast.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
 import ForgeHaze from './ForgeHaze.jsx'
+import BasaltPrisms from './BasaltPrisms.jsx'
+import FlowLights from './FlowLights.jsx'
+import { registerBasaltTick } from './basalt.js'
 import { COPY } from '../brand.js'
 
 /**
- * RaisedChannel — ONE straight, RAISED molten channel (the reference frame 004). A white-hot river
- * runs in a trough between two basalt walls carved with REAL Celtic knotwork relief (a photo texture,
- * gold recesses glowing); the whole causeway is elevated — the walls drop into the void below. The
- * metal cools white-hot → dark iron down its length. A forward camera RIDES down it as you scroll.
+ * RaisedChannel — ONE straight, RAISED molten channel. A white-hot river runs in a trough between
+ * REAL columnar-basalt walls (instanced hex prisms, BasaltPrisms) lit by ACTUAL point lights that
+ * ride the flow (FlowLights) — light hitting real 3D form, not painted-on shading. The metal cools
+ * white-hot → dark iron down its length; fog sinks the far channel into the void. A low forward
+ * camera RIDES just above the meniscus as you scroll, then lands on the GAELWORX cast.
  *
- * The four-cord plait is set aside; get ONE channel great. Renders inside the shared <Canvas>.
+ * Renders inside the shared <Canvas> (one renderer, one composer).
  */
 
 const LEN = 42      // channel length (z=0 at the source → z=-LEN)
@@ -74,93 +78,6 @@ const moltenFrag = /* glsl */ `
   }
 `
 
-// the raised walls — PROCEDURAL columnar Irish basalt (Giant's Causeway): vertical prisms march
-// down-channel with per-block width/shade jitter (rhythm, NO repeat), ashlar courses in running
-// bond, deep mortar joints + a median V-groove, carved knot interlace that glows gold ONLY where
-// the river rakes it. The metal is the only light: brightest at the FOOT (the river), dying up the
-// face and down the length as it cools. A hot meniscus lip sits where stone meets molten.
-const wallFrag = /* glsl */ `
-  precision highp float;
-  varying vec3 vW;
-  uniform float uTime, uLen;
-  ${COMMON}
-
-  // 4-way Truchet knot distance — quarter-arcs connect across cells into continuous interlace
-  float gw_knotDist(vec2 p){
-    vec2 c = floor(p), f = fract(p);
-    float h = hash21(c);
-    if      (h > 0.75) f = vec2(f.y, 1.0 - f.x);
-    else if (h > 0.50) f = 1.0 - f;
-    else if (h > 0.25) f = vec2(1.0 - f.y, f.x);
-    return min(abs(length(f) - 0.5), abs(length(f - 1.0) - 0.5));
-  }
-
-  void main(){
-    float along = clamp(-vW.z / uLen, 0.0, 1.0);              // 0 source → 1 far (cools down-length)
-    float y = vW.y;                                            // 0.42 rim → drops into the void
-    float coolAlong = mix(1.0, 0.16, along);                  // white-hot mouth → cold far
-    // the river (y≈0) is the light: glow concentrated at the foot, fading up the face
-    float foot  = smoothstep(0.55, -0.15, y);                 // 0 at rim → 1 at/below the molten
-    float lit   = pow(foot, 1.4) * coolAlong;
-
-    // ── columnar basalt: VERTICAL prisms dominate (Giant's Causeway), irregular courses secondary ──
-    // Columns are the star: they converge to the vanishing point and read as carved rhythm without
-    // repeat. Courses are few and irregular so the wall never reads as a regular staircase.
-    float uu      = 0.60 - y;                                  // height coord (0 at ~rim, grows down)
-    // irregular course heights: walk a jittered ladder so no two bands are the same height
-    float cAcc = 0.0, courseH = 1.4, course = 0.0;
-    for (int i = 0; i < 6; i++){                               // resolve which course this y falls in
-      float ch = mix(1.1, 2.4, hash21(vec2(course, 12.3)));    // this course's height
-      if (uu < cAcc + ch) { courseH = ch; break; }
-      cAcc += ch; course += 1.0;
-    }
-    float rowJit  = hash21(vec2(course, 7.0));
-    float colW    = mix(0.42, 0.82, hash21(vec2(course, 3.1)));// narrower → MORE vertical prisms
-    float zc      = vW.z + rowJit * colW * 2.3;                // running-bond stagger per course
-    float colId   = floor(zc / colW);
-    float colSeed = hash21(vec2(colId, course));               // unique seed per stone block
-    float colShade = 0.62 + colSeed * 0.7;                     // per-column lit variation (reads columns)
-
-    vec2 blk = vec2(fract(zc / colW), (uu - cAcc) / courseH);
-    vec2 jdst = min(blk, 1.0 - blk);
-    float vJoint = smoothstep(0.070, 0.012, jdst.x);           // deep vertical mortar (dominant)
-    float hJoint = smoothstep(0.045, 0.010, jdst.y);           // subtle horizontal mortar
-    float joint  = max(vJoint * 1.0, hJoint * 0.7);
-    float vgroove = smoothstep(0.14, 0.0, abs(blk.x - 0.5));   // median V-groove down each prism
-
-    // ── carved knot interlace — kept subtle so it doesn't band at the grazing angle ──
-    vec2 kp = vec2(zc * 1.15, uu * 1.15) + colSeed * 9.0;
-    float kd = gw_knotDist(kp);
-    float ribbon   = smoothstep(0.075, 0.028, kd);
-
-    // ── grain + low-freq erosion so faces read as rough stone, not plastic ──
-    float grain   = fbm(vec2(zc * 5.5, uu * 5.5));
-    float erosion = fbm(vec2(zc * 0.35, uu * 0.5) + 3.7);
-
-    // dark green-black serpentine basalt; per-block value jitter; joints cut near-black
-    vec3 stoneDark  = vec3(0.010, 0.014, 0.016);
-    vec3 stoneGreen = vec3(0.020, 0.038, 0.032);
-    vec3 basalt = mix(stoneDark, stoneGreen, 0.2 + colSeed * 0.6);
-    basalt *= (0.72 + grain * 0.5);
-    basalt *= (0.82 + erosion * 0.42);
-    basalt *= (1.0 - joint * 0.92);
-
-    // compose — the metal is the only light; per-column shade makes the prisms read as columns
-    vec3 col = basalt * (0.18 + lit * 1.05 * colShade);
-    col += tempColor(0.45) * vgroove * lit * 0.16;            // V-groove down each prism (vertical read)
-    col += tempColor(0.78) * ribbon  * lit * colShade * 0.45; // faint gold knot, varied per block
-
-    // meniscus — the hot bright lip where basalt meets the molten (highest-contrast form)
-    float men = smoothstep(0.12, 0.0, abs(y - 0.02)) * coolAlong;
-    col += tempColor(0.92) * em(0.6) * men * 0.9;
-
-    // fall to black into the void beneath the river and up the cooling face
-    float voidFall = smoothstep(-3.2, 0.05, y);
-    col *= voidFall;
-    gl_FragColor = vec4(col, 1.0);
-  }
-`
-
 // embers that RIDE with the camera, drifting up off the molten so the ride always has living
 // sparks in frame (the only motion during a held beat). Recycled around the current camera z.
 function ChannelEmbers() {
@@ -199,70 +116,90 @@ const STORY = [
   { t: 0.73, side: -1, kicker: 'GW–04 · Web',         head: 'BUILT TO BOOK',         body: B[3].line },
 ]
 
-// a forward camera that RIDES down the channel (scroll 0..0.8), then ARRIVES at the cast and
-// descends overhead → eye-level as the letters fill (scroll 0.8..1.0). The pour adventure + finale.
+// RideCam v2 — a LOW forward camera riding just above the meniscus (scroll 0..0.8): wall tops
+// break the horizon, the bright metal fills the lower frame, lateral sway drifts toward each wall
+// on beats and a slight roll leans into the turns (handheld film weight). Then it ARRIVES at the
+// cast and descends to a head-on eye-level read (scroll 0.8..1.0).
 function RideCam() {
   const { camera } = useThree()
+  // widen the lens for the ride (scale + towering verticals); restore on unmount
+  useEffect(() => {
+    const prev = camera.fov
+    camera.fov = 57
+    camera.updateProjectionMatrix()
+    return () => { camera.fov = prev; camera.updateProjectionMatrix() }
+  }, [camera])
+
   useFrame((state) => {
     const s = THREE.MathUtils.clamp(forge.scroll, 0, 1)
+    const t = forge.reduced ? 0 : state.clock.elapsedTime
     const rideEnd = -LEN + 9 // -33
-    let px = 0, py = 2.1, pz, lx = 0, ly = -0.4, lz
+    let px, py, pz, lx, ly, lz, roll
     if (s < 0.8) {
       const rs = s / 0.8
+      const sway = Math.sin(rs * Math.PI * 3.0) * 0.16 // drifts toward each wall on the beats
+      px = sway
+      py = 1.35 + Math.sin(t * 0.4) * 0.02             // LOW — just above the molten
       pz = THREE.MathUtils.lerp(3.5, rideEnd, rs)
-      lz = pz - 13
+      lx = sway * 0.35
+      ly = 0.12                                        // aim AT the meniscus line, not the void
+      lz = pz - 11
+      roll = 0.025 * Math.sin(rs * Math.PI * 2.0) + (forge.reduced ? 0 : 0.004 * Math.sin(t * 0.23))
       forge.finaleProgress = 0
     } else {
-      // THE CAST — fill GAELWORX and descend from the ride height to a head-on eye-level read.
-      // The camera distance ADAPTS to the viewport aspect so the wide wordmark fits on any screen
-      // (portrait iPhone can't show it up-close, so we pull back until GAELWORX clears the frame).
+      // THE CAST — fill GAELWORX and rise to a head-on eye-level read. Camera distance ADAPTS to
+      // the viewport aspect so the wide wordmark fits on any screen (portrait pulls back).
       const fs = THREE.MathUtils.smoothstep(s, 0.8, 1.0)
       forge.finaleProgress = fs
       const aspect = camera.aspect || 1.6
-      const halfW = 3.9 // half the wordmark's world width (+ safety margin for narrow screens)
+      const halfW = 3.9
       const fitD = THREE.MathUtils.clamp(halfW / (Math.tan(THREE.MathUtils.degToRad(camera.fov * 0.5)) * aspect), 5.2, 17)
+      px = Math.sin(t * 0.13) * 0.1
+      py = THREE.MathUtils.lerp(1.35, 1.5, fs) + Math.sin(t * 0.17) * 0.05
       pz = THREE.MathUtils.lerp(rideEnd, CASTZ + fitD, fs)
-      py = THREE.MathUtils.lerp(2.1, 1.5, fs)
-      lz = THREE.MathUtils.lerp(rideEnd - 13, CASTZ, fs)
-      ly = THREE.MathUtils.lerp(-0.4, 0.72, fs)
+      lx = 0
+      ly = THREE.MathUtils.lerp(0.12, 0.72, fs)
+      lz = THREE.MathUtils.lerp(rideEnd - 11, CASTZ, fs)
+      roll = forge.reduced ? 0 : 0.003 * Math.sin(t * 0.21)
     }
-    // Atmospheric Drift — a slow living sway so a held shot never sits dead
-    const t = forge.reduced ? 0 : state.clock.elapsedTime
-    px += Math.sin(t * 0.13) * 0.12 + Math.sin(t * 0.23) * 0.05
-    py += Math.sin(t * 0.17) * 0.07
     camera.position.set(px, py, pz)
     camera.lookAt(lx, ly, lz)
+    camera.rotateZ(roll) // lean AFTER lookAt (lookAt resets orientation)
     if (typeof window !== 'undefined') { window.__camPos = [Math.round(px * 10) / 10, Math.round(py * 10) / 10, Math.round(pz * 10) / 10]; window.__camShot = s < 0.8 ? 'ride' : 'cast' } // QA
   })
   return null
 }
 
-export default function RaisedChannel() {
+export default function RaisedChannel({ quality = 'high' }) {
   const uTime = useMemo(() => ({ value: 0 }), [])
   const moltenU = useMemo(() => ({ uTime, uLen: { value: LEN }, uHalfW: { value: HALFW } }), [uTime])
-  const wallU = useMemo(() => ({ uTime, uLen: { value: LEN } }), [uTime])
-  useFrame((state) => { if (!forge.reduced) uTime.value = state.clock.elapsedTime })
+  useFrame((state, dt) => {
+    if (!forge.reduced) uTime.value = state.clock.elapsedTime
+    registerBasaltTick(dt) // drives every basalt material's shimmer/heat (one call per frame)
+  })
 
   return (
     <>
       <RideCam />
+      {/* the air: exponential fog sinks lit stone into the void down-channel (Moria depth);
+          unlit emissive materials (river, haze, cast) opt out via fog:false defaults */}
+      <fogExp2 attach="fog" args={[PAL.void, 0.055]} />
+      {/* the light: the river's entourage of warm points + one cold rim — the ONLY lights */}
+      <FlowLights quality={quality} len={LEN} />
       {!forge.reduced && <ForgeHaze layers={14} spacing={2.1} width={10} height={6.5} opacity={0.4} />}
       {!forge.reduced && <ChannelEmbers />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
-      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={2.8} width={2.5} reveal={6.5} />
+      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={6.5} />
       {/* the molten river, lying flat in the trough */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, -LEN / 2]}>
         <planeGeometry args={[HALFW * 2, LEN]} />
         <shaderMaterial vertexShader={vert} fragmentShader={moltenFrag} uniforms={moltenU} toneMapped={false} />
       </mesh>
-      {/* the two raised knotwork walls, descending into the void */}
-      {[-1, 1].map((side) => (
-        <mesh key={side} position={[side * (HALFW + WALLW / 2), TOPY - H / 2, -LEN / 2]}>
-          <boxGeometry args={[WALLW, H, LEN]} />
-          <shaderMaterial vertexShader={vert} fragmentShader={wallFrag} uniforms={wallU} />
-        </mesh>
-      ))}
+      {/* REAL columnar-basalt walls: instanced hex prisms, lit by the flow lights, carved relief
+          revealed by raking light (shadow, not albedo). The columns STOP short of the cast chamber
+          (len-7) so the walls open up for the finale — GAELWORX stands clear at the arrival. */}
+      <BasaltPrisms quality={quality} len={LEN - 7} halfW={HALFW} topY={TOPY} />
 
       {/* THE CAST (finale) — the channel's metal pours into GAELWORX at the end of the ride; all
           cools to forged iron except the A and E, which hold eternal white-gold divine fire. */}

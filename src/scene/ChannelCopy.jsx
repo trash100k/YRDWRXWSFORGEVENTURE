@@ -137,7 +137,11 @@ function Tablet({ curve, item, offset, width, active, reveal }) {
     // `reveal` = the distance window over which a tablet fades up; tighter → only the tablet you're
     // passing reads (a continuous ride needs this so distant tablets don't cluster at frame-centre).
     const near = THREE.MathUtils.clamp(1.0 - (dist - 2.5) / reveal, 0.0, 1.0)
-    const revealAmt = near * near * (3.0 - 2.0 * near) // smoothstep
+    let revealAmt = near * near * (3.0 - 2.0 * near) // smoothstep
+    // fade OUT once the rider draws level: travel is -z, so a tablet whose z is at/behind the
+    // camera would otherwise flash across the frame edge as it's passed at close range.
+    const ahead = THREE.MathUtils.clamp((camera.position.z - 1.6 - WPOS.z) / 1.8, 0, 1)
+    revealAmt *= ahead * ahead * (3.0 - 2.0 * ahead)
     // `active` gates a beat on/off: clustered tablets (the four forks) must not all reveal at
     // once just because the camera is near the cluster — only the told one shows.
     const target = (forge.reduced ? 1.0 : revealAmt) * (active ? 1 : 0)
