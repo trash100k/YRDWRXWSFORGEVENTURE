@@ -66,6 +66,14 @@ DOM: "SUMMON MAEVE" control in hero + finale. Stub = dispatch `gw:summon-maeve` 
 `forge.maeveRequested` flag. The real pipeline (telephony/web-voice) hooks that event later; she
 tells the services and closes.
 
+## The split = a REAL Gaelic knot (owner directive, 2026-07-02)
+The channel split must read as a **true Gaelic knot at the head** — owner reference: **"the Knot
+of Cúchulainn."** (No canonical knot carries that exact name; closest canonical form = the
+**Celtic Shield Knot** — four-corner interlace, one unbroken cord, warrior protection — the usual
+Cúchulainn association. If the owner supplies a specific image, pattern on it exactly.)
+**The finale:** GAELWORX **in the middle of the knot, breaking free from the mold** — the letters
+tear up out of the stone matrix — **the A and E still white-hot, rising to center** as the close.
+
 ## Conversion science the copy follows (high-ticket)
 - **Hook < 5s** (hero): one reframe, no fluff, CTA visible without scroll.
 - **Problem → Agitate → Authority** before any service pitch (PAS + credibility interleave).
