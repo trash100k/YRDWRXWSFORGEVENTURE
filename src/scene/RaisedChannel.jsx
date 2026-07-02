@@ -113,6 +113,11 @@ export default function RaisedChannel({ quality = 'high' }) {
   useFrame((_, dt) => {
     registerBasaltTick(dt) // drives every basalt material's shimmer/heat (one call per frame)
   })
+  // portrait can't fit copy pushed to the walls — its horizontal frame at tablet distance is only
+  // ~±1 world unit, so the copy rides DEAD CENTRE over the channel and narrower
+  const narrow = useMemo(() => typeof window !== 'undefined' && window.innerWidth < window.innerHeight, [])
+  const copyOffset = narrow ? 0 : 1.35
+  const copyWidth = narrow ? 1.1 : 2.1
 
   return (
     <>
@@ -126,7 +131,7 @@ export default function RaisedChannel({ quality = 'high' }) {
       {!forge.reduced && <Embers count={quality === 'high' ? 500 : 300} follow />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
-      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={2.6} />
+      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={copyOffset} width={copyWidth} reveal={2.6} />
       {/* the molten river — displaced rolling metal + the >1-emissive meniscus lip */}
       <MoltenRiver quality={quality} len={LEN} halfW={HALFW} />
       {/* REAL columnar-basalt walls: instanced hex prisms, lit by the flow lights, carved relief

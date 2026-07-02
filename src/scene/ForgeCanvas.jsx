@@ -226,6 +226,13 @@ function detectQuality() {
 function PerfGuard({ quality, onDemote }) {
   const acc = useRef({ t: 0, n: 0, sum: 0, done: false })
   const gl = useThree((s) => s.gl)
+  // budget audit: composer passes reset gl.info mid-frame by default; take over the reset so
+  // the numbers accumulate across the WHOLE frame, publish them, then reset before the next
+  useEffect(() => { gl.info.autoReset = false; return () => { gl.info.autoReset = true } }, [gl])
+  useFrame(() => {
+    if (typeof window !== 'undefined') window.__glInfo = { calls: gl.info.render.calls, triangles: gl.info.render.triangles, quality }
+    gl.info.reset()
+  }, -10) // before the scene render; publishes last frame's totals
   useFrame((_, dt) => {
     const a = acc.current
     if (a.done || document.hidden) return
