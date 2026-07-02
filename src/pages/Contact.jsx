@@ -33,6 +33,7 @@ export default function Contact() {
       kicker="Start the Forge"
       title="Name the Bottleneck."
       lede="One call. No discovery-call theater. You name the bottleneck — we forge the system that kills it. Fixed scope, fixed price, before you owe a thing."
+      stickyCta={false}
     >
       <form className="contact-form" onSubmit={onSubmit}>
         <div className="cf-row">
@@ -58,7 +59,12 @@ export default function Contact() {
         {sent && (
           <p className="cf-sent">Your forge-mail is opening. If it didn’t, write us at hello@gaelworx.com.</p>
         )}
-        <p className="cf-note">Available · Continental US · 7 Days</p>
+        {/* de-risk the ask: a person answers, fast — and the form is not the only door */}
+        <p className="cf-promise">You’ll hear back within one business day — a person, not a sequence.</p>
+        <p className="cf-note">
+          Available · Continental US · 7 Days · or write us directly:{' '}
+          <a className="cf-mail" href="mailto:hello@gaelworx.com">hello@gaelworx.com</a>
+        </p>
       </form>
     </PageShell>
   )

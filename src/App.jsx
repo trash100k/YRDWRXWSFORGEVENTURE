@@ -8,6 +8,7 @@ import Pricing from './pages/Pricing.jsx'
 import Contact from './pages/Contact.jsx'
 import { forge } from './store.js'
 import { sceneFor } from './scene/scenes.js'
+import { META } from './brand.js'
 
 // The forge engine is lazy so the DOM shell paints before WebGL loads. It mounts ONCE,
 // fixed behind all content (the single renderer), and never tears down on navigation.
@@ -45,6 +46,16 @@ function Shell() {
     forge.route = pathname
     if (lenisRef.current) lenisRef.current.scrollTo(0, { immediate: true })
     else window.scrollTo(0, 0)
+    // per-route title + description (SEO/AEO)
+    const meta = META[pathname] || META['/']
+    document.title = meta.title
+    let tag = document.querySelector('meta[name="description"]')
+    if (!tag) {
+      tag = document.createElement('meta')
+      tag.setAttribute('name', 'description')
+      document.head.appendChild(tag)
+    }
+    tag.setAttribute('content', meta.desc)
   }, [pathname])
 
   // dev beat-viewer: /?beat=0.3 pins the journey's scroll to a value (hero hidden) so any beat can

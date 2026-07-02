@@ -16,12 +16,14 @@ export default function Nav() {
           <Link
             key={path}
             to={path}
-            className={'nav-link' + (pathname === path ? ' is-active' : '')}
+            className={'nav-link' + (pathname === path ? ' is-active' : '') + (path === '/contact' ? ' nav-link--contact' : '')}
           >
             <span className="nav-n" aria-hidden="true">{n}</span>
             {label}
           </Link>
         ))}
+        {/* the persistent next step — visible on every page (the conversion anchor) */}
+        <Link className="nav-cta" to="/contact"><span>Start the Forge</span></Link>
       </nav>
     </header>
   )

@@ -431,3 +431,73 @@ a { color: inherit; text-decoration: none; }
   .tier:last-child { border-bottom: 0; }
   .pricing-tab { min-width: 50%; border-bottom: 1px solid rgba(141, 153, 174, 0.18); }
 }
+
+/* ── conversion layer (inner pages) ─────────────────────────────────────── */
+/* the persistent next step in the nav — sharp, ember, hard shadow */
+.nav-cta {
+  margin-left: 18px; padding: 8px 16px; white-space: nowrap;
+  font-family: var(--gw-sans); font-weight: 700; font-size: 0.78rem;
+  letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+  color: var(--gw-bone); border: 1px solid var(--gw-ember); border-radius: 0;
+  background: rgba(232, 93, 4, 0.12); box-shadow: 4px 4px 0 #000;
+  transition: transform .16s var(--gw-ease), background .16s var(--gw-ease);
+}
+.nav-cta:hover { background: var(--gw-ember); color: #0B0C10; transform: translate(-1px, -1px); }
+@media (min-width: 880px) { .nav-link--contact { display: none; } } /* button replaces the text link */
+@media (max-width: 620px) { .nav-cta { display: none; } }           /* the sticky bar owns mobile */
+
+/* mid-page CTA band — the ask for readers already sold before the bottom */
+.mid-cta {
+  max-width: 900px; margin: 0 auto; padding: clamp(22px, 4vh, 36px) clamp(20px, 5vw, 40px);
+  border-left: 2px solid var(--gw-ember);
+  background: linear-gradient(90deg, rgba(232, 93, 4, 0.07), transparent 70%);
+}
+.mid-cta-line {
+  margin: 0 0 16px; font-family: var(--gw-headline); font-weight: 700;
+  font-size: clamp(1.05rem, 2vw, 1.35rem); color: var(--gw-bone); max-width: 46ch;
+}
+.mid-cta-actions { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+.mid-cta-actions .cta { margin-top: 0; }
+
+/* trust strip — three rungs of the ladder as sharp proof chips */
+.trust-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 720px) { .trust-strip { grid-template-columns: 1fr; } }
+.trust-chip {
+  border: 1px solid rgba(141, 153, 174, 0.28); border-radius: 0; padding: 14px 16px;
+  display: flex; align-items: baseline; gap: 10px; background: rgba(31, 40, 51, 0.18);
+}
+.trust-chip-n { font-family: var(--gw-sans); font-size: 0.72rem; letter-spacing: 0.14em; color: var(--gw-ember); }
+.trust-chip-head { font-family: var(--gw-headline); font-weight: 700; font-size: 0.98rem; color: var(--gw-bone); }
+
+/* contact de-risk lines */
+.cf-promise { margin: 14px 0 0; font-weight: 600; color: var(--gw-bone); font-size: 0.98rem; }
+.cf-mail { color: var(--gw-ember); text-decoration: none; border-bottom: 1px solid rgba(232, 93, 4, 0.5); }
+.cf-mail:hover { border-bottom-color: var(--gw-ember); }
+
+/* slim site footer — every page closes with a next step */
+.site-foot {
+  max-width: 1080px; margin: 0 auto; padding: clamp(28px, 5vh, 48px) clamp(20px, 5vw, 40px) 40px;
+  border-top: 1px solid rgba(141, 153, 174, 0.18); position: relative; z-index: 1;
+}
+.site-foot-row { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; justify-content: space-between; }
+.site-foot-mark { font-family: var(--gw-display); font-weight: 900; font-size: 1.05rem; letter-spacing: 0.04em; color: var(--gw-bone); text-decoration: none; }
+.site-foot-links { display: flex; gap: 16px; flex-wrap: wrap; }
+.site-foot-links a { font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gw-steel); text-decoration: none; }
+.site-foot-links a:hover { color: var(--gw-bone); }
+.site-foot-mail { font-size: 0.88rem; color: var(--gw-ember); text-decoration: none; }
+.site-foot-line { margin: 18px 0 0; font-size: 0.78rem; letter-spacing: 0.06em; color: var(--gw-steel); }
+
+/* sticky mobile CTA — a slim fixed bar; the next step never leaves the thumb */
+.sticky-cta { display: none; }
+@media (max-width: 620px) {
+  .sticky-cta {
+    display: flex; align-items: center; justify-content: center;
+    position: fixed; left: 0; right: 0; bottom: 0; height: 52px; z-index: 60;
+    background: rgba(11, 12, 16, 0.94); border-top: 1px solid var(--gw-ember);
+    color: var(--gw-bone); font-family: var(--gw-sans); font-size: 0.9rem;
+    text-decoration: none; letter-spacing: 0.02em;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .sticky-cta strong { color: var(--gw-ember); margin-left: 6px; font-weight: 700; }
+  .page-below { padding-bottom: 92px; } /* keep the last CTA clear of the bar */
+}

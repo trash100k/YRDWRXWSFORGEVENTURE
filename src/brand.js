@@ -169,3 +169,19 @@ export const PAGES = {
     ],
   },
 }
+
+/**
+ * META — per-route document title + description (SEO/AEO). Swapped by App on route change.
+ * Titles lead with the outcome, not the brand; the brand closes.
+ */
+export const META = {
+  '/':            { title: 'GAELWORX — Automatic Execution. Clan Protected.', desc: 'One system that books the jobs, answers every call, and kills the busywork. AI voice, custom software, automations, and cinematic web — built by operators, for operators.' },
+  '/voice':       { title: 'Maeve — AI Voice That Answers Every Call | GAELWORX', desc: 'Maeve works your phones: answers every inbound call, runs your outbound list, books straight to calendar — in a voice no caller clocks as AI.' },
+  '/software':    { title: 'Custom Software You Own Outright | GAELWORX', desc: 'Internal tools and platforms custom-built, documented, and open-sourced to you. No lock-in, no black box, no rented roadmap.' },
+  '/automations': { title: 'Automations That Kill the Busywork | GAELWORX', desc: 'Quoting, follow-up, invoicing, reviews — running on their own. You own the data. The same automations that run our own shops.' },
+  '/web':         { title: 'Cinematic Websites Built to Book | GAELWORX', desc: 'A cinematic 3D site that routes every lead to your phone and books the job — live in 7 days, studio-grade at a front-door price.' },
+  '/work':        { title: 'The Work — YardWorx, RepairWorx, SalesWorx, AgentWorx | GAELWORX', desc: 'We run our own platforms on the exact system we sell. These are the casts that came out of the forge.' },
+  '/pricing':     { title: 'Pricing — Premium Work, Honest Prices | GAELWORX', desc: 'Fixed scope, fixed price, before any work begins. Voice from $699/mo, automations from $2.5k, software from $15k, cinematic web from $1,499.' },
+  '/about':       { title: 'About — One Forge, Four Branches | GAELWORX', desc: 'An engineering forge, not an agency. We build what we run, carry the risk, and you talk to the people who write the code.' },
+  '/contact':     { title: 'Start the Forge — Name the Bottleneck | GAELWORX', desc: 'One call, no discovery-call theater. Name the bottleneck; we forge the system that kills it. Fixed scope and price before you owe a thing.' },
+}
