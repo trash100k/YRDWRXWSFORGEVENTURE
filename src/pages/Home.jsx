@@ -27,7 +27,7 @@ export default function Home() {
         <h1 className="headline"><Ignite text={hero.headline} /></h1>
         <p className="hero-sub">{hero.sub}</p>
         <Link className="cta cta--solid" to="/contact"><span>{hero.cta}</span></Link>
-        <span className="scrollcue" aria-hidden="true">Descend ↓</span>
+        <span className="scrollcue" aria-hidden="true">Begin the Ascent ↓</span>
       </section>
 
       {/* THE DESCENT — a tall track that drives the forge journey on scroll. The story is carved

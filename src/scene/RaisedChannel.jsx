@@ -13,6 +13,7 @@ import FlowLights from './FlowLights.jsx'
 import ArchRibs from './ArchRibs.jsx'
 import Occluders from './Occluders.jsx'
 import KnotSplit from './KnotSplit.jsx'
+import ForgeShaft from './ForgeShaft.jsx'
 import { registerBasaltTick } from './basalt.js'
 import { COPY } from '../brand.js'
 
@@ -78,9 +79,28 @@ function RideCam() {
     const s = THREE.MathUtils.clamp(forge.scroll, 0, 1)
     const t = forge.reduced ? 0 : state.clock.elapsedTime
     const rideEnd = -LEN + 9 // -33
+    const LAUNCH_END = 0.16 // scroll where the crest hands over to the channel ride
     let px, py, pz, lx, ly, lz, roll
-    if (s < 0.8) {
-      const rs = s / 0.8
+    if (!forge.reduced && s < LAUNCH_END) {
+      // ── THE BOTTOM OF THE FORGE + THE LAUNCH ──────────────────────────────────────────
+      // s 0..0.09: hold at the shaft floor, an ant in the dark, the molten mouth burning far
+      // above (the DOM hero sits over this). s 0.09..0.16: SHOT UP the shaft — expo-in, threads
+      // the mouth's eye, crests, and the look swings from straight-up to down-channel.
+      const ls = THREE.MathUtils.clamp((s - 0.09) / (LAUNCH_END - 0.09), 0, 1)
+      const e = ls < 1 ? 1 - Math.pow(2, -9 * ls) : 1 // violent leave, soft arrive
+      const holdSway = Math.sin(t * 0.21) * 0.12
+      px = THREE.MathUtils.lerp(holdSway, 0, e)
+      py = THREE.MathUtils.lerp(-62, 1.35, e)
+      pz = THREE.MathUtils.lerp(9, 3.5, e * e) // hold the shaft axis, drift to the channel late
+      // look: up at the mouth → crest → down the channel
+      const crest = THREE.MathUtils.smoothstep(e, 0.75, 1.0)
+      lx = 0
+      ly = THREE.MathUtils.lerp(py + 40, 0.12, crest)
+      lz = THREE.MathUtils.lerp(9, pz - 11, crest)
+      roll = forge.reduced ? 0 : 0.004 * Math.sin(t * 0.23)
+      forge.finaleProgress = 0
+    } else if (s < 0.8) {
+      const rs = forge.reduced ? THREE.MathUtils.clamp(s / 0.8, 0, 1) : (s - LAUNCH_END) / (0.8 - LAUNCH_END)
       const sway = Math.sin(rs * Math.PI * 3.0) * 0.16 // drifts toward each wall on the beats
       px = sway
       py = 1.35 + Math.sin(t * 0.4) * 0.02             // LOW — just above the molten
@@ -132,6 +152,9 @@ export default function RaisedChannel({ quality = 'high' }) {
       {/* the air: exponential fog sinks lit stone into the void down-channel (Moria depth);
           unlit emissive materials (river, haze, cast) opt out via fog:false defaults */}
       <fogExp2 attach="fog" args={[PAL.void, 0.055]} />
+      {/* THE BOTTOM OF THE FORGE — the colossal shaft the ride launches up out of (beats 1–2).
+          Reduced-motion skips the launch, so the shaft only mounts for the full ride. */}
+      {!forge.reduced && <ForgeShaft />}
       {/* the light: the river's entourage of warm points + one cold rim — the ONLY lights */}
       <FlowLights quality={quality} len={LEN} />
       {!forge.reduced && <ForgeHaze layers={14} spacing={2.1} width={10} height={6.5} opacity={0.4} />}
