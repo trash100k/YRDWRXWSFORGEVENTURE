@@ -31,22 +31,6 @@ const WALLW = 0.9   // wall thickness
 const H = 7         // wall height (drops into the void)
 const TOPY = 0.42   // wall top height above the molten
 
-// embers that RIDE with the camera, drifting up off the molten so the ride always has living
-// sparks in frame (the only motion during a held beat). Recycled around the current camera z.
-function ChannelEmbers() {
-  const g = useRef()
-  useFrame(() => {
-    if (!g.current) return
-    const s = THREE.MathUtils.clamp(forge.scroll, 0, 1)
-    g.current.position.z = THREE.MathUtils.lerp(3.5, -LEN + 9, s) - 5
-  })
-  return (
-    <group ref={g}>
-      <Embers />
-    </group>
-  )
-}
-
 // where the GAELWORX cast stands — just past the channel's end, so the molten pours into the word
 const CASTZ = -LEN - 1 // -43
 
@@ -139,7 +123,7 @@ export default function RaisedChannel({ quality = 'high' }) {
       {/* the light: the river's entourage of warm points + one cold rim — the ONLY lights */}
       <FlowLights quality={quality} len={LEN} />
       {!forge.reduced && <ForgeHaze layers={14} spacing={2.1} width={10} height={6.5} opacity={0.4} />}
-      {!forge.reduced && <ChannelEmbers />}
+      {!forge.reduced && <Embers count={quality === 'high' ? 500 : 300} follow />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
       <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={2.6} />
