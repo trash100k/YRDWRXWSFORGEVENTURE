@@ -121,12 +121,23 @@ a { color: inherit; text-decoration: none; }
   text-align: center; padding: clamp(24px, 6vw, 80px);
   position: relative; overflow: hidden;
 }
-.home-track { height: 460vh; pointer-events: none; } /* the scroll runway that drives the beats */
+.home-track { height: 560vh; pointer-events: none; } /* the scroll runway — lengthened for the launch + 5 services + industries beats */
+
+/* the Maeve summon — the low-friction voice on-ramp (action stubbed until the pipeline hooks in) */
+.cta--maeve {
+  display: inline-flex; flex-direction: column; align-items: center; gap: 2px;
+  background: transparent; border: 1px solid var(--gw-steel); color: var(--gw-bone);
+  margin-top: 10px;
+}
+.cta--maeve small { font-size: 11px; color: var(--gw-steel); letter-spacing: 0.04em; text-transform: none; }
+.cta--maeve:hover { border-color: var(--gw-ember); color: var(--gw-ember); background: rgba(232, 93, 4, 0.06); }
 .home-finale {
   min-height: 100svh;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-end;
   text-align: center; gap: 8px; padding: clamp(24px, 6vw, 80px);
+  padding-bottom: clamp(40px, 9vh, 110px);
   position: relative;
+  /* the close sits in the LOWER third — the knot + the risen A·E own the upper field */
 }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;

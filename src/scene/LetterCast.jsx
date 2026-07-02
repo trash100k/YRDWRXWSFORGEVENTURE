@@ -100,17 +100,17 @@ const letterFrag = /* glsl */ `
 
     // ── COOLING letter (forged iron) ──
     // freshly cast: white-hot core; then cools toward dull iron as uCool -> 1.
-    float castHeat = mix(0.96, 0.32, uCool);              // white-hot -> dull red glow
+    float castHeat = mix(0.96, 0.40, uCool);              // white-hot -> banked-coal glow
     castHeat = mix(0.10, castHeat, front);                // unfilled = cold iron
     castHeat += (grain - 0.5) * 0.10 * front * (1.0 - uCool); // molten shimmer while hot
     float ironT = clamp(castHeat + uTemp * 0.05, 0.0, 1.0);
     vec3 ironCol = gw_tempColor(ironT) * gw_em(ironT);
     // forged-iron body that survives the cool: a brushed cold-steel letterform that still catches
-    // the forge light, so GAELWORX stays LEGIBLE as dark metal — the A/E are the stars, but the
-    // word must read. A faint ember rake down the cast face keeps it from going flat-black.
+    // the forge light, so GAELWORX stays LEGIBLE as dark metal under the grade + the DOM dim —
+    // the A/E are the stars, but the word MUST read at the close.
     float rake = 0.5 + 0.5 * smoothstep(0.0, 0.5, vUv.y);
-    vec3 ironBody = ${v3(PAL.steel)} * (0.34 + 0.16 * (1.0 - uCool)) * rake;
-    ironBody += ${v3(PAL.ember)} * 0.05 * (1.0 - uCool);
+    vec3 ironBody = ${v3(PAL.steel)} * (0.46 + 0.14 * (1.0 - uCool)) * rake;
+    ironBody += ${v3(PAL.ember)} * (0.05 + 0.04 * uCool);
     ironCol = max(ironCol, ironBody);
     // unfilled iron is VOID: the letterform only exists where the molten has reached it, so the
     // word MATERIALIZES as it casts (and never sits as a dark ghost at the vanishing point mid-ride).
@@ -157,9 +157,10 @@ function makeUniforms(isDivine) {
 }
 
 /** One cast letter: a troika <Text> glyph driven by the molten ShaderMaterial. */
-function CastLetter({ char, x, size, isDivine, localFill, cooled }) {
+function CastLetter({ char, x, size, isDivine, localFill, cooled, lift }) {
   const matRef = useRef()
   const lightRef = useRef()
+  const groupRef = useRef()
   const uniforms = useMemo(() => makeUniforms(isDivine), [isDivine])
 
   // a fresh ShaderMaterial we fully own; troika derives from it for glyph coverage.
@@ -194,10 +195,16 @@ function CastLetter({ char, x, size, isDivine, localFill, cooled }) {
       const flick = forge.reduced ? 0 : 0.85 + Math.sin(state.clock.elapsedTime * 6 + x) * 0.15
       lightRef.current.intensity = lit * 2.6 * flick
     }
+    // the ASCENSION: the parent lifts the divine letters — up AND gathering toward the
+    // centre-line (the knot's heart), not a straight elevator ride
+    if (groupRef.current && lift) {
+      groupRef.current.position.y = lift.current
+      groupRef.current.position.x = x * (1 - (lift.pull || 0))
+    }
   })
 
   return (
-    <group position={[x, 0, 0]}>
+    <group ref={groupRef} position={[x, 0, 0]}>
       <Text
         font={FONT_DISPLAY}
         fontSize={size}
@@ -229,6 +236,8 @@ export default function LetterCast({
   text = 'GAELWORX',
   position = [0, 0, 0],
   size = 1.2,
+  emerge = 0, // world units the whole word RISES from as it casts — breaking free of the mold
+  riseDivine = 0, // world units the divine A/E ASCEND toward the knot's centre at the close (p 0.86→1)
 }) {
   const chars = useMemo(() => text.toUpperCase().split(''), [text])
   const divine = useMemo(() => divineIndices(text), [text])
@@ -259,9 +268,26 @@ export default function LetterCast({
   // per-letter damped targets, mutated each frame from `progress` (no React churn mid-sweep)
   const fills = useRef(layout.map(() => ({ current: 0 })))
   const cools = useRef(layout.map(() => ({ current: 0 })))
+  const lifts = useRef(layout.map(() => ({ current: 0, pull: 0 })))
+  const rootRef = useRef()
 
   useFrame(() => {
     const p = THREE.MathUtils.clamp(liveProgress ? liveProgress() : progress, 0, 1)
+    // BREAKING FREE OF THE MOLD — the whole word rises out of the stone as it casts
+    if (rootRef.current && emerge > 0) {
+      const eb = THREE.MathUtils.smoothstep(p, 0.0, 0.6)
+      rootRef.current.position.y = position[1] - (1 - eb) * emerge
+    }
+    // THE ASCENSION — the white-hot A and E rise to the knot's centre as the close lands:
+    // up, and gathering halfway toward the centre-line so they crown the mark together
+    if (riseDivine > 0) {
+      const ra = THREE.MathUtils.smoothstep(p, 0.86, 1.0)
+      for (let i = 0; i < layout.length; i++) {
+        const divine = layout[i].isDivine
+        lifts.current[i].current = divine ? ra * riseDivine : 0
+        lifts.current[i].pull = divine ? ra * 0.5 : 0
+      }
+    }
     // Two phases over the scroll: the molten POUR fills the word L→R (front-loaded), then the
     // metal SETS, cooling L→R. They overlap, but by p=1 everything has cast AND cooled — the
     // settled finale: forged iron everywhere, the divine A/E the only things still alight.
@@ -281,7 +307,7 @@ export default function LetterCast({
   })
 
   return (
-    <group position={position}>
+    <group ref={rootRef} position={position}>
       {layout.map((L, idx) => (
         <CastLetter
           key={`${L.char}-${idx}`}
@@ -291,6 +317,7 @@ export default function LetterCast({
           isDivine={L.isDivine}
           localFill={fills.current[idx]}
           cooled={cools.current[idx]}
+          lift={lifts.current[idx]}
         />
       ))}
     </group>

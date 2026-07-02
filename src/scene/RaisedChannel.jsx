@@ -12,6 +12,7 @@ import MoltenRiver from './MoltenRiver.jsx'
 import FlowLights from './FlowLights.jsx'
 import ArchRibs from './ArchRibs.jsx'
 import Occluders from './Occluders.jsx'
+import KnotSplit from './KnotSplit.jsx'
 import { registerBasaltTick } from './basalt.js'
 import { COPY } from '../brand.js'
 
@@ -46,13 +47,17 @@ const STORY_CURVE = new THREE.CatmullRomCurve3(
 )
 const B = COPY.arsenal.branches
 const STORY = [
-  { t: 0.05, side: -1, kicker: 'The Enemy',          head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
-  { t: 0.16, side: 1,  kicker: '01 · The Clan',       head: 'FOR OPERATORS',        body: 'We run this exact system on our own shops. Built for us. Now it’s yours.' },
-  { t: 0.27, side: -1, kicker: 'The Proof',           head: 'IT SHIPS THEN EARNS',  body: 'No pilots that rot in phase two. It goes live, runs the work, pays for itself.' },
-  { t: 0.40, side: 1,  kicker: 'GW–01 · Voice',       head: 'EVERY CALL ANSWERED',  body: B[0].line },
-  { t: 0.51, side: -1, kicker: 'GW–02 · Software',    head: 'YOU OWN THE CODE',      body: B[1].line },
-  { t: 0.62, side: 1,  kicker: 'GW–03 · Automations', head: 'IT RUNS ITSELF',        body: B[2].line },
-  { t: 0.73, side: -1, kicker: 'GW–04 · Web',         head: 'BUILT TO BOOK',         body: B[3].line },
+  // conversion spine: problem → agitate → authority, then the five services outcome-first,
+  // then the industries trust beat — the close (risk reversal + scarcity + CTA) is the DOM finale
+  { t: 0.05, side: -1, kicker: 'The Enemy',              head: 'WE BILL FOR EXECUTION', body: 'Agencies bill for motion. We bill for execution — whether it ships.' },
+  { t: 0.13, side: 1,  kicker: '01 · The Clan',          head: 'FOR OPERATORS',         body: 'We run this exact system on our own shops. Built for us. Now it’s yours.' },
+  { t: 0.21, side: -1, kicker: 'The Proof',              head: 'IT SHIPS THEN EARNS',   body: 'No pilots that rot in phase two. It goes live, runs the work, pays for itself.' },
+  { t: 0.31, side: 1,  kicker: 'GW–01 · Voice',          head: 'EVERY CALL ANSWERED',   body: B[0].line },
+  { t: 0.40, side: -1, kicker: 'GW–02 · Software',       head: 'YOU OWN THE CODE',       body: B[1].line },
+  { t: 0.49, side: 1,  kicker: 'GW–03 · Automations',    head: 'IT RUNS ITSELF',         body: B[2].line },
+  { t: 0.58, side: -1, kicker: 'GW–04 · Web',            head: 'BUILT TO BOOK',          body: B[3].line },
+  { t: 0.67, side: 1,  kicker: 'GW–05 · AI Installation', head: 'THE WHOLE STACK, STOOD UP', body: B[4].line },
+  { t: 0.76, side: -1, kicker: 'We build what we know',  head: 'DECADES IN THE CRAFT',  body: 'Contractors · Sales orgs · Gaming & visual art · Healthcare · Non-profit · Food & hospitality. Shared pain points, honed fixes, built fast.' },
 ]
 
 // RideCam v2 — a LOW forward camera riding just above the meniscus (scroll 0..0.8): wall tops
@@ -92,13 +97,15 @@ function RideCam() {
       forge.finaleProgress = fs
       const aspect = camera.aspect || 1.6
       const halfW = 3.9
-      const fitD = THREE.MathUtils.clamp(halfW / (Math.tan(THREE.MathUtils.degToRad(camera.fov * 0.5)) * aspect), 5.2, 17)
+      // RISE to read the KNOT: the arrival lifts to a high three-quarter so the woven cords,
+      // the two eyelets, and the word all resolve as the pendant — never a lens inside the tubes
+      const fitD = THREE.MathUtils.clamp(halfW / (Math.tan(THREE.MathUtils.degToRad(camera.fov * 0.5)) * aspect), 7.5, 18) + 1.5
       px = Math.sin(t * 0.13) * 0.1
-      py = THREE.MathUtils.lerp(1.35, 1.5, fs) + Math.sin(t * 0.17) * 0.05
+      py = THREE.MathUtils.lerp(1.35, 3.6, fs) + Math.sin(t * 0.17) * 0.05
       pz = THREE.MathUtils.lerp(rideEnd, CASTZ + fitD, fs)
       lx = 0
-      ly = THREE.MathUtils.lerp(0.12, 0.72, fs)
-      lz = THREE.MathUtils.lerp(rideEnd - 11, CASTZ, fs)
+      ly = THREE.MathUtils.lerp(0.12, 0.55, fs)
+      lz = THREE.MathUtils.lerp(rideEnd - 11, CASTZ - 1.5, fs)
       roll = forge.reduced ? 0 : 0.003 * Math.sin(t * 0.21)
     }
     camera.position.set(px, py, pz)
@@ -143,9 +150,14 @@ export default function RaisedChannel({ quality = 'high' }) {
       {/* near-camera dark boulders — a silhouette edge wipes the frame as you pass (parallax) */}
       <Occluders quality={quality} />
 
-      {/* THE CAST (finale) — the channel's metal pours into GAELWORX at the end of the ride; all
-          cools to forged iron except the A and E, which hold eternal white-gold divine fire. */}
-      <LetterCast liveProgress={() => forge.finaleProgress} position={[0, 0.78, CASTZ]} size={0.92} />
+      {/* THE KNOT OF CÚCHULAINN — where the walls open, the river braids up into four molten
+          cords: the lattice head, the two eyelets, the pocket, the point (the owner's pendant). */}
+      <KnotSplit quality={quality} />
+
+      {/* THE CAST (finale) — GAELWORX in the knot's pocket, right after the two circles,
+          BREAKING FREE OF THE MOLD (emerge) — all cools to forged iron except the A and E,
+          which hold the divine fire and RISE toward the knot's centre as the close lands. */}
+      <LetterCast liveProgress={() => forge.finaleProgress} position={[0, 0.78, CASTZ]} size={0.92} emerge={0.85} riseDivine={0.5} />
       {/* AUTOMATIC EXECUTION crystallizes beneath, its A the same fire (trails the main fill) */}
       <LetterCast
         text="AUTOMATIC EXECUTION"

@@ -10,7 +10,13 @@ import Ignite from '../ui/Ignite.jsx'
  * only so the page is still indexable (SEO/AEO) without doubling the 3D tablets.
  */
 export default function Home() {
-  const { hero, enemy, clan, arsenal, trust, finale } = COPY
+  const { hero, enemy, clan, arsenal, industries, trust, finale } = COPY
+
+  // the voice-agent hook — the ACTION is a stub the live pipeline claims later (VISION-RIDE.md):
+  // it announces the summon on the window + flags the store; Maeve pitches + closes when wired.
+  const summonMaeve = () => {
+    window.dispatchEvent(new CustomEvent('gw:summon-maeve', { detail: { from: 'home-finale' } }))
+  }
 
   return (
     <main className="home-journey">
@@ -32,6 +38,7 @@ export default function Home() {
         {arsenal.branches.map((b) => (
           <p className="sr-only" key={b.id}>{b.tag}: {b.line} {b.body}</p>
         ))}
+        <p className="sr-only">{industries.head} {industries.body} {industries.list.join('. ')}.</p>
         {trust.rungs.map((r) => (
           <p className="sr-only" key={r.n}>{r.head} {r.body}</p>
         ))}
@@ -41,6 +48,10 @@ export default function Home() {
       <section className="home-finale">
         <p className="finale-closer">{finale.closer}</p>
         <Link className="cta cta--solid" to="/contact"><span>{finale.cta}</span></Link>
+        <button className="cta cta--maeve" type="button" onClick={summonMaeve} data-gw-maeve>
+          <span>{finale.maeve}</span>
+          <small>{finale.maeveSub}</small>
+        </button>
         <span className="finale-scarcity">{finale.scarcity}</span>
         <div className="finale-secondary">
           <Link className="link-cta" to="/about">See how it works →</Link>

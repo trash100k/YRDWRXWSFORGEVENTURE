@@ -61,8 +61,8 @@ export const COPY = {
       {
         id: 'GW–03',
         tag: 'Automations',
-        line: 'You’re doing by hand what should run itself.',
-        body: 'Quoting, follow-up, invoicing, reviews — running on their own, and handing your data back to you to own. No black box. No hostage tool. The same automations that run our own shops.',
+        line: 'The little headaches stack up until they run your day.',
+        body: 'Reply bots, data bots, design helpers, procedural generation — in business and in art. Quoting, follow-up, invoicing, reviews: the small drags that slow a team, running on their own, your data handed back to you to own. No black box. No hostage tool.',
         path: '/automations',
       },
       {
@@ -72,6 +72,29 @@ export const COPY = {
         body: 'A cinematic site that routes every lead straight to your phone and books the truck — not one that just looks good. Built to the standard of the page you’re reading.',
         path: '/web',
       },
+      {
+        id: 'GW–05',
+        tag: 'AI Installation',
+        line: 'Everyone sold you AI. Nobody installed it.',
+        body: 'We stand the whole stack up FOR you — Claude, ChatGPT, and Gemini rollouts for the team, open and local models (Hermes, CrewAI) where the data can’t leave, and the iron underneath: servers, clusters, and team machine builds. Installed, tuned, and taught — not a license and a logout.',
+        path: '/software',
+      },
+    ],
+  },
+
+  // THE CRAFTS — we build what we know. Decades in these trades; shared pain points,
+  // honed viewpoints, solutions built fast. (Trust beat between the arsenal and the close.)
+  industries: {
+    kicker: 'We build what we know',
+    head: 'Our lives went into these crafts.',
+    body: 'Decades running tight ships in the trades we serve — we arrive with the shared pain points already mapped and the fix already honed. Brutalist speed. No one matches the knowledge base, the speed, or the passion.',
+    list: [
+      'Contractors & Home Improvement',
+      'Sales Organizations',
+      'Gaming & 3D / Visual Art — most every medium',
+      'Healthcare',
+      'Non-profit',
+      'Food & Hospitality',
     ],
   },
 
@@ -94,6 +117,10 @@ export const COPY = {
     scarcity: 'We take 2 builds a quarter. That’s not a line — it’s how we hold the standard.',
     avail: 'Available · Continental US · 7 Days',
     cta: 'Start the Forge',
+    // the voice-agent on-ramp — the ACTION is a stub (gw:summon-maeve) until the live pipeline
+    // hooks in; then Maeve tells the services and closes (docs/VISION-RIDE.md).
+    maeve: 'Summon Maeve',
+    maeveSub: 'Talk instead of type — she’ll scope it live.',
   },
 
   footer: {
@@ -175,7 +202,7 @@ export const PAGES = {
  * Titles lead with the outcome, not the brand; the brand closes.
  */
 export const META = {
-  '/':            { title: 'GAELWORX — Automatic Execution. Clan Protected.', desc: 'One system that books the jobs, answers every call, and kills the busywork. AI voice, custom software, automations, and cinematic web — built by operators, for operators.' },
+  '/':            { title: 'GAELWORX — Automatic Execution. Clan Protected.', desc: 'One system that books the jobs, answers every call, and kills the busywork. AI voice, custom software, automations, cinematic web, and full AI installation — hosted to local, servers to team builds. Built by operators for contractors, sales orgs, gaming and visual art, healthcare, non-profits, food and hospitality.' },
   '/voice':       { title: 'Maeve — AI Voice That Answers Every Call | GAELWORX', desc: 'Maeve works your phones: answers every inbound call, runs your outbound list, books straight to calendar — in a voice no caller clocks as AI.' },
   '/software':    { title: 'Custom Software You Own Outright | GAELWORX', desc: 'Internal tools and platforms custom-built, documented, and open-sourced to you. No lock-in, no black box, no rented roadmap.' },
   '/automations': { title: 'Automations That Kill the Busywork | GAELWORX', desc: 'Quoting, follow-up, invoicing, reviews — running on their own. You own the data. The same automations that run our own shops.' },
