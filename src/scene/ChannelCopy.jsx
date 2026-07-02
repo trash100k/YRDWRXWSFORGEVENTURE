@@ -136,11 +136,11 @@ function Tablet({ curve, item, offset, width, active, reveal }) {
     const dist = camera.position.distanceTo(WPOS)
     // `reveal` = the distance window over which a tablet fades up; tighter → only the tablet you're
     // passing reads (a continuous ride needs this so distant tablets don't cluster at frame-centre).
-    const near = THREE.MathUtils.clamp(1.0 - (dist - 2.5) / reveal, 0.0, 1.0)
+    const near = THREE.MathUtils.clamp(1.0 - (dist - 3.4) / reveal, 0.0, 1.0)
     let revealAmt = near * near * (3.0 - 2.0 * near) // smoothstep
     // fade OUT once the rider draws level: travel is -z, so a tablet whose z is at/behind the
     // camera would otherwise flash across the frame edge as it's passed at close range.
-    const ahead = THREE.MathUtils.clamp((camera.position.z - 1.6 - WPOS.z) / 1.8, 0, 1)
+    const ahead = THREE.MathUtils.clamp((camera.position.z - 0.8 - WPOS.z) / 1.6, 0, 1)
     revealAmt *= ahead * ahead * (3.0 - 2.0 * ahead)
     // `active` gates a beat on/off: clustered tablets (the four forks) must not all reveal at
     // once just because the camera is near the cluster — only the told one shows.
@@ -150,7 +150,7 @@ function Tablet({ curve, item, offset, width, active, reveal }) {
 
     // slide the block in from its screen edge: offset along the camera frame, decaying to 0 as it
     // reveals. Reduced-motion lands it straight at anchor (no travel).
-    const slide = forge.reduced ? 0 : (1 - revealAmt) * 1.4
+    const slide = forge.reduced ? 0 : (1 - revealAmt) * 0.55
     OFF.copy(ENTRY).applyQuaternion(camera.quaternion).multiplyScalar(slide)
     g.position.copy(anchor).add(OFF)
 

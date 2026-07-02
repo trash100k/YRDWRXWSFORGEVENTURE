@@ -10,6 +10,8 @@ import ForgeHaze from './ForgeHaze.jsx'
 import BasaltPrisms from './BasaltPrisms.jsx'
 import MoltenRiver from './MoltenRiver.jsx'
 import FlowLights from './FlowLights.jsx'
+import ArchRibs from './ArchRibs.jsx'
+import Occluders from './Occluders.jsx'
 import { registerBasaltTick } from './basalt.js'
 import { COPY } from '../brand.js'
 
@@ -52,8 +54,10 @@ const CASTZ = -LEN - 1 // -43
 // A straight center line the copy mounts to; ChannelCopy places each tablet at curve(t), pushes it
 // out to the wall on `side`, billboards it to the rider, and reveals it by proximity as you pass.
 // t maps 0..1 → z 0..-LEN; the ride passes t≈0.05..0.75 over scroll 0..0.8 (before the cast).
+// tablets float ABOVE the broken column line (prism tops run ~0.4-1.5): the whole copy block
+// (kicker +0.5 … body -0.42) stays clear of the wall rim so no column buries the words
 const STORY_CURVE = new THREE.CatmullRomCurve3(
-  [new THREE.Vector3(0, 0.82, 0), new THREE.Vector3(0, 0.82, -LEN * 0.5), new THREE.Vector3(0, 0.82, -LEN)],
+  [new THREE.Vector3(0, 1.62, 0), new THREE.Vector3(0, 1.62, -LEN * 0.5), new THREE.Vector3(0, 1.62, -LEN)],
   false, 'catmullrom', 0.5
 )
 const B = COPY.arsenal.branches
@@ -138,13 +142,17 @@ export default function RaisedChannel({ quality = 'high' }) {
       {!forge.reduced && <ChannelEmbers />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
-      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={5.0} />
+      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={2.6} />
       {/* the molten river — displaced rolling metal + the >1-emissive meniscus lip */}
       <MoltenRiver quality={quality} len={LEN} halfW={HALFW} />
       {/* REAL columnar-basalt walls: instanced hex prisms, lit by the flow lights, carved relief
           revealed by raking light (shadow, not albedo). The columns STOP short of the cast chamber
           (len-7) so the walls open up for the finale — GAELWORX stands clear at the arrival. */}
       <BasaltPrisms quality={quality} len={LEN - 7} halfW={HALFW} topY={TOPY} />
+      {/* trapezoidal portal ribs receding into fog (Moria towering-verticals scale cue) */}
+      <ArchRibs quality={quality} />
+      {/* near-camera dark boulders — a silhouette edge wipes the frame as you pass (parallax) */}
+      <Occluders quality={quality} />
 
       {/* THE CAST (finale) — the channel's metal pours into GAELWORX at the end of the ride; all
           cools to forged iron except the A and E, which hold eternal white-gold divine fire. */}
