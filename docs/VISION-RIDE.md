@@ -70,7 +70,10 @@ tells the services and closes.
 The owner supplied the exact pendant reference (a pewter Knot of Cúchulainn; original photo is on
 a proxy-blocked CDN — decoded structure captured in
 `docs/references/knot-of-cuchulainn-schematic.svg`, the buildable layout spec). Structure:
-- **Two outward-facing HOUND heads** at the top corners (the Hound of Ulster).
+- **TWO DOG (hound) HEADS** at the top corners, facing outward — left: laid-back ears, eye, long
+  muzzle; right: pricked ears, eye under a brow ridge. **ZOOMORPHIC: their necks flow down and
+  BECOME the cords — the entire knot is the two hounds' bodies woven together.** (Owner emphasis:
+  get the two dog heads right.)
 - Between them, the **HEAD: a dense 4-cord diagonal lattice**, strict over-under.
 - The cords release at the shoulders past **TWO EYELET CIRCLES** side-by-side.
 - Below, the **BODY**: long sweeping cords crossing in stacked lens/vesica shapes,

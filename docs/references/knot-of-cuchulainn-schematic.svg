@@ -1,77 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1360" font-family="sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400" font-family="sans-serif">
   <!-- KNOT OF CÚCHULAINN — structural schematic decoded from the owner's pendant reference.
+       ZOOMORPHIC: the knot IS the two hounds — their necks flow down and BECOME the cords.
        This is the LAYOUT SPEC for the home-journey channel split (plan view):
        cords = molten channels · the labeled zone = where GAELWORX breaks from the mold. -->
-  <rect width="1000" height="1360" fill="#0B0C10"/>
+  <rect width="1000" height="1400" fill="#0B0C10"/>
 
-  <!-- ── hound-head terminals (Cúchulainn = Hound of Ulster), facing OUTWARD ── -->
-  <g stroke="#8D99AE" stroke-width="7" fill="none" stroke-linecap="round">
-    <path d="M 250 170 q -60 -55 -130 -38 q 28 12 36 34 q -30 4 -48 24 q 46 26 96 18"/>
-    <path d="M 750 170 q 60 -55 130 -38 q -28 12 -36 34 q 30 4 48 24 q -46 26 -96 18"/>
-  </g>
-  <circle cx="170" cy="158" r="7" fill="#E85D04"/>
-  <circle cx="830" cy="158" r="7" fill="#E85D04"/>
+  <!-- pendant bail (the chain loop on the reference — NOT part of the knot) -->
+  <circle cx="500" cy="70" r="34" fill="none" stroke="#1F2833" stroke-width="10"/>
+  <text x="500" y="24" fill="#4a5563" font-size="20" text-anchor="middle">(pendant bail — not part of the knot)</text>
 
-  <!-- ── THE HEAD: dense 4-cord diagonal lattice, strict over-under ──
-       casing (void-color, wider) under each later cord fakes the weave read in this schematic -->
-  <g fill="none" stroke-linecap="round">
-    <!-- left-leaning pair -->
-    <path d="M 300 180 L 700 420" stroke="#8D99AE" stroke-width="16"/>
-    <path d="M 380 150 L 740 366" stroke="#8D99AE" stroke-width="16"/>
-    <!-- right-leaning pair, casing then cord = passes OVER then dives -->
-    <path d="M 700 180 L 300 420" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 700 180 L 300 420" stroke="#8D99AE" stroke-width="16"/>
-    <path d="M 620 150 L 260 366" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 620 150 L 260 366" stroke="#8D99AE" stroke-width="16"/>
-    <!-- return crossings to close the lattice diamond -->
-    <path d="M 300 300 L 560 150" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 300 300 L 560 150" stroke="#8D99AE" stroke-width="16"/>
-    <path d="M 700 300 L 440 150" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 700 300 L 440 150" stroke="#8D99AE" stroke-width="16"/>
-  </g>
-
-  <!-- shoulders: the cords release from the lattice -->
-  <g fill="none" stroke="#8D99AE" stroke-width="16" stroke-linecap="round">
-    <path d="M 300 420 q -40 60 -10 120"/>
-    <path d="M 700 420 q 40 60 10 120"/>
-  </g>
-
-  <!-- ── THE TWO EYELETS (the circles the owner called out) ── -->
+  <!-- ══ THE TWO HOUND HEADS (the Hound of Ulster ×2) — facing OUTWARD, necks feed the weave ══ -->
+  <!-- LEFT HOUND: laid-back ears · eye · long muzzle · jaw · neck flows down-right into lattice -->
   <g>
-    <circle cx="415" cy="560" r="34" fill="none" stroke="#8D99AE" stroke-width="15"/>
-    <circle cx="585" cy="560" r="34" fill="none" stroke="#8D99AE" stroke-width="15"/>
-    <circle cx="415" cy="560" r="10" fill="#0B0C10" stroke="#1F2833" stroke-width="4"/>
-    <circle cx="585" cy="560" r="10" fill="#0B0C10" stroke="#1F2833" stroke-width="4"/>
+    <path d="M 305 210
+             C 285 175 300 140 335 122
+             L 352 96  L 372 118
+             L 396 88  L 410 116
+             C 448 104 480 118 492 148
+             C 470 152 452 162 440 178
+             L 300 214
+             C 240 226 190 210 150 232
+             C 186 246 224 252 262 246
+             C 226 262 200 282 188 306
+             C 232 300 274 288 306 268
+             C 322 252 330 232 305 210 Z"
+          fill="none" stroke="#8D99AE" stroke-width="10" stroke-linejoin="round"/>
+    <ellipse cx="398" cy="146" rx="14" ry="10" fill="#0B0C10" stroke="#8D99AE" stroke-width="6"/>
+    <circle cx="167" cy="238" r="5" fill="#8D99AE"/>
+    <!-- neck → becomes lattice cord -->
+    <path d="M 440 178 C 470 220 452 268 400 300" fill="none" stroke="#8D99AE" stroke-width="16" stroke-linecap="round"/>
   </g>
-  <text x="308" y="500" fill="#E85D04" font-size="26" letter-spacing="2">THE 2 CIRCLES</text>
+  <!-- RIGHT HOUND: pricked ears · eye under brow · muzzle right · neck flows down-left -->
+  <g>
+    <path d="M 695 210
+             C 715 175 700 140 665 122
+             L 648 96  L 628 118
+             L 604 88  L 590 116
+             C 552 104 520 118 508 148
+             C 530 152 548 162 560 178
+             L 700 214
+             C 760 226 810 210 850 232
+             C 814 246 776 252 738 246
+             C 774 262 800 282 812 306
+             C 768 300 726 288 694 268
+             C 678 252 670 232 695 210 Z"
+          fill="none" stroke="#8D99AE" stroke-width="10" stroke-linejoin="round"/>
+    <ellipse cx="602" cy="146" rx="14" ry="10" fill="#0B0C10" stroke="#8D99AE" stroke-width="6"/>
+    <circle cx="833" cy="238" r="5" fill="#8D99AE"/>
+    <path d="M 560 178 C 530 220 548 268 600 300" fill="none" stroke="#8D99AE" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <text x="500" y="330" fill="#E85D04" font-size="24" text-anchor="middle" letter-spacing="2">THE HOUNDS' BODIES ARE THE CORDS</text>
 
-  <!-- ── GAELWORX PLACEMENT — right AFTER (below) the two circles, in the open pocket ── -->
-  <rect x="285" y="620" width="430" height="120" fill="none" stroke="#E85D04" stroke-width="4" stroke-dasharray="14 10"/>
-  <text x="500" y="682" fill="#F1F2F6" font-size="52" text-anchor="middle" letter-spacing="6" font-weight="bold">G<tspan fill="#FFE9B8">A</tspan><tspan fill="#FFE9B8">E</tspan>LWORX</text>
-  <text x="500" y="724" fill="#8D99AE" font-size="22" text-anchor="middle">breaks free from the mold here</text>
+  <!-- ══ THE HEAD: dense 4-cord diagonal lattice (the hounds' bodies interwoven), strict over-under ══
+       casing (void-color, wider) under a cord = it passes OVER at that crossing -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 400 300 L 690 520" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 480 336 L 730 480" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 600 300 L 310 520" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 600 300 L 310 520" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 520 336 L 270 480" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 520 336 L 270 480" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 310 430 L 540 320" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 310 430 L 540 320" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 690 430 L 460 320" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 690 430 L 460 320" stroke="#8D99AE" stroke-width="16"/>
+  </g>
+
+  <!-- shoulders: cords release from the lattice -->
+  <g fill="none" stroke="#8D99AE" stroke-width="16" stroke-linecap="round">
+    <path d="M 310 520 q -36 62 -8 118"/>
+    <path d="M 690 520 q 36 62 8 118"/>
+  </g>
+
+  <!-- ══ THE TWO EYELET CIRCLES (the owner's "2 circles") ══ -->
+  <circle cx="415" cy="660" r="34" fill="none" stroke="#8D99AE" stroke-width="15"/>
+  <circle cx="585" cy="660" r="34" fill="none" stroke="#8D99AE" stroke-width="15"/>
+  <circle cx="415" cy="660" r="10" fill="#0B0C10" stroke="#1F2833" stroke-width="4"/>
+  <circle cx="585" cy="660" r="10" fill="#0B0C10" stroke="#1F2833" stroke-width="4"/>
+  <text x="302" y="600" fill="#E85D04" font-size="26" letter-spacing="2">THE 2 CIRCLES</text>
+
+  <!-- ══ GAELWORX — right AFTER (below) the two circles, breaking free from the mold ══ -->
+  <rect x="285" y="722" width="430" height="118" fill="none" stroke="#E85D04" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="500" y="784" fill="#F1F2F6" font-size="52" text-anchor="middle" letter-spacing="6" font-weight="bold">G<tspan fill="#FFE9B8">A</tspan><tspan fill="#FFE9B8">E</tspan>LWORX</text>
+  <text x="500" y="826" fill="#8D99AE" font-size="22" text-anchor="middle">breaks free from the mold here</text>
 
   <!-- A + E divine fire rising to the knot's centre -->
-  <g stroke="#FFE9B8" stroke-width="5" fill="none">
-    <path d="M 460 640 L 460 560" marker-end="url(#arr)"/>
-    <path d="M 540 640 L 540 560" marker-end="url(#arr)"/>
-  </g>
   <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#FFE9B8"/></marker></defs>
-  <text x="500" y="596" fill="#FFE9B8" font-size="22" text-anchor="middle">A · E white-hot, rising to centre</text>
-
-  <!-- ── THE BODY: long descending cords, two lens (vesica) crossings, taper to the point ── -->
-  <g fill="none" stroke-linecap="round">
-    <path d="M 290 540 C 300 760 430 800 500 880 C 570 960 660 1020 640 1120" stroke="#8D99AE" stroke-width="16"/>
-    <path d="M 710 540 C 700 760 570 800 500 880 C 430 960 340 1020 360 1120" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 710 540 C 700 760 570 800 500 880 C 430 960 340 1020 360 1120" stroke="#8D99AE" stroke-width="16"/>
-    <!-- second, inner pair from the eyelets -->
-    <path d="M 415 594 C 420 780 480 900 560 990 C 620 1060 610 1150 520 1225" stroke="#8D99AE" stroke-width="15"/>
-    <path d="M 585 594 C 580 780 520 900 440 990 C 380 1060 390 1150 480 1225" stroke="#0B0C10" stroke-width="28"/>
-    <path d="M 585 594 C 580 780 520 900 440 990 C 380 1060 390 1150 480 1225" stroke="#8D99AE" stroke-width="15"/>
-    <!-- convergence to the single point -->
-    <path d="M 640 1120 C 620 1210 540 1270 500 1300" stroke="#8D99AE" stroke-width="16"/>
-    <path d="M 360 1120 C 380 1210 460 1270 500 1300" stroke="#0B0C10" stroke-width="30"/>
-    <path d="M 360 1120 C 380 1210 460 1270 500 1300" stroke="#8D99AE" stroke-width="16"/>
+  <g stroke="#FFE9B8" stroke-width="5" fill="none">
+    <path d="M 460 740 L 460 662" marker-end="url(#arr)"/>
+    <path d="M 540 740 L 540 662" marker-end="url(#arr)"/>
   </g>
-  <circle cx="500" cy="1300" r="9" fill="#E85D04"/>
-  <text x="500" y="1345" fill="#8D99AE" font-size="24" text-anchor="middle">the point — all cords converge</text>
+  <text x="500" y="640" fill="#FFE9B8" font-size="22" text-anchor="middle">A · E white-hot, rising to centre</text>
+
+  <!-- ══ THE BODY: long descending cords, stacked lens (vesica) crossings, taper to the point ══ -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 290 640 C 300 860 430 900 500 980 C 570 1060 660 1120 640 1220" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 710 640 C 700 860 570 900 500 980 C 430 1060 340 1120 360 1220" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 710 640 C 700 860 570 900 500 980 C 430 1060 340 1120 360 1220" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 415 694 C 420 880 480 1000 560 1090 C 620 1160 610 1250 520 1325" stroke="#8D99AE" stroke-width="15"/>
+    <path d="M 585 694 C 580 880 520 1000 440 1090 C 380 1160 390 1250 480 1325" stroke="#0B0C10" stroke-width="28"/>
+    <path d="M 585 694 C 580 880 520 1000 440 1090 C 380 1160 390 1250 480 1325" stroke="#8D99AE" stroke-width="15"/>
+    <path d="M 640 1220 C 620 1310 540 1370 500 1395" stroke="#8D99AE" stroke-width="16"/>
+    <path d="M 360 1220 C 380 1310 460 1370 500 1395" stroke="#0B0C10" stroke-width="30"/>
+    <path d="M 360 1220 C 380 1310 460 1370 500 1395" stroke="#8D99AE" stroke-width="16"/>
+  </g>
+  <circle cx="500" cy="1382" r="9" fill="#E85D04"/>
 </svg>
