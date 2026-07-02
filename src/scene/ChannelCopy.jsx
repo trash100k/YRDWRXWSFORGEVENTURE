@@ -150,7 +150,7 @@ function Tablet({ curve, item, offset, width, active, reveal }) {
 
     // slide the block in from its screen edge: offset along the camera frame, decaying to 0 as it
     // reveals. Reduced-motion lands it straight at anchor (no travel).
-    const slide = forge.reduced ? 0 : (1 - revealAmt) * 2.6
+    const slide = forge.reduced ? 0 : (1 - revealAmt) * 1.4
     OFF.copy(ENTRY).applyQuaternion(camera.quaternion).multiplyScalar(slide)
     g.position.copy(anchor).add(OFF)
 

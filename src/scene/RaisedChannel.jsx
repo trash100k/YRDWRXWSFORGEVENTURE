@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
-import { PAL, v3 } from './palette.js'
+import { PAL } from './palette.js'
 import { forge } from '../store.js'
 import Embers from './Embers.jsx'
 import LetterCast from './LetterCast.jsx'
 import ChannelCopy from './ChannelCopy.jsx'
 import ForgeHaze from './ForgeHaze.jsx'
 import BasaltPrisms from './BasaltPrisms.jsx'
+import MoltenRiver from './MoltenRiver.jsx'
 import FlowLights from './FlowLights.jsx'
 import { registerBasaltTick } from './basalt.js'
 import { COPY } from '../brand.js'
@@ -27,56 +28,6 @@ const HALFW = 0.7   // molten half-width
 const WALLW = 0.9   // wall thickness
 const H = 7         // wall height (drops into the void)
 const TOPY = 0.42   // wall top height above the molten
-
-// shared GLSL — noise + the brand temperature ramp
-const COMMON = /* glsl */ `
-  float hash21(vec2 p){ p=fract(p*vec2(123.34,456.21)); p+=dot(p,p+45.32); return fract(p.x*p.y); }
-  float vnoise(vec2 p){ vec2 i=floor(p),f=fract(p); float a=hash21(i),b=hash21(i+vec2(1,0)),c=hash21(i+vec2(0,1)),d=hash21(i+vec2(1,1)); vec2 u=f*f*(3.0-2.0*f); return mix(mix(a,b,u.x),mix(c,d,u.x),u.y); }
-  float fbm(vec2 p){ float v=0.0,a=0.5; for(int i=0;i<5;i++){ v+=a*vnoise(p); p*=2.03; a*=0.5; } return v; }
-  vec3 tempColor(float t){
-    t=clamp(t,0.0,1.0);
-    vec3 c=mix(${v3(PAL.void)}, ${v3(PAL.crimsonDeep)}, smoothstep(0.0,0.22,t));
-    c=mix(c, ${v3(PAL.crimson)}, smoothstep(0.18,0.45,t));
-    c=mix(c, ${v3(PAL.ember)}, smoothstep(0.42,0.66,t));
-    c=mix(c, ${v3(PAL.gold)}, smoothstep(0.64,0.85,t));
-    c=mix(c, ${v3(PAL.hot)}, smoothstep(0.82,1.0,t));
-    return c;
-  }
-  float em(float t){ t=clamp(t,0.0,1.0); return pow(t,3.0)*2.6 + t*0.12; }
-`
-
-const vert = /* glsl */ `
-  varying vec3 vW;
-  void main(){ vec4 wp = modelMatrix * vec4(position, 1.0); vW = wp.xyz; gl_Position = projectionMatrix * viewMatrix * wp; }
-`
-
-// the molten river — flowing metal with a cooled dark crust that cracks to reveal the hot vein
-// beneath; boils, drifts down-channel, cools down its length, bright meniscus lip at the walls
-const moltenFrag = /* glsl */ `
-  precision highp float;
-  varying vec3 vW;
-  uniform float uTime, uLen, uHalfW;
-  ${COMMON}
-  void main(){
-    float along  = clamp(-vW.z / uLen, 0.0, 1.0);      // 0 at source → 1 far
-    float across = clamp(vW.x / uHalfW, -1.0, 1.0);
-    // flow drifts down-channel; a transverse sway keeps it from streaking as a straight plume
-    vec2 q = vec2(across * 2.6 + sin(along * 7.0 - uTime * 0.7) * 0.4, along * 5.5 - uTime * 0.6);
-    vec2 w = vec2(fbm(q), fbm(q + 3.1));
-    float boil = fbm(q + 1.5 * w);
-    float vein = clamp(pow(1.0 - abs(boil - 0.5) * 2.0, 3.0), 0.0, 1.0);
-    // cooled CRUST: large dark skin islands drifting on the surface (breaks the white plume),
-    // fractured by a finer crack mask that lets the hot metal show through the seams
-    float crustBig = smoothstep(0.60, 0.44, fbm(q * 1.6 - uTime * 0.25));       // big cooled plates
-    float crackle  = smoothstep(0.46, 0.54, fbm(q * 5.0 + w * 2.0 + uTime * 0.15)); // hot cracks
-    float crust = clamp(crustBig - crackle * 0.8, 0.0, 1.0);
-    float ore  = smoothstep(0.55, 0.46, fbm(q * 2.4 - uTime * 0.5));   // fine dark ore flecks
-    float baseT = mix(0.84, 0.18, along);              // COOLING: white-hot source → dark iron
-    float lip = smoothstep(0.72, 1.0, abs(across));    // meniscus where metal meets the wall
-    float tt = clamp(baseT + vein * 0.16 + lip * 0.20 - crust * 0.42 - ore * 0.20, 0.0, 1.0);
-    gl_FragColor = vec4(tempColor(tt) * em(tt), 1.0);
-  }
-`
 
 // embers that RIDE with the camera, drifting up off the molten so the ride always has living
 // sparks in frame (the only motion during a held beat). Recycled around the current camera z.
@@ -171,10 +122,7 @@ function RideCam() {
 }
 
 export default function RaisedChannel({ quality = 'high' }) {
-  const uTime = useMemo(() => ({ value: 0 }), [])
-  const moltenU = useMemo(() => ({ uTime, uLen: { value: LEN }, uHalfW: { value: HALFW } }), [uTime])
-  useFrame((state, dt) => {
-    if (!forge.reduced) uTime.value = state.clock.elapsedTime
+  useFrame((_, dt) => {
     registerBasaltTick(dt) // drives every basalt material's shimmer/heat (one call per frame)
   })
 
@@ -190,12 +138,9 @@ export default function RaisedChannel({ quality = 'high' }) {
       {!forge.reduced && <ChannelEmbers />}
       {/* the story, carved on tablets beside the channel — read as the camera rides past. Tight
           reveal so only the tablet you're passing lights (distant ones don't crowd frame-centre). */}
-      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={6.5} />
-      {/* the molten river, lying flat in the trough */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, -LEN / 2]}>
-        <planeGeometry args={[HALFW * 2, LEN]} />
-        <shaderMaterial vertexShader={vert} fragmentShader={moltenFrag} uniforms={moltenU} toneMapped={false} />
-      </mesh>
+      <ChannelCopy curve={STORY_CURVE} items={STORY} offset={1.35} width={2.1} reveal={5.0} />
+      {/* the molten river — displaced rolling metal + the >1-emissive meniscus lip */}
+      <MoltenRiver quality={quality} len={LEN} halfW={HALFW} />
       {/* REAL columnar-basalt walls: instanced hex prisms, lit by the flow lights, carved relief
           revealed by raking light (shadow, not albedo). The columns STOP short of the cast chamber
           (len-7) so the walls open up for the finale — GAELWORX stands clear at the arrival. */}
