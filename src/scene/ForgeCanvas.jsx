@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration } from '@react-three/postprocessing'
+import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration, SMAA } from '@react-three/postprocessing'
 import { ToneMappingMode, BlendFunction } from 'postprocessing'
+import { N8AOPostPass } from 'n8ao'
 import HeatHaze from './HeatHaze.jsx'
 import { CinematicGrade } from './CinematicGrade.jsx'
 import { ChamberStage } from './ChamberRig.jsx'
@@ -165,6 +166,35 @@ function Slab() {
 // routes that render a bespoke chamber scene (the rest fall back to the Slab backdrop)
 const CHAMBER_ROUTES = new Set(['/voice', '/software', '/automations', '/web', '/about', '/work', '/contact'])
 
+// N8AO — real screen-space ambient occlusion (audit HOLE 4): grounds the chambers' lit geometry
+// in contact shadow. First pass in the composer, high tier only (mobile keeps the lean chain).
+function AOPass() {
+  const { scene, camera, size } = useThree()
+  const pass = useMemo(() => {
+    const p = new N8AOPostPass(scene, camera, size.width, size.height)
+    p.configuration.aoRadius = 1.9
+    p.configuration.distanceFalloff = 0.7
+    p.configuration.intensity = 2.4
+    p.configuration.halfRes = true // budget: half-res AO, imperceptible at our grade
+    return p
+  }, [scene, camera]) // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { pass.setSize(size.width, size.height) }, [pass, size.width, size.height])
+  useEffect(() => () => pass.dispose?.(), [pass])
+  return <primitive object={pass} />
+}
+
+// A uniform stage-light rig every chamber inherits (audit HOLE 1 quick win): a warm key from the
+// forge side + a faint cold steel rim from the void side, so no diorama sits unlit (the scrying
+// pool was reading near-black). Chambers' own lights layer on top.
+function ChamberFill() {
+  return (
+    <>
+      <pointLight position={[3.5, 4.5, 5]} intensity={30} distance={34} decay={2} color="#FFC98A" />
+      <pointLight position={[-4.5, 2.2, -3.5]} intensity={9} distance={26} decay={2} color="#5A7BA6" />
+    </>
+  )
+}
+
 // A shared chamber camera: frames a chamber from `pos` looking at `target`, with a slow orbital
 // sway (`orbit`, radians) + atmospheric drift so a held chamber never sits dead. Reduced-motion
 // freezes it at the base vantage. Used for the chambers that don't drive their own camera.
@@ -303,6 +333,7 @@ export default function ForgeCanvas({ route }) {
       ) : CHAMBER_ROUTES.has(route) ? (
         <>
           {/* the GoT diorama stage: outro (raise-away) → swap → intro (clockwork assembly) */}
+          <ChamberFill />
           <ChamberStage route={route} render={(r) => <Chamber route={r} />} />
           {!forge.reduced && <Embers />}
         </>
@@ -315,6 +346,8 @@ export default function ForgeCanvas({ route }) {
       {/* CINEMATIC PIPELINE — a layered film stack, not a single glow:
           DOF → two-tier bloom → heat shimmer → ACES → colour grade + halation → CA → vignette → grain */}
       <EffectComposer frameBufferType={THREE.HalfFloatType}>
+        {/* real contact occlusion under everything lit (chambers especially) — high tier only */}
+        {quality === 'high' && <AOPass />}
         {/* WIDE soft bloom — atmospheric glow, the metal bleeding light into the air (the halation base) */}
         <Bloom mipmapBlur luminanceThreshold={0.62} luminanceSmoothing={0.22} intensity={1.35} radius={0.92} />
         {/* TIGHT bright bloom — only the white-hot cores + the A·E divine fire spike (the eye-magnets) */}
@@ -329,6 +362,8 @@ export default function ForgeCanvas({ route }) {
         <Vignette offset={0.26} darkness={1.08} />
         {/* fine film grain so the blacks read as photographed, not dead digital void */}
         <Noise premultiply blendFunction={BlendFunction.OVERLAY} opacity={0.06} />
+        {/* kill the crawling jaggies on every molten edge (audit HOLE 6) — cheap, always on */}
+        <SMAA />
       </EffectComposer>
     </Canvas>
   )
