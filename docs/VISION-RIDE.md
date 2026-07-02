@@ -88,6 +88,17 @@ eyelets) as the finale; the remaining cords converge to the point beneath the ma
 services told in the over-under) → cords pass the two eyelets → GAELWORX erupts in the pocket →
 A+E ascend to centre → the point closes the journey into the CTA.
 
+## Inner pages = GoT-intro dioramas (owner directive, 2026-07-02)
+Each inner page is a **cinematic float of an ISOLATED part of the journey** — its chamber as a
+floating diorama in the void, slow orbital drift (the "float").
+- **INTRO — Game-of-Thrones title-sequence mechanics:** the structure ASSEMBLES itself as the page
+  opens — pieces rise from below and rotate into place like clockwork, staggered, landing with
+  Brutalist Snap; the camera cranes down from high as the last pieces seat.
+- **OUTRO — on leaving the route:** the assembled structure RAISES up and away (continues the
+  intro's upward motion past the frame) / pans off before the next chamber assembles.
+- One shared rig (`ChamberRig`) so every chamber gets assembly + float + outro without bespoke
+  re-animation per room.
+
 ## Conversion science the copy follows (high-ticket)
 - **Hook < 5s** (hero): one reframe, no fluff, CTA visible without scroll.
 - **Problem → Agitate → Authority** before any service pitch (PAS + credibility interleave).

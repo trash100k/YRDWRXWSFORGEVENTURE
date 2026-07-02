@@ -16,6 +16,8 @@ export const forge = {
   route: '/',        // current path — '/' rides the channel journey, others use the backdrop
   finaleProgress: 0, // 0..1 the cast: the metal filling the GAELWORX letterforms (the finale beat)
   quality: 'high',   // 'high' | 'mobile' — instance/light budgets (PerfGuard may demote at runtime)
+  assembly: 1,       // 0..1 chamber diorama assembly (GoT intro: pieces rise/turn into place; outro raises away)
+  assemblyDir: -1,   // -1 intro (pieces arrive from BELOW) · +1 outro (they RAISE up and away)
 }
 
 export const strike = () => { forge.strikeAt = performance.now() / 1000 }

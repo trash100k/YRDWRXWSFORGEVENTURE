@@ -4,6 +4,7 @@ import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberratio
 import { ToneMappingMode, BlendFunction } from 'postprocessing'
 import HeatHaze from './HeatHaze.jsx'
 import { CinematicGrade } from './CinematicGrade.jsx'
+import { ChamberStage } from './ChamberRig.jsx'
 import * as THREE from 'three'
 import { PAL, v3 } from './palette.js'
 import { forge } from '../store.js'
@@ -176,10 +177,14 @@ function ChamberCam({ pos, target, orbit = 0.0 }) {
     const ca = Math.cos(a), sa = Math.sin(a)
     const x = pos[0] * ca - pos[2] * sa
     const z = pos[0] * sa + pos[2] * ca
+    // the GoT crane: while the diorama assembles the camera rides high + pulled back, then
+    // settles down into the framed float as the last pieces seat (reverses on the raise-away)
+    const asm = forge.reduced ? 1 : forge.assembly
+    const crane = 1 - (asm >= 1 ? 1 : 1 - Math.pow(2, -10 * asm)) // expo-out, matches the rig
     camera.position.set(
-      x + Math.sin(t * 0.15) * 0.08,
-      pos[1] + Math.sin(t * 0.19) * 0.05,
-      z + Math.cos(t * 0.13) * 0.08
+      (x + Math.sin(t * 0.15) * 0.08) * (1 + crane * 0.45),
+      pos[1] + Math.sin(t * 0.19) * 0.05 + crane * 5.2,
+      (z + Math.cos(t * 0.13) * 0.08) * (1 + crane * 0.45)
     )
     camera.lookAt(look)
     if (typeof window !== 'undefined') { window.__camPos = [camera.position.x, camera.position.y, camera.position.z]; window.__camShot = 'chamber' }
@@ -297,7 +302,8 @@ export default function ForgeCanvas({ route }) {
         <RaisedChannel key={quality} quality={quality} />
       ) : CHAMBER_ROUTES.has(route) ? (
         <>
-          <Chamber route={route} />
+          {/* the GoT diorama stage: outro (raise-away) → swap → intro (clockwork assembly) */}
+          <ChamberStage route={route} render={(r) => <Chamber route={r} />} />
           {!forge.reduced && <Embers />}
         </>
       ) : (
