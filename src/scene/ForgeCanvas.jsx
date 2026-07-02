@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { EffectComposer, Bloom, Vignette, ToneMapping, Noise, ChromaticAberration } from '@react-three/postprocessing'
 import { ToneMappingMode, BlendFunction } from 'postprocessing'
@@ -210,8 +210,44 @@ function Chamber({ route }) {
   }
 }
 
+// initial quality guess: coarse pointers / low-core devices start at 'mobile' budgets.
+// `?q=mobile|high` forces it (QA hook). PerfGuard may demote at runtime.
+function detectQuality() {
+  if (typeof window === 'undefined') return 'high'
+  const forced = window.location.search.match(/[?&]q=(mobile|high)/)
+  if (forced) return forced[1]
+  const coarse = window.matchMedia('(pointer: coarse)').matches
+  const cores = navigator.hardwareConcurrency || 8
+  return coarse || cores <= 4 ? 'mobile' : 'high'
+}
+
+// PerfGuard — rolling mean frame time over the first ~6s; a sustained miss demotes quality
+// (rebuilds instance counts via the scene key), a second miss drops DPR. Never touches post.
+function PerfGuard({ quality, onDemote }) {
+  const acc = useRef({ t: 0, n: 0, sum: 0, done: false })
+  const gl = useThree((s) => s.gl)
+  useFrame((_, dt) => {
+    const a = acc.current
+    if (a.done || document.hidden) return
+    a.t += dt
+    if (a.t < 1.5) return // skip warmup/compile stutter
+    a.n += 1; a.sum += dt
+    if (a.n >= 90) {
+      const mean = a.sum / a.n
+      a.done = true
+      if (mean > 0.019) {
+        if (quality === 'high') onDemote('mobile')
+        else gl.setPixelRatio(Math.min(gl.getPixelRatio(), 1.25))
+      }
+    }
+  })
+  return null
+}
+
 export default function ForgeCanvas({ route }) {
   const dpr = useRef(Math.min(typeof window !== 'undefined' ? window.devicePixelRatio : 1, 1.5))
+  const [quality, setQuality] = useState(detectQuality)
+  forge.quality = quality
 
   useEffect(() => {
     forge.reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -243,6 +279,7 @@ export default function ForgeCanvas({ route }) {
       frameloop="always"
     >
       <color attach="background" args={[PAL.void]} />
+      <PerfGuard quality={quality} onDemote={setQuality} />
       {/* /concept = posed art-direction renders · / = the molten channel journey ·
           other routes = the forge backdrop */}
       {route === '/lab' ? (
@@ -250,7 +287,7 @@ export default function ForgeCanvas({ route }) {
       ) : route === '/concept' ? (
         <ForgeConcept />
       ) : route === '/' ? (
-        <RaisedChannel />
+        <RaisedChannel key={quality} quality={quality} />
       ) : CHAMBER_ROUTES.has(route) ? (
         <>
           <Chamber route={route} />

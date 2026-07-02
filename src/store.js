@@ -15,6 +15,7 @@ export const forge = {
   still: false,      // calmer chambers (scrying pool, ledger, altar) slow the boil
   route: '/',        // current path — '/' rides the channel journey, others use the backdrop
   finaleProgress: 0, // 0..1 the cast: the metal filling the GAELWORX letterforms (the finale beat)
+  quality: 'high',   // 'high' | 'mobile' — instance/light budgets (PerfGuard may demote at runtime)
 }
 
 export const strike = () => { forge.strikeAt = performance.now() / 1000 }

@@ -290,11 +290,12 @@ export function applyOghamRelief(material, opts = {}) {
           float hC = gw_relief(ruv);
           float hX = gw_relief(ruv + vec2(e, 0.0));
           float hY = gw_relief(ruv + vec2(0.0, e));
-          // tangent-space bump; flip-safe approx using surface basis
-          vec3 bump = normalize(vec3((hC - hX), (hC - hY), e / max(uReliefStrength, 0.001)));
-          // blend the bump into the shading normal
-          normal = normalize(normal + (bump.x * 4.0) * uReliefStrength * vec3(1.0, 0.0, 0.0)
-                                    + (bump.y * 4.0) * uReliefStrength * vec3(0.0, 1.0, 0.0));
+          // perturb along a basis ORTHOGONAL to the surface normal — constant world axes
+          // degenerate on faces whose normal is ±x/±y (exactly the prism wall faces)
+          vec3 gwT1 = normalize(cross(normal, vec3(0.0, 1.0, 0.0)) + vec3(1e-4));
+          vec3 gwT2 = cross(normal, gwT1);
+          normal = normalize(normal + (hC - hX) * 4.0 * uReliefStrength * gwT1
+                                    + (hC - hY) * 4.0 * uReliefStrength * gwT2);
         }
       `
     )
@@ -319,6 +320,29 @@ export function applyOghamRelief(material, opts = {}) {
   if (!material.map) material.map = WHITE_PIXEL()
   material.needsUpdate = true
 
+  return material
+}
+
+/**
+ * applyInstancedUvOffset(material) — for basalt on an InstancedMesh: each instance carries an
+ * `iUvOff` InstancedBufferAttribute(vec2) that shifts vMapUv, so every column samples a DIFFERENT
+ * slice of the carved/grain field (no two prisms repeat). Chains onBeforeCompile (vertex-side
+ * only; the basalt fragment patches are untouched, so all variants share one program).
+ *
+ * @param {THREE.Material} material  a basalt (or standard) material used on an InstancedMesh
+ * @returns {THREE.Material} the same material
+ */
+export function applyInstancedUvOffset(material) {
+  const prev = material.onBeforeCompile
+  material.onBeforeCompile = (shader) => {
+    if (prev) prev(shader)
+    if (!/iUvOff/.test(shader.vertexShader)) {
+      shader.vertexShader = shader.vertexShader
+        .replace('#include <common>', 'attribute vec2 iUvOff;\n#include <common>')
+        .replace('#include <uv_vertex>', '#include <uv_vertex>\n vMapUv += iUvOff;')
+    }
+  }
+  material.needsUpdate = true
   return material
 }
 
